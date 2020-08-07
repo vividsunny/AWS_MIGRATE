@@ -1,0 +1,2 @@
+Order ID,Order Status,Order Date,Order Total,Order Currency,Customer Name,Customer`s Billing Email,Cart Discount,Cart Discount Tax,Order Shipping,Order Subscription,Item ID,Product ID,Product Name,Item quantity 
+113595,wc-pending,2020-06-23 14:14:16,1.07,USD,hoickersupport,support@hoicker.com,0,0,0.00,,1,113593,Wallet,1

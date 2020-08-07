@@ -1,0 +1,117 @@
+Order ID,Order Status,Order Date,Order Total,Order Currency,Customer Name,Customer`s Billing Email,Cart Discount,Cart Discount Tax,Order Shipping,Order Subscription,Item ID,Product ID,Product Name,Item quantity 
+119135,wc-processing,2020-07-02 21:08:11,38.41,USD,victoria.laguna,vlaguna11@gmail.com,0,0,8.42,,707,12755,STEVEN UNIVERSE T/C BINDER,1
+118754,wc-processing,2020-07-01 15:06:05,11.97,USD,michael.badju,mbadju@hotmail.com,0,0,7.98,,705,97948,OSIRIS PATH #2,1
+117533,wc-processing,2020-06-27 18:23:17,36.97,USD,luis.riviere herrera,roger.aguilera.vila@gmail.com,0,0,7.02,,703,9305,DESTINY CAYDE-6 KITCHEN SET,1
+117498,wc-processing,2020-06-26 13:44:41,132.00,USD,zachary.meek,zackman8804@yahoo.com,0,0,0.00,,697,117322,Magic: The Gathering Core Set 2021 Prerelease Pack + 2 Prize Boosters,1
+117498,wc-processing,2020-06-26 13:44:41,132.00,USD,zachary.meek,zackman8804@yahoo.com,0,0,0.00,,698,117181,Magic: The Gathering Core Set 2021 (M21) Booster Box,1
+117493,wc-processing,2020-06-26 11:52:11,107.00,USD,nonato.shicks,Nonatoshicks@gmail.com,0,0,0.00,,694,117181,Magic: The Gathering Core Set 2021 (M21) Booster Box,1
+117487,wc-processing,2020-06-26 08:37:30,107.00,USD,iro43g,iro43g@gmail.com,0,0,0.00,,691,117181,Magic: The Gathering Core Set 2021 (M21) Booster Box,1
+117317,wc-failed,2020-06-25 08:54:21,81.44,USD,jason.scott-7800,Jscofgthtt@mail.com,0,0,41.48,,689,61148,AMERICAN JESUS TP VOL 02 NEW MESSIAH,4
+117309,wc-processing,2020-06-25 00:30:07,107.00,USD,kcgood93,kcgood93@gmail.com,0,0,0.00,,686,117181,Magic: The Gathering Core Set 2021 (M21) Booster Box,1
+113384,wc-refunded,2020-06-08 09:03:35,4.27,USD,antonio,antonio@wine41.com,0,0,0,,675,57145,BLADE RUNNER 2019 #7 CVR A MCCREA,1
+113355,wc-refunded,2020-06-06 12:35:18,1.07,USD,antonio,antonio@wine41.com,0,0,0,,659,29939,Become Member,1
+113297,wc-refunded,2020-06-03 02:16:21,37.97,USD,jason.scott-4311,Jscot@gmail.com,0,0,7.98,,653,58864,BATMAN LAST KNIGHT ON EARTH HC,1
+113256,wc-refunded,2020-05-31 03:55:03,37.79,USD,chi chi.anozie,blue18890@gmail.com,0,0,7.8,,651,12755,STEVEN UNIVERSE T/C BINDER,1
+113248,wc-completed,2020-05-31 01:04:57,25.00,USD,ronald.dupont,rdupont50@gmail.com,0,0,0,,648,99486,Gift Certificate - $25.00,1
+113239,wc-refunded,2020-05-30 17:00:46,4.27,USD,antonio.de las traviesas,almavin@amtmenterprise.com,0,0,0,,643,87334,SPARROWHAWK #2,1
+113223,wc-refunded,2020-05-28 15:42:08,37.55,USD,albert.rentas,adagio_x@hotmail.com,0,0,7.56,,641,27580,MONSTER HUNTER WORLD BAZELGEUSE PLUSH,1
+113212,wc-failed,2020-05-27 05:03:37,82.32,USD,jason.scott,Jscott@mail.com,0,0,52.35,,638,61148,AMERICAN JESUS TP VOL 02 NEW MESSIAH,3
+113188,wc-completed,2020-05-23 14:54:48,25.00,USD,ronald.dupont,rdupont50@gmail.com,0,0,0,,635,99486,Gift Certificate - $25.00,1
+112370,wc-completed,2020-05-15 12:06:39,25.00,USD,ronald.dupont,rdupont50@gmail.com,0,0,0,,622,99486,Gift Certificate - $25.00,1
+112368,wc-completed,2020-05-15 12:05:41,49.99,USD,stephen.ross,stephenaross88@gmail.com,0,0,0,,625,109978,Ikoria: Lair of Behemoths Prerelease Pack + 2 Prize Boosters,2
+112366,wc-completed,2020-05-15 08:25:17,256.80,USD,kcgood93,kcgood93@gmail.com,0,0,0,,616,110048,Ikoria: Lair of Behemoths Collector Booster Box,1
+112357,wc-completed,2020-05-14 17:46:19,145.02,USD,garry.montague,gmontague81@yahoo.com,0,0,14.04,,604,109895,Ikoria: Lair of Behemoths Draft Booster Display,1
+112357,wc-completed,2020-05-14 17:46:19,145.02,USD,garry.montague,gmontague81@yahoo.com,0,0,14.04,,605,109978,Ikoria: Lair of Behemoths Prerelease Pack + 2 Prize Boosters,1
+112355,wc-completed,2020-05-14 16:51:02,376.82,USD,nonato.shicks,Nonatoshicks@gmail.com,0,0,14.04,,600,110048,Ikoria: Lair of Behemoths Collector Booster Box,1
+112355,wc-completed,2020-05-14 16:51:02,376.82,USD,nonato.shicks,Nonatoshicks@gmail.com,0,0,14.04,,601,109895,Ikoria: Lair of Behemoths Draft Booster Display,1
+109881,wc-refunded,2020-05-11 17:38:04,18.14,USD,king.racc,masked.editor.man@gmail.com,0,0,8.15,,598,27876,FIGPIN DARK SOULS DRAGONSLAYER OF ORNSTEIN PIN,1
+107720,wc-completed,2020-05-08 17:58:52,25.00,USD,ronald.dupont,rdupont50@gmail.com,0,0,0,,595,99486,Gift Certificate - $25.00,1
+107465,wc-refunded,2020-05-07 15:16:01,35.94,USD,sala.foster,sala.foster123@gmail.com,0,0,15.96,,592,27876,FIGPIN DARK SOULS DRAGONSLAYER OF ORNSTEIN PIN,1
+107465,wc-refunded,2020-05-07 15:16:01,35.94,USD,sala.foster,sala.foster123@gmail.com,0,0,15.96,,593,27878,FIGPIN DARK SOULS SOLAIRE OF ASTORA PIN,1
+106673,wc-cancelled,2020-05-04 23:30:18,18.41,USD,randy.rodriguez,rodriguezrandy55@yahoo.com,0,0,8.42,,590,27877,FIGPIN DARK SOULS SIEGMEYER OF CATARINA PIN,1
+106670,wc-cancelled,2020-05-04 19:05:04,16.04,USD,johngalendez,johngalendez@gmail.com,0,0,0,,588,40318,SPAWN ORIGINS TP VOL 02,1
+104136,wc-completed,2020-05-01 18:01:48,20.00,USD,heidi.demartine,demartine_heidi@yahoo.com,0,0,0,,585,99486,Gift Certificate - $10.00,2
+104134,wc-completed,2020-05-01 16:55:05,25.00,USD,ronald.dupont,rdupont50@gmail.com,0,0,0,,582,99486,Gift Certificate - $25.00,1
+103344,wc-completed,2020-04-30 20:38:30,25.00,USD,cheryl.miller,cherylm@ewpdesign.com,0,0,0,,580,99486,Gift Certificate - $25.00,1
+103342,wc-completed,2020-04-30 16:17:32,100.00,USD,jason.shafer,Y4URITEME@MSN.COM,0,0,0,,578,99486,Gift Certificate - $50.00,2
+102072,wc-refunded,2020-04-29 23:21:17,18.99,USD,neil.vandenberg,neilvandenbergart@yahoo.com,0,0,7.02,,574,16335,SAVAGE DRAGON #246,1
+102072,wc-refunded,2020-04-29 23:21:17,18.99,USD,neil.vandenberg,neilvandenbergart@yahoo.com,0,0,7.02,,575,19299,SAVAGE DRAGON #245,1
+102072,wc-refunded,2020-04-29 23:21:17,18.99,USD,neil.vandenberg,neilvandenbergart@yahoo.com,0,0,7.02,,576,22170,SAVAGE DRAGON #242,1
+99823,wc-cancelled,2020-04-27 16:02:13,38.41,USD,paul.straker,Connor212227@gmail.com,0,0,8.42,,572,27580,MONSTER HUNTER WORLD BAZELGEUSE PLUSH,1
+99804,wc-refunded,2020-04-26 17:07:47,17.55,USD,carlos.sales lopez,carloslopezcr292@gmail.com,0,0,7.56,,560,27876,FIGPIN DARK SOULS DRAGONSLAYER OF ORNSTEIN PIN,1
+99799,wc-completed,2020-04-25 22:08:46,25.00,USD,cameron.mengel,camdogg@hotmail.com,0,0,0,,557,99486,Gift Certificate - $25.00,1
+99792,wc-refunded,2020-04-24 13:37:38,38.41,USD,paul.straker,connor212227@gmail.com,0,0,8.42,,555,27580,MONSTER HUNTER WORLD BAZELGEUSE PLUSH,1
+99789,wc-completed,2020-04-24 12:56:56,25.00,USD,ronald.dupont,rdupont50@gmail.com,0,0,0,,552,99486,Gift Certificate - $25.00,1
+99769,wc-refunded,2020-04-22 20:37:12,37.79,USD,anna.zimmerman,annaelizabethzimmerman@gmail.com,0,0,7.8,,549,27580,MONSTER HUNTER WORLD BAZELGEUSE PLUSH,1
+99765,wc-refunded,2020-04-22 11:57:21,17.97,USD,employee.cardholder,frankt20@icloud.com,0,0,7.98,,547,27877,FIGPIN DARK SOULS SIEGMEYER OF CATARINA PIN,1
+99740,wc-completed,2020-04-21 08:13:52,50.00,USD,thomas.mckinney,sarabucs@yahoo.com,0,0,0,,545,99486,Gift Certificate - $50.00,1
+99723,wc-refunded,2020-04-20 04:27:54,32.79,USD,christian.alexander,keepon213@gmail.com,0,0,7.8,,543,27587,MONSTER HUNTER WORLD PAOLUMU SOFT AND SPRINGY PLUSH,1
+99713,wc-completed,2020-04-18 18:02:02,20.00,USD,cheryl.miller,cherylm@ewpdesign.com,0,0,0,,541,99486,Gift Certificate - $10.00,2
+99707,wc-completed,2020-04-17 19:54:50,23.79,USD,ronald.dupont,rdupont50@gmail.com,0,0,8.79,,539,99486,Gift Certificate - $15.00,1
+99692,wc-completed,2020-04-17 12:38:26,200.00,USD,roberto.arguedas,robarg@gmail.com,0,0,0,,537,99486,Gift Certificate - $50.00,4
+99689,wc-completed,2020-04-17 12:23:55,17.02,USD,james.maley,jmaleyjr@yahoo.com,0,0,7.02,,535,99486,Gift Certificate - $10.00,1
+99610,wc-completed,2020-04-10 19:52:43,100.00,USD,cheryl.miller,cherylm1227@gmail.com,0,0,0,,533,99486,Gift Certificate - $50.00,2
+99600,wc-completed,2020-04-09 15:05:41,10.00,USD,popupcomics,brian@popupcomicshops.com,0,0,0.00,,526,99486,Gift Certificate - $10.00,1
+99598,wc-completed,2020-04-09 14:49:32,10.00,USD,popupcomics,bpolizzi@darksidecomics.com,0,0,0.00,,523,99486,Gift Certificate - $10.00,1
+99592,wc-completed,2020-04-08 17:10:48,10.00,USD,popupcomics,brian@popupcomicshops.com,0,0,0.00,,521,99486,Gift Certificate - $10.00,1
+99577,wc-refunded,2020-04-06 02:48:25,32.79,USD,paige.hudson,weekago747@gmail.com,0,0,2.8,,519,12755,STEVEN UNIVERSE T/C BINDER,1
+99573,wc-cancelled,2020-04-05 23:42:24,17.55,USD,heather.johnson,stellarstarfox@gmail.com,0,0,7.56,,517,27876,FIGPIN DARK SOULS DRAGONSLAYER OF ORNSTEIN PIN,1
+99560,wc-refunded,2020-04-03 11:41:37,19.98,USD,chris.lewis,chrislewis528@gmail.com,0,0,0,,515,27876,FIGPIN DARK SOULS DRAGONSLAYER OF ORNSTEIN PIN,2
+99532,wc-cancelled,2020-03-31 13:30:09,10.00,USD,popupcomics,brian@popupcomicshops.com,0,0,0,,501,99486,Gift Certificate - $10.00,1
+98231,wc-cancelled,2020-03-26 18:52:21,12.99,USD,salvatore.pisano,spisanoii@rochester.rr.com,0,0,8,,475,62002,SCREAM CURSE OF CARNAGE #6 BAGLEY VAR,1
+58232,wc-cancelled,2020-02-18 01:06:52,11.99,USD,tamberradigital,tamberradigital@gmail.com,0,0,8,,451,16581,AQUAMAN #48,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,314,25669,TMNT URBAN LEGENDS #8 10 COPY INCV EASTMAN,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,315,19796,TMNT URBAN LEGENDS #12 10 COPY INCV EASTMAN,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,316,16842,AMAZING SPIDER-MAN #21 SUJIN JO MARVEL BATTLE LINES VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,317,22781,FRIENDLY NEIGHBORHOOD SPIDER-MAN #1 ARTGERM VIRGIN VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,318,25900,IMMORTAL HULK #10,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,319,22878,IMMORTAL HULK #12,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,320,19944,IMMORTAL HULK #16 BENNETT VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,321,10521,SILVER SURFER BLACK #1 (OF 5) BRADSHAW VIRGIN VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,322,25930,VENOM #9 ANIMATION VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,323,10457,WAR OF REALMS #5 (OF 6) HUGO VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,324,22370,NAOMI #1,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,325,22371,NAOMI #1 VAR ED,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,326,19913,MAJOR X #1 (OF 6) PORTACIO VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,327,19915,MAJOR X #2 (OF 6) NOTO VAR,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,328,10392,TMNT URBAN LEGENDS #14 10 COPY INCV EASTMAN,1
+30666,wc-refunded,2019-06-21 16:35:19,63.85,USD,rgeze33,RGEZE33@hotmail.com,0,0,0.00,,329,29946,Shipping Insurance,1
+30665,wc-refunded,2019-06-21 12:28:56,24.99,USD,calebbenefield,caleb.s.benefield@gmail.com,0,0,8.00,,311,25830,DEFENDERS SILVER SURFER #1 SKAN VAR,1
+30665,wc-refunded,2019-06-21 12:28:56,24.99,USD,calebbenefield,caleb.s.benefield@gmail.com,0,0,8.00,,312,9527,BATMAN LOGO EMBOSSED DOLOMITE MUG,1
+30663,wc-refunded,2019-06-20 11:30:51,45.95,USD,stefangreenberg,smgmj21@hotmail.com,0,0,6.00,,305,22906,MARVEL TALES VENOM #1 BARTEL VIRGIN VAR,1
+30663,wc-refunded,2019-06-20 11:30:51,45.95,USD,stefangreenberg,smgmj21@hotmail.com,0,0,6.00,,306,16849,MARVEL TALES IRON MAN #1 BARTEL VIRGIN VAR,1
+30663,wc-refunded,2019-06-20 11:30:51,45.95,USD,stefangreenberg,smgmj21@hotmail.com,0,0,6.00,,307,16851,MARVEL TALES AVENGERS #1 BARTEL VIRGIN VAR,1
+30663,wc-refunded,2019-06-20 11:30:51,45.95,USD,stefangreenberg,smgmj21@hotmail.com,0,0,6.00,,308,22808,MARVEL TALES FANTASTIC FOUR #1 BARTEL VIRGIN VAR,1
+30663,wc-refunded,2019-06-20 11:30:51,45.95,USD,stefangreenberg,smgmj21@hotmail.com,0,0,6.00,,309,19903,MARVEL TALES THANOS #1 BARTEL VIRGIN VAR,1
+30659,wc-refunded,2019-06-20 00:43:27,23.98,USD,stefangreenberg,smgmj21@hotmail.com,0,0,8.00,,186,10550,MARVEL TALES SPIDER-MAN #1 BARTEL VIRGIN VAR,2
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,169,25830,DEFENDERS SILVER SURFER #1 SKAN VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,170,25832,DEFENDERS SILVER SURFER #1 BUSCEMA REMASTERED VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,171,25831,DEFENDERS SILVER SURFER #1 FERRY VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,172,25829,DEFENDERS SILVER SURFER #1,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,173,25827,DEFENDERS DOCTOR STRANGE #1 DITKO REMASTERED VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,174,25826,DEFENDERS DOCTOR STRANGE #1 MCKONE VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,175,25825,DEFENDERS DOCTOR STRANGE #1 WARD VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,176,25824,DEFENDERS DOCTOR STRANGE #1,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,177,25814,DEFENDERS IMMORTAL HULK #1,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,178,25815,DEFENDERS IMMORTAL HULK #1 BENNETT VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,179,25816,DEFENDERS IMMORTAL HULK #1 GRANOV VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,180,25817,DEFENDERS IMMORTAL HULK #1 KIRBY REMASTERED VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,181,25822,DEFENDERS NAMOR #1 MIGNOLA HIDDEN GEM VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,182,25835,DEFENDERS BEST DEFENSE #1 ART ADAMS VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,183,25837,DEFENDERS BEST DEFENSE #1 REMASTERED VAR,1
+30655,wc-refunded,2019-06-19 20:25:48,76.85,USD,peterleclair,jljl777@comcast.net,0,0,0.00,,184,29946,Shipping Insurance,1
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,103,22370,NAOMI #1,10
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,104,19913,MAJOR X #1 (OF 6) PORTACIO VAR,11
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,105,22878,IMMORTAL HULK #12,10
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,106,19944,IMMORTAL HULK #16 BENNETT VAR,10
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,107,22773,CAPTAIN MARVEL #1 QUESADA VAR,10
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,108,22770,CAPTAIN MARVEL #1 ROSS VAR,10
+30603,wc-refunded,2019-06-09 12:33:33,276.39,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,109,29946,Shipping Insurance,1
+30602,wc-refunded,2019-06-09 10:37:04,63.84,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,100,22438,HARLEY QUINN #57 VAR ED,5
+30602,wc-refunded,2019-06-09 10:37:04,63.84,USD,kevinepps,kevinepps06@gmail.com,0,0,0.00,,101,16907,DAREDEVIL #6 JRJR HIDDEN GEM VAR,11
+30600,wc-refunded,2019-06-09 04:27:41,35.97,USD,mikelough,toastyz28@gmail.com,0,0,6.00,,98,27876,FIGPIN DARK SOULS DRAGONSLAYER OF ORNSTEIN PIN,3
+30568,wc-refunded,2019-05-31 09:04:22,15.98,USD,chi shing jeromekwan,clarks.comics@gmail.com,0,0,8.00,,69,22438,HARLEY QUINN #57 VAR ED,2
+29944,wc-refunded,2019-05-26 21:16:34,15.98,USD,zachtrowbridge,zach.trowbridge@gmail.com,0,0,8.00,,55,16907,DAREDEVIL #6 JRJR HIDDEN GEM VAR,2
+29922,wc-refunded,2019-05-19 21:05:41,45.00,USD,matthewwoods,mattcwoods@hotmail.com,0,0,0.00,,51,21999,FCBD 2019 MARVEL GALLERY SYMBIOTE SPIDER-MAN PVC STATUE (C:,1
+29920,wc-refunded,2019-05-19 08:53:13,3.99,USD,leongodbold,leondavian@gmail.com,0,0,0.00,,50,22438,HARLEY QUINN #57 VAR ED,1
+29893,wc-refunded,2019-05-14 20:22:00,2.99,USD,karanoreika-0157,KARANOREIKA+99@GMAIL.COM,0,0,0,,49,9763,SPAWN #298 CVR C B&#038;W MCFARLANE,1
