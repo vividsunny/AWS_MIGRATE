@@ -1,0 +1,41 @@
+@import url('https: //fonts.googleapis.com/css?family=Roboto: 400,700');
+
+/*Submenu design*/
+
+.hrr-subtab {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0px !important;
+    padding: 5px 0px;
+    border-bottom: 2px solid #000;
+    background: #fff;
+}
+
+.hrr-subtab li {
+    margin-left: 5px;
+    list-style: none;
+}
+
+.hrr-subtab li a {
+    padding: 7px 12px 7px 12px;
+    box-shadow: none !important;
+    border: none !important;
+    color: #444;
+    font-size: 13px !important;    
+}
+
+.hrr-subtab li a:hover {
+    color: #000;
+}
+
+.hrr-subtab li a i {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.hrr-subtab li a:active {
+    box-shadow: none !important;
+    border: none !important;
+}
+

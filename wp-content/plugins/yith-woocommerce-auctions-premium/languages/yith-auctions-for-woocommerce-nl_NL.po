@@ -1,0 +1,1404 @@
+# Translation of YITH Auctions for WooCommerce in Dutch
+# This file is distributed under the same license as the YITH Auctions for WooCommerce package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-30 19:33:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: nl\n"
+"Project-Id-Version: YITH Auctions for WooCommerce\n"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Description of the plugin/theme
+msgid "With<code><strong>YITH Auctions for WooCommerce Premium</strong></code>, your customers can purchase products at the best price ever taking full advantage of the online auction system as the most popular portals, such as eBay, can do. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>."
+msgstr "Met<code><strong>YITH Auctions for WooCommerce Premium</strong></code>, je klanten kunnen producten kopen tegen de beste prijs ooit, en gebruik maken van een online veilingsysteem net als de meest populaire portalen, zoals eBay. <a href=\"https://yithemes.com/\" target=\"_blank\">Verkrijg meer plugins voor je e-commerce op <strong>YITH</strong></a>."
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-auctions/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-auctions/"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Auctions for WooCommerce Premium"
+msgstr "YITH Auctions for WooCommerce Premium"
+
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:34
+msgid "Time left to end auction:"
+msgstr "Tijd voordat de veiling eindigt:"
+
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:28
+msgid "Current bid:"
+msgstr "Huidig bod:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:140
+msgid "Time left to start auction:"
+msgstr "Tijd voordat de veilig begint:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:137
+msgid "The auction is not available"
+msgstr "The veiling is niet beschikbaar"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:107
+msgid "Bid"
+msgstr "Bod"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:80
+msgid "Your bid:"
+msgstr "Je bod:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:69
+msgid "Time left:"
+msgstr "Tijd over:"
+
+#: templates/frontend/reserve_price_and_overtime.php:36
+msgid "Currently in overtime"
+msgstr "Momenteel in extra tijd"
+
+#: templates/frontend/reserve_price_and_overtime.php:29
+msgid "This product does not have a reserve price. "
+msgstr "Dit product heeft geen gereserveerde prijs. "
+
+#: templates/frontend/reserve_price_and_overtime.php:26
+msgid "The product has a reserve price. "
+msgstr "Het product heeft een gereserveerde prijs. "
+
+#: templates/frontend/reserve_price_and_overtime.php:24
+msgid "The product has exceeded the reserve price. "
+msgstr "Het product heeft de gereserveerde prijs overtroffen. "
+
+#: templates/frontend/reserve_price_and_overtime.php:12
+msgid "Enter \"%s\" or more."
+msgstr "Voer \"%s\" of meer in."
+
+#: templates/frontend/my-account-my-auction.php:25
+msgid "Status"
+msgstr "Status"
+
+#: templates/frontend/my-account-my-auction.php:24
+msgid "Current bid"
+msgstr "Huidig bod"
+
+#: templates/frontend/my-account-my-auction.php:23
+msgid "Your bid"
+msgstr "Je bod"
+
+#: templates/frontend/my-account-my-auction.php:22
+msgid "Product"
+msgstr "Product"
+
+#: templates/frontend/my-account-my-auction.php:21
+msgid "Image"
+msgstr "Afbeelding"
+
+#: templates/frontend/max-bidder.php:36
+msgctxt "My maximum bid: $ 50.00"
+msgid "Your maximum bid: %s"
+msgstr "Uw maximale bod: %s"
+
+#: templates/frontend/max-bidder.php:34
+msgid "If your bid is higher or equivalent to the reserve price, your bid will match the reserve price with the remaining saved and used automatically to outbid a competitors bid."
+msgstr "Indien je bod gelijk aan of hoger is dan de gereserveerde prijs, dan zal het restantbedrag van je bod bewaart blijven en automatisch gebruikt worden om concurrenten te overbieden."
+
+#: templates/frontend/max-bidder.php:32
+msgid "Refresh the page regularly to see if you are still the highest bidder"
+msgstr "Vernieuw de pagina regelmatig om te zien of je nog steeds de hoogste bieder bent"
+
+#: templates/frontend/max-bidder.php:32
+msgid " You are currently the highest bidder for this auction"
+msgstr "Je bent momenteel de hoogste bieder van deze veiling"
+
+#: templates/frontend/max-bidder.php:20
+msgid "Number of minutes added to the auction if a bid is made within the overtime range."
+msgstr "Aantal toegevoegde minuten aan de veilig, indien een bod  is geplaatst binnen de extra tijd grens."
+
+#: templates/frontend/max-bidder.php:19
+msgid "Total used from pool of money for automatic bid up."
+msgstr "Totaal gebruikt van pot voor automatisch opbod."
+
+#: templates/frontend/max-bidder.php:14
+msgid "No overtime"
+msgstr "Geen extra tijd"
+
+#: templates/frontend/max-bidder.php:14
+msgctxt "Overtime: 3 min"
+msgid "Overtime: %s min"
+msgstr "Extra tijd: %s min"
+
+#: templates/frontend/max-bidder.php:8
+msgid "Bid up: No bid up"
+msgstr "Opbieden: Niet opbieden"
+
+#: templates/frontend/max-bidder.php:8
+msgid "Bid up: "
+msgstr "Opbieden: "
+
+#: templates/frontend/auction-timeleft.php:18
+msgid "Auction ends: "
+msgstr "Veiling eindigt:"
+
+#: templates/frontend/auction-timeleft.php:14
+#: templates/woocommerce/single-product/add-to-cart/auction.php:149
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:39
+msgid "seconds"
+msgstr "seconden"
+
+#: templates/frontend/auction-timeleft.php:12
+#: templates/woocommerce/single-product/add-to-cart/auction.php:147
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:38
+msgid "minutes"
+msgstr "minuten"
+
+#: templates/frontend/auction-timeleft.php:10
+#: templates/woocommerce/single-product/add-to-cart/auction.php:145
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:37
+msgid "hours"
+msgstr "uren"
+
+#: templates/frontend/auction-timeleft.php:8
+#: templates/woocommerce/single-product/add-to-cart/auction.php:143
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:36
+msgid "days"
+msgstr "dagen"
+
+#: templates/emails/vendor-without-any-bids.php:28
+#: templates/emails/without-any-bids.php:28
+msgid "Doesn't have any bid"
+msgstr "Heeft geen bod"
+
+#: templates/emails/vendor-not-reached-reserve-price.php:27
+msgid "Doesn't exceed the minimum reserve price."
+msgstr "Lager is dan de minimaal gereserveerde prijs."
+
+#: templates/emails/vendor-not-reached-reserve-price.php:17
+msgid "Hi!, we would like to inform you that the highest bid for the product:"
+msgstr "Hoi!, we willen je graag informeren dat de hoogste bieder voor het product:"
+
+#: templates/emails/successfully-bid.php:18
+msgid "Hi!  %s, your bid was added successfully for the product:"
+msgstr "Hoi!  %s, je hebt succesvol een bod geplaatst voor het volgende product:"
+
+#: templates/emails/successfully-bid-admin.php:19
+msgid "Hi!, %s added a bid of %s successfully  for the product:"
+msgstr "Hoi! %s heeft succesvol een bod van %s geplaatst voor product:"
+
+#: templates/emails/successfully-bid-admin.php:18
+#: templates/emails/successfully-bid.php:17
+msgid "Successfully bid"
+msgstr "Succesvol geboden"
+
+#: templates/emails/product-emails/product-email.php:16
+msgid "Product Image"
+msgstr "Productafbeelding"
+
+#: templates/emails/not-reached-reserve-price.php:28
+#: templates/emails/vendor-not-reached-reserve-price.php:29
+#: templates/emails/vendor-without-any-bids.php:30
+#: templates/emails/without-any-bids.php:30
+msgid "If you want to make another action with the product, click this"
+msgstr "Als je een andere actie wilt uitvoeren op dit product, klik hier"
+
+#: templates/emails/not-reached-reserve-price.php:17
+msgid "Hi!, we would like to inform you that the highest bid for the following product doesn't exceed the minimum reserve price :"
+msgstr "Hallo!, we willen je erop wijzen dat het hoogste bod voor het volgende product, lager is dan de minimaal gereserveerde prijs:"
+
+#: templates/emails/end-auction.php:18
+msgid "Hi!  %s, The auction for the product: %s is about to end in: %d %s"
+msgstr "Hallo!  %s, De veiling voor dit product: %s eindigt over: %d %s"
+
+#: templates/emails/better-bid.php:33 templates/emails/end-auction.php:25
+#: templates/emails/not-reached-reserve-price.php:28
+#: templates/emails/successfully-bid.php:33
+#: templates/emails/vendor-not-reached-reserve-price.php:29
+#: templates/emails/vendor-without-any-bids.php:30
+#: templates/emails/without-any-bids.php:30
+msgid "link"
+msgstr "link"
+
+#: templates/emails/better-bid.php:33 templates/emails/end-auction.php:25
+#: templates/emails/successfully-bid.php:33
+msgid "If you want to bid a new amount, click this"
+msgstr "Indien je een nieuw bod wilt uitbrengen, klik hier"
+
+#: templates/emails/better-bid.php:18
+msgid "Hi!  %s, Another user has just overbidded your maximum bid for the product:"
+msgstr "Hallo!  %s, Een andere gebruiker heeft je maximale bod voor het volgende product overboden:"
+
+#: templates/emails/better-bid.php:17
+msgid "Another user just overbidded your maximum bid"
+msgstr "Een andere gebruiker heeft je maximale bod overboden"
+
+#: templates/emails/auction-winner.php:35
+msgid "Please, proceed to checkout"
+msgstr "Ga alsjeblieft door naar de checkout"
+
+#: templates/emails/auction-winner.php:18
+msgid "Congratulations  %s, you are the winner of the auction product:"
+msgstr "Gefeliciteerd %s, je hebt dit veilig product gewonnen:"
+
+#: templates/emails/auction-winner.php:17
+msgid "You are the winner!"
+msgstr "Je bent de winnaar!"
+
+#: templates/emails/auction-winner-admin.php:30
+msgid "The auction has ended and has been won by: "
+msgstr "De veiling is geëindigd en is gewonnen door: "
+
+#: templates/emails/auction-winner-admin.php:18
+#: templates/emails/vendor-without-any-bids.php:18
+#: templates/emails/without-any-bids.php:18
+msgid "Hi!, we would like to inform you that the auction for the  product:"
+msgstr "Hallo!, we willen je graag informeren dat de veiling voor dit product:"
+
+#: templates/emails/auction-no-winner.php:33
+msgid "Thank you for your participation"
+msgstr "Bedankt voor je deelname"
+
+#: templates/emails/auction-no-winner.php:18
+msgid "Sorry  %s, you are not the winner of the auction product:"
+msgstr "Sorry%s, je bent niet de winnaar van het veilingproduct:"
+
+#: templates/emails/auction-no-winner.php:17
+msgid "You are not the winner!!"
+msgstr "Je bent niet de winnaar!"
+
+#: templates/emails/auction-delete-bid.php:17
+msgid "Hi %s, your bid %s was removed for the following product:"
+msgstr "Hoi %s, je bod van %s is verwijderd voor het volgende product:"
+
+#: templates/emails/auction-delete-bid-admin.php:17
+msgid "The bid %s made by %s was successfully removed for the following product:"
+msgstr "Bod %s geplaatst door %s is succesvol verwijderd voor het volgende product:"
+
+#: templates/admin/product-tabs/auction-tab.php:51
+msgid "To"
+msgstr "Tot"
+
+#: templates/admin/product-tabs/auction-tab.php:49
+msgid "From"
+msgstr "Van"
+
+#: templates/admin/product-tabs/auction-tab.php:48
+msgid "Auction Dates"
+msgstr "Veiling data"
+
+#: templates/admin/admin-list-bids.php:51 templates/frontend/list-bids.php:72
+msgid "Start auction"
+msgstr "Start veiling"
+
+#: templates/admin/admin-list-bids.php:44
+msgid "Delete bid"
+msgstr "Verwijder bod"
+
+#: templates/admin/admin-list-bids.php:26
+msgid "Actions"
+msgstr "Acties"
+
+#: templates/admin/admin-list-bids.php:25 templates/frontend/list-bids.php:35
+msgid "Datetime"
+msgstr "Datum tijd"
+
+#: templates/admin/admin-list-bids.php:24 templates/frontend/list-bids.php:34
+msgid "Bid Amount"
+msgstr "Biedingsbedrag"
+
+#: templates/admin/admin-list-bids.php:23 templates/frontend/list-bids.php:33
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: templates/admin/admin-auction-status.php:50
+msgid "Error send the email"
+msgstr "Fout tijdens verzenden van de e-mail"
+
+#: templates/admin/admin-auction-status.php:44
+#: templates/admin/admin-auction-status.php:51
+msgid "Send Winner Email"
+msgstr "Stuur winnaar een e-mail"
+
+#: templates/admin/admin-auction-status.php:43
+#: templates/admin/admin-auction-status.php:49
+msgid "Email is send to:"
+msgstr "E-mail wordt verzonden naar:"
+
+#: templates/admin/admin-auction-status.php:30
+#: templates/admin/admin-list-bids.php:16
+#: templates/admin/admin-list-bids.php:64 templates/frontend/list-bids.php:26
+#: templates/frontend/list-bids.php:85
+msgid "There is no bid for this product"
+msgstr "Er is geen bod voor dit product"
+
+#: templates/admin/admin-auction-status.php:26
+#: templates/admin/admin-auction-status.php:30
+msgid "Max bidder:"
+msgstr "Hoogste bieder:"
+
+#: templates/admin/admin-auction-status.php:19
+msgid "End time:"
+msgstr "Eindtijd:"
+
+#: templates/admin/admin-auction-status.php:16
+msgid "Status:"
+msgstr "Status: "
+
+#: plugin-options/settings-options.php:54
+msgid "Date Format"
+msgstr "Datum formaat"
+
+#: plugin-options/settings-options.php:48
+msgctxt "Admin option description: Check this option to show pay now button in product when the auction ends"
+msgid "Check this option to show pay now button in product when the auction ends "
+msgstr "Selecteer deze optie om betaal nu knop te tonen in product, wanneer de veiling eindigt "
+
+#: plugin-options/settings-options.php:46
+msgctxt "Admin option: Show button pay now in product page"
+msgid "Show pay now button in product page"
+msgstr "Toon betaal nu knop in product pagina"
+
+#: plugin-options/settings-options.php:40
+msgctxt "Admin option description: Check this option to show buttons in product page to increase or decrease the bid"
+msgid "Check this option to show buttons in product page to increase or decrease the bid"
+msgstr "Selecteer deze optie om de knoppen weer te geven in de product pagina, om de bieding te verhogen of verlagen"
+
+#: plugin-options/settings-options.php:38
+msgctxt "Admin option: Show buttons in product page to increase or decrease the bid"
+msgid "Show buttons in product page"
+msgstr "Knop weergeven op product pagina"
+
+#: plugin-options/settings-options.php:33
+msgctxt "Admin option description: Check this option to show full Username in bid tab"
+msgid "Check this option to show full Username in bid tab"
+msgstr "Selecteer deze optie als je de volledige gebruikersnaam wilt weergeven in het bieding tabblad"
+
+#: plugin-options/settings-options.php:31
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Show full Username in bid tab"
+msgstr "Laat volledige gebruikersnaam zien in bieding tabblad"
+
+#: plugin-options/settings-options.php:25
+msgctxt "Panel: page title"
+msgid "Product settings"
+msgstr "Productinstellingen"
+
+#: plugin-options/appearance-options.php:30
+msgctxt "Admin option: Select an image to show in auctions products"
+msgid "Select an image to show in auctions products"
+msgstr "Selecteer een afbeelding die wordt weergegeven in veilingproducten"
+
+#: plugin-options/appearance-options.php:28
+msgctxt "Admin option: Upload or Select a badge image"
+msgid "Badge image"
+msgstr "Badge afbeelding"
+
+#: plugin-options/appearance-options.php:21
+msgctxt "Panel: General appearance"
+msgid "General appearance"
+msgstr "Algemene vormgeving"
+
+#: init.php:36
+msgctxt "Alert Message: WooCommerce requires"
+msgid "YITH WooCommerce Auctions is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Auctions is ingeschakeld maar werkt niet. Het vereist WooCommerce om te laten werken."
+
+#: includes/compatibility/elementor/class.yith-wcact-not-started-auctions-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-not-started-auctions-elementor-widget.php:33
+msgid "Not Started Auctions"
+msgstr "Niet gestarte veilingen"
+
+#: includes/compatibility/elementor/class.yith-wcact-list-bids-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-list-bids-elementor-widget.php:33
+msgid "List Bids"
+msgstr "Biedingen lijst"
+
+#: includes/compatibility/elementor/class.yith-wcact-end-auctions-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-end-auctions-elementor-widget.php:33
+msgid "End Auctions"
+msgstr "Einde veilingen"
+
+#: includes/compatibility/elementor/class.yith-wcact-current-auctions-elementor-widget.php:34
+msgid "Widget to show current auctions"
+msgstr "Widget om huidige veilingen weer te geven"
+
+#: includes/compatibility/elementor/class.yith-wcact-current-auctions-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-current-auctions-elementor-widget.php:33
+msgid "Current Auctions"
+msgstr "Huidige veilingen"
+
+#: includes/compatibility/elementor/class.yith-wcact-auction-form-elementor-widget.php:40
+#: includes/compatibility/elementor/class.yith-wcact-list-bids-elementor-widget.php:40
+msgid "Product id"
+msgstr "Product id"
+
+#: includes/compatibility/elementor/class.yith-wcact-auction-form-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-auction-form-elementor-widget.php:33
+msgid "Auction Form"
+msgstr "Veiling formulier"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:45
+msgid "​Auctions - Without bid (to vendor)"
+msgstr "Veilingen - Zonder bod (naar verkoper)"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:45
+msgid "​Auctions - reserve price not exceeded (to vendor)"
+msgstr "Veilingen - gereserveerde prijs niet overtroffen (naar verkoper)"
+
+#: includes/class.yith-wcact-auction-widget.php:57
+msgid "Number of auctions to show"
+msgstr "Aantal weer te geven veilingen"
+
+#: includes/class.yith-wcact-auction-widget.php:49
+msgid "Show not-started auctions"
+msgstr "Toon niet gestarte veilingen"
+
+#: includes/class.yith-wcact-auction-widget.php:43
+msgid "Featured Auctions"
+msgstr "Gerelateerde veilingen"
+
+#: includes/class.yith-wcact-auction-widget.php:42
+msgid "Last Auctions"
+msgstr "Laatste veilingen"
+
+#: includes/class.yith-wcact-auction-widget.php:40
+msgid "Show"
+msgstr "Weergeven"
+
+#: includes/class.yith-wcact-auction-widget.php:35
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class.yith-wcact-auction-widget.php:30
+msgid "YITH Auctions"
+msgstr "YITH Auctions"
+
+#: includes/class.yith-wcact-auction-shortcodes.php:69
+msgid "Default sorting"
+msgstr "Standaard sortering"
+
+#: includes/class.yith-wcact-auction-my-auctions.php:91
+#: includes/class.yith-wcact-auction-my-auctions.php:124
+msgid "My auctions"
+msgstr "Mijn veilingen"
+
+#: includes/class.yith-wcact-auction-frontend.php:283
+msgid "Current bid: %s"
+msgstr "Huidig bod: %s"
+
+#: includes/class.yith-wcact-auction-frontend.php:181
+msgid "Bids"
+msgstr "Biedingen"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:689
+msgid "Your email \"%s\" is already in the watchlist."
+msgstr "Je e-mail \"%s\" zit al in de kijklijst."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:685
+msgid "Your email \"%s\" was successfully added to the watchlist."
+msgstr "Je e-mail \"%s\" is succesvol toegevoegd aan de kijklijst."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:677
+msgid "The format of the email address entered for the watchlist is not correct."
+msgstr "Het ingevulde e-mailadres voor de kijklijst is onjuist."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:672
+msgid "The required email field is empty."
+msgstr "Het verplichte e-mail veld is leeg."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:652
+msgid "Subscribe"
+msgstr "Inschrijven"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:650
+msgid "Your email"
+msgstr "Je e-mailadres"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:648
+msgid "Notify me by email when the auction is about to end"
+msgstr "Geef mij een melding per e-mail als de veiling bijna eindigt"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:609
+#: includes/class.yith-wcact-auction-frontend-premium.php:616
+msgid "This auction is closed"
+msgstr "Veiling is gesloten"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:591
+#: templates/frontend/my-account-my-auction.php:68
+msgid "Add to cart"
+msgstr "Toevoegen aan winkelwagen"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:576
+#: includes/class.yith-wcact-auction-frontend.php:384
+msgid "Congratulations, you won this auction"
+msgstr "Gefeliciteerd, je hebt deze veiling gewonnen"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:559
+msgctxt "Purchase it now for $ 50.00"
+msgid "Buy now for %s"
+msgstr "Koop nu voor %s"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:326
+msgid "You cannot purchase this product because it is an Auction!"
+msgstr "Je kunt dit product niet kopen want dit is een veiling!"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:245
+#: includes/class.yith-wcact-auction-frontend.php:263
+msgid "Bid now"
+msgstr "Bied nu"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:222
+#: includes/class.yith-wcact-auction-frontend.php:242
+msgctxt "Auction ends: 10 Jan 2016 10:00"
+msgid "Auction ends:"
+msgstr "Veiling eindigt:"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:216
+#: includes/class.yith-wcact-auction-frontend.php:236
+msgctxt "Auction ends: 10 Jan 2016 10:00"
+msgid "Auction start:"
+msgstr "Veiling start:"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:161
+#: includes/class.yith-wcact-auction-shortcodes.php:73
+msgid "Sort auctions by end date (desc)"
+msgstr "Sorteer veilingen op startdatum (aflopend)"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:160
+#: includes/class.yith-wcact-auction-shortcodes.php:72
+msgid "Sort auctions by end date (asc)"
+msgstr "Sorteer veilingen op einddatum (oplopend)"
+
+#: includes/class.yith-wcact-auction-finish-auction.php:127
+msgid "You cannot buy this product"
+msgstr "Je kunt dit product niet kopen"
+
+#: includes/class.yith-wcact-auction-email-without-bid.php:51
+#: includes/class.yith-wcact-auction-email-without-bid.php:53
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:51
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:53
+msgid "The product doesn't have any bid"
+msgstr "Het product heeft geen biedingen"
+
+#: includes/class.yith-wcact-auction-email-without-bid.php:48
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:48
+msgid "​Can be emailed when the auction has finished, and the product doesn't have any bid "
+msgstr "E-mail versturen als veiling is geëindigd, maar het product geen biedingen heeft "
+
+#: includes/class.yith-wcact-auction-email-without-bid.php:45
+msgid "​Auctions - Without bid"
+msgstr "Veilingen - Zonder biedingen"
+
+#: includes/class.yith-wcact-auction-email-winner-admin.php:51
+#: includes/class.yith-wcact-auction-email-winner-admin.php:53
+msgid "Auction has a winner"
+msgstr "Veiling heeft een winnaar"
+
+#: includes/class.yith-wcact-auction-email-winner-admin.php:48
+msgid "​Can be sent when the auction ends and has a winner"
+msgstr "E-mail versturen als veiling eindigt en een winnaar heeft"
+
+#: includes/class.yith-wcact-auction-email-winner-admin.php:45
+msgid "​Auctions - has a winner"
+msgstr "Veilingen - heeft een winnaar"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:53
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:54
+msgid "Your bid was added successfully"
+msgstr "Je hebt succesvol een bod geplaatst"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:50
+msgid "​Can be emailed when the customer bid successfully"
+msgstr "Kan worden verzonden wanneer de klant succesvol een bod heeft geplaatst"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:45
+msgid "​Auctions - Successfully bid"
+msgstr "Veilingen - Succesvol geboden"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:54
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:55
+msgid "A customer added a bid successfully"
+msgstr "Een klant heeft succesvol een bod geplaatst"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:51
+msgid "​Admin can be emailed when the customer bid successfully"
+msgstr "Admin kan ge-e-maild worden als het bod van een klant succesvol was"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:46
+msgid "​Auctions - Successfully bid email for admins"
+msgstr "Veilingen - Succesvol geboden e-mail voor admins"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:144
+msgid "This controls the email recipient line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Bepaal het onderwerp voor ontvangers van de e-mail. Laat dit leeg om het standaardonderwerp te gebruiken: <code>%s</code>."
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:142
+msgid "Recipient"
+msgstr "Ontvanger"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:54
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:52
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:54
+msgid "Max bid doesn't exceed minimum reserve price"
+msgstr "Hoogste bod heeft de minimale gereserveerde prijs niet overtroffen"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:52
+msgid "Max bid doesn't exceed the minimum reserve price"
+msgstr "Hoogste bod heeft de minimale gereserveerde prijs niet overtroffen"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:49
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:49
+msgid "​Can be emailed when the auction has finished, and the highest bid doesn't exceed the minimum reserve price  "
+msgstr "E-mail versturen als veiling is geëindigd en het hoogste bod, het gereserveerde bod niet heeft overtroffen  "
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:45
+msgid "​Auctions - reserve price not exceeded"
+msgstr "Veilingen - Gereserveerde prijs niet overtroffen"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:53
+#: includes/class.yith-wcact-auction-email-end-auction.php:54
+#: templates/emails/end-auction.php:17
+msgid "The Auction is about to end"
+msgstr "De veiling staat op het punt te eindigen"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:50
+msgid "​Can be emailed when the auction is about to end"
+msgstr "E-mail versturen als de veiling bijna eindigt"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:45
+msgid "​Auctions - End"
+msgstr "Veilingen - Geëindigd"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:44
+msgid "​Auctions - The Auction is about to end"
+msgstr "Veilingen - De veiling staat op het punt te eindigen"
+
+#: includes/class.yith-wcact-auction-email-delete-bid.php:53
+#: includes/class.yith-wcact-auction-email-delete-bid.php:55
+msgid "Auction Delete Bid"
+msgstr "Veiling bod verwijderen"
+
+#: includes/class.yith-wcact-auction-email-delete-bid.php:50
+msgid "​Can be emailed to user when bid is deleted"
+msgstr "E-mail wordt verstuurd naar gebruiker wanneer zijn bod is verwijderd"
+
+#: includes/class.yith-wcact-auction-email-delete-bid.php:45
+msgid "​Auctions - Delete Bid"
+msgstr "Veilingen - Bod verwijderd"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:141
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:145
+#: includes/class.yith-wcact-auction-email-winner-admin.php:146
+#: includes/class.yith-wcact-auction-email-without-bid.php:148
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr "Vul ontvangers in voor deze mail (scheiden met komma). Defaults naar %s."
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:139
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:143
+#: includes/class.yith-wcact-auction-email-winner-admin.php:144
+#: includes/class.yith-wcact-auction-email-without-bid.php:146
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:51
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:53
+msgid "Auction bid removed"
+msgstr "Veiling bod verwijderd"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:48
+msgid "​Can be sent when a bid was removed"
+msgstr "E-mail versturen wanneer bod is verwijderd"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:45
+msgid "​Auctions - Delete Bid Admin"
+msgstr "Veilingen - Bod verwijderd door admin"
+
+#: includes/class.yith-wcact-auction-email-better-bid.php:54
+#: includes/class.yith-wcact-auction-email-better-bid.php:55
+msgid "Your highest bid has been overbidded"
+msgstr "Je hoogste bod is overboden"
+
+#: includes/class.yith-wcact-auction-email-better-bid.php:51
+msgid "​Can be emailed to invite to offer a new bid when a better one has been made"
+msgstr "E-mail versturen met uitnodiging een nieuwe bieding te doen, na overboden"
+
+#: includes/class.yith-wcact-auction-email-better-bid.php:46
+msgid "​Auctions - Highest bid overbidded"
+msgstr "Veilingen - Het hoogste bod is overboden"
+
+#: includes/class.yith-wcact-auction-email-auction-winner.php:53
+#: includes/class.yith-wcact-auction-email-auction-winner.php:55
+msgid "Auction Winner"
+msgstr "Veilingwinnaar"
+
+#: includes/class.yith-wcact-auction-email-auction-winner.php:50
+msgid "​Can be emailed to user who won the auction when it is finished"
+msgstr "E-mail versturen naar degene die de veiling heeft gewonnen nadat veiling is gesloten"
+
+#: includes/class.yith-wcact-auction-email-auction-winner.php:45
+msgid "​Auctions - Winner"
+msgstr "Veilingen - winnaar"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:157
+#: includes/class.yith-wcact-auction-email-auction-winner.php:167
+#: includes/class.yith-wcact-auction-email-better-bid.php:158
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:166
+#: includes/class.yith-wcact-auction-email-delete-bid.php:157
+#: includes/class.yith-wcact-auction-email-end-auction.php:168
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:169
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:170
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:158
+#: includes/class.yith-wcact-auction-email-winner-admin.php:171
+#: includes/class.yith-wcact-auction-email-without-bid.php:173
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:158
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:158
+msgid "Choose the email format to send."
+msgstr "Kies een e-mail opmaak om te verzenden."
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:155
+#: includes/class.yith-wcact-auction-email-auction-winner.php:165
+#: includes/class.yith-wcact-auction-email-better-bid.php:156
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:164
+#: includes/class.yith-wcact-auction-email-delete-bid.php:155
+#: includes/class.yith-wcact-auction-email-end-auction.php:166
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:167
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:168
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:156
+#: includes/class.yith-wcact-auction-email-winner-admin.php:169
+#: includes/class.yith-wcact-auction-email-without-bid.php:171
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:156
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:156
+msgid "Email type"
+msgstr "E-mail type"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:149
+#: includes/class.yith-wcact-auction-email-auction-winner.php:159
+#: includes/class.yith-wcact-auction-email-better-bid.php:150
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:158
+#: includes/class.yith-wcact-auction-email-delete-bid.php:149
+#: includes/class.yith-wcact-auction-email-end-auction.php:160
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:161
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:162
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:150
+#: includes/class.yith-wcact-auction-email-winner-admin.php:163
+#: includes/class.yith-wcact-auction-email-without-bid.php:165
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:150
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:150
+msgid "This controls the main heading contained within the email notification. Leave blank to use the default heading: <code>%s</code>."
+msgstr "Dit beheert de kop van de melding e-mail. Laat het leeg om de default titel te gebruiken: <code>%s</code>."
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:147
+#: includes/class.yith-wcact-auction-email-auction-winner.php:157
+#: includes/class.yith-wcact-auction-email-better-bid.php:148
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:156
+#: includes/class.yith-wcact-auction-email-delete-bid.php:147
+#: includes/class.yith-wcact-auction-email-end-auction.php:158
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:159
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:160
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:148
+#: includes/class.yith-wcact-auction-email-winner-admin.php:161
+#: includes/class.yith-wcact-auction-email-without-bid.php:163
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:148
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:148
+msgid "Email Heading"
+msgstr "E-mail heading"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:141
+#: includes/class.yith-wcact-auction-email-auction-winner.php:151
+#: includes/class.yith-wcact-auction-email-better-bid.php:142
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:150
+#: includes/class.yith-wcact-auction-email-delete-bid.php:141
+#: includes/class.yith-wcact-auction-email-end-auction.php:152
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:153
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:154
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:142
+#: includes/class.yith-wcact-auction-email-winner-admin.php:155
+#: includes/class.yith-wcact-auction-email-without-bid.php:157
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:142
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:142
+msgid "This controls the email subject line. Leave blank to use the default subject: <code>%s</code>."
+msgstr "Dit beheert het onderwerp veld van de e-mail. Laat het leeg om het default onderwerp te gebruiken: <code>%s</code>."
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:139
+#: includes/class.yith-wcact-auction-email-auction-winner.php:149
+#: includes/class.yith-wcact-auction-email-better-bid.php:140
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:148
+#: includes/class.yith-wcact-auction-email-delete-bid.php:139
+#: includes/class.yith-wcact-auction-email-end-auction.php:150
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:151
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:152
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:140
+#: includes/class.yith-wcact-auction-email-winner-admin.php:153
+#: includes/class.yith-wcact-auction-email-without-bid.php:155
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:140
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:140
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:134
+#: includes/class.yith-wcact-auction-email-auction-winner.php:144
+#: includes/class.yith-wcact-auction-email-better-bid.php:135
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:134
+#: includes/class.yith-wcact-auction-email-delete-bid.php:134
+#: includes/class.yith-wcact-auction-email-end-auction.php:146
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:137
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:138
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:135
+#: includes/class.yith-wcact-auction-email-winner-admin.php:139
+#: includes/class.yith-wcact-auction-email-without-bid.php:141
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:135
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:135
+msgid "Enable this email notification"
+msgstr "Schakel deze e-mail melding in"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:132
+#: includes/class.yith-wcact-auction-email-auction-winner.php:142
+#: includes/class.yith-wcact-auction-email-better-bid.php:133
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:132
+#: includes/class.yith-wcact-auction-email-delete-bid.php:132
+#: includes/class.yith-wcact-auction-email-end-auction.php:144
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:135
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:136
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:133
+#: includes/class.yith-wcact-auction-email-winner-admin.php:137
+#: includes/class.yith-wcact-auction-email-without-bid.php:139
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:133
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:133
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uitschakelen"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:53
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:55
+msgid "Auction No Winner"
+msgstr "Veiling heeft geen winnaar"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:50
+msgid "​Can be emailed to users who did not win  the auction after it is finished"
+msgstr "Kan worden gemaild naar gebruikers die de veiling niet hebben gewonnen nadat deze is beëindigd"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:45
+msgid "​Auctions - No Winner"
+msgstr "Veilingen - Geen winnaar"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:430
+#: templates/frontend/my-account-my-auction.php:86
+msgid "Closed"
+msgstr "Gesloten"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:417
+#: includes/class.yith-wcact-auction-frontend-premium.php:598
+#: includes/class.yith-wcact-auction-frontend.php:394
+#: templates/emails/auction-winner.php:38
+#: templates/frontend/my-account-my-auction.php:77
+msgid "Pay now"
+msgstr "Betaal nu"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:416
+#: templates/frontend/my-account-my-auction.php:61
+msgid "You won this auction"
+msgstr "Je hebt deze veiling gewonnen"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:150
+#: includes/class.yith-wcact-auction-ajax-premium.php:207
+#: includes/class.yith-wcact-auction-ajax-premium.php:219
+msgid "Enter %s or more to be able to bid"
+msgstr "Geef %s of hoger in, om te kunnen bieden"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:112
+#: includes/class.yith-wcact-auction-ajax-premium.php:136
+#: includes/class.yith-wcact-auction-ajax-premium.php:175
+#: includes/class.yith-wcact-auction-ajax-premium.php:199
+#: includes/class.yith-wcact-auction-ajax-premium.php:233
+msgid "You have successfully bid"
+msgstr "Je bieding was succesvol"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:101
+#: includes/class.yith-wcact-auction-ajax-premium.php:126
+#: includes/class.yith-wcact-auction-ajax-premium.php:164
+#: includes/class.yith-wcact-auction-ajax-premium.php:188
+msgid "You were outbid. Someone has placed a maximum bid. Please try again"
+msgstr "Je bent overboden. Een andere koper heeft een hoger maximum bod geplaatst. Probeer het opnieuw"
+
+#: includes/class.yith-wcact-auction-admin.php:530
+msgid " [Auction element]"
+msgstr " [Auction element]"
+
+#: includes/class.yith-wcact-auction-admin.php:510
+msgid "[%s auction]"
+msgid_plural "[%s auctions]"
+msgstr[0] "[%s auction]"
+msgstr[1] "[%s auctions]"
+
+#: includes/class.yith-wcact-auction-admin.php:412
+msgid "End Date"
+msgstr "Einddatum"
+
+#: includes/class.yith-wcact-auction-admin.php:411
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: includes/class.yith-wcact-auction-admin.php:329
+msgid "Auction"
+msgstr "Veiling"
+
+#: includes/class.yith-wcact-auction-admin.php:310
+msgctxt "Admin: product type"
+msgid "Auction"
+msgstr "Veiling"
+
+#: includes/class.yith-wcact-auction-admin.php:275
+msgid "Are you sure you want to delete the customer's bid?"
+msgstr "Weet je zeker dat je het bod van deze klant wilt verwijderen?"
+
+#: includes/class.yith-wcact-auction-admin.php:238
+msgid "current version"
+msgstr "huidige versie"
+
+#: includes/class.yith-wcact-auction-admin.php:238
+msgid "Changelog"
+msgstr "Wijzigingenlogboek"
+
+#: includes/class.yith-wcact-auction-admin.php:234
+msgid "Support platform"
+msgstr "Support platform"
+
+#: includes/class.yith-wcact-auction-admin.php:230
+msgid "Help Center"
+msgstr "Help Center"
+
+#: includes/class.yith-wcact-auction-admin.php:226
+msgid "Plugin documentation"
+msgstr "Plugin documentatie"
+
+#: includes/class.yith-wcact-auction-admin.php:168
+msgid "Your customers can purchase products at the best price ever taking full advantage of the online auction system as the most popular portals, such as eBay, can do."
+msgstr "Je klanten kunnen producten kopen tegen de beste prijs ooit, en gebruik maken van een online veilingsysteem net als de meest populaire portalen, zoals eBay. "
+
+#: includes/class.yith-wcact-auction-admin.php:159
+msgid "Premium Version"
+msgstr "Premium versie"
+
+#: includes/class.yith-wcact-auction-admin.php:154
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1118
+msgid "Optionally you can show a message, explaining why her/his was banned"
+msgstr "Optioneel kun je een bericht tonen, met de uitleg waarom een gebruiker is verbannen."
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1115
+msgid "Ban Message"
+msgstr "Verbannen bericht"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1111
+msgid "Check this option if you want to ban user from bidding"
+msgstr "Selecteer deze optie als je de gebruiker wilt verbieden om te bieden"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1108
+msgid "Banned"
+msgstr "Verbannen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1105
+msgid "Auction details"
+msgstr "Veiling details"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:991
+msgid "Standard"
+msgstr "Standaard"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:930
+#: includes/class.yith-wcact-auction-admin.php:413
+msgid "Auction status"
+msgstr "Status van de veiling"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:929
+msgid "Auction bid list"
+msgstr "Lijst van biedingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:850
+#: includes/class.yith-wcact-auction-admin.php:460
+msgid "Finished"
+msgstr "Geëindigd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:849
+#: includes/class.yith-wcact-auction-admin.php:457
+#: includes/class.yith-wcact-auction-ajax-premium.php:443
+#: templates/frontend/my-account-my-auction.php:94
+msgid "Started"
+msgstr "Gestart"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:848
+#: includes/class.yith-wcact-auction-admin.php:454
+msgid "Not Started"
+msgstr "Niet gestart"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:847
+msgid "Show all auction statuses"
+msgstr "Alle veiling statussen weergeven"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:751
+msgid "Purchased through buy-now"
+msgstr "Gekocht via nu kopen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:748
+msgid "Finished and not exceeded the reserve price"
+msgstr "Afgelopen en gereserveerde prijs niet overschreden"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:745
+msgid "Started and not exceeded the reserve price"
+msgstr "Gestart en gereserveerde prijs niet overschreden"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:637
+msgid " Change the dates and click on the update button to re-schedule the auction"
+msgstr " Wijzig de data en klik op de update knop om de veiling te opnieuw te plannen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:636
+msgid "Re-schedule"
+msgstr "Opnieuw plannen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:629
+msgid "Check this option to show overtime on product page"
+msgstr "Selecteer deze optie om extra tijd op product pagina weer te geven"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:627
+msgid "Show overtime"
+msgstr "Extra tijd weergeven"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:619
+msgid "Check this option to show Bid up on product page"
+msgstr "Selecteer deze optie om opbod op product pagina weer te geven"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:617
+msgid "Show bid up"
+msgstr "Opbod weergeven"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:593
+msgctxt "Admin option description: number of days. (Override the settings option)"
+msgid "Number of days/hours/minutes to reschedule auction without bids automatically (Override the settings option)"
+msgstr "Aantal dagen/uren/minuten om een veiling zonder biedingen automatisch opnieuw te plannen (Overschrijft instellingen optie)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:591
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Time value for automatic rescheduling"
+msgstr "Tijdswaarde voor automatisch opnieuw inplannen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:580
+msgid "Number of minutes by which the auction will be extended. (Overrride the settings option)"
+msgstr "Aantal minuten waarmee de veiling wordt verlengd. (overschrijft instellingen optie)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:577
+msgid "Overtime"
+msgstr "Extra tijd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:566
+msgid "Number of minutes before auction ends to check if overtime added. (Override the settings option)"
+msgstr "Het aantal minuten aangeven voordat veiling eindigt, indien extra tijd is toegevoegd. (overschrijft instellingen optie)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:563
+msgid "Time to add overtime"
+msgstr "Tijdaanduiding toevoegen voor extra tijd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:537
+msgid "Buy it now price"
+msgstr "Nu kopen prijs"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:524
+msgid "Reserve price"
+msgstr "Reserveer prijs"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:512
+msgid "Minimum amount to increase manual bids"
+msgstr "Minimaal ophoogbedrag voor handmatige biedingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:509
+msgid "Minimum increment amount"
+msgstr "Minimaal ophoogbedrag"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:496
+msgid "Bid up"
+msgstr "Opbod"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:483
+msgid "Starting Price"
+msgstr "Startprijs"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:453
+msgid "Click to resend the email to the winner in case the sending failed"
+msgstr "Klik om de e-mail opnieuw naar de winnaar te sturen wanneer het verzenden is mislukt"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:451
+#: includes/class.yith-wcact-auction-admin-premium.php:455
+msgid "Resend winner email"
+msgstr "Winnaar e-mail opnieuw versturen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:445
+msgctxt "Panel: page title"
+msgid "Resend winner email"
+msgstr "Winnaar e-mail opnieuw versturen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:425
+msgctxt "Admin option description: Seconds to pass before checking new auction changes on auction product page. Set to \"0\" to disable live auction on product page"
+msgid "Seconds to pass before checking new auction changes on auction product page. Set to \"0\" to disable live auction on product page"
+msgstr "Aantal seconden dat moet passeren voordat nieuwe veilingwijzigingen worden gecontroleerd in product pagina. Zet op \"0\" om live veilingen op product pagina uit te schakelen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:423
+msgctxt "Admin option: Live auctions on auction product page"
+msgid "Live auctions on auction product page"
+msgstr "Live veilingen in veiling product pagina"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:414
+msgctxt "Admin option description: Seconds to pass before checking new auction changes on My account > My auctions. Set to \"0\" to disable live auction on My auctions"
+msgid "Seconds to pass before checking new auction changes on My account > My auctions. Set to \"0\" to disable live auction on My auctions"
+msgstr "Aantal seconden dat moet passeren voordat nieuwe veilingwijzigingen worden gecontroleerd in Mijn account > Mijn veilingen. Zet op \"0\" om live veilingen in Mijn veilingen uit te schakelen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:412
+msgctxt "Admin option: Overtime"
+msgid "Live auctions on My auctions"
+msgstr "Live veilingen in Mijn veilingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:406
+msgctxt "Panel: page title"
+msgid "Live Auctions"
+msgstr "Live veilingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:390
+msgid "Click this button to regenerate all auction prices"
+msgstr "Klik hier om alle veilingprijzen te herstellen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:388
+#: includes/class.yith-wcact-auction-admin-premium.php:392
+msgid "Regenerate auction prices"
+msgstr "Herstellen veilingprijzen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:382
+msgctxt "Panel: page title"
+msgid "Regenerate auction prices"
+msgstr "Herstellen veilingprijzen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:362
+msgctxt "Admin option description: Number of minutes for which the auction will be extended"
+msgid "Number of minutes for which the auction will be extended"
+msgstr "Aantal minuten waarmee de veiling wordt verlengd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:360
+msgctxt "Admin option: Overtime"
+msgid "Overtime"
+msgstr "Extra tijd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:351
+msgctxt "Admin option description: Number of minutes before auction ends to check if added overtime"
+msgid "Number of minutes before auction ends to check if added overtime"
+msgstr "Het aantal minuten aangeven voordat veiling eindigt, indien extra tijd is toegevoegd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:349
+msgctxt "Admin option: Time to add overtime"
+msgid "Time to add overtime"
+msgstr "Tijdaanduiding toevoegen voor extra tijd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:343
+msgctxt "Panel: page title"
+msgid "Overtime settings"
+msgstr "Extra tijd instellingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:319
+#: includes/class.yith-wcact-auction-admin-premium.php:604
+msgctxt "Admin option: Select days/hours/minutes"
+msgid "Select unit for automatic rescheduling"
+msgstr "Selecteer eenheid voor automatisch opnieuw inplannen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:310
+msgctxt "Admin option description: number of days"
+msgid "Number of days/hours/minutes to reschedule auction without bids automatically "
+msgstr "Aantal dagen/uren/minuten om een veiling zonder biedingen automatisch opnieuw te plannen  "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:308
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Number of days/hours/minutes"
+msgstr "Aantal dagen/uren/minuten"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:301
+msgctxt "Panel: page title"
+msgid "Automatic auction rescheduling"
+msgstr "Veiling automatisch opnieuw plannen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:285
+msgctxt "Admin option description: Check this option to send an email to users who did not win the auction after it is finished"
+msgid "Check this option to send an email to users who did not win the auction after it is finished"
+msgstr "Vink deze optie aan om een e-mail te sturen naar gebruikers die de veiling niet hebben gewonnen nadat deze is afgelopen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:283
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Send email to customers who lost auction"
+msgstr "Stuur e-mail naar klanten die de veiling hebben verloren"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:278
+msgctxt "Admin option description: Check this option to allow users to subscribe to an auction and be notified when it is about to end"
+msgid "Check this option to allow users to subscribe to an auction and be notified when it is about to end"
+msgstr "Selecteer deze optie om gebruikers toestemming te geven zich in te schrijven voor een veiling, en een melding te ontvangen wanneer deze bijna eindigt"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:276
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Allow subscribe auction"
+msgstr "Inschrijven veiling toestaan"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:271
+#: includes/class.yith-wcact-auction-admin-premium.php:326
+#: includes/class.yith-wcact-auction-admin-premium.php:608
+#: includes/class.yith-wcact-auction-email-end-auction.php:97
+msgctxt "Admin option: hours"
+msgid "minutes"
+msgstr "minuten"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:270
+#: includes/class.yith-wcact-auction-admin-premium.php:325
+#: includes/class.yith-wcact-auction-admin-premium.php:607
+#: includes/class.yith-wcact-auction-email-end-auction.php:94
+msgctxt "Admin option: hours"
+msgid "hours"
+msgstr "uren"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:269
+#: includes/class.yith-wcact-auction-admin-premium.php:324
+#: includes/class.yith-wcact-auction-admin-premium.php:606
+#: includes/class.yith-wcact-auction-email-end-auction.php:92
+msgctxt "Admin option: days"
+msgid "days"
+msgstr "dagen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:264
+msgctxt "Admin option: Select days/hours/minutes"
+msgid "Select unit"
+msgstr "Selecteer eenheid"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:255
+msgctxt "Admin option description: number of days"
+msgid "Number of days/hours before auction end date for notification"
+msgstr "Aantal dagen/uren voor melding van eindiging veiling"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:253
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Number of days/hours"
+msgstr "Aantal dagen/uren"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:248
+msgctxt "Admin option description: Check this option to show full Username in bid tab"
+msgid "Check this option to send emails before auctions end"
+msgstr "Selecteer deze optie om e-mails te versturen voordat de veiling eindigt"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:246
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Send emails"
+msgstr "Verstuur e-mails"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:239
+msgctxt "Panel: page title"
+msgid "Cron settings"
+msgstr "Cron instellingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:217
+msgctxt "Admin option description: Check this option to show pay now button in product when the auction ends"
+msgid "Check this option to allow adding auction product and other products to cart in the same order"
+msgstr "Selecteer deze optie om zowel veilingproducten als andere producten toe te voegen aan te winkelwagen in dezelfde bestelling"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:215
+msgctxt "Admin option: Posibility to add to cart auction product"
+msgid "Possibility to add auction product to cart "
+msgstr "Mogelijkheid om veiling product toe te voegen aan winkelwagen "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:209
+msgctxt "Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide not started auctions on shop page"
+msgstr "Selecteer deze optie om niet gestarte veilingen te verbergen op de winkel-pagina"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:207
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide not started auctions"
+msgstr "Verberg niet gestarte veilingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:202
+msgctxt "Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide closed auctions on shop page"
+msgstr "Selecteer deze optie om gesloten veilingen te verbergen op de winkel-pagina"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:200
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide closed auctions"
+msgstr "Verberg gesloten veilingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:194
+msgctxt "Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide out-of-stock auctions on shop page"
+msgstr "Selecteer deze optie om niet op voorraad veilingen te verbergen op de winkel-pagina"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:192
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide out-of-stock auctions"
+msgstr "Verberg niet op voorraad veilingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:187
+msgctxt "Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to show auctions on shop page"
+msgstr "Selecteer deze optie om veilingen te laten zien op de winkel-pagina"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:185
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Show auctions on shop page"
+msgstr "Laat veilingen zien op winkel-pagina"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:178
+msgctxt "Panel: page title"
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:152
+msgid "Appearance"
+msgstr "Vormgeving"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:132
+msgctxt "[gutenberg]: Option title"
+msgid "Product id to show list bid"
+msgstr "Product id om de lijst met biedingen te tonen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:125
+msgctxt "[gutenberg]: block description"
+msgid "Show the list bid of an auction product"
+msgstr "Toon de lijst met biedingen van een veiling product"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:124
+msgctxt "[gutenberg]: block name"
+msgid "Auction Show list bid"
+msgstr "Veiling toon de lijst met biedingen"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:117
+msgctxt "[gutenberg]: block description"
+msgid "Print current auction products "
+msgstr "Huidige veiling producten afdrukken"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:116
+msgctxt "[gutenberg]: block name"
+msgid "Auction current"
+msgstr "Huidige veiling"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:109
+msgctxt "[gutenberg]: block description"
+msgid "Print out of date auction products "
+msgstr "Print out of date veiling producten"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:108
+msgctxt "[gutenberg]: block name"
+msgid "Auction out of date"
+msgstr "Veiling verouderd"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:101
+msgctxt "[gutenberg]: block description"
+msgid "Print auction products"
+msgstr "Veiling producten afdrukken"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:100
+msgctxt "[gutenberg]: block name"
+msgid "Auction products"
+msgstr "Veiling producten"

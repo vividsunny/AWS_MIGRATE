@@ -1,0 +1,4818 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wallet\n"
+"POT-Creation-Date: 2020-05-26 13:10+0530\n"
+"PO-Revision-Date: 2018-04-27 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+"X-Poedit-KeywordsList: __;__(;_e;_x;esc_html_e;esc_attr_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: wallet.php\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: premium\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: inc/abstracts/class-hrw-settings-page.php:163
+msgid "Your settings have been saved"
+msgstr ""
+
+#: inc/abstracts/class-hrw-settings-page.php:181
+msgid "Your settings have been reset"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:49
+msgid "No Products found"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:75
+msgid "No Customer found"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:117
+#: inc/admin/class-hrw-admin-ajax.php:144
+#: inc/admin/class-hrw-admin-ajax.php:171
+#: inc/admin/class-hrw-admin-ajax.php:197
+#: inc/background-updater/hrw-background-process.php:129
+#: inc/modules/class-cashback.php:655 inc/modules/class-cashback.php:681
+#: inc/modules/class-cashback.php:707 inc/modules/class-discount.php:271
+#: inc/modules/class-discount.php:297 inc/modules/class-fund-transfer.php:875
+#: inc/modules/class-fund-transfer.php:994
+#: inc/modules/class-fund-transfer.php:1064 inc/modules/class-gift-card.php:522
+#: inc/modules/class-gift-card.php:826 inc/modules/class-gift-card.php:892
+#: inc/modules/class-wallet-account-statement.php:539
+#: inc/modules/class-wallet-auto-topup.php:307
+#: inc/modules/class-wallet-withdrawal.php:496
+#: inc/modules/class-wallet-withdrawal.php:613
+#: inc/upgrade/class-hrw-license-handler.php:76
+msgid "Invalid Request"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:121
+#: inc/admin/class-hrw-admin-ajax.php:148
+#: inc/admin/class-hrw-admin-ajax.php:175
+#: inc/admin/class-hrw-admin-ajax.php:207
+msgid "You don't have permission to do this action"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:200
+msgid "Please select a User"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:203
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:161
+msgid "Please enter some funds"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:218
+msgid "Credited Successfully"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-ajax.php:223
+msgid "Debited Successfully"
+msgstr ""
+
+#: inc/admin/class-hrw-admin-assets.php:126
+msgid "Please provide License key"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-menu-management.php:48
+#: inc/admin/menu/views/html-settings.php:13 inc/class-wallet.php:293
+#: inc/privacy/class-hrw-privacy.php:41
+msgid "Wallet Premium"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-menu-management.php:51
+#: inc/admin/menu/class-hrw-wallet-post-type.php:229
+#: inc/class-hrw-install.php:50 inc/modules/views/layout.php:33
+#: inc/notifications/views/layout.php:33
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-settings.php:555
+msgid "Day(s)"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-settings.php:556
+msgid "Week(s)"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-settings.php:557
+msgid "Month(s)"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-settings.php:558
+msgid "Year(s)"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:129
+#: inc/admin/menu/class-hrw-wallet-post-type.php:129
+#: inc/modules/views/edit-withdrawal.php:13
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:120
+#: premium/templates/dashboard/fund-transfer-transactions.php:15
+msgid "Username"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:130
+#: inc/admin/menu/tabs/localizations.php:125
+#: inc/admin/menu/wp-list-table/class-hrw-wallet-transactions-table.php:116
+#: premium/templates/dashboard/cashback-logs.php:15
+msgid "Event"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:131
+#: inc/admin/menu/tabs/localizations.php:131
+#: inc/admin/menu/wp-list-table/class-hrw-wallet-transactions-table.php:117
+#: inc/notifications/class-admin-withdrawal-request.php:179
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:216
+#: inc/notifications/class-customer-withdrawal-rejected.php:216
+#: inc/notifications/class-customer-withdrawal-success.php:216
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:132
+#: premium/inc/hrwp-account-statement-pdf-handler.php:270
+#: premium/inc/hrwp-gift-card-pdf-handler.php:188
+#: premium/templates/dashboard/gift-card-form.php:28
+#: premium/templates/dashboard/gift-card-listing-received.php:21
+#: premium/templates/dashboard/gift-card-listing-sent.php:21
+msgid "Amount"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:132
+#: inc/admin/menu/class-hrw-wallet-post-type.php:134
+#: inc/admin/menu/tabs/localizations.php:137
+#: inc/admin/menu/wp-list-table/class-hrw-wallet-transactions-table.php:118
+#: inc/modules/views/edit-withdrawal.php:48
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:135
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:119
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:126
+#: premium/templates/dashboard/fund-transfer-transactions.php:19
+#: premium/templates/dashboard/gift-card-listing-received.php:24
+#: premium/templates/dashboard/gift-card-listing-sent.php:24
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:19
+msgid "Status"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:133
+#: inc/admin/menu/class-hrw-wallet-post-type.php:130
+#: inc/admin/menu/views/edit-post/details.php:23
+#: premium/inc/hrwp-account-statement-pdf-handler.php:272
+msgid "Available Balance"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:134
+#: inc/admin/menu/tabs/localizations.php:149
+#: inc/admin/menu/wp-list-table/class-hrw-wallet-transactions-table.php:120
+#: premium/templates/dashboard/cashback-logs.php:18
+msgid "Date"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:344
+msgid "From Date"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-transaction-log-post-type.php:352
+msgid "To Date"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:131
+#: inc/admin/menu/tabs/localizations.php:113
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:137
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:214
+#: premium/inc/hrwp-gift-card-pdf-handler.php:189
+#: premium/templates/dashboard/gift-card-listing-received.php:26
+#: premium/templates/dashboard/gift-card-listing-sent.php:26
+msgid "Expiry Date"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:132
+msgid "Total Wallet Amount Spent"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:133
+msgid "Created Date"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:135
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:124
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:127
+#: premium/templates/dashboard/fund-transfer-transactions.php:20
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:20
+msgid "Actions"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:230
+msgid "Funds and Transactions"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:231
+msgid "Transactions"
+msgstr ""
+
+#: inc/admin/menu/class-hrw-wallet-post-type.php:232
+#: inc/admin/menu/tabs/localizations.php:210
+msgid "Wallet Actions"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:25 inc/modules/class-gift-card.php:275
+#: inc/modules/class-wallet-account-statement.php:126
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:41
+#: inc/notifications/class-admin-funds-credited.php:127
+#: inc/notifications/class-admin-funds-debited.php:130
+#: inc/notifications/class-admin-funds-expired.php:145
+#: inc/notifications/class-admin-wallet-lock.php:143
+#: inc/notifications/class-admin-wallet-unlock.php:144
+#: inc/notifications/class-admin-withdrawal-request.php:132
+#: inc/notifications/class-auto-topup-acknowledgement.php:142
+#: inc/notifications/class-auto-topup-cancelled.php:144
+#: inc/notifications/class-auto-topup-failure.php:142
+#: inc/notifications/class-auto-topup-success.php:143
+#: inc/notifications/class-customer-fund-received.php:134
+#: inc/notifications/class-customer-fund-request-approved.php:135
+#: inc/notifications/class-customer-fund-request-cancelled.php:132
+#: inc/notifications/class-customer-fund-request-declined.php:132
+#: inc/notifications/class-customer-fund-request-received.php:132
+#: inc/notifications/class-customer-fund-request-submitted.php:131
+#: inc/notifications/class-customer-fund-transfered.php:135
+#: inc/notifications/class-customer-funds-credited.php:125
+#: inc/notifications/class-customer-funds-debited.php:126
+#: inc/notifications/class-customer-funds-expired.php:146
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:139
+#: inc/notifications/class-customer-gift-card-received.php:140
+#: inc/notifications/class-customer-gift-card-redeemed.php:142
+#: inc/notifications/class-customer-gift-card-sent.php:144
+#: inc/notifications/class-customer-low-funds.php:158
+#: inc/notifications/class-customer-wallet-lock.php:140
+#: inc/notifications/class-customer-wallet-unlock.php:144
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:130
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:134
+#: inc/notifications/class-customer-withdrawal-rejected.php:134
+#: inc/notifications/class-customer-withdrawal-success.php:134
+#: inc/notifications/class-customer-year-wallet-account-statement.php:128
+msgid "Email Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:45
+msgid "Email Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:49
+msgid "HTML"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:50
+msgid "WooCommerce Template"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:52
+msgid "If \"HTML Template\" is selected, plain text emails will be sent. If \"WooCommerce Template\" is selected, email will be sent with customization made in WooCommerce Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:56
+msgid "From Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:59
+msgid "Sender name for wallet emails"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:63
+msgid "From Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:66
+msgid "Sender email for wallet emails"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:77
+msgid "Cron Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:81
+msgid "Cron Job Running Time Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:85
+msgid "Minutes"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:86
+msgid "Hours"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:87
+msgid "Days"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:92
+msgid "Cron Job Running Time"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:105
+msgid "Low Wallet Funds Threshold Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:109
+msgid "Threshold for Low Wallet Funds"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:113
+msgid "If the wallet balance goes less than or equal to the threshold, a warning message will be displayed for the user to Top-up their wallet"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:117
+msgid "Display Low Wallet Threshold Message as Pop-Up"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:131
+msgid "Wallet Restriction Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:135
+msgid "Enable Wallet Top-up for"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:140 inc/admin/menu/tabs/advanced.php:196
+#: inc/modules/class-fund-transfer.php:252
+msgid "All Users"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:141 inc/admin/menu/tabs/advanced.php:197
+#: inc/modules/class-fund-transfer.php:253
+msgid "Selected Users"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:142 inc/admin/menu/tabs/advanced.php:198
+#: inc/modules/class-fund-transfer.php:254
+msgid "Selected User Roles"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:147 inc/admin/menu/tabs/advanced.php:204
+#: inc/modules/class-fund-transfer.php:258
+msgid "Select User(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:153 inc/admin/menu/tabs/advanced.php:210
+#: inc/modules/class-fund-transfer.php:264
+#: premium/templates/dashboard/fund-request-form.php:28
+#: premium/templates/dashboard/fund-transfer-form.php:27
+msgid "Select a User"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:156 inc/admin/menu/tabs/advanced.php:213
+#: inc/modules/class-fund-transfer.php:267
+msgid "Select User Roles"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:163
+msgid "Wallet Balance can be Used for Purchasing"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:167
+msgid "All Products"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:168
+msgid "Selected Products"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:169
+msgid "Products Of Any Category"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:170
+msgid "Products Of Selected Category"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:176
+msgid "Select Product(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:182 inc/admin/menu/tabs/general.php:128
+#: inc/modules/class-gift-card.php:167
+msgid "Select a Product"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:185
+msgid "Select Categories"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:192
+msgid "Enable Wallet Usage for"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:220
+msgid "Hide Wallet Menu in My Account Page"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:234
+msgid "Wallet Balance Round Off Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:238
+msgid "Round Off Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:242
+msgid "Two Decimal Places"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:243 inc/admin/menu/tabs/general.php:170
+msgid "Whole Number"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:244
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:250
+msgid "Rounding Method"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:254
+msgid "Floor"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:255
+msgid "Ceil"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:268
+msgid "Wallet Balance Display Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:272
+msgid "Display Wallet Balance"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:278
+msgid "Below Cart Table"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:286 inc/admin/menu/tabs/general.php:362
+msgid "Checkout Page"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:296
+msgid "Table Display Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:300
+msgid "Column Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:304
+#: inc/admin/menu/tabs/localizations.php:119
+#: premium/templates/dashboard/gift-card-listing-received.php:18
+#: premium/templates/dashboard/gift-card-listing-sent.php:18
+msgid "S.No"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:305
+msgid "Post ID"
+msgstr ""
+
+#: inc/admin/menu/tabs/advanced.php:318 inc/admin/menu/tabs/advanced.php:322
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatibility.php:25
+msgid "Compatibility"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatibility.php:58
+msgid "Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatibility.php:63
+msgid "SUMO Reward Points"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatibility.php:68
+msgid "SUMO Subscription"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:25
+msgid "Credit Debit Fund"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:46
+#: inc/admin/menu/views/edit-post/credit-debit.php:10
+msgid "Credit/Debit Funds"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:50
+#: inc/admin/menu/tabs/credit-debit-fund.php:55
+msgid "Select a user"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:60
+#: inc/admin/menu/views/edit-post/credit-debit.php:16
+msgid "Credit/Debit"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:65
+#: inc/admin/menu/views/edit-post/credit-debit.php:18
+#: inc/class-hrw-register-post-status.php:91
+#: premium/templates/dashboard/cashback-logs.php:16
+msgid "Credit"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:66
+#: inc/admin/menu/views/edit-post/credit-debit.php:18
+#: inc/class-hrw-register-post-status.php:105
+#: premium/templates/dashboard/cashback-logs.php:17
+msgid "Debit"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:70
+#: inc/admin/menu/views/edit-post/credit-debit.php:30
+msgid "Enter Funds"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:77
+#: inc/modules/views/edit-withdrawal.php:29
+#: inc/notifications/class-admin-withdrawal-request.php:180
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:217
+#: inc/notifications/class-customer-withdrawal-rejected.php:217
+#: inc/notifications/class-customer-withdrawal-success.php:217
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:133
+#: premium/templates/dashboard/fund-request-form.php:54
+#: premium/templates/dashboard/fund-transfer-confirmation.php:39
+#: premium/templates/dashboard/fund-transfer-form.php:65
+#: premium/templates/dashboard/gift-card-form.php:50
+#: premium/templates/dashboard/gift-card-listing-received.php:22
+#: premium/templates/dashboard/gift-card-listing-sent.php:22
+#: premium/templates/dashboard/wallet-withdrawal-confirmation.php:29
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:16
+msgid "Reason"
+msgstr ""
+
+#: inc/admin/menu/tabs/credit-debit-fund.php:85
+msgid "Credit / Debit"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:25
+msgid "General"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:28
+msgid "Please create a new product under \"Wallet - Funds Top-Up Settings\" to allow your users to top up funds."
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:46 inc/modules/class-gift-card.php:118
+#: inc/modules/class-wallet-account-statement.php:79
+#: inc/modules/class-wallet-auto-topup.php:81
+#: inc/modules/class-wallet-withdrawal.php:80
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:50
+msgid "Wallet Balance Expires after"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:55
+msgid "day(s) from the date of credit purchase"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:59
+msgid "Hide Expiry Date"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:66
+msgid "Top-up Page URL"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:71 inc/admin/menu/tabs/general.php:79
+msgid "If you have set topup shortcode,please select that page"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:74
+msgid "Dashborad URL"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:82
+msgid "Enable User Phone Number Field in Registration Page"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:88
+msgid "Select Field Option"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:94
+msgid "Optional"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:95
+msgid "Mandatory"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:106
+msgid "Wallet - Funds Top-up Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:110
+msgid "Allow Users to Deposit Funds"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:113
+msgid "If enabled, your customers can Top-up their wallet"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:117
+msgid "Wallet Top-up Product"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:122 inc/modules/class-gift-card.php:162
+msgid "New Product"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:123 inc/modules/class-gift-card.php:163
+msgid "Existing Product"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:125
+msgid "Wallet Top-up requires a product through which the Top-up has to be done. If \"New Product\" is selected, a new product will be created. If \"Existing Product\" is selected, an existing product has to be selected."
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:134 inc/modules/class-gift-card.php:173
+msgid "Select a product"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:139 inc/modules/class-gift-card.php:179
+msgid "Product Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:147 inc/modules/class-gift-card.php:186
+msgid "Create New product"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:152
+msgid "Wallet Fund Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:157 inc/modules/class-gift-card.php:274
+#: inc/modules/class-wallet-account-statement.php:125
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:131
+msgid "Default"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:158
+msgid "Prefilled Amount(Editable)"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:159
+msgid "Prefilled Amount(Non-Editable)"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:160
+msgid "Prefilled Buttons"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:165
+msgid "Wallet Fund Number Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:171
+msgid "Decimals"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:176
+msgid "Prefilled Amount"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:181
+msgid "For \"Prefilled Buttons\" value should be seperated by commas"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:184
+msgid "Minimum Amount for Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:188
+msgid "The minimum amount needed for wallet Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:192
+msgid "Maximum Amount for Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:196
+msgid "The maximum amount needed for wallet Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:200
+msgid "Maximum Wallet Balance Per User"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:203
+msgid "The maximum wallet balance which can be accumulated by a customer"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:207
+msgid "Hide Selected Payment Gateways for Wallet Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:212
+msgid "The selected payment gateways will be hidden during a wallet Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:216
+msgid "Funds will be Added to Wallet when Order Status becomes"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:231
+msgid "Wallet - Funds Usage Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:235
+msgid "Funds will be Debited from Wallet when Order Status becomes"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:243 inc/admin/menu/tabs/messages.php:61
+msgid "Minimum Cart Total for Wallet Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:247
+msgid "The minimum cart total needed in order to use the wallet"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:250
+msgid "Maximum Cart Total for Wallet Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:254
+msgid "The wallet cannot be used for orders which exceed the maximum cart total amount"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:257
+msgid "Restrict Wallet Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:261 inc/modules/views/cashback-rules.php:163
+#: inc/modules/views/discount-rules.php:163
+#: premium/templates/dashboard/account-statement.php:48
+msgid "From"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:268 inc/modules/views/cashback-rules.php:173
+#: inc/modules/views/discount-rules.php:173
+#: premium/templates/dashboard/account-statement.php:49
+msgid "To"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:272
+msgid "Restrict Wallet Usage on Following Day(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:277
+msgid "Sunday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:284
+msgid "Monday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:291
+msgid "Tuesday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:298
+msgid "Wednesday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:305
+msgid "Thursday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:312
+msgid "Friday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:319
+msgid "Saturday"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:322
+msgid "Allow Partial Payments Using Wallet"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:326
+msgid "If enabled, your customers will be able to pay partially using their wallet and the remaining amount using other payment gateways"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:330 inc/admin/menu/tabs/general.php:348
+msgid "Allow Partial Payments"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:334
+msgid "Any Time"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:335
+msgid "When Wallet Balance is Less than Order Total"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:341
+msgid "Maximum Funds that can be Used in an Order"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:354
+msgid "Cart Page"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:365
+msgid "Hide other Payment Gateways when Wallet Payment Gateway is Visible"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:370
+msgid "Not applicable when wallet Top-up product is added in cart"
+msgstr ""
+
+#: inc/admin/menu/tabs/general.php:373
+msgid "Error message to display at checkout when using Wallet Payment Gateway with insufficient balance"
+msgstr ""
+
+#: inc/admin/menu/tabs/license-verification.php:25
+msgid "License Verification"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:25
+msgid "Localizations"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:39
+msgid "Wallet Menu Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:43
+msgid "Wallet Menu Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:56
+msgid "Top-up Form Labels"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:60
+msgid "Top-up Form Title"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:66
+msgid "Top-up Amount"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:72
+msgid "Top-up Amount Placeholder"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:78
+msgid "Add to Wallet Button"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:91
+msgid "Transaction Log Table Labels"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:95
+#: inc/admin/menu/views/edit-post/display-submit.php:12
+msgid "Current Status"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:101
+msgid "Wallet Balance"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:107
+msgid "Total Amount Spent on Purchase"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:143
+#: inc/admin/menu/wp-list-table/class-hrw-wallet-transactions-table.php:119
+msgid "Total"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:162
+msgid "Log Messages"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:166
+msgid "Wallet Top-up Success"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:172
+msgid "Wallet Usage through Gateway"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:178
+msgid "Partial Wallet Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:185
+msgid "Wallet Funds Credited"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:191
+msgid "Wallet Funds Debited"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:197
+msgid "Wallet Expired"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:214
+msgid "Order Cancel"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:220
+msgid "Order Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/localizations.php:226
+msgid "Order Failed"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:25 inc/modules/class-fund-transfer.php:319
+#: inc/modules/class-gift-card.php:363
+#: inc/modules/class-security-settings.php:251
+msgid "Messages"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:39
+msgid "Error Message Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:43
+msgid "Minimum Amount for Wallet Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:49
+msgid "Maximum Amount for Wallet Top-up"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:55
+msgid "Maximum Wallet Balance"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:67
+msgid "Maximum Cart Total Threshold for Wallet Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:73
+msgid "Wallet Usage Date Restriction"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:79
+msgid "Wallet Purchase Restriction"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:86
+msgid "Wallet Top-up User Restriction"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:93
+#: inc/modules/class-security-settings.php:146
+#: inc/modules/class-security-settings.php:285
+msgid "Wallet Usage Restriction"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:100
+msgid "Insufficient Funds for Partial Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:114
+msgid "Wallet Top-up Messages"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:118
+msgid "Wallet Top-up Message on Cart Page"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:123 inc/admin/menu/tabs/messages.php:139
+#: inc/admin/menu/tabs/messages.php:156 inc/admin/menu/tabs/messages.php:185
+#: inc/modules/class-discount.php:95
+msgid "Show"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:124 inc/admin/menu/tabs/messages.php:140
+#: inc/admin/menu/tabs/messages.php:157 inc/admin/menu/tabs/messages.php:186
+#: inc/modules/class-discount.php:96
+msgid "Hide"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:128 inc/admin/menu/tabs/messages.php:144
+#: inc/admin/menu/tabs/messages.php:161 inc/admin/menu/tabs/messages.php:190
+#: inc/notifications/class-admin-funds-credited.php:148
+#: inc/notifications/class-admin-funds-credited.php:172
+#: inc/notifications/class-admin-funds-debited.php:151
+#: inc/notifications/class-admin-funds-debited.php:175
+#: inc/notifications/class-admin-funds-expired.php:166
+#: inc/notifications/class-admin-funds-expired.php:190
+#: inc/notifications/class-admin-wallet-lock.php:164
+#: inc/notifications/class-admin-wallet-lock.php:188
+#: inc/notifications/class-admin-wallet-unlock.php:165
+#: inc/notifications/class-admin-wallet-unlock.php:189
+#: inc/notifications/class-admin-withdrawal-request.php:143
+#: inc/notifications/class-auto-topup-acknowledgement.php:163
+#: inc/notifications/class-auto-topup-acknowledgement.php:186
+#: inc/notifications/class-auto-topup-cancelled.php:165
+#: inc/notifications/class-auto-topup-cancelled.php:188
+#: inc/notifications/class-auto-topup-failure.php:163
+#: inc/notifications/class-auto-topup-failure.php:186
+#: inc/notifications/class-auto-topup-success.php:164
+#: inc/notifications/class-auto-topup-success.php:187
+#: inc/notifications/class-customer-fund-received.php:155
+#: inc/notifications/class-customer-fund-received.php:178
+#: inc/notifications/class-customer-fund-request-approved.php:156
+#: inc/notifications/class-customer-fund-request-approved.php:179
+#: inc/notifications/class-customer-fund-request-cancelled.php:153
+#: inc/notifications/class-customer-fund-request-cancelled.php:176
+#: inc/notifications/class-customer-fund-request-declined.php:153
+#: inc/notifications/class-customer-fund-request-declined.php:176
+#: inc/notifications/class-customer-fund-request-received.php:153
+#: inc/notifications/class-customer-fund-request-received.php:176
+#: inc/notifications/class-customer-fund-request-submitted.php:152
+#: inc/notifications/class-customer-fund-request-submitted.php:175
+#: inc/notifications/class-customer-fund-transfered.php:156
+#: inc/notifications/class-customer-fund-transfered.php:180
+#: inc/notifications/class-customer-funds-credited.php:146
+#: inc/notifications/class-customer-funds-credited.php:170
+#: inc/notifications/class-customer-funds-debited.php:147
+#: inc/notifications/class-customer-funds-debited.php:171
+#: inc/notifications/class-customer-funds-expired.php:167
+#: inc/notifications/class-customer-funds-expired.php:191
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:167
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:191
+#: inc/notifications/class-customer-gift-card-received.php:161
+#: inc/notifications/class-customer-gift-card-received.php:185
+#: inc/notifications/class-customer-gift-card-redeemed.php:163
+#: inc/notifications/class-customer-gift-card-redeemed.php:187
+#: inc/notifications/class-customer-gift-card-sent.php:165
+#: inc/notifications/class-customer-gift-card-sent.php:189
+#: inc/notifications/class-customer-low-funds.php:179
+#: inc/notifications/class-customer-low-funds.php:203
+#: inc/notifications/class-customer-purchase-total-cashback.php:168
+#: inc/notifications/class-customer-purchase-total-cashback.php:192
+#: inc/notifications/class-customer-topup-cashback.php:166
+#: inc/notifications/class-customer-topup-cashback.php:190
+#: inc/notifications/class-customer-wallet-lock.php:161
+#: inc/notifications/class-customer-wallet-lock.php:185
+#: inc/notifications/class-customer-wallet-unlock.php:165
+#: inc/notifications/class-customer-wallet-unlock.php:189
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:142
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:155
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:179
+#: inc/notifications/class-customer-withdrawal-rejected.php:155
+#: inc/notifications/class-customer-withdrawal-rejected.php:179
+#: inc/notifications/class-customer-withdrawal-success.php:155
+#: inc/notifications/class-customer-withdrawal-success.php:179
+#: inc/notifications/class-customer-year-wallet-account-statement.php:140
+msgid "Message"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:134
+msgid "Wallet Top-up Message on Checkout Page"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:150
+msgid "Wallet Low Balance Notification Messages"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:175
+msgid "Wallet Usage Messages"
+msgstr ""
+
+#: inc/admin/menu/tabs/messages.php:179
+msgid "Wallet Balance after Partial Usage"
+msgstr ""
+
+#: inc/admin/menu/tabs/modules.php:25
+msgid "Modules"
+msgstr ""
+
+#: inc/admin/menu/tabs/modules.php:99 inc/admin/menu/tabs/notifications.php:105
+msgid "Your settings have been saved."
+msgstr ""
+
+#: inc/admin/menu/tabs/modules.php:122
+#: inc/admin/menu/tabs/notifications.php:125
+msgid "Your settings have been reset."
+msgstr ""
+
+#: inc/admin/menu/tabs/notifications.php:25
+msgid "Notifications"
+msgstr ""
+
+#: inc/admin/menu/tabs/notifications.php:38
+msgid "General Notifications"
+msgstr ""
+
+#: inc/admin/menu/tabs/notifications.php:42
+msgid "Module Notifications"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:25
+#: inc/notifications/class-admin-funds-credited.php:113
+#: inc/notifications/class-admin-funds-debited.php:116
+#: inc/notifications/class-admin-funds-expired.php:131
+#: inc/notifications/class-admin-wallet-lock.php:129
+#: inc/notifications/class-admin-wallet-unlock.php:130
+#: inc/notifications/class-admin-withdrawal-request.php:118
+#: inc/notifications/class-auto-topup-acknowledgement.php:128
+#: inc/notifications/class-auto-topup-cancelled.php:130
+#: inc/notifications/class-auto-topup-failure.php:128
+#: inc/notifications/class-auto-topup-success.php:129
+#: inc/notifications/class-customer-fund-received.php:120
+#: inc/notifications/class-customer-fund-request-approved.php:121
+#: inc/notifications/class-customer-fund-request-cancelled.php:118
+#: inc/notifications/class-customer-fund-request-declined.php:118
+#: inc/notifications/class-customer-fund-request-received.php:118
+#: inc/notifications/class-customer-fund-request-submitted.php:117
+#: inc/notifications/class-customer-fund-transfered.php:121
+#: inc/notifications/class-customer-funds-credited.php:111
+#: inc/notifications/class-customer-funds-debited.php:112
+#: inc/notifications/class-customer-funds-expired.php:132
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:125
+#: inc/notifications/class-customer-gift-card-received.php:126
+#: inc/notifications/class-customer-gift-card-redeemed.php:128
+#: inc/notifications/class-customer-gift-card-sent.php:130
+#: inc/notifications/class-customer-low-funds.php:144
+#: inc/notifications/class-customer-purchase-total-cashback.php:133
+#: inc/notifications/class-customer-topup-cashback.php:131
+#: inc/notifications/class-customer-wallet-lock.php:126
+#: inc/notifications/class-customer-wallet-unlock.php:130
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:116
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:120
+#: inc/notifications/class-customer-withdrawal-rejected.php:120
+#: inc/notifications/class-customer-withdrawal-success.php:120
+#: inc/notifications/class-customer-year-wallet-account-statement.php:114
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:54 inc/admin/menu/tabs/shortcodes.php:58
+#: inc/admin/menu/tabs/shortcodes.php:62 inc/admin/menu/tabs/shortcodes.php:66
+#: inc/admin/menu/tabs/shortcodes.php:70
+msgid "Pages"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:55
+msgid "Displaying Dashboard Form"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:59
+msgid "Displaying Top-up Form"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:63
+msgid "Displaying Wallet Balance"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:67
+msgid "Displaying Transaction Log table"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:71
+msgid "Displaying Available Wallet Funds"
+msgstr ""
+
+#: inc/admin/menu/tabs/support.php:24
+msgid "Help"
+msgstr ""
+
+#: inc/admin/menu/tabs/support.php:51
+msgid "Here"
+msgstr ""
+
+#: inc/admin/menu/tabs/support.php:54
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/menu/tabs/support.php:55
+msgid "Please check the documentation as we have lots of information there. The documentation file can be found inside the documentation folder which you will find when you unzip the downloaded zip file."
+msgstr ""
+
+#: inc/admin/menu/tabs/support.php:56
+msgid "Contact Support"
+msgstr ""
+
+#: inc/admin/menu/tabs/support.php:57
+#, php-format
+msgid "You can report bugs %s"
+msgstr ""
+
+#: inc/admin/menu/views/cashback/cashback-rule-list.php:10
+#: inc/admin/menu/views/discount/discount-rule-list.php:10
+msgid "Rule Configuration"
+msgstr ""
+
+#: inc/admin/menu/views/cashback/cashback-rule-list.php:11
+#: inc/admin/menu/views/discount/discount-rule-list.php:11
+msgid " Add Rule"
+msgstr ""
+
+#: inc/admin/menu/views/cashback/cashback-rule-list.php:14
+#: inc/admin/menu/views/discount/discount-rule-list.php:14
+#: inc/modules/views/cashback-rules.php:16
+#: inc/modules/views/discount-rules.php:16
+msgid "Rule Name"
+msgstr ""
+
+#: inc/admin/menu/views/cashback/cashback-rule-list.php:16
+#: inc/admin/menu/views/discount/discount-rule-list.php:16
+msgid "Add"
+msgstr ""
+
+#: inc/admin/menu/views/cashback/order-rule-list.php:17
+#: inc/admin/menu/views/cashback/wallet-rule-list.php:17
+#: inc/admin/menu/views/discount/local-rule-list.php:17
+#: inc/modules/class-fund-transfer.php:168
+#: inc/modules/class-wallet-withdrawal.php:113
+#: inc/modules/views/cashback-rules.php:240
+#: inc/modules/views/cashback-rules.php:288
+#: inc/modules/views/discount-rules.php:233
+msgid "Fixed"
+msgstr ""
+
+#: inc/admin/menu/views/cashback/order-rule-list.php:18
+#: inc/admin/menu/views/cashback/wallet-rule-list.php:18
+#: inc/admin/menu/views/discount/local-rule-list.php:18
+#: inc/modules/class-fund-transfer.php:169
+#: inc/modules/class-wallet-withdrawal.php:114
+#: inc/modules/views/cashback-rules.php:241
+#: inc/modules/views/cashback-rules.php:289
+#: inc/modules/views/discount-rules.php:234
+msgid "Percentage"
+msgstr ""
+
+#: inc/admin/menu/views/compatibility.php:21
+msgid "Buy Now"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/credit-debit.php:35
+msgid "Enter Reason"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/credit-debit.php:40
+msgid "credit/debit"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/details.php:12
+#: premium/inc/hrwp-account-statement-pdf-handler.php:187
+msgid "Customer Details"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/details.php:15
+msgid "Customer Name"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/details.php:19
+msgid "Customer Email"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/details.php:27
+msgid "Expires On"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:14
+#: inc/class-hrw-register-post-type.php:79
+#: inc/class-hrw-register-post-type.php:122 inc/hrw-layout-functions.php:156
+#: inc/modules/class-wallet-auto-topup.php:473
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:241
+msgid "Edit"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:15
+#: inc/hrw-layout-functions.php:147 inc/modules/class-fund-transfer.php:451
+#: inc/modules/views/edit-withdrawal.php:62
+#: premium/templates/dashboard/fund-transfer-transaction-log.php:25
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:55
+msgid "Cancel"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:25
+msgid "Clear Schedule"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:31
+msgid "Select the Status"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:33
+#: inc/class-hrw-register-post-status.php:49
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:268
+msgid "Active"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:34
+msgid "Lock"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:35
+#: inc/class-hrw-register-post-status.php:63
+#: premium/inc/hrwp-post-functions.php:435
+msgid "Expired"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:47
+msgid "Lock Type"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:49
+msgid "Immediate Lock"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:50
+msgid "Schedule Lock"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:64
+msgid "Schedule Lock From"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:77
+msgid "Schedule Lock To"
+msgstr ""
+
+#: inc/admin/menu/views/edit-post/display-submit.php:92
+msgid "Lock Reason"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings-buttons.php:10
+msgid "Save changes"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings-buttons.php:20
+msgid "Reset"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings.php:39
+msgid "Wallet Premium - "
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:11
+msgid "Wallet Premium Version  Plugin Features"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:14
+msgid "Upgrade to Premium Version"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:20
+msgid "Partial Payments using Wallet"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:21
+msgid "Wallet Funds Usage Restrictions"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:22
+msgid "More Notification Emails"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:27
+msgid "Access to Shortcodes"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:28
+msgid "Warning for Low Wallet Funds Threshold"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:29
+msgid "Compatibility with other Modules And Plugins"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:34
+msgid "And More"
+msgstr ""
+
+#: inc/admin/menu/views/shortcodes-table.php:12
+#: inc/notifications/views/shortcodes-table.php:12
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin/menu/views/shortcodes-table.php:13
+msgid "Context where shortcode is valid"
+msgstr ""
+
+#: inc/admin/menu/views/shortcodes-table.php:14
+#: inc/notifications/views/shortcodes-table.php:18
+msgid "Purpose"
+msgstr ""
+
+#: inc/admin/menu/views/sort-payments.php:26
+msgid "Enable"
+msgstr ""
+
+#: inc/admin/menu/views/sort-payments.php:27
+msgid "Disable"
+msgstr ""
+
+#: inc/admin/menu/views/user-profile-extra-info.php:10
+#: inc/background-updater/hrw-background-process.php:196
+#: inc/class-wallet.php:293 inc/gateways/class-hrw-wallet-gateway.php:22
+msgid "Wallet"
+msgstr ""
+
+#: inc/admin/menu/views/user-profile-extra-info.php:15
+#: templates/dashboard/profile.php:19 templates/registration-fields.php:17
+msgid "Phone Number"
+msgstr ""
+
+#: inc/background-updater/hrw-background-process.php:139
+#, php-format
+msgid "Upgrade to v%s completed successfully"
+msgstr ""
+
+#: inc/background-updater/hrw-background-process.php:176
+msgid "Upgrade"
+msgstr ""
+
+#: inc/background-updater/hrw-background-process.php:198
+#, php-format
+msgid "Upgrade to v%s is under progress..."
+msgstr ""
+
+#: inc/background-updater/hrw-background-process.php:207
+msgid "% Completed"
+msgstr ""
+
+#: inc/background-updater/wp-background-process.php:423
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/class-hrw-credit-debit-handler.php:91
+msgid "Wallet not found"
+msgstr ""
+
+#: inc/class-hrw-credit-debit-handler.php:96
+#: inc/class-hrw-order-management.php:120
+msgid "Insufficient Balance in Wallet"
+msgstr ""
+
+#: inc/class-hrw-pages.php:29
+msgid "dashboard"
+msgstr ""
+
+#: inc/class-hrw-pages.php:30
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-hrw-pages.php:102
+msgid "Wallet Dashboard Page"
+msgstr ""
+
+#: inc/class-hrw-premium-info-handler.php:49 inc/modules/class-cashback.php:59
+#: inc/modules/class-discount.php:51 inc/modules/class-fund-transfer.php:91
+#: inc/modules/class-gift-card.php:95
+#: inc/modules/class-security-settings.php:100 inc/modules/class-sms.php:56
+#: inc/modules/class-wallet-account-statement.php:65
+#: inc/modules/class-wallet-auto-topup.php:67
+#: inc/modules/class-wallet-withdrawal.php:63
+#: inc/notifications/class-admin-funds-expired.php:90
+#: inc/notifications/class-admin-wallet-lock.php:90
+#: inc/notifications/class-admin-wallet-unlock.php:91
+#: inc/notifications/class-admin-withdrawal-request.php:70
+#: inc/notifications/class-auto-topup-acknowledgement.php:79
+#: inc/notifications/class-auto-topup-cancelled.php:77
+#: inc/notifications/class-auto-topup-failure.php:73
+#: inc/notifications/class-auto-topup-success.php:73
+#: inc/notifications/class-customer-fund-received.php:71
+#: inc/notifications/class-customer-fund-request-approved.php:71
+#: inc/notifications/class-customer-fund-request-cancelled.php:69
+#: inc/notifications/class-customer-fund-request-declined.php:69
+#: inc/notifications/class-customer-fund-request-received.php:69
+#: inc/notifications/class-customer-fund-request-submitted.php:69
+#: inc/notifications/class-customer-fund-transfered.php:71
+#: inc/notifications/class-customer-funds-expired.php:91
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:89
+#: inc/notifications/class-customer-gift-card-received.php:89
+#: inc/notifications/class-customer-gift-card-redeemed.php:89
+#: inc/notifications/class-customer-gift-card-sent.php:89
+#: inc/notifications/class-customer-low-funds.php:92
+#: inc/notifications/class-customer-purchase-total-cashback.php:80
+#: inc/notifications/class-customer-topup-cashback.php:79
+#: inc/notifications/class-customer-wallet-lock.php:82
+#: inc/notifications/class-customer-wallet-unlock.php:91
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:83
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:72
+#: inc/notifications/class-customer-withdrawal-rejected.php:72
+#: inc/notifications/class-customer-withdrawal-success.php:72
+#: inc/notifications/class-customer-year-wallet-account-statement.php:81
+#, php-format
+msgid "This feature is available in %s"
+msgstr ""
+
+#: inc/class-hrw-premium-info-handler.php:49
+#: inc/class-hrw-premium-info-handler.php:59 inc/modules/class-cashback.php:59
+#: inc/modules/class-discount.php:51 inc/modules/class-fund-transfer.php:91
+#: inc/modules/class-gift-card.php:95
+#: inc/modules/class-security-settings.php:100 inc/modules/class-sms.php:56
+#: inc/modules/class-wallet-account-statement.php:65
+#: inc/modules/class-wallet-auto-topup.php:67
+#: inc/modules/class-wallet-withdrawal.php:63
+#: inc/notifications/class-admin-funds-expired.php:90
+#: inc/notifications/class-admin-wallet-lock.php:90
+#: inc/notifications/class-admin-wallet-unlock.php:91
+#: inc/notifications/class-admin-withdrawal-request.php:70
+#: inc/notifications/class-auto-topup-acknowledgement.php:79
+#: inc/notifications/class-auto-topup-cancelled.php:77
+#: inc/notifications/class-auto-topup-failure.php:73
+#: inc/notifications/class-auto-topup-success.php:73
+#: inc/notifications/class-customer-fund-received.php:71
+#: inc/notifications/class-customer-fund-request-approved.php:71
+#: inc/notifications/class-customer-fund-request-cancelled.php:69
+#: inc/notifications/class-customer-fund-request-declined.php:69
+#: inc/notifications/class-customer-fund-request-received.php:69
+#: inc/notifications/class-customer-fund-request-submitted.php:69
+#: inc/notifications/class-customer-fund-transfered.php:71
+#: inc/notifications/class-customer-funds-expired.php:91
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:89
+#: inc/notifications/class-customer-gift-card-received.php:89
+#: inc/notifications/class-customer-gift-card-redeemed.php:89
+#: inc/notifications/class-customer-gift-card-sent.php:89
+#: inc/notifications/class-customer-low-funds.php:92
+#: inc/notifications/class-customer-purchase-total-cashback.php:80
+#: inc/notifications/class-customer-topup-cashback.php:79
+#: inc/notifications/class-customer-wallet-lock.php:82
+#: inc/notifications/class-customer-wallet-unlock.php:91
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:83
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:72
+#: inc/notifications/class-customer-withdrawal-rejected.php:72
+#: inc/notifications/class-customer-withdrawal-success.php:72
+#: inc/notifications/class-customer-year-wallet-account-statement.php:81
+msgid "Wallet Premium Version"
+msgstr ""
+
+#: inc/class-hrw-premium-info-handler.php:59
+#, php-format
+msgid "Compatiblity is available in %s"
+msgstr ""
+
+#: inc/class-hrw-register-post-status.php:77
+msgid "Blocked"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:73
+#: inc/class-hrw-register-post-type.php:74
+#: inc/class-hrw-register-post-type.php:75
+msgid "All Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:77
+msgid "Add Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:78
+msgid "Add New Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:80
+msgid "Edit Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:81
+msgid "New Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:82
+#: inc/class-hrw-register-post-type.php:83
+#: inc/class-hrw-register-post-type.php:84
+msgid "View Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:85
+msgid "Search Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:87
+msgid "Here you can able to see list of Wallet"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:116
+#: inc/class-hrw-register-post-type.php:117
+#: inc/class-hrw-register-post-type.php:118
+msgid "Transaction Log"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:120
+msgid "Add Transaction Log"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:121
+msgid "Add New Transaction Log"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:123
+msgid "Edit Transaction Log"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:124
+msgid "New Transaction Log"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:125
+#: inc/class-hrw-register-post-type.php:126
+#: inc/class-hrw-register-post-type.php:127
+msgid "View Transaction Log"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:128
+msgid "Search Users"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:129
+msgid "No Transaction Log found"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:130
+msgid "No Transaction Log found in trash"
+msgstr ""
+
+#: inc/class-hrw-register-post-type.php:132
+msgid "Here you can able to see list of Transaction Log"
+msgstr ""
+
+#: inc/class-wallet.php:293
+#, php-format
+msgid "You cannot Activate Both %s And %s at the same time"
+msgstr ""
+
+#: inc/frontend/class-hrw-form-handler.php:124
+#: inc/frontend/class-hrw-form-handler.php:130
+msgid "Please enter funds to Top-up"
+msgstr ""
+
+#: inc/frontend/class-hrw-form-handler.php:135
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:166
+msgid "Please enter only numeric values"
+msgstr ""
+
+#: inc/frontend/class-hrw-form-handler.php:200
+msgid "Profile updated successfully"
+msgstr ""
+
+#: inc/frontend/class-hrw-myaccount-handler.php:159
+msgid "Phone Number is mandatory"
+msgstr ""
+
+#: inc/frontend/class-hrw-myaccount-handler.php:162
+msgid "Enter a valid Phone Number"
+msgstr ""
+
+#: inc/frontend/class-hrw-shortcodes.php:94
+msgid "You are not allowed to access to wallet dashboard"
+msgstr ""
+
+#: inc/frontend/class-hrw-topup-handler.php:79
+msgid "Top-up product is in cart and hence you are unable to add other products to cart"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:21
+#: inc/gateways/class-hrw-wallet-gateway.php:69
+#: inc/gateways/class-hrw-wallet-gateway.php:70
+msgid "Wallet Gateway"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:61
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:57
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:63
+msgid "Enable Wallet Gateway"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:67
+msgid "Title"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:74
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:69
+msgid "Description"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:76
+#: inc/gateways/class-hrw-wallet-gateway.php:77
+msgid "Use Wallet Gateway to complete this Purchase"
+msgstr ""
+
+#: inc/gateways/class-hrw-wallet-gateway.php:110
+msgid "Awaiting for Admin Confirmation"
+msgstr ""
+
+#: inc/hrw-common-functions.php:99
+msgid "Processing"
+msgstr ""
+
+#: inc/hrw-common-functions.php:100
+msgid "Completed"
+msgstr ""
+
+#: inc/hrw-layout-functions.php:150
+msgid "Approve"
+msgstr ""
+
+#: inc/hrw-layout-functions.php:153
+msgid "Reject"
+msgstr ""
+
+#: inc/hrw-layout-functions.php:159
+msgid "Delete Permanently"
+msgstr ""
+
+#: inc/modules/class-cashback.php:39 inc/modules/class-cashback.php:262
+#: inc/modules/class-cashback.php:595
+#: premium/inc/class-hrwp-register-post-type.php:134
+msgid "Cashback"
+msgstr ""
+
+#: inc/modules/class-cashback.php:72
+msgid "Cashback Settings"
+msgstr ""
+
+#: inc/modules/class-cashback.php:76
+msgid "Cashback is Issued"
+msgstr ""
+
+#: inc/modules/class-cashback.php:81
+msgid "Without Promocode"
+msgstr ""
+
+#: inc/modules/class-cashback.php:82
+msgid "With Promocode"
+msgstr ""
+
+#: inc/modules/class-cashback.php:86
+msgid "Promocode"
+msgstr ""
+
+#: inc/modules/class-cashback.php:92 inc/modules/class-discount.php:68
+#: inc/modules/views/cashback-rules.php:194
+#: inc/modules/views/discount-rules.php:194
+msgid "Rule Priority"
+msgstr ""
+
+#: inc/modules/class-cashback.php:97 inc/modules/class-discount.php:74
+#: inc/modules/views/cashback-rules.php:196
+#: inc/modules/views/discount-rules.php:196
+msgid "First Matched Rule"
+msgstr ""
+
+#: inc/modules/class-cashback.php:98 inc/modules/class-discount.php:75
+#: inc/modules/views/cashback-rules.php:197
+#: inc/modules/views/discount-rules.php:197
+msgid "Last Matched Rule"
+msgstr ""
+
+#: inc/modules/class-cashback.php:99 inc/modules/views/cashback-rules.php:198
+msgid "Minimum Cashback Value"
+msgstr ""
+
+#: inc/modules/class-cashback.php:100 inc/modules/views/cashback-rules.php:199
+msgid "Maximum Cashback Value"
+msgstr ""
+
+#: inc/modules/class-cashback.php:104
+msgid "Order Status to Issue Cashback"
+msgstr ""
+
+#: inc/modules/class-cashback.php:110
+msgid "Cashbacks will be issued to users when the order reaches any one of the status set in this option"
+msgstr ""
+
+#: inc/modules/class-cashback.php:118 inc/modules/class-discount.php:86
+msgid "Message Settings"
+msgstr ""
+
+#: inc/modules/class-cashback.php:122
+msgid "Message to display in Promocode Notice"
+msgstr ""
+
+#: inc/modules/class-cashback.php:128
+msgid "Message to display in Cart and Checkout for Order Total Cashback"
+msgstr ""
+
+#: inc/modules/class-cashback.php:132
+msgid "By completing this order, cashback of [cashback_value] will be credited to your wallet."
+msgstr ""
+
+#: inc/modules/class-cashback.php:135
+msgid "Message to display in Cart and Checkout for Wallet Top-up"
+msgstr ""
+
+#: inc/modules/class-cashback.php:139
+msgid "By completing this Top-up, cashback of [cashback_value] will be credited to your wallet."
+msgstr ""
+
+#: inc/modules/class-cashback.php:147
+msgid "Localization Settings"
+msgstr ""
+
+#: inc/modules/class-cashback.php:151
+msgid "Order Total Cashback Credited Log"
+msgstr ""
+
+#: inc/modules/class-cashback.php:157
+msgid "Order Total Cashback Revised Log"
+msgstr ""
+
+#: inc/modules/class-cashback.php:163
+msgid "Wallet Top-up Cashback Credited Log"
+msgstr ""
+
+#: inc/modules/class-cashback.php:169
+msgid "Wallet Top-up Cashback Revised Log"
+msgstr ""
+
+#: inc/modules/class-cashback.php:449 inc/modules/views/cashback-rules.php:223
+#: inc/modules/views/cashback-rules.php:271
+#: inc/modules/views/discount-rules.php:216
+#: premium/templates/remove-partial-usage-form.php:18
+msgid "Remove"
+msgstr ""
+
+#: inc/modules/class-cashback.php:451
+#, php-format
+msgid "Promocode Applied Successfully %s"
+msgstr ""
+
+#: inc/modules/class-cashback.php:470
+msgid "Promocode removed successfully."
+msgstr ""
+
+#: inc/modules/class-cashback.php:628 inc/modules/class-discount.php:244
+msgid "Rule name cannot be empty"
+msgstr ""
+
+#: inc/modules/class-discount.php:31
+#: premium/inc/class-hrwp-register-post-type.php:186
+msgid "Discount"
+msgstr ""
+
+#: inc/modules/class-discount.php:64
+msgid "Discount Settings"
+msgstr ""
+
+#: inc/modules/class-discount.php:76 inc/modules/views/discount-rules.php:198
+msgid "Minimum Discount Value"
+msgstr ""
+
+#: inc/modules/class-discount.php:77 inc/modules/views/discount-rules.php:199
+msgid "Maximum Discount Value"
+msgstr ""
+
+#: inc/modules/class-discount.php:90
+msgid "Show/Hide Discount Notice"
+msgstr ""
+
+#: inc/modules/class-discount.php:100
+msgid "Message to display as Notice in Cart and Checkout Page"
+msgstr ""
+
+#: inc/modules/class-discount.php:206
+#, php-format
+msgid "%s : Number of Order(s) field cannot be empty"
+msgstr ""
+
+#: inc/modules/class-discount.php:211
+#, php-format
+msgid "%s : Total Amount field cannot be empty"
+msgstr ""
+
+#: inc/modules/class-discount.php:217
+#, php-format
+msgid "%s : From Date field cannot be empty"
+msgstr ""
+
+#: inc/modules/class-discount.php:222
+#, php-format
+msgid "%s : To Date field cannot be empty"
+msgstr ""
+
+#: inc/modules/class-discount.php:227
+#, php-format
+msgid "%s : Discount Valid on following Days cannot be empty"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:71
+#: premium/inc/class-hrwp-register-post-type.php:83
+msgid "Fund Transfer"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:107
+msgid "Fund Transfer Settings"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:111
+msgid "Enable Fund Transfer"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:113
+msgid "When enabled, users will be able to directly transfer their Wallet balance to other users in the site"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:118
+msgid "Minimum Amount for Wallet Transfer per Transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:120
+msgid "The minimum amount which can be transferred in a single transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:127
+msgid "Maximum Amount for Wallet Transfer per Transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:129
+msgid "The maximum amount which can be transferred in a single transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:136
+msgid "Max Number of Transactions per Day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:138
+msgid "The maximum number of wallet transfers which can be performed in a day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:145
+msgid "Maximum Number of Unique Transfers(unique users) per Day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:147
+msgid "The maximum number of transfers that can be made to one user in a day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:154
+msgid "Charge Wallet Transfer Fee"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:156
+msgid "When enabled, users can be charged a fee for transferring wallet balance"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:162
+msgid "Transfer Fee Type"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:173
+msgid "Transfer Fee Value"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:188
+msgid "Fund Request Settings"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:192
+msgid "Enable Fund Request"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:194
+msgid "When enabled, users will be able to request for funds from other users in the site"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:199
+msgid "Minimum Amount for Wallet Fund Request per Transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:201
+msgid "The minimum amount which can be requested in a single transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:208
+msgid "Maximum Amount for Wallet Fund Request per Transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:210
+msgid "The maximum amount which can be requested in a single transaction"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:217
+msgid "Maximum Number of Requests per Day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:219
+msgid "The maximum number of wallet requests which can be submitted in a day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:226
+msgid "Maximum Number of Unique Requests(unique users) per Day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:228
+msgid "The maximum number of requests that can be submitted to one user in a day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:242
+msgid "Restriction Settings"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:246
+#: premium/templates/dashboard/fund-request-form.php:22
+#: premium/templates/dashboard/fund-transfer-confirmation.php:18
+#: premium/templates/dashboard/fund-transfer-form.php:21
+msgid "User Selection"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:274
+msgid "Site Activity"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:279
+msgid "Choose an Option"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:280
+#: inc/modules/class-fund-transfer.php:288
+msgid "No of Days Registered"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:281
+msgid "Total Purchase Amount on the Site"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:282
+msgid "Total Number of Orders Placed"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:285
+msgid "This option controls the wallet transfer feature availability to the users based on their site activity"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:296
+msgid "Purchase Amount"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:304
+msgid "Order Placed"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:324
+msgid "Fund Transfer Messages"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:328
+msgid "Minimum Wallet Transfer Amount Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:330
+msgid "Error Message which has to be displayed when the user tries to transfer an amount which is less than the minimum transfer amount"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:335
+msgid "Maximum Wallet Transfer Amount Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:337
+msgid "Error Message which has to be displayed when the user tries to transfer an amount which is more than the maximum transfer amount"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:342
+msgid "Maximum Number of Transfers Per Day Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:344
+msgid "Error Message which has to be displayed when the user has exceeded the maximum number of transfers per day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:349
+msgid "Maximum Number of Unique Transfers(unique users) per Day  Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:351
+msgid "Error message which has to be displayed when the user has exceeded the maximum number of unique transfers per day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:356
+msgid "Transfer Restriction Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:358
+msgid "The maximum number of requests that can be Fund Transfer Restriction Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:365
+msgid "Fund Request Messages"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:369
+msgid "Minimum Wallet Transfer Amount Request Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:371
+msgid "Error Message which has to be displayed when the user tries to request an amount which is less than the minimum request amount"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:376
+msgid "Maximum Wallet Transfer Amount Request Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:378
+msgid "Error Message which has to be displayed when the user tries to request an amount which is more than the maximum request amount"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:383
+msgid "Maximum Number of Requests Per Day Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:385
+msgid "Error Message which has to be displayed when the user has exceeded the maximum number of requests per day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:390
+msgid "Maximum Number of Unique Requests(unique users) per Day  Error Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:392
+msgid "Error message which has to be displayed when the user has exceeded the maximum number of unique requests per day"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:397
+msgid "Request Restriction Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:399
+msgid "The maximum number of requests that can be Fund Request Restriction Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:412 inc/modules/class-gift-card.php:436
+msgid "Localization"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:416
+#: premium/inc/class-hrwp-register-post-status.php:59
+msgid "Transferred"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:422
+#: premium/inc/class-hrwp-register-post-status.php:115
+msgid "Received"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:435
+msgid "Alert Messages for Fund Request"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:439
+#: premium/templates/dashboard/fund-request-form.php:61
+#: premium/templates/dashboard/fund-transfer-view-transaction.php:36
+msgid "Request"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:445
+msgid "Transfered"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:457
+#: premium/templates/dashboard/fund-transfer-transaction-log.php:23
+msgid "Decline"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:470
+#: inc/modules/class-wallet-withdrawal.php:185
+msgid "OTP Settings"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:475
+#: inc/modules/class-wallet-withdrawal.php:190
+msgid "Send OTP via Email"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:482
+#: inc/modules/class-wallet-withdrawal.php:197
+msgid "Email Subject"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:489
+#: inc/modules/class-wallet-withdrawal.php:204
+msgid "Email Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:503
+#: inc/modules/class-wallet-withdrawal.php:218
+msgid "Send OTP via SMS"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:509
+#: inc/modules/class-wallet-withdrawal.php:224
+msgid "SMS Message"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:517
+msgid "OTP Length"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:524
+#: inc/modules/class-wallet-withdrawal.php:239
+msgid "OTP Validity in Minutes"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:881
+#: inc/modules/class-fund-transfer.php:1000
+msgid "Please select a Receiver"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:885
+msgid "Please enter funds to transfer"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:891
+#: inc/modules/class-fund-transfer.php:907
+msgid "Insufficient balance to transfer funds"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:940
+#: inc/modules/class-wallet-withdrawal.php:548
+msgid "OTP Expired"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:944
+#: inc/modules/class-wallet-withdrawal.php:552
+msgid "The OTP which you have given is incorrect. Please enter correct OTP"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:959
+msgid "Funds Transferred successfully"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:975
+#: inc/modules/class-wallet-withdrawal.php:595
+msgid "OTP is sent to your Email ID/Phone Number"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:1004
+msgid "Please enter funds to request"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:1044
+msgid "Funds requested successfully"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:1070
+msgid "Invalid Request ID"
+msgstr ""
+
+#: inc/modules/class-fund-transfer.php:1074
+msgid "Invalid Request Type"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:75 inc/modules/class-gift-card.php:539
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:131
+#: premium/inc/class-hrwp-register-post-type.php:168
+#: premium/inc/hrwp-gift-card-pdf-handler.php:81
+#: premium/inc/hrwp-gift-card-pdf-handler.php:187
+#: premium/inc/hrwp-gift-card-pdf-handler.php:202
+#: premium/templates/dashboard/gift-card-listing-received.php:20
+#: premium/templates/dashboard/gift-card-listing-sent.php:20
+msgid "Gift Card"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:122
+msgid "Gift Card Amount Type"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:128
+#: inc/modules/class-wallet-auto-topup.php:93
+#: inc/modules/class-wallet-auto-topup.php:129
+msgid "User-Defined"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:129
+#: inc/modules/class-wallet-auto-topup.php:92
+#: inc/modules/class-wallet-auto-topup.php:128
+msgid "Predefined"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:130
+#: inc/modules/class-wallet-auto-topup.php:94
+#: inc/modules/class-wallet-auto-topup.php:130
+msgid "Both"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:134
+#: inc/modules/class-wallet-auto-topup.php:98
+#: inc/modules/class-wallet-auto-topup.php:134
+msgid "Predefined Amounts"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:142
+msgid "Minimum Gift Card Amount"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:150
+msgid "Maximum Gift Card Amount"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:158
+msgid "Gift Card Product"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:190
+msgid "Gift Card Expiry in days"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:197
+msgid "Payment Gateway(s) to display at checkout for sending a Gift Card"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:205
+msgid "Gift Card will be sent to users when the order status reaches"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:218
+msgid "Gift Card Settings"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:222
+msgid "Gift Card Type"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:227
+msgid "Numeric"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:228
+msgid "Alphanumeric"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:232
+msgid "Exclude Alphabates"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:239 inc/modules/class-gift-card.php:286
+msgid "Character Count"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:240 inc/modules/class-gift-card.php:287
+#: inc/modules/class-wallet-account-statement.php:138
+msgid "character count excluding prefix and suffix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:245
+msgid "Character count excluding prefix and suffix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:248
+msgid "Prefix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:254
+msgid "Suffix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:265
+msgid "Gift Card File Name Settings"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:269
+#: inc/modules/class-wallet-account-statement.php:120
+msgid "File Name Type"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:279
+#: inc/modules/class-wallet-account-statement.php:130
+msgid "Format"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:283
+msgid "Y Year , m Month , d Day , h Hours , i Minutes , s Seconds"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:293
+#: inc/modules/class-wallet-account-statement.php:144
+msgid "Character count excluding prefix and sufix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:296
+msgid "File Name Prefix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:303
+msgid "File Name Suffix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:310
+msgid "Sequence Starting Number"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:311 inc/modules/class-gift-card.php:317
+#: inc/modules/class-wallet-account-statement.php:162
+#: inc/modules/class-wallet-account-statement.php:168
+msgid "If prefix is given, then this number will come after prefix"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:325
+msgid "Gift Card PDF Settings"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:329
+#: inc/modules/class-wallet-account-statement.php:194
+msgid "Logo"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:332
+msgid "Browse"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:335
+#: inc/modules/class-wallet-account-statement.php:199
+msgid "Logo Maximum Width(in %)"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:341
+#: inc/modules/class-wallet-account-statement.php:205
+msgid "Admin Details Section Heading"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:346
+#: inc/modules/class-wallet-account-statement.php:211
+msgid "Admin Details"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:352
+msgid "Sender Details Section Heading"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:368
+msgid "Gift Card Form Messages"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:372
+msgid "Error Message to display when a user enters the invalid email id"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:378
+msgid "Error Message to display when a user didn't enter the name"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:384
+msgid "Error Message to display when the user didn't enter the amount"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:390
+msgid "Error Message to display when a user enters less than Minimum Amount configured"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:396
+msgid "Error Message to display when the user enters more than Maximum Amount configured"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:403
+msgid "Gift Card Redeem Messages"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:407
+msgid "Error Message to display when a user enters the invalid Gift Card"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:413
+msgid "Error Message to display when a user tries to redeem the Gift Card during maximum wallet threshold reaching"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:419
+msgid "Error Message to display when a user tries to redeem the Gift Card during maximum wallet threshold reached"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:425
+msgid "Message to display when a user successfully redeem the Gift Card"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:440
+msgid "Gift Card Redeemed Successfully"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:690
+msgid "Cannot add Other Product While Gift Product in Cart"
+msgstr ""
+
+#: inc/modules/class-gift-card.php:917
+msgid "Code Expired"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:81
+msgid "Security Settings"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:115
+#: inc/modules/class-security-settings.php:256
+msgid "Wallet Top-up Restriction"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:119
+msgid "Block Wallet Top-up for the day when a user tries to add funds to their wallet multiple times on a day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:125
+msgid "Maximum No.of Top-up"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:133
+#: inc/modules/class-wallet-auto-topup.php:113
+msgid "Maximum Top-up Amount"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:150
+msgid "Block Wallet Usage for the day when a user tries to use wallet funds multiple times on a day(Applies to both Partial Usage and Wallet Payment Gateway)"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:156
+msgid "Maximum No.of Usage"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:164
+msgid "Maximum Usage Amount"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:178
+#: inc/modules/class-security-settings.php:316
+msgid "Wallet Cashback Restriction"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:182
+msgid "Stop Issuing cashback to the user when getting multiple cashback in a day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:188
+msgid "Maximum No.of Cashback"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:196
+msgid "Cashback Amount"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:211
+#: inc/modules/class-security-settings.php:341
+msgid "Wallet Withdrawal Restriction"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:215
+msgid "Block Wallet Withdrawal Request for the day when a user tries to perform multiple requests within a day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:221
+msgid "Maximum No.of Requests"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:229
+msgid "Maximum Withdrawal Amount"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:237
+msgid "Minimum Number of Days the Account has to be active before Submitting Wallet Withdrawal Request"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:260
+msgid "Message to display when a user has reached the maximum number of top-up per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:266
+msgid "Message to display when a user has reached the maximum top-up amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:272
+msgid "Message to display when a user will be reaching the maximum top-up amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:278
+msgid "Message to display when a user tries to top-up more than the restricted amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:290
+msgid "Message to display when a user has reached the maximum number of wallet usage per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:296
+msgid "Message to display when a user has reached the maximum wallet usage per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:302
+msgid "Message to display when a user will be reaching the maximum wallet funds usage per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:308
+msgid "Message to display when a user tries to use the wallet funds more than the restricted amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:320
+msgid "Message to display when a user has got the maximum number of cashback per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:326
+msgid "Message to display when a user has got the maximum cashback amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:332
+msgid "Message to display when a user will get the maximum cashback amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:345
+msgid "Message to display when a user tries to give the maximum number of withdrawal request per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:351
+msgid "Message to display when a user has withdrawn the maximum withdrawal amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:357
+msgid "Message to display when a user will be reaching the maximum withdrawal amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:363
+msgid "Message to display when a user tries to withdraw the amount more than the restricted amount per day"
+msgstr ""
+
+#: inc/modules/class-security-settings.php:740
+#, php-format
+msgid "To withdraw, you must be a member on this site for %s days"
+msgstr ""
+
+#: inc/modules/class-sms.php:36
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:213
+#: inc/notifications/class-customer-gift-card-received.php:219
+msgid "SMS"
+msgstr ""
+
+#: inc/modules/class-sms.php:72
+#: inc/notifications/class-admin-funds-credited.php:162
+#: inc/notifications/class-admin-funds-debited.php:165
+#: inc/notifications/class-admin-funds-expired.php:180
+#: inc/notifications/class-admin-wallet-lock.php:178
+#: inc/notifications/class-admin-wallet-unlock.php:179
+#: inc/notifications/class-auto-topup-acknowledgement.php:176
+#: inc/notifications/class-auto-topup-cancelled.php:178
+#: inc/notifications/class-auto-topup-failure.php:176
+#: inc/notifications/class-auto-topup-success.php:177
+#: inc/notifications/class-customer-fund-received.php:168
+#: inc/notifications/class-customer-fund-request-approved.php:169
+#: inc/notifications/class-customer-fund-request-cancelled.php:166
+#: inc/notifications/class-customer-fund-request-declined.php:166
+#: inc/notifications/class-customer-fund-request-received.php:166
+#: inc/notifications/class-customer-fund-request-submitted.php:165
+#: inc/notifications/class-customer-fund-transfered.php:170
+#: inc/notifications/class-customer-funds-credited.php:160
+#: inc/notifications/class-customer-funds-debited.php:161
+#: inc/notifications/class-customer-funds-expired.php:181
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:181
+#: inc/notifications/class-customer-gift-card-received.php:175
+#: inc/notifications/class-customer-gift-card-redeemed.php:177
+#: inc/notifications/class-customer-gift-card-sent.php:179
+#: inc/notifications/class-customer-low-funds.php:193
+#: inc/notifications/class-customer-purchase-total-cashback.php:182
+#: inc/notifications/class-customer-topup-cashback.php:180
+#: inc/notifications/class-customer-wallet-lock.php:175
+#: inc/notifications/class-customer-wallet-unlock.php:179
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:169
+#: inc/notifications/class-customer-withdrawal-rejected.php:169
+#: inc/notifications/class-customer-withdrawal-success.php:169
+msgid "SMS Settings"
+msgstr ""
+
+#: inc/modules/class-sms.php:76
+msgid "From Number"
+msgstr ""
+
+#: inc/modules/class-sms.php:78
+msgid "The Number from which the SMS should be sent."
+msgstr ""
+
+#: inc/modules/class-sms.php:83
+msgid "Admin Mobile Number"
+msgstr ""
+
+#: inc/modules/class-sms.php:85
+msgid "The Mobile Number should be entered with Country Code."
+msgstr ""
+
+#: inc/modules/class-sms.php:90
+msgid "SMS API"
+msgstr ""
+
+#: inc/modules/class-sms.php:92
+msgid "Choose the API through which the SMS should be sent."
+msgstr ""
+
+#: inc/modules/class-sms.php:97
+msgid "Twilio"
+msgstr ""
+
+#: inc/modules/class-sms.php:98
+msgid "Nexmo"
+msgstr ""
+
+#: inc/modules/class-sms.php:102
+msgid "Twilio Account SID"
+msgstr ""
+
+#: inc/modules/class-sms.php:109
+msgid "Twilio Account Auth Token"
+msgstr ""
+
+#: inc/modules/class-sms.php:116
+msgid "Nexmo Key"
+msgstr ""
+
+#: inc/modules/class-sms.php:123
+msgid "Nexmo Secret"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:45
+msgid "Wallet Account Statement"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:83
+msgid "Statement Frequency"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:88
+#: inc/modules/class-wallet-account-statement.php:309
+msgid "Weekly"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:89
+#: inc/modules/class-wallet-account-statement.php:314
+msgid "Monthly"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:90
+#: inc/modules/class-wallet-account-statement.php:319
+msgid "Yearly"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:92
+msgid "This option controls how frequently the Wallet statements has to be mailed to the users"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:95
+msgid "Send Yearly Notifications"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:99
+msgid "Enable this option if you want to send yearly wallet statements to your users apart from the weekly / monthly statements"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:102
+msgid "Yearly Wallet Statement Notification Date"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:106
+msgid "Yearly Wallet Statements will be sent on the selected date"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:116
+msgid "Wallet Statement Settings"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:134
+msgid "Y – Year , m – Month , d – Day , h – Hours , i – Minutes , s – Seconds"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:137
+msgid "Statement Name Character Count"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:147
+msgid "Statement File Name Prefix"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:154
+msgid "Statement File Name Suffix"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:161
+msgid "Wallet Statement Sequence Starting Number"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:171
+msgid "Wallet Statement Number Label"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:177
+msgid "Statement Date Label"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:190
+msgid "Admin Section Customization"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:270
+msgid "please enter intervals"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:381
+msgid "month"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:398
+msgid "week"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:413
+msgid "year"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:542
+msgid "No wallet found"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:552
+#: premium/templates/dashboard/account-statement.php:19
+msgid "Last 1 Month"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:557
+#: premium/templates/dashboard/account-statement.php:26
+msgid "Last 3 Months"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:562
+#: premium/templates/dashboard/account-statement.php:32
+msgid "Last 6 Months"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:567
+#: premium/templates/dashboard/account-statement.php:38
+msgid "Last 12 Months"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:587
+msgid "Email sent successfully"
+msgstr ""
+
+#: inc/modules/class-wallet-account-statement.php:600
+msgid "Account Statement"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:47
+#: inc/modules/class-wallet-auto-topup.php:414
+#: inc/modules/class-wallet-auto-topup.php:468
+msgid "Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:85
+msgid "Top-up Amount Type"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:91
+#: inc/modules/class-wallet-auto-topup.php:127
+msgid "Choose an option"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:105
+msgid "Minimum Top-up Amount"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:110
+msgid "The minimum amount which the user can set for Auto Top-Up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:118
+msgid "The maximum amount which the user can set for Auto Top-Up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:121
+msgid "Threshold Amount Type"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:141
+msgid "Minimum Threshold Amount"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:150
+msgid "The minimum amount which the user can set as Wallet Threshold"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:153
+msgid "Maximum Threshold Amount"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:162
+msgid "The maximum amount which the user can set as Wallet Threshold"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:165
+msgid "Display Terms and Conditions Link"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:169
+msgid "When enabled, a Terms and Conditions link will be displayed to the user."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:172
+msgid "Terms and Conditions URL"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:179
+msgid "Terms and Conditions Content"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:313
+msgid "User should agree to the terms and conditions."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:317
+msgid "Auto Top-up amount is required."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:321
+msgid "Threshold amount is required."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:325
+msgid "Auto topup amount should be greater than the minimum amount"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:330
+msgid "You cannot authorize for Wallet Auto Topup when other products are in Cart. And so your previous cart is removed."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:345
+msgid "Something went wrong while authorizing future payments."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:348
+msgid "Complete your authorization for future payments to automatically Top-up."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:356
+msgid "We were unable to process your cancel auto Top-up request, please try again."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:369
+msgid "You have successfully cancelled your auto Top-up authorization."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:467
+#: inc/modules/class-wallet-auto-topup.php:469
+msgid "Wallet Auto Top-ups"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:471
+msgid "Add Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:472
+msgid "Add New Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:474
+msgid "Edit Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:475
+msgid "New Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:476
+#: inc/modules/class-wallet-auto-topup.php:477
+#: inc/modules/class-wallet-auto-topup.php:478
+msgid "View Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:479
+msgid "Search Wallet Auto Top-ups"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:480
+msgid "No Data found"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:481
+msgid "No Data found in trash"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:483
+msgid "Here you can able to see list of Wallet Auto Top-ups"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:513
+msgid "You cannot add the product to cart since the Wallet Auto Topup product is already in Cart"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:531
+#, php-format
+msgid "%s will be charged as auto Top-up amount."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:603
+msgid "User has authorized for Wallet Auto Top-up"
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:699
+msgid "Top-up amount should be greater than zero."
+msgstr ""
+
+#: inc/modules/class-wallet-auto-topup.php:709
+msgid "Unable to Auto Top-up the wallet"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:43
+#: premium/inc/class-hrwp-register-post-type.php:117
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:24
+msgid "Wallet Withdrawal"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:84
+msgid "Minimum Amount for Wallet Withdrawal"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:89
+msgid "The minimum amount which the user can request for withdrawal"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:92
+msgid "Maximum Amount for Wallet Withdrawal"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:97
+msgid "The maximum amount which the user can request for withdrawal"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:100
+msgid "Charge Withdrawal Fee"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:104
+msgid "When enabled, users can be charged a withdrawal fee"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:107
+msgid "Fee Type"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:116
+msgid "Choose whether the withdrawal fee should be fixed fee or a percentage of the withdrawal amount"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:119
+msgid "Fee"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:132
+msgid "Form Fields"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:136
+msgid "Current Wallet Balance Label"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:142
+msgid "Enter the Amount for Withdrawal Label"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:148
+msgid "Withdrawal Fee Label"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:154
+msgid "Reason for Withdrawal Label"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:160
+msgid "Payment Method Label"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:171
+msgid "Payment Settings"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:232
+msgid "Number of Characters"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:304
+msgid "Cannot Update Status"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:350
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:501
+msgid "Please enter the amount to withdraw"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:508
+msgid "Insufficient balance to withdraw funds"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:513
+#, php-format
+msgid "Please enter amount more than %s to withdraw"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:516
+#, php-format
+msgid "Please enter amount less than %s to withdraw"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:525
+msgid "Please enter your PayPal Account Email ID"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:530
+msgid "Please enter a valid PayPal Email ID"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:533
+msgid "Please enter your Bank Account details"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:580
+msgid "Amount withdrawn successfully"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:712
+msgid "Wallet Withdrawal Logs"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:719
+msgid "Export CSV for Paypal Mass Payment"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:762
+msgid "Enable atleast one payment method"
+msgstr ""
+
+#: inc/modules/class-wallet-withdrawal.php:772
+msgid "Fee value is mandatory"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:20
+#: inc/modules/views/discount-rules.php:20
+msgid "User Filter"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:22
+#: inc/modules/views/discount-rules.php:22
+msgid "All User(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:23
+#: inc/modules/views/discount-rules.php:23
+msgid "Include User(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:24
+#: inc/modules/views/discount-rules.php:24
+msgid "Exclude User(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:25
+#: inc/modules/views/cashback-rules.php:58
+#: inc/modules/views/discount-rules.php:25
+#: inc/modules/views/discount-rules.php:58
+msgid "Include User Role(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:26
+#: inc/modules/views/cashback-rules.php:66
+#: inc/modules/views/discount-rules.php:26
+#: inc/modules/views/discount-rules.php:66
+msgid "Exclude User Role(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:30
+#: inc/modules/views/discount-rules.php:30
+msgid "Include User"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:36
+#: inc/modules/views/cashback-rules.php:50
+#: inc/modules/views/discount-rules.php:36
+#: inc/modules/views/discount-rules.php:50
+msgid "Search a User"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:44
+#: inc/modules/views/discount-rules.php:44
+msgid "Exclude User"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:74
+#: inc/modules/views/discount-rules.php:74
+msgid "Product Filter"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:76
+#: inc/modules/views/discount-rules.php:76
+msgid "All Product(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:77
+#: inc/modules/views/cashback-rules.php:88
+#: inc/modules/views/discount-rules.php:77
+#: inc/modules/views/discount-rules.php:88
+msgid "Include Product(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:78
+#: inc/modules/views/cashback-rules.php:102
+#: inc/modules/views/discount-rules.php:78
+#: inc/modules/views/discount-rules.php:102
+msgid "Exclude Product(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:79
+#: inc/modules/views/discount-rules.php:79
+msgid "All Categories(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:80
+#: inc/modules/views/cashback-rules.php:116
+#: inc/modules/views/discount-rules.php:80
+#: inc/modules/views/discount-rules.php:116
+msgid "Include Categories"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:81
+#: inc/modules/views/cashback-rules.php:124
+#: inc/modules/views/discount-rules.php:81
+#: inc/modules/views/discount-rules.php:124
+msgid "Exclude Categories"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:82
+#: inc/modules/views/discount-rules.php:82
+msgid "All Tag(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:83
+#: inc/modules/views/cashback-rules.php:132
+#: inc/modules/views/discount-rules.php:83
+#: inc/modules/views/discount-rules.php:132
+msgid "Include Tag(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:84
+#: inc/modules/views/cashback-rules.php:140
+#: inc/modules/views/discount-rules.php:84
+#: inc/modules/views/discount-rules.php:140
+msgid "Exclude Tag(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:94
+#: inc/modules/views/cashback-rules.php:108
+#: inc/modules/views/discount-rules.php:94
+#: inc/modules/views/discount-rules.php:108
+msgid "Search a Product"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:148
+#: inc/modules/views/discount-rules.php:148
+msgid "Purchase History"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:150
+#: inc/modules/views/discount-rules.php:150
+msgid "Minimum Number of Successful Orders"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:151
+#: inc/modules/views/discount-rules.php:151
+msgid "Minimum Amount Spent on site"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:155
+#: inc/modules/views/discount-rules.php:155
+msgid "Number of Order(s)"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:159
+#: inc/modules/views/discount-rules.php:159
+msgid "Total Amount"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:185
+msgid "Cashback Valid on following Days"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:203
+msgid "Cashback for"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:205
+#: inc/modules/views/cashback-rules.php:213
+#: inc/modules/views/discount-rules.php:206
+msgid "Order Total"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:206
+msgid "Wallet Top-up"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:210
+msgid "Cashback based on"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:212
+#: inc/modules/views/discount-rules.php:205
+msgid "Order Subtotal"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:219
+#: inc/modules/views/discount-rules.php:212
+msgid "Min Order Total"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:220
+#: inc/modules/views/discount-rules.php:213
+msgid "Max Order Total"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:221
+#: inc/modules/views/cashback-rules.php:269
+msgid "Cashback Type"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:222
+#: inc/modules/views/cashback-rules.php:270
+#: inc/modules/views/discount-rules.php:215
+msgid "Value"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:259
+#: inc/modules/views/cashback-rules.php:307
+#: inc/modules/views/discount-rules.php:252
+msgid "Add Rule"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:267
+msgid "Min Wallet Amount"
+msgstr ""
+
+#: inc/modules/views/cashback-rules.php:268
+msgid "Max Wallet Amount"
+msgstr ""
+
+#: inc/modules/views/discount-rules.php:185
+msgid "Discount Valid on following Days"
+msgstr ""
+
+#: inc/modules/views/discount-rules.php:203
+msgid "Discount based on"
+msgstr ""
+
+#: inc/modules/views/discount-rules.php:214
+msgid "Discount Type"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:9
+msgid "Edit Wallet Withdrawal"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:17
+#: inc/notifications/class-admin-funds-credited.php:191
+#: inc/notifications/class-admin-funds-credited.php:194
+#: inc/notifications/class-admin-funds-credited.php:197
+#: inc/notifications/class-admin-funds-credited.php:200
+#: inc/notifications/class-admin-funds-debited.php:194
+#: inc/notifications/class-admin-funds-debited.php:197
+#: inc/notifications/class-admin-funds-debited.php:200
+#: inc/notifications/class-admin-funds-debited.php:203
+#: inc/notifications/class-admin-funds-debited.php:206
+#: inc/notifications/class-admin-funds-expired.php:209
+#: inc/notifications/class-admin-funds-expired.php:212
+#: inc/notifications/class-admin-funds-expired.php:215
+#: inc/notifications/class-admin-wallet-lock.php:207
+#: inc/notifications/class-admin-wallet-lock.php:210
+#: inc/notifications/class-admin-wallet-lock.php:213
+#: inc/notifications/class-admin-wallet-unlock.php:208
+#: inc/notifications/class-admin-wallet-unlock.php:211
+#: inc/notifications/class-admin-wallet-unlock.php:214
+#: inc/notifications/class-admin-withdrawal-request.php:162
+#: inc/notifications/class-admin-withdrawal-request.php:165
+#: inc/notifications/class-auto-topup-cancelled.php:207
+#: inc/notifications/class-auto-topup-cancelled.php:210
+#: inc/notifications/class-auto-topup-cancelled.php:213
+#: inc/notifications/class-auto-topup-failure.php:205
+#: inc/notifications/class-auto-topup-failure.php:208
+#: inc/notifications/class-auto-topup-failure.php:211
+#: inc/notifications/class-auto-topup-failure.php:214
+#: inc/notifications/class-auto-topup-success.php:206
+#: inc/notifications/class-auto-topup-success.php:209
+#: inc/notifications/class-auto-topup-success.php:212
+#: inc/notifications/class-auto-topup-success.php:215
+#: inc/notifications/class-auto-topup-success.php:218
+#: inc/notifications/class-customer-funds-credited.php:190
+#: inc/notifications/class-customer-funds-credited.php:193
+#: inc/notifications/class-customer-funds-credited.php:196
+#: inc/notifications/class-customer-funds-debited.php:190
+#: inc/notifications/class-customer-funds-debited.php:193
+#: inc/notifications/class-customer-funds-debited.php:196
+#: inc/notifications/class-customer-funds-expired.php:210
+#: inc/notifications/class-customer-funds-expired.php:213
+#: inc/notifications/class-customer-funds-expired.php:216
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:210
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:225
+#: inc/notifications/class-customer-gift-card-received.php:204
+#: inc/notifications/class-customer-gift-card-received.php:207
+#: inc/notifications/class-customer-gift-card-received.php:210
+#: inc/notifications/class-customer-gift-card-received.php:222
+#: inc/notifications/class-customer-gift-card-redeemed.php:205
+#: inc/notifications/class-customer-gift-card-redeemed.php:208
+#: inc/notifications/class-customer-gift-card-sent.php:209
+#: inc/notifications/class-customer-gift-card-sent.php:212
+#: inc/notifications/class-customer-gift-card-sent.php:215
+#: inc/notifications/class-customer-gift-card-sent.php:224
+#: inc/notifications/class-customer-gift-card-sent.php:227
+#: inc/notifications/class-customer-low-funds.php:222
+#: inc/notifications/class-customer-low-funds.php:225
+#: inc/notifications/class-customer-wallet-unlock.php:208
+#: inc/notifications/class-customer-wallet-unlock.php:211
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:162
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:165
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:199
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:202
+#: inc/notifications/class-customer-withdrawal-rejected.php:199
+#: inc/notifications/class-customer-withdrawal-rejected.php:202
+#: inc/notifications/class-customer-withdrawal-success.php:199
+#: inc/notifications/class-customer-withdrawal-success.php:202
+#: inc/notifications/class-customer-year-wallet-account-statement.php:160
+#: inc/notifications/class-customer-year-wallet-account-statement.php:163
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:121
+msgid "Email"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:21
+#: premium/templates/dashboard/wallet-withdrawal-confirmation.php:17
+msgid "Withdrawal Amount"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:25
+msgid "Withdrawal Fee"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:33
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:123
+msgid "Payment Method"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:38
+msgid "Bank Details"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:43
+msgid "PayPal Email ID"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:52
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:167
+#: premium/inc/class-hrwp-register-post-status.php:45
+msgid "Paid"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:56
+msgid "UnPaid"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:57
+msgid "Inprogress"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:70
+msgid "Back"
+msgstr ""
+
+#: inc/modules/views/edit-withdrawal.php:75
+msgid "Update"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:24
+msgid "Admin - Wallet Funds Credited"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:135
+#: inc/notifications/class-admin-funds-debited.php:138
+#: inc/notifications/class-admin-funds-expired.php:153
+#: inc/notifications/class-admin-wallet-lock.php:151
+#: inc/notifications/class-admin-wallet-unlock.php:152
+#: inc/notifications/class-auto-topup-acknowledgement.php:150
+#: inc/notifications/class-auto-topup-cancelled.php:152
+#: inc/notifications/class-auto-topup-failure.php:150
+#: inc/notifications/class-auto-topup-success.php:151
+#: inc/notifications/class-customer-fund-received.php:142
+#: inc/notifications/class-customer-fund-request-approved.php:143
+#: inc/notifications/class-customer-fund-request-cancelled.php:140
+#: inc/notifications/class-customer-fund-request-declined.php:140
+#: inc/notifications/class-customer-fund-request-received.php:140
+#: inc/notifications/class-customer-fund-request-submitted.php:139
+#: inc/notifications/class-customer-fund-transfered.php:143
+#: inc/notifications/class-customer-funds-credited.php:133
+#: inc/notifications/class-customer-funds-debited.php:134
+#: inc/notifications/class-customer-funds-expired.php:154
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:147
+#: inc/notifications/class-customer-gift-card-received.php:148
+#: inc/notifications/class-customer-gift-card-redeemed.php:150
+#: inc/notifications/class-customer-gift-card-sent.php:152
+#: inc/notifications/class-customer-low-funds.php:166
+#: inc/notifications/class-customer-purchase-total-cashback.php:155
+#: inc/notifications/class-customer-topup-cashback.php:153
+#: inc/notifications/class-customer-wallet-lock.php:148
+#: inc/notifications/class-customer-wallet-unlock.php:152
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:142
+#: inc/notifications/class-customer-withdrawal-rejected.php:142
+#: inc/notifications/class-customer-withdrawal-success.php:142
+msgid "Send Mail"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:142
+#: inc/notifications/class-admin-funds-debited.php:145
+#: inc/notifications/class-admin-funds-expired.php:160
+#: inc/notifications/class-admin-wallet-lock.php:158
+#: inc/notifications/class-admin-wallet-unlock.php:159
+#: inc/notifications/class-admin-withdrawal-request.php:137
+#: inc/notifications/class-auto-topup-acknowledgement.php:157
+#: inc/notifications/class-auto-topup-cancelled.php:159
+#: inc/notifications/class-auto-topup-failure.php:157
+#: inc/notifications/class-auto-topup-success.php:158
+#: inc/notifications/class-customer-fund-received.php:149
+#: inc/notifications/class-customer-fund-request-approved.php:150
+#: inc/notifications/class-customer-fund-request-cancelled.php:147
+#: inc/notifications/class-customer-fund-request-declined.php:147
+#: inc/notifications/class-customer-fund-request-received.php:147
+#: inc/notifications/class-customer-fund-request-submitted.php:146
+#: inc/notifications/class-customer-fund-transfered.php:150
+#: inc/notifications/class-customer-funds-credited.php:140
+#: inc/notifications/class-customer-funds-debited.php:141
+#: inc/notifications/class-customer-funds-expired.php:161
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:161
+#: inc/notifications/class-customer-gift-card-received.php:155
+#: inc/notifications/class-customer-gift-card-redeemed.php:157
+#: inc/notifications/class-customer-gift-card-sent.php:159
+#: inc/notifications/class-customer-low-funds.php:173
+#: inc/notifications/class-customer-purchase-total-cashback.php:162
+#: inc/notifications/class-customer-topup-cashback.php:160
+#: inc/notifications/class-customer-wallet-lock.php:155
+#: inc/notifications/class-customer-wallet-unlock.php:159
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:135
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:149
+#: inc/notifications/class-customer-withdrawal-rejected.php:149
+#: inc/notifications/class-customer-withdrawal-success.php:149
+#: inc/notifications/class-customer-year-wallet-account-statement.php:133
+msgid "Subject"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:166
+#: inc/notifications/class-admin-funds-debited.php:169
+#: inc/notifications/class-admin-funds-expired.php:184
+#: inc/notifications/class-admin-wallet-lock.php:182
+#: inc/notifications/class-admin-wallet-unlock.php:183
+#: inc/notifications/class-auto-topup-acknowledgement.php:180
+#: inc/notifications/class-auto-topup-cancelled.php:182
+#: inc/notifications/class-auto-topup-failure.php:180
+#: inc/notifications/class-auto-topup-success.php:181
+#: inc/notifications/class-customer-fund-received.php:172
+#: inc/notifications/class-customer-fund-request-approved.php:173
+#: inc/notifications/class-customer-fund-request-cancelled.php:170
+#: inc/notifications/class-customer-fund-request-declined.php:170
+#: inc/notifications/class-customer-fund-request-received.php:170
+#: inc/notifications/class-customer-fund-request-submitted.php:169
+#: inc/notifications/class-customer-fund-transfered.php:174
+#: inc/notifications/class-customer-funds-credited.php:164
+#: inc/notifications/class-customer-funds-debited.php:165
+#: inc/notifications/class-customer-funds-expired.php:185
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:185
+#: inc/notifications/class-customer-gift-card-received.php:179
+#: inc/notifications/class-customer-gift-card-redeemed.php:181
+#: inc/notifications/class-customer-gift-card-sent.php:183
+#: inc/notifications/class-customer-low-funds.php:197
+#: inc/notifications/class-customer-purchase-total-cashback.php:186
+#: inc/notifications/class-customer-topup-cashback.php:184
+#: inc/notifications/class-customer-wallet-lock.php:179
+#: inc/notifications/class-customer-wallet-unlock.php:183
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:173
+#: inc/notifications/class-customer-withdrawal-rejected.php:173
+#: inc/notifications/class-customer-withdrawal-success.php:173
+msgid "Send SMS"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:192
+#: inc/notifications/class-admin-funds-debited.php:198
+msgid "Displays the Wallet transaction amount"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:195
+#: inc/notifications/class-admin-funds-expired.php:213
+#: inc/notifications/class-admin-wallet-lock.php:211
+#: inc/notifications/class-admin-wallet-unlock.php:212
+msgid "Displays the Wallet transaction date"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:198
+#: inc/notifications/class-admin-funds-debited.php:195
+#: inc/notifications/class-admin-funds-expired.php:210
+#: inc/notifications/class-admin-wallet-lock.php:208
+#: inc/notifications/class-admin-wallet-unlock.php:209
+#: inc/notifications/class-admin-withdrawal-request.php:166
+#: inc/notifications/class-auto-topup-acknowledgement.php:212
+#: inc/notifications/class-auto-topup-cancelled.php:211
+#: inc/notifications/class-auto-topup-failure.php:209
+#: inc/notifications/class-auto-topup-success.php:213
+#: inc/notifications/class-customer-fund-received.php:204
+#: inc/notifications/class-customer-fund-request-approved.php:205
+#: inc/notifications/class-customer-fund-request-cancelled.php:202
+#: inc/notifications/class-customer-fund-request-declined.php:202
+#: inc/notifications/class-customer-fund-request-received.php:202
+#: inc/notifications/class-customer-fund-request-submitted.php:201
+#: inc/notifications/class-customer-fund-transfered.php:207
+#: inc/notifications/class-customer-gift-card-received.php:208
+#: inc/notifications/class-customer-gift-card-redeemed.php:209
+#: inc/notifications/class-customer-gift-card-sent.php:213
+#: inc/notifications/class-customer-purchase-total-cashback.php:213
+#: inc/notifications/class-customer-topup-cashback.php:213
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:203
+#: inc/notifications/class-customer-withdrawal-rejected.php:203
+#: inc/notifications/class-customer-withdrawal-success.php:203
+msgid "Displays the Username"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-credited.php:201
+#: inc/notifications/class-admin-funds-debited.php:204
+#: inc/notifications/class-admin-funds-expired.php:216
+#: inc/notifications/class-admin-wallet-lock.php:214
+#: inc/notifications/class-admin-wallet-unlock.php:215
+#: inc/notifications/class-auto-topup-cancelled.php:214
+#: inc/notifications/class-auto-topup-failure.php:215
+#: inc/notifications/class-auto-topup-success.php:219
+#: inc/notifications/class-customer-fund-request-approved.php:211
+#: inc/notifications/class-customer-fund-transfered.php:213
+#: inc/notifications/class-customer-funds-credited.php:197
+#: inc/notifications/class-customer-funds-debited.php:197
+#: inc/notifications/class-customer-funds-expired.php:217
+#: inc/notifications/class-customer-wallet-unlock.php:212
+msgid "Displays the Wallet Balance"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-debited.php:24
+msgid "Admin - Wallet Funds Debited"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-debited.php:201
+msgid "Displays the Wallet Event"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-debited.php:207
+msgid "Displays the Wallet Expiry date"
+msgstr ""
+
+#: inc/notifications/class-admin-funds-expired.php:24
+msgid "Admin - Wallet Funds Expired"
+msgstr ""
+
+#: inc/notifications/class-admin-wallet-lock.php:23
+msgid "Admin - Wallet Lock"
+msgstr ""
+
+#: inc/notifications/class-admin-wallet-unlock.php:24
+msgid "Admin - Wallet Unlock"
+msgstr ""
+
+#: inc/notifications/class-admin-withdrawal-request.php:23
+msgid "Admin - Withdrawal Request"
+msgstr ""
+
+#: inc/notifications/class-admin-withdrawal-request.php:163
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:200
+#: inc/notifications/class-customer-withdrawal-rejected.php:200
+#: inc/notifications/class-customer-withdrawal-success.php:200
+msgid "Displays the Withdrawal Details"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-acknowledgement.php:24
+msgid "Auto Top-up Acknowledgement"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-acknowledgement.php:205
+#: inc/notifications/class-auto-topup-acknowledgement.php:208
+#: inc/notifications/class-auto-topup-acknowledgement.php:211
+#: inc/notifications/class-auto-topup-acknowledgement.php:214
+#: inc/notifications/class-customer-fund-received.php:197
+#: inc/notifications/class-customer-fund-received.php:200
+#: inc/notifications/class-customer-fund-received.php:203
+#: inc/notifications/class-customer-fund-received.php:206
+#: inc/notifications/class-customer-fund-request-approved.php:198
+#: inc/notifications/class-customer-fund-request-approved.php:201
+#: inc/notifications/class-customer-fund-request-approved.php:204
+#: inc/notifications/class-customer-fund-request-approved.php:207
+#: inc/notifications/class-customer-fund-request-approved.php:210
+#: inc/notifications/class-customer-fund-request-cancelled.php:195
+#: inc/notifications/class-customer-fund-request-cancelled.php:198
+#: inc/notifications/class-customer-fund-request-cancelled.php:201
+#: inc/notifications/class-customer-fund-request-cancelled.php:204
+#: inc/notifications/class-customer-fund-request-declined.php:195
+#: inc/notifications/class-customer-fund-request-declined.php:198
+#: inc/notifications/class-customer-fund-request-declined.php:201
+#: inc/notifications/class-customer-fund-request-declined.php:204
+#: inc/notifications/class-customer-fund-request-received.php:195
+#: inc/notifications/class-customer-fund-request-received.php:198
+#: inc/notifications/class-customer-fund-request-received.php:201
+#: inc/notifications/class-customer-fund-request-received.php:204
+#: inc/notifications/class-customer-fund-request-submitted.php:194
+#: inc/notifications/class-customer-fund-request-submitted.php:197
+#: inc/notifications/class-customer-fund-request-submitted.php:200
+#: inc/notifications/class-customer-fund-request-submitted.php:203
+#: inc/notifications/class-customer-fund-transfered.php:200
+#: inc/notifications/class-customer-fund-transfered.php:203
+#: inc/notifications/class-customer-fund-transfered.php:206
+#: inc/notifications/class-customer-fund-transfered.php:209
+#: inc/notifications/class-customer-fund-transfered.php:212
+#: inc/notifications/class-customer-fund-transfered.php:215
+#: inc/notifications/class-customer-purchase-total-cashback.php:212
+#: inc/notifications/class-customer-purchase-total-cashback.php:215
+#: inc/notifications/class-customer-purchase-total-cashback.php:218
+#: inc/notifications/class-customer-purchase-total-cashback.php:221
+#: inc/notifications/class-customer-purchase-total-cashback.php:224
+#: inc/notifications/class-customer-topup-cashback.php:209
+#: inc/notifications/class-customer-topup-cashback.php:212
+#: inc/notifications/class-customer-topup-cashback.php:215
+#: inc/notifications/class-customer-topup-cashback.php:218
+#: inc/notifications/class-customer-wallet-lock.php:204
+msgid "Email, SMS"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-acknowledgement.php:206
+#: inc/notifications/class-auto-topup-cancelled.php:208
+#: inc/notifications/class-auto-topup-failure.php:206
+#: inc/notifications/class-auto-topup-success.php:207
+#: inc/notifications/class-customer-fund-received.php:198
+#: inc/notifications/class-customer-fund-request-approved.php:199
+#: inc/notifications/class-customer-fund-request-cancelled.php:196
+#: inc/notifications/class-customer-fund-request-declined.php:196
+#: inc/notifications/class-customer-fund-request-received.php:196
+#: inc/notifications/class-customer-fund-request-submitted.php:195
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:211
+#: inc/notifications/class-customer-gift-card-received.php:205
+#: inc/notifications/class-customer-gift-card-redeemed.php:206
+#: inc/notifications/class-customer-gift-card-sent.php:210
+#: inc/notifications/class-customer-purchase-total-cashback.php:216
+#: inc/notifications/class-customer-topup-cashback.php:210
+#: inc/notifications/class-customer-wallet-lock.php:205
+msgid "Displays the Sitename"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-acknowledgement.php:209
+msgid "Displays the Auto Top-up amount"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-acknowledgement.php:215
+msgid "Displays the Wallet Balance Threshold"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-cancelled.php:24
+msgid "Auto Top-up Cancelled"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-failure.php:24
+msgid "Auto Top-up Failure"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-failure.php:212
+msgid "Displays the Failure Reason"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-success.php:24
+msgid "Auto Top-up Success"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-success.php:210
+msgid "Displays the Wallet Transaction amount"
+msgstr ""
+
+#: inc/notifications/class-auto-topup-success.php:216
+msgid "Displays the Date"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-received.php:24
+msgid "Customer - Fund Received"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-received.php:201
+#: inc/notifications/class-customer-fund-request-approved.php:202
+#: inc/notifications/class-customer-fund-transfered.php:204
+msgid "Displays the Transfered amount"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-received.php:207
+#: inc/notifications/class-customer-fund-request-approved.php:208
+#: inc/notifications/class-customer-fund-request-cancelled.php:205
+#: inc/notifications/class-customer-fund-request-received.php:205
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:220
+#: inc/notifications/class-customer-gift-card-received.php:217
+msgid "Displays the Sender Name"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-approved.php:24
+msgid "Customer - Fund Request Approved"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-cancelled.php:24
+msgid "Customer - Fund Request Cancelled"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-cancelled.php:199
+#: inc/notifications/class-customer-fund-request-declined.php:199
+#: inc/notifications/class-customer-fund-request-received.php:199
+#: inc/notifications/class-customer-fund-request-submitted.php:198
+msgid "Displays the Transfered Amount"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-declined.php:24
+msgid "Customer - Fund Request Declined"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-declined.php:205
+#: inc/notifications/class-customer-fund-request-submitted.php:204
+#: inc/notifications/class-customer-fund-transfered.php:210
+#: inc/notifications/class-customer-gift-card-redeemed.php:215
+#: inc/notifications/class-customer-gift-card-sent.php:222
+msgid "Displays the Receiver Name"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-received.php:24
+msgid "Customer - Fund Request Received"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-request-submitted.php:24
+msgid "Customer - Fund Request Submitted"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-transfered.php:24
+msgid "Customer - Fund Transferred"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-transfered.php:201
+msgid "Displays the Site Name"
+msgstr ""
+
+#: inc/notifications/class-customer-fund-transfered.php:216
+msgid "Displays the Transfered Date"
+msgstr ""
+
+#: inc/notifications/class-customer-funds-credited.php:24
+msgid "Customer - Wallet Funds Credited"
+msgstr ""
+
+#: inc/notifications/class-customer-funds-credited.php:191
+#: inc/notifications/class-customer-funds-debited.php:191
+#: inc/notifications/class-customer-funds-expired.php:211
+#: inc/notifications/class-customer-low-funds.php:223
+msgid "Displays the Wallet Transaction Amount"
+msgstr ""
+
+#: inc/notifications/class-customer-funds-credited.php:194
+#: inc/notifications/class-customer-funds-debited.php:194
+#: inc/notifications/class-customer-funds-expired.php:214
+#: inc/notifications/class-customer-low-funds.php:226
+#: inc/notifications/class-customer-wallet-unlock.php:209
+msgid "Displays the Transaction Date"
+msgstr ""
+
+#: inc/notifications/class-customer-funds-debited.php:24
+msgid "Customer - Wallet Funds Debited"
+msgstr ""
+
+#: inc/notifications/class-customer-funds-expired.php:24
+msgid "Customer - Wallet Funds Expired"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:24
+msgid "Customer - Gift Card Expiry"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:153
+msgid "Expiry Reminder in days"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:214
+#: inc/notifications/class-customer-gift-card-received.php:211
+#: inc/notifications/class-customer-gift-card-sent.php:216
+msgid "Displays the Gift Card"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:216
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:219
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:222
+#: inc/notifications/class-customer-gift-card-received.php:213
+#: inc/notifications/class-customer-gift-card-received.php:216
+#: inc/notifications/class-customer-gift-card-received.php:225
+#: inc/notifications/class-customer-gift-card-redeemed.php:211
+#: inc/notifications/class-customer-gift-card-redeemed.php:214
+#: inc/notifications/class-customer-gift-card-redeemed.php:217
+#: inc/notifications/class-customer-gift-card-sent.php:218
+#: inc/notifications/class-customer-gift-card-sent.php:221
+msgid "Email,SMS"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:217
+#: inc/notifications/class-customer-gift-card-received.php:214
+#: inc/notifications/class-customer-gift-card-redeemed.php:212
+#: inc/notifications/class-customer-gift-card-sent.php:219
+msgid "Displays the Gift Card Amount"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:223
+#: inc/notifications/class-customer-gift-card-received.php:220
+msgid "Displays the Expiry Date"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-expiry-reminder.php:226
+#: inc/notifications/class-customer-gift-card-received.php:226
+#: inc/notifications/class-customer-gift-card-redeemed.php:218
+#: inc/notifications/class-customer-gift-card-sent.php:228
+#: inc/notifications/class-customer-purchase-total-cashback.php:219
+#: inc/notifications/class-customer-topup-cashback.php:216
+msgid "Displays the Site Link"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-received.php:24
+msgid "Customer - Gift Card Received"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-received.php:223
+#: inc/notifications/class-customer-gift-card-sent.php:225
+msgid "Displays the Gift Card Sent Date"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-redeemed.php:24
+msgid "Customer - Gift Card Redeemed"
+msgstr ""
+
+#: inc/notifications/class-customer-gift-card-sent.php:24
+msgid "Customer - Gift Card Sent"
+msgstr ""
+
+#: inc/notifications/class-customer-low-funds.php:24
+msgid "Customer - Low Wallet Funds"
+msgstr ""
+
+#: inc/notifications/class-customer-purchase-total-cashback.php:24
+msgid "Customer - Purchase Total Cashback"
+msgstr ""
+
+#: inc/notifications/class-customer-purchase-total-cashback.php:147
+msgid "Email Settings - Purchase Total"
+msgstr ""
+
+#: inc/notifications/class-customer-purchase-total-cashback.php:222
+msgid "Displays the Order ID"
+msgstr ""
+
+#: inc/notifications/class-customer-purchase-total-cashback.php:225
+#: inc/notifications/class-customer-topup-cashback.php:219
+msgid "Displays the Cashback Amount Credited"
+msgstr ""
+
+#: inc/notifications/class-customer-topup-cashback.php:24
+msgid "Customer - Top-up Cashback"
+msgstr ""
+
+#: inc/notifications/class-customer-topup-cashback.php:145
+msgid "Email Settings - Wallet Top-up"
+msgstr ""
+
+#: inc/notifications/class-customer-wallet-lock.php:24
+msgid "Customer - Wallet Lock"
+msgstr ""
+
+#: inc/notifications/class-customer-wallet-unlock.php:24
+msgid "Customer - Wallet Unlock"
+msgstr ""
+
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:24
+msgid "Customer - Wallet Account Statement (Week , Month, Custom)"
+msgstr ""
+
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:163
+#: inc/notifications/class-customer-year-wallet-account-statement.php:161
+msgid "Displays From Date"
+msgstr ""
+
+#: inc/notifications/class-customer-week-month-custom-wallet-account-statement.php:166
+#: inc/notifications/class-customer-year-wallet-account-statement.php:164
+msgid "Displays To Date"
+msgstr ""
+
+#: inc/notifications/class-customer-withdrawal-acknowledgement.php:23
+msgid "Customer - Withdrawal Acknowledgement"
+msgstr ""
+
+#: inc/notifications/class-customer-withdrawal-rejected.php:23
+msgid "Customer - Withdrawal Rejected"
+msgstr ""
+
+#: inc/notifications/class-customer-withdrawal-success.php:23
+msgid "Customer - Withdrawal Success"
+msgstr ""
+
+#: inc/notifications/class-customer-year-wallet-account-statement.php:24
+msgid "Customer - Wallet Account Statement (Year)"
+msgstr ""
+
+#: inc/notifications/views/shortcodes-table.php:15
+msgid "Context where Shortcode is valid"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:59
+msgid "This includes the basics of what personal data your store may be collecting, storing and sharing. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary."
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:60
+msgid "WHAT DOES THE PLUGIN DO?"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:61
+msgid "Create Wallet for users and allows users to add funds to their wallet and use that funds to spend for future purchase on the site."
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:62
+msgid "WHAT WE COLLECT AND STORE?"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:63
+msgid "- USER ID"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:66
+msgid "The User id is used for identifying the user and record the wallet credits/debits"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:69
+msgid "- EMAIL ID"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:72
+msgid "The Email ID is collected for sending Wallet Email Notifications"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:75
+msgid "- PHONE NUMBER"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:78
+msgid "The Phone Number is collected for sending Wallet SMS Notifications"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:81
+msgid "- PAYMENT INFORMATION"
+msgstr ""
+
+#: inc/privacy/class-hrw-privacy.php:84
+msgid "The user's PayPal Email id and Bank Account details are collected for processing Withdrawal from their Wallet balance"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:131
+msgid "Activated Successfully"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:147
+msgid "Please provide Activated License Key"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:162
+msgid "Deactivated Successfully"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:194
+#: inc/upgrade/class-hrw-plugin-update-checker.php:163
+msgid "Invalid license key"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:195
+#: inc/upgrade/class-hrw-plugin-update-checker.php:164
+msgid "Already verified license key"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:196
+#: inc/upgrade/class-hrw-plugin-update-checker.php:165
+msgid "Support expired"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:197
+#: inc/upgrade/class-hrw-plugin-update-checker.php:166
+msgid "License key not verified"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:198
+#: inc/upgrade/class-hrw-plugin-update-checker.php:167
+msgid "Invalid credentials"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:199
+#: inc/upgrade/class-hrw-plugin-update-checker.php:168
+msgid "license count exist"
+msgstr ""
+
+#: inc/upgrade/class-hrw-license-handler.php:200
+msgid "Incorrect product"
+msgstr ""
+
+#: inc/upgrade/class-hrw-plugin-update-checker.php:119
+#, php-format
+msgid "There is a new version of %1$s available.<em>Automatic update is unavailable for this plugin.</em>"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:13
+msgid "License Information"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:15
+msgid "Purchase Code"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:23
+msgid "Where can I find my License Key?"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:25
+#, php-format
+msgid "%s to Hoicker"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:25
+msgid "Login"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:26
+msgid "Go to My Account page"
+msgstr ""
+
+#: inc/upgrade/views/license-verification.php:27
+msgid "In Orders section you will find your License Key"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:129
+#: premium/templates/dashboard/gift-card-listing-received.php:19
+msgid "Buyer Name"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:130
+#: premium/templates/dashboard/gift-card-form.php:24
+#: premium/templates/dashboard/gift-card-listing-sent.php:19
+msgid "Receiver Name"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:134
+#: premium/templates/dashboard/gift-card-listing-sent.php:23
+msgid "Purchased Date"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-gift-card-table.php:136
+#: premium/templates/dashboard/gift-card-listing-received.php:25
+#: premium/templates/dashboard/gift-card-listing-sent.php:25
+msgid "Redeemed Date"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:118
+msgid "Username and email"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:120
+#: premium/templates/dashboard/wallet-auto-topup-authorized-user.php:16
+msgid "Auto Top-up Amount"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:121
+#: premium/templates/dashboard/wallet-auto-topup-new-user.php:36
+msgid "Threshold Value"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:122
+msgid "Last Order"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:123
+msgid "Last Charge Date"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:267
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:165
+#: premium/inc/hrwp-post-functions.php:432
+msgid "All"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-auto-topup-table.php:269
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:168
+#: premium/inc/class-hrwp-register-post-status.php:171
+msgid "Cancelled"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:119
+msgid "Withdrawal ID"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:122
+msgid "Withdraw Amount"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:124
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:17
+msgid "Requested Date"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:125
+#: premium/templates/dashboard/fund-transfer-transactions.php:18
+msgid "Last Activity Date"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:148
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:238
+msgid "Restore"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:149
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:237
+msgid "Delete"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:151
+msgid "Move to Trash"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:166
+msgid "Un-Paid"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:242
+msgid "Trash"
+msgstr ""
+
+#: premium/inc/admin/wp-list-table/class-hrw-wallet-withdrawal-table.php:268
+msgid "Sorry, you are not allowed to edit this item."
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:73
+msgid "Unpaid"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:87
+msgid "New Request"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:101
+msgid "Requested"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:129
+msgid "Declined"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:143
+msgid "Request Declined"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:157
+msgid "In-progress"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:185
+msgid "Request Cancelled"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:199
+msgid "Created"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-status.php:213
+#: premium/inc/hrwp-post-functions.php:434
+msgid "Redeemed"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-type.php:100
+msgid "Fund Transfer Log"
+msgstr ""
+
+#: premium/inc/class-hrwp-register-post-type.php:151
+msgid "Cashback Log"
+msgstr ""
+
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:175
+#, php-format
+msgid "You cannot use more than %s"
+msgstr ""
+
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:179
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:188
+msgid "You have entered funds more than your cart total"
+msgstr ""
+
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:183
+msgid "You don't have sufficient wallet balance"
+msgstr ""
+
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:194
+msgid "Applied Successfully"
+msgstr ""
+
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:249
+msgid "Wallet amount removed"
+msgstr ""
+
+#: premium/inc/frontend/class-hrwp-wallet-usage.php:285
+msgid "Wallet Credits"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-api-request.php:39
+msgid "Cannot connect to Stripe."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-api-request.php:118
+#, php-format
+msgid "%1$s - Name: %2$s"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-api-request.php:322
+msgid "Something went wrong !!"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:23
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:66
+msgid "HRW - Stripe"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:24
+msgid "This gateway is used only for Wallet Auto Top-Up feature. It will not be displayed for normal checkout."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:59
+msgid "Stripe"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:63
+msgid "Title:"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:65
+msgid "This controls the title which the user see during checkout."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:71
+msgid "Pay with Stripe. You can pay with your credit card, debit card and master card   "
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:76
+msgid "Card Brands to be Displayed"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:86
+msgid "Selected card brands will be displayed next to gateway title."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:96
+msgid "Select Card Brands.."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:100
+msgid "Test Mode"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:102
+msgid "Turn on testing"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:103
+msgid "Use the test mode on Stripe dashboard to verify everything works before going live."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:108
+msgid "Stripe API Live Secret key"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:113
+msgid "Stripe API Live Publishable key"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:118
+msgid "Stripe API Test Secret key"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:123
+msgid "Stripe API Test Publishable key"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:127
+msgid "Checkout Mode"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:132
+msgid "Inline Credit Card Form"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:194
+msgid "Credit or debit card"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:203
+msgid "Card Number"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:222
+msgid "Card Code (CVC)"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:254
+msgid "Authorization failed: Invalid order !!"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:258
+msgid "Authorization failed: User should be logged in !!"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:262
+msgid "Authorization failed: Something went wrong while preparing authorization !!"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:266
+msgid "Authorization failed: Invalid payment method !!"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:317
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:549
+#, php-format
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:380
+msgid "Stripe: payment complete. Customer has approved for future payments."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:394
+#, php-format
+msgid "Stripe: awaiting confirmation by the customer to approve for future payments: %s."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:411
+#, php-format
+msgid "Stripe: SCA authentication failed. Reason: %s"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:411
+msgid "Stripe: SCA authentication failed."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:439
+msgid "Stripe: Intent verification failed."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:446
+msgid "Stripe: Invalid order while verifying intent confirmation."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:450
+msgid "Stripe: Invalid payment method while verifying intent confirmation."
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:534
+#, php-format
+msgid "Stripe: Couldn't find the customer %s"
+msgstr ""
+
+#: premium/inc/gateways/stripe/class-hrw-stripe-gateway.php:731
+msgid "Stripe: Couldn't find valid customer to attach payment method."
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:86
+msgid "Wallet Account Statements"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:197
+msgid "Account Statement for : "
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:197
+msgid " to "
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:228
+#, php-format
+msgid "Opening balance amount on this %s from (%s) to (%s)"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:229
+#, php-format
+msgid "Total Credit of this %s from (%s) to (%s)"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:230
+#, php-format
+msgid "Total Debit of this %s from (%s) to (%s)"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:231
+#, php-format
+msgid "at the end of this %s from (%s) to (%s)"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:268
+msgid "Date & Time"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:269
+msgid "Transaction Detials"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:271
+msgid "Action"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:290
+msgid "No transaction found"
+msgstr ""
+
+#: premium/inc/hrwp-account-statement-pdf-handler.php:295
+msgid "Transaction Logs"
+msgstr ""
+
+#: premium/inc/hrwp-common-functions.php:158
+#: premium/inc/hrwp-common-functions.php:240
+msgid "Bank Transfer"
+msgstr ""
+
+#: premium/inc/hrwp-common-functions.php:161
+#: premium/inc/hrwp-common-functions.php:241
+msgid "Paypal"
+msgstr ""
+
+#: premium/inc/hrwp-gift-card-pdf-handler.php:157
+#, php-format
+msgid "Your Friend Sent A Gift card to You %s"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:433
+msgid "Not Yet Redeemed"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:447
+#, php-format
+msgid "Transferred on %s"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:451
+#, php-format
+msgid "Received on %s"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:455
+#, php-format
+msgid "Request Sent on %s"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:459
+#, php-format
+msgid "New Request on %s"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:464
+#, php-format
+msgid "Request for %s was declined on %s"
+msgstr ""
+
+#: premium/inc/hrwp-post-functions.php:469
+#, php-format
+msgid "Request for %s was cancelled on %s"
+msgstr ""
+
+#: premium/templates/cart-partial-form.php:21
+#: premium/templates/checkout-partial-form.php:24
+msgid "Apply Funds"
+msgstr ""
+
+#: premium/templates/cart-partial-form.php:30
+#: premium/templates/checkout-partial-form.php:30
+msgid "Apply Wallet Funds"
+msgstr ""
+
+#: premium/templates/checkout-partial-form.php:18
+msgid "Have Funds ?"
+msgstr ""
+
+#: premium/templates/checkout-partial-form.php:19
+msgid "Click Here To Use Wallet Funds"
+msgstr ""
+
+#: premium/templates/dashboard/account-statement.php:44
+msgid "Custom Duration"
+msgstr ""
+
+#: premium/templates/dashboard/account-statement.php:53
+msgid "Email ID : "
+msgstr ""
+
+#: premium/templates/dashboard/account-statement.php:58
+msgid "Send Email"
+msgstr ""
+
+#: premium/templates/dashboard/cashback-logs.php:14
+#: premium/templates/dashboard/fund-transfer-transactions.php:14
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:14
+msgid "S.NO"
+msgstr ""
+
+#: premium/templates/dashboard/cashback-logs.php:14
+#: premium/templates/dashboard/fund-transfer-transactions.php:14
+#: premium/templates/dashboard/gift-card-listing-received.php:18
+#: premium/templates/dashboard/gift-card-listing-sent.php:18
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:14
+msgid "IDs"
+msgstr ""
+
+#: premium/templates/dashboard/cashback-logs.php:23
+msgid "Total Cashback Received"
+msgstr ""
+
+#: premium/templates/dashboard/fund-request-form.php:42
+#: premium/templates/dashboard/fund-transfer-form.php:41
+msgid "User Name"
+msgstr ""
+
+#: premium/templates/dashboard/fund-request-form.php:49
+msgid "Amount to Request"
+msgstr ""
+
+#: premium/templates/dashboard/fund-request-form.php:66
+msgid "Fund Request Restrict"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-confirmation.php:23
+#: premium/templates/dashboard/fund-transfer-form.php:48
+msgid "Available Amount"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-confirmation.php:27
+#: premium/templates/dashboard/fund-transfer-form.php:53
+msgid "Amount to Transfer"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-confirmation.php:33
+#: premium/templates/dashboard/fund-transfer-form.php:59
+msgid "Transfer Fee"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-confirmation.php:44
+#: premium/templates/dashboard/fund-transfer-confirmation.php:50
+#: premium/templates/dashboard/wallet-withdrawal-confirmation.php:53
+#: premium/templates/dashboard/wallet-withdrawal-confirmation.php:59
+msgid "Verify OTP"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-form.php:70
+#: premium/templates/dashboard/fund-transfer-transaction-log.php:22
+#: premium/templates/dashboard/fund-transfer-view-transaction.php:35
+msgid "Transfer"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-transactions.php:16
+msgid "Total Amount Transferred"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-transactions.php:17
+msgid "Total Amount Received"
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-transactions.php:25
+msgid "Transactions "
+msgstr ""
+
+#: premium/templates/dashboard/fund-transfer-transactions.php:57
+msgid " View Details"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:16
+msgid "Gift Card Form"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:20
+msgid "Receiver Email ID"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:21
+msgid "Enter recipient email id"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:25
+msgid "Enter recipient name"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:40
+msgid "Choose Amount"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:44
+msgid "Custom Amount"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-form.php:54
+msgid "Send"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-listing-received.php:23
+msgid "Received Date"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-listing-received.php:30
+msgid "Received Gift Card(s)"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-listing-sent.php:30
+msgid "Sent Gift Card(s)"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-redeem.php:16
+msgid "Gift Card Redeem Form"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-redeem.php:21
+msgid "Enter the gift card"
+msgstr ""
+
+#: premium/templates/dashboard/gift-card-redeem.php:24
+msgid "Redeem"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-auto-topup-authorized-user.php:20
+msgid "Threshold Amount"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-auto-topup-authorized-user.php:27
+msgid "Cancel Auto Top-up"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-auto-topup-new-user.php:16
+msgid "Amount for Auto Top-up"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-auto-topup-new-user.php:30
+#: premium/templates/dashboard/wallet-auto-topup-new-user.php:50
+msgid "Select custom amount.."
+msgstr ""
+
+#: premium/templates/dashboard/wallet-auto-topup-new-user.php:64
+msgid "Auto Top-up"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal-confirmation.php:41
+msgid "Paypal Email ID"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal-confirmation.php:47
+msgid "Bank Transfer Details"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:15
+msgid "Withdrawal  Amount"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal-transactions.php:18
+msgid "Processed Date"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal.php:55
+msgid "Enter the Bank Transfer Details"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal.php:59
+msgid "Enter the paypal Details"
+msgstr ""
+
+#: premium/templates/dashboard/wallet-withdrawal.php:65
+msgid "Withdrawal"
+msgstr ""
+
+#: premium/templates/remove-partial-usage-form.php:15
+msgid "Remove Wallet Credit"
+msgstr ""
+
+#: templates/dashboard/navigation.php:18
+msgid "Wallet Dashboard"
+msgstr ""
+
+#: templates/dashboard/profile.php:14
+msgid "Edit Profile"
+msgstr ""
+
+#: templates/dashboard/profile.php:23
+msgid "Enter Phone Number"
+msgstr ""
+
+#: templates/dashboard/profile.php:29
+msgid "Save Profile"
+msgstr ""
+
+#: templates/myaccount-wallet.php:25
+#, php-format
+msgid "To see more details, %s"
+msgstr ""
+
+#: templates/myaccount-wallet.php:25
+msgid "View Dashboard"
+msgstr ""
+
+#: templates/transaction-log-details.php:23
+msgid "Wallet Transactions"
+msgstr ""

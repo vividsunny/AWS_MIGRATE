@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.hrw_body_content .wrap{
+    font-family: 'Roboto', sans-serif;
+}
+.hrw_body_content .wrap h1{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #000056;
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+}
+.hrw_body_content .search-box input[type='search']{
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight:400 !important;
+    color:#666 !important;
+    padding:0px 0px 0px 10px !important;
+    outline: none !important;
+    margin-top:10px;
+}
+.hrw_body_content .search-box input[type='submit'], .hrw_add_submit_btn{
+    background: #7b1fa2;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 10px 0px 5px 5px !important;
+    line-height: normal !important;
+    height: auto !important;
+    font-weight: bold;    
+}
+.hrw_body_content .search-box input[type='search'],
+.hrw_body_content .hrw_datepicker{
+    width: 250px !important;
+    background:#fff !important;
+}
+.hrw_body_content .bulkactions select,
+.hrw_body_content .hrw_datepicker{
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    font-weight:400 !important;
+    color:#666 !important;
+    padding:0px 0px 0px 10px !important;
+    outline: none !important;
+}
+.hrw_body_content .bulkactions select{
+    background:#fff url('../../../assets/images/arrow-217-10.png') no-repeat right 10px center !important;
+    -moz-appearance: none;
+    position:relative;
+    appearance: none;
+    -webkit-appearance:none;
+    margin-bottom:5px;
+    width: 150px !important;
+}
+.hrw_body_content table.wp-list-table thead,
+.hrw_body_content table.wp-list-table tfoot{
+    background:#6e6c6a;
+    padding:5px;
+}
+.hrw_body_content table.wp-list-table thead tr th,
+.hrw_body_content table.wp-list-table tfoot tr th{
+    color:#fff !important;
+    font-weight:bold;
+    padding:5px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.hrw_body_content table.wp-list-table thead tr th a,
+.hrw_body_content table.wp-list-table tfoot tr th a{
+    color:#fff !important;
+}
+.hrw_body_content #search-submit:hover{
+    box-shadow:0 0 3px #000;
+    color:#fff;
+    border:none;
+}
+.hrw_body_content #doaction,
+.hrw_body_content #doaction2,
+.hrw_body_content #post-query-submit{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    background: #138f30;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 5px !important;
+    line-height: normal !important;
+    height: auto !important;
+    font-weight: bold;
+}
+.hrw_body_content #doaction:hover,
+.hrw_body_content #doaction2:hover,
+.hrw_body_content #post-query-submit:hover{
+    box-shadow:0 0 3px #000;
+}
+/*Status button design*/
+
+.hrw_status_label{
+    display: inline-flex;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin: 1em 0;
+    cursor: default !important;
+    white-space: nowrap;
+    max-width: 100%;
+    padding: 0.3em 1em;
+    font-weight: bold;
+    word-break: break-all;
+    white-space: normal;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+.hrw_active_status{
+    background:#d4edda;
+    color:#2e4453 !important;
+}
+.hrw_expired_status{
+    background: #efd812;
+    color: #000 !important;
+}
+.hrw_blocked_status{
+    background: #f00;
+    color: #fff !important;
+}
+.hrw_debit_status{
+    background: #8e1093;
+    color: #fff;
+}
+.hrw_credit_status{
+    background: #213b21;
+    color: #fff;
+}
+.hrw_unpaid_status{
+    background: #616e70;
+    color: #fff;
+}
+.hrw_paid_status{
+    background: #c6e1c6;
+    color: #5b841b;
+}
+.hrw_in_progress_status{
+    background: #0498ff;
+    color: #fff;
+}
+.hrw_cancelled_status{
+    background: #ff0000;
+    color: #fff;
+}
+/* Extra Status btn*/
+
+.hrw_inactive_status{
+    background:#eba3a3;
+    color:#761919;
+}
+.hrw_pending_approval_status{
+    background:#f55b11;
+    color:#fff;
+}
+.hrw_rejected_status{
+    background: #d63369;
+    color: #fff;
+}
+.hrw_suspended_status{
+    background: #287cd6;
+    color: #fff;
+}
+
+.hrw_denied_status{
+    background: #0b9fba;
+    color: #fff;
+}
+.hrw_pending_status{
+    background: #efd812;
+    color: #000;
+}
+.hrw_pending_status{
+    background: #efd812;
+    color: #000;
+}
+.hrw_processing_status{
+    background: #0498ff;
+    color: #fff;
+}
+.hrw_success_status{
+    background: #219b52;
+    color: #fff;
+}
+.hrw_new_status{
+    background: #102f80;
+    color: #fff;
+}
+.hrw_notconverted_status{
+    background: #c95555;
+    color: #fff;
+}
+.hrw_converted_status{
+    background: #6c9606;
+    color: #fff;
+}
+.hrw_hold_status{
+    background:#161515;
+    color: #fff;
+}
+
+/* Wallet Edit Field  */
+
+.hrw_wallet_details_wrapper, 
+.hrw_wallet_status_wrapper,
+.hrw_wallet_credit_debit_wrapper,
+.hrw_wallet_transactions_wrapper{
+    width:100%;
+}
+.hrw_wallet_user_details_row{
+    width:100%;
+}
+.hrw_wallet_details_wrapper .hrw_wallet_user_details_row h2,
+.hrw_wallet_status_wrapper .hrw_wallet_status_row h2,
+.hrw_wallet_credit_debit_wrapper .hrw_wallet_credit_debit_row h2,
+.hrw_wallet_transactions_wrapper .hrw_wallet_transactions_row h2{
+    border-bottom:1px dashed #f55b11;
+    font-size:18px !important;
+    padding-left:0 !important;
+    margin-left:12px !important;
+    font-weight:600;
+}
+.hrw_wallet_user_details_row label,
+.hrw_wallet_status_row label,
+.hrw_wallet_credit_debit_row label{
+    width:200px;
+    padding:10px 12px;
+    font-size:14px;
+    color:#000;
+    display:inline-block;
+}
+.hrw_wallet_user_details_row input[type='text'],
+.hrw_wallet_credit_debit_row input[type='text'],
+.hrw_wallet_transactions_row input[type='text'],
+.hrw_wallet_user_details_row select,
+.hrw_wallet_status_row select,
+.hrw_wallet_credit_debit_row select,
+.hrw_wallet_transactions_row select{
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    width: 300px !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #666 !important;
+    background: #fff;
+    padding: 0px 0px 0px 10px !important;
+    outline: none !important;
+    margin:10px 0px;
+}
+#hrw_wallet_credit_debit_btn{
+    background: #7b1fa2;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 10px 0px 5px 5px !important;
+    line-height: normal !important;
+    height: auto !important;
+    font-weight: bold;    
+}
+
+#hrw_wallet_credit_debit_btn:hover{
+    box-shadow:0 0 3px #000; 
+}

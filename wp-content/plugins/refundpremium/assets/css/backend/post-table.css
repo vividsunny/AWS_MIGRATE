@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+.hrr-body-content .wrap {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hrr-body-content .wrap h1 {
+    width:100%;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #000056;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hrr-body-content .search-box input[type="search"] {
+    height: 35px !important;
+    margin-top: 10px;
+    padding: 0 0 0 10px !important;
+    color: #666 !important;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    outline: none !important;
+}
+
+.hrr-body-content .search-box input[type="submit"] {
+    height: auto !important;
+    margin: 10px 0px 5px 5px !important;
+    padding: 10px 20px;
+    background: #7b1fa2;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+    cursor: pointer;
+    line-height: normal !important;       
+}
+
+.hrr-body-content .search-box input[type="search"],
+.hrr-body-content input[type="text"] {
+    width: 250px !important;
+    background: #fff !important;
+}
+
+.hrr-body-content .bulkactions select,
+.hrr-body-content input[type="text"] {
+    height: 35px !important;
+    padding: 0 0 0 10px !important;
+    color: #666 !important;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    outline: none !important;
+}
+
+.hrr-body-content .bulkactions select {
+    position: relative;
+    margin-bottom: 5px;
+    width: 150px !important;
+    background: #fff url('../../../assets/images/arrow-217-10.png') no-repeat right 10px center !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;   
+}
+
+.hrr-body-content .wp-list-table thead,
+.hrr-body-content .wp-list-table tfoot {
+    padding: 5px;
+    background: #6e6c6a;    
+}
+
+.hrr-body-content .wp-list-table thead tr th,
+.hrr-body-content .wp-list-table tfoot tr th {
+    padding: 5px 10px;
+    color: #fff !important;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hrr-body-content .wp-list-table thead tr th a,
+.hrr-body-content .wp-list-table tfoot tr th a {
+    color: #fff !important;
+}
+
+.hrr-body-content #search-submit:hover {
+    color: #fff;
+    box-shadow: 0 0 3px #000;
+    border: none;
+}
+
+.hrr-body-content #doaction,
+.hrr-body-content #doaction2,
+.hrr-body-content #post-query-submit {
+    margin-bottom: 5px !important;
+    height: auto !important;
+    padding: 10px 20px;
+    color: #fff;
+    background: #138f30;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal !important;
+    cursor: pointer;
+}
+
+.hrr-body-content #doaction:hover,
+.hrr-body-content #doaction2:hover,
+.hrr-body-content #post-query-submit:hover {
+    box-shadow: 0 0 3px #000;
+}
+
+/*Status button design*/
+
+.hrr-status-label {
+    display: inline-flex;
+    margin: 1em 0;
+    max-width: 100%;
+    padding: 0.3em 1em;
+    color: #fff;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    font-weight: 700;    
+    font-family: 'Roboto', sans-serif;
+    cursor: default !important;
+    white-space: nowrap;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.hrr-new-status {
+    color: #fff;
+    background: #102f80;
+}
+
+.hrr-accept-status{
+    color: #2e4453 !important;
+    background: #d4edda;    
+}
+
+.hrr-reject-status{
+    color: #fff;
+    background: #d63369;
+}
+
+.hrr-processing-status{
+    color: #fff;
+    background: #0498ff;
+}
+
+.hrr-on-hold-status{
+    color: #fff;
+    background: #161515;
+}
+
+/* Inline css */
+
+.hrr-refund-reply-content {
+    width: 100%;
+}
+
+.hrr-refund-status-change #hrr_status {
+    width: 150px;
+}
+
+.hrr-refund-form-field .hrr-data-type,
+.hrr-refund-form-field .hrr-data-request-as,
+.hrr-refund-form-field .hrr-data-customer-name,
+.hrr-refund-form-field .hrr-data-customer-email {
+    margin-bottom: 5px;
+}
+
+.hrr-refund-form-field h2 {
+    display: inline-block;
+    float: left;
+    width: auto !important;
+    font-size: 20px !important;
+}
+
+.hrr-refund-form-field a {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px !important;
+}
+
+.hrr-refund-items-table table {
+    width: 100%;
+}
+
+.hrr-refund-items-table table td input[type="number"] {
+    width: 60px;
+}
+
+.hrr-refund-items-table table tfoot th{
+    text-align: right;
+}
+
+.hrr_refund_button {
+    margin-top: 10px; 
+}
+
+hrr-refund-reply-request-textarea textarea {
+    width: 100%;
+}
+
+

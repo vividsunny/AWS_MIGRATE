@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Amazon S3 Storage\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-01-03 13:35+0000\n"
+"PO-Revision-Date: 2019-01-03 13:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:264
+#: templates/general_settings_tab.php:204
+msgid "Copy files also to S3"
+msgstr "Copiar archivos tibien para S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:286
+#: templates/woocommerce_settings_tab.php:95
+msgid "Private "
+msgstr "Privado "
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:297
+#: templates/woocommerce_settings_tab.php:104
+msgid "Public "
+msgstr "Público "
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:322
+#: templates/general_settings_tab.php:250
+msgid "Remove from the server"
+msgstr "Eliminar the servidor"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:331
+msgid ""
+"(after removing from the server the file is NOT going to be shown in the "
+"media library)"
+msgstr ""
+"(Después de eliminarlo del servidor, el archivo NO será mostrado en la "
+"biblioteca multimedia)"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:684
+msgid "Amazon S3 Storage"
+msgstr "Amazon S3 Storage"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:688
+msgid "Connect to your S3 Amazon account"
+msgstr "Conecta tu cuenta de S3 Amazon"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:693
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:695
+msgid "WooCommerce settings for digital goods"
+msgstr "Ajustes de WooCommerce para bienes digitales"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:357
+msgid "Copied to S3"
+msgstr "Copiado a S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:369
+msgid "Removed from S3"
+msgstr "Eliminado de S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:380
+msgid "Copied to server from S3"
+msgstr "Copiado a servidor desde S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:392
+msgid "Removed from server"
+msgstr "Eliminado del servidor"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:904
+msgid "Connection to Amazon S3 Storage successful"
+msgstr "Conexión Amazon S3 Storage realizada con éxito"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:921
+#: templates/connects3_tab.php:153 templates/connects3_tab.php:192
+msgid ""
+"An error occurred while accessing, the credentials (access key or secret "
+"key) are NOT correct"
+msgstr ""
+"Ha ocurrido un error durante el acceso, las credenciales (clave de acceso o "
+"clave secreta) NO son correctas"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:148
+msgid "Choose a bucket"
+msgstr "Elegir un Bucket"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:186
+msgid ""
+"An error occurred while accessing, the credentials (access key and secret "
+"key) are NOT correct"
+msgstr ""
+"Ha ocurrido un error durante el acceso, las credenciales (clave de acceso y "
+"clave secreta) NO son correctas"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:228
+msgid "Private"
+msgstr "Privado"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:232
+msgid "Public"
+msgstr "Público"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:258
+msgctxt "S3 File Manager"
+msgid "Bucket"
+msgstr "Bucket"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:268
+msgctxt "S3 File Manager"
+msgid "Current folder"
+msgstr "Carpeta actual"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:536
+msgid "The bucket couldn't be created"
+msgstr "El Bucket no pudo ser creado"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:170
+msgctxt "yith-amazon-s3-storage"
+msgid "Copying to S3"
+msgstr "Copiando a S3"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:176
+msgctxt "Button action mode grid"
+msgid "Removing from S3"
+msgstr "Eliminando de S3"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:182
+msgctxt "Button action mode grid"
+msgid "Copying to server from S3"
+msgstr "Copiando al servidor de S3"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:188
+msgctxt "Button action mode grid"
+msgid "Removing from server"
+msgstr "Eliminando del servidor"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:290
+msgid ""
+"You have to configure your Access Key and Secret Access Key correctly in the "
+"\"Connect to your s3 amazon account\" tab"
+msgstr ""
+"Tienes que configurar  tu Clave de acceso y tu Clave de acceso secreta en la "
+"pestaña ‘’Conecta tu cuenta de Amazon s3’’"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:320
+msgid ""
+"You have to choose a bucket in the \"Setting\" tab in the Amazon S3 admin "
+"panel"
+msgstr ""
+"Tienes que elegir un bucket en la pestaña de ‘’ajuste’’ en el panel de "
+"administrador de Amazon S3"
+
+#: templates/connects3_tab.php:40 templates/general_settings_tab.php:75
+#: templates/woocommerce_settings_tab.php:42
+msgid "Settings saved."
+msgstr "Ajustes guardados."
+
+#: templates/connects3_tab.php:75
+msgid "Access key"
+msgstr "Clave de acceso"
+
+#: templates/connects3_tab.php:79
+msgid "Set the access key"
+msgstr "Establecer la clave de acceso"
+
+#: templates/connects3_tab.php:89
+msgid "Secret access key"
+msgstr "Clave de acceso secreta"
+
+#: templates/connects3_tab.php:93
+msgid "Set the secret access key"
+msgstr "Establecer la clave de acceso secreta"
+
+#: templates/connects3_tab.php:97
+msgid "If you don't know where to search for your S3 credentials, "
+msgstr "Si no sabes donde buscar tus credenciales S3, "
+
+#: templates/connects3_tab.php:99
+msgid "you can find them here"
+msgstr "puedes encontrarlos aquí"
+
+#: templates/connects3_tab.php:108 templates/general_settings_tab.php:262
+#: templates/woocommerce_settings_tab.php:165
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: templates/connects3_tab.php:136 templates/connects3_tab.php:175
+msgid "Connection to Amazon S3 Storage was successful"
+msgstr "La conexión con Amazon S3 Storage ha sido realizada con éxito"
+
+#: templates/general_settings_tab.php:113
+msgid "Set a bucket name"
+msgstr "Establecer un nombre de Bucket"
+
+#: templates/general_settings_tab.php:125
+msgid "No Buckets Found!!"
+msgstr "¡No se encontraron buckets!"
+
+#: templates/general_settings_tab.php:182
+msgid ""
+"Select the S3 bucket name where to upload all the files. If you don't know "
+"how to create a bucket, "
+msgstr ""
+"Selecciona el nombre del bucket S3 donde subir todos los archivos. Si no "
+"sabes como crear un bucket, "
+
+#: templates/general_settings_tab.php:185
+msgid "you can click here"
+msgstr "Puedes hacer clic aquí"
+
+#: templates/general_settings_tab.php:198
+msgid "Copy file to S3"
+msgstr "Copiar archivo a S3"
+
+#: templates/general_settings_tab.php:209
+msgid ""
+"The files uploaded to the media library will be added automatically to S3. "
+"The files that are already in the media library\n"
+"                will NOT be uploaded to S3"
+msgstr ""
+"Los archivos subidos a la biblioteca de medios serán añadidos "
+"automáticamente a S3. Los archivos que ya estén en la biblioteca de medios/"
+"n\n"
+"                no serán subidos a S3"
+
+#: templates/general_settings_tab.php:221
+msgid "Replace URL"
+msgstr "Reemplazar URL"
+
+#: templates/general_settings_tab.php:227
+msgid "Files will be served by S3"
+msgstr "Los archivos serán servidos por S3"
+
+#: templates/general_settings_tab.php:232
+msgid ""
+"The URLs of the files will be automatically replaced to be downloaded from "
+"S3 and not from your WordPress installation"
+msgstr ""
+"Las URLs de los archivos serán automáticamente reemplazadas para ser "
+"descargadas desde S3 y no desde tu instalación de WordPress"
+
+#: templates/general_settings_tab.php:244
+msgid "Remove from server"
+msgstr "Eliminar desde el servidor"
+
+#: templates/general_settings_tab.php:255
+msgid "The files uploaded to S3 amazon will be deleted from your server"
+msgstr "Los archivos subidos a S3 Amazon serán eliminados de tu servidor"
+
+#: templates/woocommerce_settings_tab.php:54
+msgctxt "S3 File Manager"
+msgid ""
+"The above link is temporary, so in case it is not working you can click here "
+"to go to your order under your account and download the file"
+msgstr ""
+"El enlace superior es temporal, así que en el caso de que no esté "
+"funcionando puedes hacer clic aquí para ir a tu pedido bajo tu cuenta y "
+"descargar el archivo"
+
+#: templates/woocommerce_settings_tab.php:88
+msgid "Permissions"
+msgstr "Permisos"
+
+#: templates/woocommerce_settings_tab.php:108
+msgid ""
+"By setting the files as public, anyone who knows the S3 URL will\n"
+"\t\thave complete access to it"
+msgstr ""
+"Estableciendo los archivos como públicos, cualquiera que conozca la URL de "
+"S3 tendrá\n"
+"\t\tacceso completo al mismo"
+
+#: templates/woocommerce_settings_tab.php:117
+msgid "URL validity period"
+msgstr "Periodo de válidez de URL"
+
+#: templates/woocommerce_settings_tab.php:121
+msgid "Set the time (minutes) during which the URL is valid for download"
+msgstr ""
+"Establece el tiempo (minutos) durante el cual la URL es válida para descargar"
+
+#: templates/woocommerce_settings_tab.php:132
+msgid "Send order link"
+msgstr "Enviar enlace del pedido"
+
+#: templates/woocommerce_settings_tab.php:138
+msgid "link of the order under the user's account"
+msgstr "enlace del pendido bajo el nombre de usuario"
+
+#: templates/woocommerce_settings_tab.php:143
+msgid ""
+"This link shows up in the email sent after purchasing and leads to the order "
+"under the account of the user. If the client does not have an account the "
+"link will not be sent"
+msgstr ""
+"Este enlace aparece en el correo electrónico enviado después de la compra y "
+"lleva el pedido bajo la cuenta de usuario. Si el cliente no tiene una "
+"cuenta, el enlace no será enviado"
+
+#: templates/woocommerce_settings_tab.php:154
+msgid "Link of the email sent"
+msgstr "Enlace del correo electrónico enviado"
+
+#: templates/woocommerce_settings_tab.php:158
+msgid "Edit the text of the link."
+msgstr "Editar el texto del enlace."
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Amazon S3 Storage for WooCommerce Premium"
+msgstr "YITH Amazon S3 Storage for WooCommerce Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-amazon-s3-storage/"
+msgstr "https://yithemes.com/themes/plugins/yith-amazon-s3-storage/"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Amazon S3 Storage</strong></code> allows you to store all "
+"your media library and your downloadable products for WooCommerce in Amazon "
+"S3. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for "
+"your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH Amazon S3 Storage</strong></code> te permite almacenar "
+"todas tus bibliotecas de medios y tus productos descargables para "
+"WooCommerce en Amazon S3. <a href=\"https://yithemes.com/\" target=\"_blank"
+"\">Obtén más plugins para tu e-commerce en<strong>YITH</strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Amazon S3 Storing"
+#~ msgstr "Almacenamiento de Amazon S3"
+
+#~ msgid "Connect to your S3 amazon account"
+#~ msgstr "Conectar a tu cuenta de S3 Amazon"
+
+#~ msgid "The connection with Amazon S3 Storage was done successfully"
+#~ msgstr "La conexión con Amazon s3 Storage se ha realizado con éxito"
+
+#~ msgid ""
+#~ "There was an error while accessing, the credentials (access key or secret "
+#~ "key) are NOT correct"
+#~ msgstr ""
+#~ "Ha ocurrido un error al acceder, las credenciales (clave de acceso o "
+#~ "clave secreta) NO son correctas"
+
+#~ msgid ""
+#~ "There was an error while accessing, the credentials (access key and "
+#~ "secret key) are NOT correct"
+#~ msgstr ""
+#~ "Ha ocurrido un error al acceder, la credenciales (clave de acceso y clave "
+#~ "secreta) NO son correctas"
+
+#~ msgid ""
+#~ "You have to configure correctly your Access Key and Secret Access Key in "
+#~ "the \"Connect to your s3 amazon account\" tab"
+#~ msgstr ""
+#~ "Tienes que configurar correctamente tu clave de acceso y clave de acceso "
+#~ "secreta en la pestaña ‘’Conectar a tu cuenta de S3 Amazon’’"
+
+#~ msgid ""
+#~ "You have to choose a bucket in the \"Setting\" tab in the amazon s3 admin "
+#~ "panel"
+#~ msgstr ""
+#~ "Tienes que escoger un Bucket en la pestaña ‘’Ajustes’’ en el panel de "
+#~ "administrador de Amazon S3"
+
+#~ msgid "you can find it here"
+#~ msgstr "Puedes encontrarlas aquí"
+
+#~ msgid ""
+#~ "Select the bucket name of S3 where to upload all the files. If you don't "
+#~ "know how to create a bucket, "
+#~ msgstr ""
+#~ "Selecciona el nombre del Bucket de S3 donde subir todos los archivos. Si "
+#~ "no sabes cómo crear un bucket, "
+
+#~ msgid ""
+#~ "The files which are being uploaded to the media library will be added "
+#~ "automatically to S3. The files which are already in the media library "
+#~ "will NOT be uploaded to S3"
+#~ msgstr ""
+#~ "Los archivos que se suben a la biblioteca multimedia se añadirán "
+#~ "automáticamente a S3. Los archivos que ya están en la biblioteca "
+#~ "multimedia NO se subirán a S3"
+
+#~ msgid ""
+#~ "The URL's of the files will be automatically replaced to be downloaded "
+#~ "from S3 and not from your wordpress installation"
+#~ msgstr ""
+#~ "Las URL de los archivos se reemplazarán automáticamente para descargarlas "
+#~ "desde S3 y no desde tu instalación de WordPress"
+
+#~ msgid ""
+#~ "By setting the files public, those who know the S3 url will have "
+#~ "completely access "
+#~ msgstr ""
+#~ "Al establecer los archivos como públicos, aquellos que conocen la URL S3 "
+#~ "tendrán acceso completo "
+
+#~ msgid "URL Valid period"
+#~ msgstr "Período de validez de URL"
+
+#~ msgid "Set the time in minutes the URL is valid for downloading"
+#~ msgstr ""
+#~ "Establecer el tiempo en minutos en los que la URL es válida para descargar"

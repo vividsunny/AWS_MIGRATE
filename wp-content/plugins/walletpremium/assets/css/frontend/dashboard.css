@@ -1,0 +1,902 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+/* Wallet dashboard design */
+
+.hrw_frontend_dashboard_wrapper{
+    width:100%;
+    float:left;
+    box-shadow:0 0 5px #000;
+    margin-bottom:20px;
+    background:none;
+    border:none;
+    margin-bottom:15px;
+    border-radius:5px;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper{
+    width:100%;
+    float:left;
+    background:#52ac67;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper .hrw_menu_ul{
+    width:100%;
+    float:left;
+    padding-left:20px;
+    margin:0;
+    display:block;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li{
+    list-style: none;
+    float:left;
+    margin:0;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li a{
+    padding:10px 15px 10px 15px;
+    display:block;
+    font-size:16px;
+    outline: none;
+    text-decoration:none;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal !important;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li a:hover{
+    text-decoration:none;
+    color:#000;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li a i{
+    padding-right:10px;
+    font-size:18px;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li a.current{
+    text-decoration:none;
+    color:#000;
+}
+
+/* submenu */
+
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul ul{
+    position:absolute;
+    display:none;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li:hover{
+    position:relative;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li:hover ul{
+    top:40px;
+    background:#52ac67;
+    padding:0px;
+    z-index: 99;
+    display:block;
+    left:0;
+    margin:0px;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li:hover ul li a{
+    display:block;
+    width:200px;
+    padding:5px 10px;
+    outline: none;
+    color:#fff;
+    background:#52ac67;
+
+}
+.hrw_frontend_dashboard_wrapper .hrw_menus_wrapper ul.hrw_menu_ul li:hover ul li a:hover{
+    color:#000;
+    background:#5fe0a8;
+}
+/*  Menu Content  */
+
+.hrw_frontend_dashboard_wrapper .hrw_menu_content{
+    float:left;
+    width:96%;
+    margin-left:2%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.hrw_frontend_dashboard_wrapper .hrw_menu_content h2{
+    text-transform: none;
+    font-size: 20px !important;
+    font-weight: 600;
+    color: #222;
+    padding: 0;
+    margin: 15px 0px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+/*   Form design  */
+.hrw_frontend_form{
+    float:left;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.hrw_frontend_form p{
+    width:100%;
+    float:left;
+    padding:0;
+    margin:0px 0px 15px;
+    font-size:16px;
+    color:#333;
+    font-family: 'Roboto', sans-serif;    
+}
+.hrw_frontend_form p input[type='radio']{
+    margin-right:10px;
+    width:auto;
+}
+.hrw_frontend_form p label{
+    display:block;
+    font-size:14px;
+    color:#000;
+    font-weight:600;
+    margin:0px 0px 15px 0px !important;
+    padding:0;
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:5px;
+    cursor:default;
+    width:100%;
+    line-height: normal;
+}
+.hrw_frontend_form p label span.required{
+    color:#f00 !important;
+}
+.hrw_frontend_form p span{
+    background:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    border:none;
+    box-shadow: none;
+    line-height: normal;
+}
+.hrw_wallet_withdrawal_info p span{
+    font-size:14px;
+    color:#666;
+    font-weight:400;
+    margin:0px;
+    padding:0px;
+    text-transform: none; 
+}
+.hrw_frontend_form p input[type='text'],
+.hrw_frontend_form p select,
+.hrw_frontend_form p input[type='tel'],
+.hrw_frontend_form p input[type='email'],
+.hrw_frontend_form p input[type='number'],
+.hrw_frontend_form p textarea{
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    width: 100% !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #666 !important;
+    background: #fcfcfc;
+    padding: 0px 0px 0px 10px !important;
+    outline: none !important;
+    margin:0;
+}
+.hrw-new-user-auto-topup .hrw_frontend_form p input[type='number'], 
+.hrw-gift-form .hrw_frontend_form p input[type='number']{
+    margin-top:15px;
+}
+.hrw_frontend_form p textarea{
+    height: 100px !important;
+}
+.hrw_frontend_form p span select{
+    background:#fcfcfc url('../../../assets/images/arrow-217-10.png') no-repeat right 10px center ;
+    -moz-appearance: none;
+    position:relative;
+    appearance: none;
+    -webkit-appearance:none;
+}
+.hrw_fund_transfer_button, .hrw_form_button{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px !important;
+    color: #fff;
+    border-radius: 3px !important;
+    border: none !important;
+    box-shadow: 0 0 3px #000 inset !important;
+    cursor: pointer;
+    margin-bottom: 5px !important;
+    line-height: normal !important;
+    height: auto !important;
+    font-weight: bold;
+    background: #7b1fa2 !important;
+    text-transform: capitalize !important;
+    width:auto !important;
+    margin-top:0px;
+}
+.hrw_form_button:hover{
+    box-shadow: 0 0 3px #000;
+}
+/* Fund Transform Information form  */
+.hrw_fund_transfer_information p label,
+.hrw_wallet_withdrawal_info p label{
+    display:block;
+    font-size:14px;
+    color:#000;
+    font-weight:600;
+    margin:0px 0px 15px 0px !important;
+    padding:0;
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:5px;
+    cursor:default;
+    width:200px;
+    line-height: normal;
+    float:left;
+    display:table-cell;
+    margin-right:15px !important;
+}
+.hrw_fund_transfer_information p span{
+    font-size:14px;
+    color:#666;
+    font-weight:400;
+    margin:0px;
+    padding:0px;
+    text-transform: none;
+    display:table-cell;    
+}
+/* Table Design  */
+
+table.hrw_frontend_table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #6e6c6a !important;
+}
+.hrw_frontend_table thead {
+    background: #6e6c6a;
+    padding: 5px;
+}
+.hrw_frontend_table thead th {
+    background: #6e6c6a !important;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 12px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    text-transform: capitalize;
+    border:1px solid #6e6c6a !important;
+    word-wrap: normal;
+    word-break: break-all;
+}
+.hrw_frontend_table tbody td{
+    color: #333 !important;
+    font-weight: bold;
+    padding: 12px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-right: 1px solid #6e6c6a !important;
+    border-bottom: 1px solid #6e6c6a !important;    
+    border-top:none;
+    word-wrap: normal;
+    word-break: break-all;
+}
+.hrw_frontend_table tr:nth-child(even){
+    background:#f9f9f9;
+}
+.hrw_frontend_table tfoot{
+
+} 
+.hrw_frontend_table tfoot td{
+    text-align: center;
+    border-top: 1px solid #6e6c6a;
+    padding:5px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.hrw_frontend_table tfoot td .pagination{
+    text-align: center;
+    float:none;
+    margin:15px 0px;
+}
+.hrw_frontend_table tfoot td .pagination span.hrw_pagination a{
+    border:1px solid #ccc;
+    padding:7px;
+    font-size:14px;
+    color:#000;
+    background:#fff;
+    text-decoration: none;
+}
+.hrw_frontend_table tfoot td .pagination span.hrw_current a{
+    color:#fff;
+    background:#6e6c6a;
+}
+.hrw_frontend_table tfoot td .pagination span.hrw_pagination a:hover{
+    color:#fff;
+    background:#6e6c6a;
+    border:1px solid #6e6c6a;
+}
+.hrw_frontend_table tbody td a.hrw_view_details_btn{    
+    color:#fff;
+    text-decoration:none;
+    background:#700080;
+    padding:7px 10px;
+    margin:0;
+    font-size:14px;
+    border-radius:5px;
+    box-shadow:0 0 3px #000 inset;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    display: inline-block;
+}
+.hrw_frontend_table tbody td a.hrw_view_details_btn:hover{
+    box-shadow:0 0 3px #000;
+    color:#fff;
+}
+.hrw_frontend_table tbody td a.hrw_view_details_btn i{
+    margin-right:7px;
+}
+table.hrw_frontend_table tbody td a.hrw_cancel, .hrw_cancel_withdrawal{
+    color:#fff !important;
+    text-decoration:none !important;
+    padding:7px 10px !important;
+    font-size:14px !important;
+    border-radius:5px !important;
+    box-shadow:0 0 3px #000 inset !important;
+    margin-right:10px;
+    border:none !important;
+    font-style: normal;
+    line-height:normal !important;
+    text-transform: capitalize !important;
+    margin-top: 0 !important;
+    width: auto !important;
+    background:#f05050 !important;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+    display: inline-block;
+}
+table.hrw_frontend_table tbody td a.hrw_cancel, .hrw_cancel_withdrawal:hover{
+    box-shadow:0 0 3px #000 !important;
+    cursor: pointer !important;
+}
+/* Funds Tranfer view Details design */
+
+.hrw_menu_content .hrw_fund_transfer_view_transaction_wrapper{
+    width:100%;
+    float:left;
+}
+.hrw_menu_content .hrw_fund_transfer_view_transaction_wrapper h3{
+    margin:0;
+    padding-bottom:15px;
+    border-bottom:1px dashed #000;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    color:#000;
+    font-weight:600;
+    text-transform: capitalize !important;
+}
+.hrw_menu_content .hrw_fund_transfer_view_transaction_wrapper h3 i{
+    font-weight:normal;
+    color:#666;
+}
+.hrw_fund_transfer_view_transaction_wrapper .fund_transfer_transactions{
+    width:80%;
+    margin-left:10%;
+    float:left;
+    margin-top:15px;
+    min-height:100px;
+    max-height:400px;
+    overflow-y: scroll;
+}
+.fund_transfer_transactions .hrw_fund_transfer_transaction{
+    width:100%;
+    display:block;
+    float:left;
+}
+.fund_transfer_transactions .hrw_fund_transfer_transaction p{
+    font-size:14px;
+    color:#000;
+    font-weight:normal;
+    margin-bottom:15px;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+.fund_transfer_transactions .hrw_fund_transfer_receiver .hrw_fund_transfer_transaction_content{
+    background:#f1f1f1;
+    border:1px solid #f0f0f0;
+    box-shadow: 0 0 3px #000 inset;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom:15px;
+    float:left;
+    width:auto;
+}
+.fund_transfer_transactions .hrw_fund_transfer_sender .hrw_fund_transfer_transaction_content{
+    width:auto;
+    background:#fff;
+    float:right;
+    border:1px solid #138f30;
+    box-shadow: 0 0 3px #000 inset;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom:15px;
+    max-width:90%;
+}
+.hrw_fund_transfer_receiver p{
+    text-align: left;
+    font-style:normal; 
+}
+.hrw_fund_transfer_sender p{
+    text-align: right;
+    font-style:normal; 
+}
+.hrw_fund_transfer_receiver p.hrw_transfer_status{
+    color:#138f30;
+}
+.hrw_fund_transfer_sender p.hrw_transfer_status{
+    color:#700080;
+}
+.hrw_fund_transfer_transaction_content p.hrw_transfer_amount{
+    font-size:22px;
+    color:#2c4293 !important;
+    font-weight:600;
+    font-style:normal;    
+}
+.hrw_fund_transfer_transaction_content p.hrw_transfer_amount span{
+    color:#2c4293 !important;
+}
+.hrw_fund_transfer_footer{
+    float:left;
+    width:100%;
+    border-top:1px dashed #000;
+    margin:0;
+    padding-top:15px;
+}
+.hrw_fund_transfer_footer a{
+    color:#fff !important;
+    text-decoration:none;
+    background:#700080 !important;
+    padding:7px 10px;
+    font-size:14px;
+    border-radius:5px;
+    box-shadow:0 0 3px #000 inset;
+    word-break: break-all;
+    white-space: normal;
+    margin-right:10px;
+    border:none;
+    font-style: normal;
+
+}
+.hrw_fund_transfer_footer a:hover{
+    box-shadow:0 0 3px #000;
+    color:#fff;
+}
+.hrw_fund_request_buttons{
+    color:#fff !important;
+    text-decoration:none !important;
+    padding:7px 10px !important;
+    font-size:14px !important;
+    border-radius:5px !important;
+    box-shadow:0 0 3px #000 inset !important;
+    margin-right:10px;
+    border:none !important;
+    font-style: normal;
+    line-height:normal !important;
+    text-transform: capitalize !important;
+    margin-top: 0 !important;
+    width: auto !important;
+}
+.hrw_accept_fund_request{
+    background:#091850 !important;
+}
+.hrw_decline_fund_request{
+    background:#700080 !important;
+}
+.hrw_cancel_fund_request{
+    background:#f05050 !important;
+}
+
+/*  Status button */
+
+.hrw_status_label{
+    display: inline-flex;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin: -.25em 0;
+    cursor: inherit !important;
+    max-width: 100%;
+    padding:0.3em 1em; 
+    font-weight:bold;
+    word-break:break-all;
+}
+.hrw_requested_status{
+    background: #c95555;
+    color: #fff;
+}
+.hrw_received_status{
+    background:#161515;
+    color: #fff;
+}
+.hrw_transfered_status{
+    background: #6c9606;
+    color: #fff;
+}
+.hrw_new_requested{
+    background: #102f80;
+    color: #fff;
+}
+.hrw_declined_status{
+    background: #8e1093;
+    color: #fff;
+}
+.hrw_request_declined_status{
+    background: #0b9fba;
+    color: #fff;
+}
+.hrw_cancelled_status, 
+.hrw_request_cancel{
+    background: #ff0000;
+    color: #fff;
+}
+.hrw_paid_status{
+    background: #c6e1c6;
+    color: #5b841b;
+}
+.hrw_unpaid_status{
+    background: #616e70;
+    color: #fff;
+}
+.hrw_in_progress_status{
+    background: #0498ff;
+    color: #fff;
+}
+.hrw_active_status{
+    background:#02cc4f;
+    color:#fff;
+}
+.hrw_expired_status{
+    background:#f55b11;
+    color:#fff;
+}
+.hrw_blocked_status{
+    background: #d63369;
+    color: #fff;
+}
+.hrw_credit_status{
+    background: #213b21;
+    color: #fff;
+}
+.hrw_debit_status{
+    background: #8e1093;
+    color: #fff;
+}
+
+/* Extra Status btn*/
+
+.hrw_inactive_status{
+    background:#eba3a3;
+    color:#761919;
+}
+.hrw_suspended_status{
+    background: #287cd6;
+    color: #fff;
+}
+.hrw_pending_status{
+    background: #efd812;
+    color: #000;
+}
+.hrw_success_status{
+    background: #219b52;
+    color: #fff;
+}
+
+
+/* Radio button design */
+
+.hrw_menu_content label.hrw_radio_btn_wrapper{
+    position: relative;
+    display: inline-block !important;
+    margin-bottom:0px !important;
+    margin-left: 20px;
+}
+.hrw_statement_form p .hrw_radio_btn_wrapper input[type='radio'] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin-right:0px;
+}
+span.hrw_radio_btn{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 3px solid #ccc !important;
+    border-radius:50%;
+    width: 25px !important;
+    height: 25px;
+    text-align:center;
+}
+span.hrw_radio_btn i{
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    line-height: 20px;
+}
+.hrw_menu_content label.hrw_radio_btn_wrapper strong{
+    line-height: 24px;
+    color:#000 !important;
+    font-weight:600;
+    margin-left:35px;
+    float:left;
+}
+.hrw_radio_btn_wrapper input[type='radio']:checked + span.hrw_radio_btn  {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #52ac67;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border: 3px solid #52ac67 !important;
+    border-radius:50%;
+}
+.hrw_mobile_menu{
+    display: none;
+}
+/* Gift Card Sender - receiver table */
+.hrw_gift_sent_listing, .hrw_gift_receiver_listing{
+    width:100%;
+    float:left;
+    padding:0;
+    margin:0px 0px 15px 0px;
+}
+/* Wallet Auto Update  */
+
+.hrw_auto_iagree{
+    width:100%;
+    float:left;
+}
+.hrw_auto_iagree input[type='checkbox'], .hrw_auto_iagree p{
+    float:left;
+}
+.hrw_auto_iagree p{
+    width:auto !important;
+    margin-left:15px !important;
+}
+.hrw_auto_iagree p a{
+    color:#00f;
+    text-decoration: none;
+}
+@media screen and (max-width: 767px){
+    .hrw_mobile_menu{
+        display: block;
+    }
+    .hrw_mobile_menu h4{
+        color:#fff !important;
+        font-size:18px !important;
+        font-weight:normal;
+        text-decoration: none;
+        line-height:normal;
+        letter-spacing: 0px;
+        text-decoration: none;
+        margin:15px 0px;
+        padding:0px 15px;
+        font-family: 'Roboto', sans-serif !important;
+        text-transform: capitalize !important;
+    }
+    .hrw_mobile_menu h4 i{
+        float:right;
+        font-size:20px;
+        margin-top:5px;
+        cursor:pointer;
+    }
+    .hrw_frontend_dashboard_wrapper .hrw_menus_wrapper .hrw_menu_ul{
+        display:none;
+        padding-left:0;
+    }
+    .hrw_frontend_dashboard_wrapper .hrw_menus_wrapper .hrw_menu_ul li{
+        width:100%;
+        border-top:1px solid #ccc;
+    }
+    .hrw_frontend_dashboard_wrapper .hrw_menus_wrapper .hrw_menu_ul li:hover{
+        background:#5fe0a8;
+    }
+    .hrw_fund_transfer_information p label{
+        width:100%;
+    }
+    .hrw_wallet_withdrawal_info p label{
+        width:100%;
+    }
+    .hrw_fund_transfer_information p span{
+        display:block;
+    }
+    table.hrw_frontend_table {
+        border: none;
+    }
+    table.hrw_frontend_table tbody tr {
+        display: block;
+        margin-bottom: 15px;
+        padding:0px !important;
+    }
+    table.hrw_frontend_table thead th {
+        display: none;
+    }
+    table.hrw_frontend_table tbody td {
+        width: 100%;
+        padding: 0px;
+        display: table;
+        color: #000;
+        border-top: none;
+        border-bottom: 1px solid #6e6c6a !important;
+        word-wrap: normal;
+        word-break: break-all;
+        text-align: center;
+    }
+    table.hrw_frontend_table tbody td:first-child{
+        border-top: 1px solid #6e6c6a;
+    }
+    table.hrw_frontend_table tbody td::before {
+        display: table-cell;
+        padding: 10px;
+        background: #6e6c6a;
+        text-align: left;
+        width: 50%;
+        color: #fff;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    table.hrw_frontend_table tbody td:empty:after{
+        content:'-';
+    }
+
+    /* Funds Tranfer Mobile content */
+
+    .hrw_fund_transfer_view_transaction_wrapper .fund_transfer_transactions{
+        width:95%;
+        margin-left:2.5%;
+        float:left;
+    }
+
+    /*  Transaction log table   */
+
+    table.hrw_transaction_log_table tbody td:nth-of-type(1)::before {
+        content: 'S.no';
+    }
+    table.hrw_transaction_log_table tbody td:nth-of-type(2)::before {
+        content: 'Event';
+    }
+    table.hrw_transaction_log_table tbody td:nth-of-type(3)::before {
+        content: 'Credit';
+    }
+    table.hrw_transaction_log_table tbody td:nth-of-type(4)::before {
+        content: 'Debit';
+    }
+    table.hrw_transaction_log_table tbody td:nth-of-type(5)::before {
+        content: 'Total';
+    }
+    table.hrw_transaction_log_table tbody td:nth-of-type(6)::before {
+        content: 'Date';
+    }
+
+    /*  Fund Transfer Transactions Table   */
+
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(1)::before {
+        content: 'S.NO';
+    }
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(2)::before {
+        content: 'Username';
+    }
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(3)::before {
+        content: 'Transfered Total Amount';
+    }
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(4)::before {
+        content: 'Received Total Amount';
+    }
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(5)::before {
+        content: 'Last Activity Date';
+    }
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(6)::before {
+        content: 'Status';
+    }
+    table.hrw_fund_transfer_transactions_table tbody td:nth-of-type(7)::before {
+        content: 'Actions';
+    }
+
+    /* Withdrawal Table   */
+
+    table.hrw_wallet_table tbody td:nth-of-type(1)::before {
+        content: 'S.NO';
+    }
+    table.hrw_wallet_table tbody td:nth-of-type(2)::before {
+        content: 'Withdrawal  Amount';
+    }
+    table.hrw_wallet_table tbody td:nth-of-type(3)::before {
+        content: 'Reason';
+    }
+    table.hrw_wallet_table tbody td:nth-of-type(4)::before {
+        content: 'Status';
+    }
+    table.hrw_wallet_table tbody td:nth-of-type(5)::before {
+        content: 'Requested Date';
+    }
+    table.hrw_wallet_table tbody td:nth-of-type(6)::before {
+        content: 'Processed Date';
+    }
+    table.hrw_wallet_table tbody td:nth-of-type(7)::before {
+        content: 'Action';
+    }
+
+    /*  Cashback Table   */
+
+    table.hrw_cashback_log_table tbody td:nth-of-type(1)::before {
+        content: 'S.NO';
+    }
+    table.hrw_cashback_log_table tbody td:nth-of-type(2)::before {
+        content: 'Event';
+    }
+    table.hrw_cashback_log_table tbody td:nth-of-type(3)::before {
+        content: 'Credit';
+    }
+    table.hrw_cashback_log_table tbody td:nth-of-type(4)::before {
+        content: 'Debit';
+    }
+    table.hrw_cashback_log_table tbody td:nth-of-type(5)::before {
+        content: 'Date';
+    }
+
+    /*  Gift Send Table   */
+
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(1)::before {
+        content: 'S.NO';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(2)::before {
+        content: 'Recipient';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(3)::before {
+        content: 'Gift Card[Code]';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(4)::before {
+        content: 'Amount';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(5)::before {
+        content: 'Received Date';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(6)::before {
+        content: 'Redeemed Status';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(7)::before {
+        content: 'Redeemed Date';
+    }
+    table.hrw_gift_sent_listing_table tbody td:nth-of-type(8)::before {
+        content: 'Expiry Date';
+    }
+
+    /*  Gift Recive Table   */
+
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(1)::before {
+        content: 'S.NO';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(2)::before {
+        content: 'Sender Name';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(3)::before {
+        content: 'Gift Card[Code]';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(4)::before {
+        content: 'Amount';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(5)::before {
+        content: 'Received Date';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(6)::before {
+        content: 'Redeemed Status';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(7)::before {
+        content: 'Redeemed Date';
+    }
+    table.hrw_gift_receiver_listing_table tbody td:nth-of-type(8)::before {
+        content: 'Expiry Date';
+    }
+}

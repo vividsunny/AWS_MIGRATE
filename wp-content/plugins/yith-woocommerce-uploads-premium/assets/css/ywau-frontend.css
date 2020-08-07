@@ -1,0 +1,301 @@
+
+.file-chooser {
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+#uploadFileList {
+    list-style: none;
+    clear: both;
+}
+
+span.error-message {
+
+    background: url("../images/upload-error.png") no-repeat;
+    background-position: 15px 18px;
+    color: #aa2400;
+    background-color: #ffe9e5;
+}
+
+span.error-message,
+span.success-message {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-left: 60px;
+    font-weight: normal;
+}
+
+span.success-message {
+    background: url("../images/upload-success.png") no-repeat;
+    background-position: 15px 18px;
+    color: #08aa00;
+    background-color: #f6fff6;
+}
+
+input[name="submit-files"] {
+    background-color: white;
+    border: 2px solid #dbd8d8;
+    border-radius: 5px;
+    font-size: 13px;
+    text-transform: none;
+    font-weight: bold;
+    height: 35px;
+    padding: 0 15px;
+    color: #5f5f5f;
+}
+
+div.upload-items {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+div.upload-items .select-file {
+    background: url("../images/upload-file.png") no-repeat;
+    background-position: 10px 10px;
+
+    border: 1px solid #5f5f5f;
+    background-color: #5f5f5f;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 13px;
+    padding: 0 10px;
+    float: left;
+    padding-left: 35px;
+}
+
+div.upload-items input[name="submit-files"] {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+span.upload-result {
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid;
+    padding: 12px;
+}
+
+span.upload-result.failed {
+    color: #ff1e00;
+    border-color: #ff1e00;
+    background-color: #ffe6e6;
+    margin-bottom: 10px;
+    display: block;
+    padding: 15px;
+    overflow: hidden;
+}
+
+span.upload-result.failed:before {
+    content: url("../images/reject-file.png");
+    margin-right: 15px;
+    padding-left: 10px;
+    top: 10px;
+    bottom: 10px;
+    float: left;
+}
+
+span.upload-result.success {
+    color: #2f9000;
+    border-color: #2f9000;
+    background-color: #f0f7ed;
+    margin-bottom: 10px;
+    display: block;
+    padding: 15px;
+    overflow: hidden;
+}
+
+span.upload-result.success:before {
+    content: url("../images/tick.png");
+    margin-right: 15px;
+    padding-left: 10px;
+    top: 10px;
+    bottom: 10px;
+    float: left;
+}
+
+span.rule-label {
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+div.upload-rule {
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 30px;
+    min-height: 200px;
+
+}
+
+div.upload-rule:last-child {
+    border-bottom: none;
+}
+
+div.upload-rule:first-child {
+    background-color: red;
+    border-bottom: none;
+}
+
+a.upload-file.upload-errors {
+    background-color: red;
+    color: white;
+}
+
+.pp_details {
+    display: none;
+}
+
+.pp_gallery {
+    display: none;
+}
+
+span.rule-max-size {
+    display: block;
+}
+
+div.rule-note {
+    clear: both;
+    padding-top: 10px;
+}
+
+div.rule-note textarea {
+    width: 100%;
+}
+
+.submitted-rule-note {
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+.submitted-rule-note label {
+    font-weight: bold;
+}
+
+.submitted-rule-note p {
+    font-style: italic;
+}
+
+div.entry-content a.upload-file {
+    font-size: 13px;
+    padding: 5px 7px;
+    text-decoration: none;
+    background: url("../images/upload-file.png") no-repeat;
+    background-position: 5px 7px;
+    background-color: #00a0d2;
+    padding-left: 25px;
+    white-space: nowrap;
+    color: #fff;
+    display: inline-block;
+}
+
+div.entry-content a.upload-file.upload-errors {
+    font-size: 13px;
+    padding: 5px 7px;
+    text-decoration: none;
+    background: url("../images/upload-failed.png") no-repeat;
+    background-position: 5px 7px;
+    background-color: #ff0000;
+    padding-left: 25px;
+    white-space: nowrap;
+    display: inline-block;
+
+}
+
+span.rule-allowed-extension,
+span.rule-max-size {
+    color: #4d4b4b;
+    font-size: 13px;
+}
+
+span.uploaded-filename {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+div.submit-files {
+    bottom: 0px;
+    padding: 15px;
+    right: 0;
+    text-align: right;
+}
+
+div.upload-rules form {
+    margin: 0;
+}
+
+div.submit-files input[type="submit"] {
+    background-color: #ff8a00;
+    color: #FFF;
+    text-transform: uppercase;
+    float: right;
+    padding: 5px 15px;
+}
+
+.pp_content_container .pp_left,
+.pp_content_container .pp_right {
+    padding: 0px;
+}
+
+label.notes-title {
+    font-size: 14px;
+}
+
+textarea.rule-note {
+    background-color: #fff;
+    font-size: 14px;
+}
+
+a.delete-uploaded-file {
+    background: url("../images/upload-error.png") no-repeat;
+    background-position: 10px 10px;
+    display: inline;
+    background-color: #ff3c00;
+    border: none;
+    padding: 5px 10px 5px 30px;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+span.unable-to-delete {
+    color: #ff3c00;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+#ywau_upload_modal .pp_close {
+    z-index: 999;
+}
+
+#ywau_upload_modal .pp_details {
+    display: block;
+}
+
+div.woocommerce table.shop_table th.product-name {
+    width: 35%;
+}
+
+#ywau_upload_modal.pp_pic_holder {
+    /*min-height: 70%;*/
+}
+
+.ywau-order-files {
+    margin-bottom: 15px;
+}
+
+#ywau_upload_modal .pp_gallery,
+#ywau_upload_modal .pp_details {
+    display: none;
+}

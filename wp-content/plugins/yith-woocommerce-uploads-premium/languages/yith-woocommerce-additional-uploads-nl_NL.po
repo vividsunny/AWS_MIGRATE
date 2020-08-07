@@ -1,0 +1,706 @@
+# Translation of YITH WooCommerce Uploads in Dutch
+# This file is distributed under the same license as the YITH WooCommerce Uploads package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-16 20:21:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: nl\n"
+"Project-Id-Version: YITH WooCommerce Uploads\n"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Description of the plugin/theme
+msgid "<code><strong>YITH WooCommerce Uploads</strong></code> A concrete way to customize your orders, load a file with your images, and complete your order according to your needs. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr "<code><strong>YITH WooCommerce Uploads</strong></code> Een concrete manier om je bestellingen aan te passen, een bestand met je afbeeldingen te laden en je bestelling te voltooien volgens je behoeften. <a href=\"https://yithemes.com/\" target=\"_blank\">Verkrijg meer plugins voor je e-commerce winkel op <strong>YITH</strong></a>."
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-uploads/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-uploads/"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Uploads Premium"
+msgstr "YITH WooCommerce Uploads Premium"
+
+#: views/privacy/html-policy-content-has_access.php:4
+msgctxt "Privacy Policy Content"
+msgid "Files uploaded related to an order or to the products of an order"
+msgstr "Bestanden die zijn geüpload met betrekking tot een bestelling of de producten van een bestelling"
+
+#: views/privacy/html-policy-content-has_access.php:1
+msgctxt "Privacy Policy Content"
+msgid "Members of our team have access to the information you provide us. For example, both Administrators and Shop Managers can access:"
+msgstr "Leden van ons team hebben toegang tot de informatie die u ons verstrekt. Zowel beheerders als winkelmanagers hebben bijvoorbeeld toegang tot:"
+
+#: views/privacy/html-policy-content-collect_and_store.php:4
+msgctxt "Privacy Policy Content"
+msgid "Files uploaded related to an order or to the products of an order: we’ll add this information to the order details"
+msgstr "Bestanden die zijn geüpload met betrekking tot een bestelling of de producten van een bestelling: we voegen deze informatie toe aan de bestellingsdetails"
+
+#: views/privacy/html-policy-content-collect_and_store.php:1
+msgctxt "Privacy Policy Content"
+msgid "While you visit our site, we collect information about you during the checkout process on our store. We’ll track:"
+msgstr "Terwijl u onze site bezoekt, verzamelen wij informatie over u tijdens het afrekenproces in onze winkel. We volgen:"
+
+#: templates/emails/ywau-order-file-uploaded.php:17
+msgid "The customer has uploaded a file to the order."
+msgstr "De klant heeft een bestand geüpload naar de order."
+
+#: templates/emails/ywau-order-file-deleted.php:15
+msgid "The customer %s deleted a file from the order."
+msgstr "De klant %s heeft een bestand verwijderd van de order."
+
+#: templates/emails/ywau-order-file-actions.php:82
+msgid "This file you sent was not compliant with the required specifications. (Max size: %s MB, allowed extensions: %s"
+msgstr "Het bestand dat u heeft gestuurd voldeed niet aan de vereiste normen. (Maximum afmeting: %s MB, toegestane formaten: %s"
+
+#: templates/emails/ywau-order-file-actions.php:80
+msgid "The file you sent is waiting for verification."
+msgstr "Het bestand dat u heeft gestuurd wacht op verificatie."
+
+#: templates/emails/ywau-order-file-actions.php:75
+msgid "This is the reason why: %s"
+msgstr "Dit is de reden: %s"
+
+#: templates/emails/ywau-order-file-actions.php:72
+msgid "The %s file has been rejected."
+msgstr "Het %s bestand is afgewezen."
+
+#: templates/emails/ywau-order-file-actions.php:70
+msgid "The %s file has been accepted"
+msgstr "Het %s bestand is geaccepteerd"
+
+#: templates/emails/ywau-notify-order-admin-message.php:77
+#: templates/emails/ywau-order-admin-message.php:80
+msgid "Regarding the current order, we would like to inform you that:"
+msgstr "Met betrekking tot de huidige order, willen we u informeren dat:"
+
+#: templates/emails/ywau-notify-order-admin-message.php:34
+#: templates/emails/ywau-order-admin-message.php:34
+#: templates/emails/ywau-order-file-actions.php:31
+#: templates/emails/ywau-order-file-deleted.php:33
+#: templates/emails/ywau-order-file-uploaded.php:36
+msgid "Price"
+msgstr "Prijs"
+
+#: templates/emails/ywau-notify-order-admin-message.php:32
+#: templates/emails/ywau-order-admin-message.php:32
+#: templates/emails/ywau-order-file-actions.php:29
+#: templates/emails/ywau-order-file-deleted.php:31
+#: templates/emails/ywau-order-file-uploaded.php:34
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+#: templates/emails/ywau-notify-order-admin-message.php:30
+#: templates/emails/ywau-order-admin-message.php:30
+#: templates/emails/ywau-order-file-actions.php:27
+#: templates/emails/ywau-order-file-deleted.php:29
+#: templates/emails/ywau-order-file-uploaded.php:32
+msgid "Product"
+msgstr "Product"
+
+#: templates/emails/ywau-notify-order-admin-message.php:21
+#: templates/emails/ywau-order-admin-message.php:21
+#: templates/emails/ywau-order-file-actions.php:18
+#: templates/emails/ywau-order-file-deleted.php:20
+#: templates/emails/ywau-order-file-uploaded.php:23
+msgid "Order #%s"
+msgstr "Order #%s"
+
+#: templates/emails/plain/ywau-notify-order-admin-message.php:37
+#: templates/emails/plain/ywau-order-admin-message.php:37
+#: templates/emails/plain/ywau-order-file-actions.php:37
+msgid "View order: %s"
+msgstr "Bekijk order: %s"
+
+#: templates/emails/plain/ywau-notify-order-admin-message.php:23
+#: templates/emails/plain/ywau-order-admin-message.php:23
+#: templates/emails/plain/ywau-order-file-actions.php:23
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: templates/emails/plain/ywau-notify-order-admin-message.php:22
+#: templates/emails/plain/ywau-order-admin-message.php:22
+#: templates/emails/plain/ywau-order-file-actions.php:22
+msgid "Order number: %s"
+msgstr "Ordernummer: %s"
+
+#: templates/emails/plain/ywau-notify-order-admin-message.php:16
+#: templates/emails/plain/ywau-order-admin-message.php:16
+#: templates/emails/plain/ywau-order-file-actions.php:16
+msgid "You have received an order from %s."
+msgstr "U heeft een order ontvangen van %s."
+
+#: templates/admin/file-upload-rules.php:89
+msgid "Add new rule"
+msgstr "Voeg nieuwe regel toe"
+
+#: templates/admin/file-upload-rules.php:70
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: templates/admin/file-upload-rules.php:65
+msgid "Allow notes:"
+msgstr "Sta notities toe:"
+
+#: templates/admin/file-upload-rules.php:62
+msgid "Maximum allowed size in MB"
+msgstr "Maximum toegestane grootte in MB"
+
+#: templates/admin/file-upload-rules.php:60
+msgid "Max size:"
+msgstr "Maximum grootte:"
+
+#: templates/admin/file-upload-rules.php:57
+msgid "Add the allowed file formats, writing the extensions divided by comma (e.g., jpg, png, gif)."
+msgstr "Voeg de toegestane bestandsformaten toe, scheiden met komma (e.g., jpg, png, gif)."
+
+#: templates/admin/file-upload-rules.php:55
+msgid "Allowed extensions:"
+msgstr "Toegestane formaten:"
+
+#: templates/admin/file-upload-rules.php:51
+msgid "Label:"
+msgstr "Label:"
+
+#: plugin-options/general-options.php:234
+msgid "Enable this option to automatically accept the uploaded file of the order created after purchasing"
+msgstr "Schakel deze optie in om automatisch de geuploade bestanden van de gemaakte bestelling te accepteren"
+
+#: plugin-options/general-options.php:233
+msgid "Accept upload order automatically"
+msgstr "Accepteer upload bestelling automatisch"
+
+#: plugin-options/general-options.php:225
+msgid "Enable this option to automatically accept the uploaded file of the product on the order created after purchasing"
+msgstr "Schakel deze optie in om automatisch de geuploade bestanden van de producten van de order na aankoop"
+
+#: plugin-options/general-options.php:224
+msgid "Accept upload product automatically"
+msgstr "Accepteer alle upload producten automatisch"
+
+#: plugin-options/general-options.php:216
+msgid "You can customize your order attaching files to the current order."
+msgstr "U kunt de order aanpassen door bestanden toe te voegen aan de huidige order."
+
+#: plugin-options/general-options.php:214
+msgid "Set the message to show on cart and checkout pages for uploads attached to the whole order."
+msgstr "Stel een bericht in om weer te geven in de winkelwagen en betaalpagina voor uploads die gekoppeld zijn aan de hele bestelling."
+
+#: plugin-options/general-options.php:213
+msgid "Order upload text"
+msgstr "Order upload tekst"
+
+#: plugin-options/general-options.php:205
+msgid "Enable the upload rules for orders, the customer could attach files to the while order, according to the upload rules"
+msgstr "Upload regels voor orders inschakelen, de klant kan bestanden toevoegen aan de order, in overeenstemming met de upload regels"
+
+#: plugin-options/general-options.php:204
+msgid "Enable uploads for orders"
+msgstr "Upload voor orders inschakelen"
+
+#: plugin-options/general-options.php:195
+msgid "Enable the upload rules for products variations by default, the customer could attach files to the products variations, according to the upload rules"
+msgstr "Upload regels voor producten inschakelen, de klant kan bestanden toevoegen aan producten, in overeenstemming met de upload regels"
+
+#: plugin-options/general-options.php:194
+msgid "Enable uploads for products variations"
+msgstr "Upload voor product variaties inschakelen"
+
+#: plugin-options/general-options.php:186
+msgid "Enable the upload rules for products, the customer could attach files to the products, according to the upload rules"
+msgstr "Upload regels voor producten inschakelen, de klant kan bestanden toevoegen aan producten, in overeenstemming met de upload regels"
+
+#: plugin-options/general-options.php:185
+msgid "Enable uploads for products"
+msgstr "Upload voor producten inschakelen"
+
+#: plugin-options/general-options.php:178
+msgid "Main upload rules"
+msgstr "Product upload regels"
+
+#: plugin-options/general-options.php:172
+msgid "Learn more"
+msgstr "Meer info"
+
+#: plugin-options/general-options.php:172
+msgid "Choose whether to use standard WooCommerce behaviour that groups more items of the same products in one line, giving users the possibility to  upload the same files for all the items (e.g. 3 exact copies of the same \"Fashion Calendar\") or to add to cart one item for each line and allow users to upload different files for each item (e.g. 3 items of \"Fashion Calendar\" with different pictures each)"
+msgstr "Bepaal of je het standaard WooCommerce gedrag dat meerdere producten van dezelfde producten samenvoegt in een lijn, en de gebruiker de kans geeft om dezelfde bestanden te uploaden voor alle items (vb. 3 exacte kopieën van dezelfde \"Fashion kalender\") of één item toevoegen aan winkelwagen per lijn en gebruikers de verschillende bestanden uploaden voor elke item (vb. 3 \"Fashion kalenders\" met ieder verschillende fotos)"
+
+#: plugin-options/general-options.php:169
+msgid "Split products on cart"
+msgstr "Scheid producten in winkelwagen"
+
+#: plugin-options/general-options.php:163
+msgid "Order number"
+msgstr "Ordernummer"
+
+#: plugin-options/general-options.php:162
+msgid "Order ID"
+msgstr "Order ID"
+
+#: plugin-options/general-options.php:159
+msgid "Choose whether to use the ID or the order number as name of the folder where you want to store the files linked to a specific order."
+msgstr "Bepaal of u de ID of het ordernummer wilt gebruiken als foldernaam, waarin alle bestanden gelinkt aan een specifieke order worden bewaart."
+
+#: plugin-options/general-options.php:156
+msgid "Storing mode"
+msgstr "Bewaar modus"
+
+#: plugin-options/general-options.php:150
+msgid "Set a folder in which saving the files that are uploaded by users. The folder will be create in wp-content/uploads/yith-additional-uploads."
+msgstr "Maak een folder waarin alle bestanden, geupload door gebruikers, worden opgeslagen. De volder zal worden gemaakt in wp-content/uploads/yith-additional-uploads."
+
+#: plugin-options/general-options.php:147
+msgid "Upload folder"
+msgstr "Upload map"
+
+#: plugin-options/general-options.php:137
+msgid "Allow the file deleting when the order status is:"
+msgstr "Sta verwijderen van bestand toe, met orderstatus:"
+
+#: plugin-options/general-options.php:113
+msgid "Allow the file upload when the order status is:"
+msgstr "Sta uploaden van bestand toe, met orderstatus:"
+
+#: plugin-options/general-options.php:86
+msgid "Use this option to allow users to attach a file to an order from myaccount page"
+msgstr "Gebruik deze opties om gebruikers bestanden toe te laten voegen vanuit de myaccount pagina"
+
+#: plugin-options/general-options.php:85
+msgid "Allow on myaccount"
+msgstr "Sta toe in myaccount"
+
+#: plugin-options/general-options.php:78
+msgid "Use this option to allow users to attach a file from the thankyou page"
+msgstr "Gebruik deze opties om gebruikers bestanden toe te laten voegen vanuit de bedank pagina"
+
+#: plugin-options/general-options.php:77
+msgid "Allow on thank you page"
+msgstr "Sta toe op bedank pagina"
+
+#: plugin-options/general-options.php:70
+msgid "Use this option to allow users to attach a file from the checkout page"
+msgstr "Gebruik deze opties om gebruikers bestanden toe te laten voegen vanuit de check out pagina"
+
+#: plugin-options/general-options.php:69
+msgid "Allow on checkout page"
+msgstr "Sta toe op check out pagina"
+
+#: plugin-options/general-options.php:62
+msgid "Use this option to allow users to attach a file even from the cart"
+msgstr "Gebruik deze opties om gebruikers bestanden toe te laten voegen vanuit de winkelwagen"
+
+#: plugin-options/general-options.php:61
+msgid "Allow on cart"
+msgstr "Sta toe in winkelwagen"
+
+#: plugin-options/general-options.php:51
+msgid "Set the quality (in %) of the thumbnails."
+msgstr "Stel de kwaliteit (in %) in van de thumbnails."
+
+#: plugin-options/general-options.php:48
+msgid "Thumbnail quality"
+msgstr "Thumbnail kwaliteit"
+
+#: plugin-options/general-options.php:39
+msgid "Set the height of the thumbnails in pixel."
+msgstr "Stel de hoogte van de thumbnails in, in pixel."
+
+#: plugin-options/general-options.php:36
+msgid "Thumbnail height"
+msgstr "Thumbnail hoogte"
+
+#: plugin-options/general-options.php:28
+msgid "Set the width of the thumbnails in pixel."
+msgstr "Stel de breedte van de thumbnails in, in pixel."
+
+#: plugin-options/general-options.php:25
+msgid "Thumbnail width"
+msgstr "Thumbnail breedte"
+
+#: plugin-options/general-options.php:20
+msgid "General settings"
+msgstr "Algemene Instellingen"
+
+#: lib/emails/class.ywau-order-file-uploaded.php:41
+msgid "[{site_title}] - Order {order_number}, a new file has been uploaded"
+msgstr "[{site_title}] - Order {order_number}, een nieuw bestand is geüpload"
+
+#: lib/emails/class.ywau-order-file-uploaded.php:40
+msgid "A file has been uploaded by the customer"
+msgstr "De klant heeft een bestand geüpload"
+
+#: lib/emails/class.ywau-order-file-uploaded.php:38
+msgid "Be notified when the customer upload a file for the order"
+msgstr "Wordt geïnformeerd wanneer de klant een bestand upload voor de order"
+
+#: lib/emails/class.ywau-order-file-deleted.php:148
+#: lib/emails/class.ywau-order-file-uploaded.php:150
+msgid "Enter recipients (comma separated) for this email. Defaults to <code>%s</code>."
+msgstr "Vul ontvangers in (gescheiden met komma) voor deze e-mail. Defaults naar <code>%s</code>."
+
+#: lib/emails/class.ywau-order-file-deleted.php:146
+#: lib/emails/class.ywau-order-file-uploaded.php:148
+msgid "Recipient(s)"
+msgstr "Ontvanger(s)"
+
+#: lib/emails/class.ywau-order-file-deleted.php:36
+msgid "[{site_title}] - Order {order_number}, customer deleted a file"
+msgstr "[{site_title}] - Order {order_number}, klant heeft een bestand verwijderd"
+
+#: lib/emails/class.ywau-order-file-deleted.php:33
+msgid "Be notified when the customer delete a file from the order"
+msgstr "Wordt geïnformeerd wanneer de klant een bestand verwijderd van de order"
+
+#: lib/emails/class.ywau-order-file-actions.php:37
+msgid "Your {site_title} order from {order_date} has been updated"
+msgstr "Uw {site_title} order van {order_date} is geüpdatet"
+
+#: lib/emails/class.ywau-order-file-actions.php:34
+msgid "When a file uploaded by customers is accepted or rejected, they will receive an email"
+msgstr "De klant ontvangt een e-mail als zijn/haar geüploade bestand is geaccepteerd of afgewezen"
+
+#: lib/emails/class.ywau-order-admin-message.php:169
+#: lib/emails/class.ywau-order-file-actions.php:161
+#: lib/emails/class.ywau-order-file-deleted.php:169
+#: lib/emails/class.ywau-order-file-uploaded.php:171
+msgid "Choose which format of email to send."
+msgstr "Kies welke e-mail opmaak u wilt verzenden."
+
+#: lib/emails/class.ywau-order-admin-message.php:167
+#: lib/emails/class.ywau-order-file-actions.php:159
+#: lib/emails/class.ywau-order-file-deleted.php:167
+#: lib/emails/class.ywau-order-file-uploaded.php:169
+msgid "Email type"
+msgstr "E-mail type"
+
+#: lib/emails/class.ywau-order-admin-message.php:160
+#: lib/emails/class.ywau-order-file-actions.php:152
+#: lib/emails/class.ywau-order-file-deleted.php:160
+#: lib/emails/class.ywau-order-file-uploaded.php:162
+msgid "Email Heading"
+msgstr "E-mail hoofd"
+
+#: lib/emails/class.ywau-order-admin-message.php:155
+#: lib/emails/class.ywau-order-admin-message.php:162
+#: lib/emails/class.ywau-order-file-actions.php:147
+#: lib/emails/class.ywau-order-file-actions.php:154
+#: lib/emails/class.ywau-order-file-deleted.php:155
+#: lib/emails/class.ywau-order-file-deleted.php:162
+#: lib/emails/class.ywau-order-file-uploaded.php:157
+#: lib/emails/class.ywau-order-file-uploaded.php:164
+msgid "Defaults to <code>%s</code>"
+msgstr "Defaults naar <code>%s</code>"
+
+#: lib/emails/class.ywau-order-admin-message.php:153
+#: lib/emails/class.ywau-order-file-actions.php:145
+#: lib/emails/class.ywau-order-file-deleted.php:153
+#: lib/emails/class.ywau-order-file-uploaded.php:155
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: lib/emails/class.ywau-order-admin-message.php:149
+#: lib/emails/class.ywau-order-file-actions.php:141
+#: lib/emails/class.ywau-order-file-deleted.php:142
+#: lib/emails/class.ywau-order-file-uploaded.php:144
+msgid "Enable this email notification"
+msgstr "Deze e-mail notificatie inschakelen"
+
+#: lib/emails/class.ywau-order-admin-message.php:147
+#: lib/emails/class.ywau-order-file-actions.php:139
+#: lib/emails/class.ywau-order-file-deleted.php:140
+#: lib/emails/class.ywau-order-file-uploaded.php:142
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uischakelen"
+
+#: lib/emails/class.ywau-order-admin-message.php:42
+msgid "[{site_title}] Your order ({order_number}) - {order_date} has been updated"
+msgstr "[{site_title}] Uw order ({order_number}) - {order_date} is geüpdatet"
+
+#: lib/emails/class.ywau-order-admin-message.php:41
+#: lib/emails/class.ywau-order-file-actions.php:36
+#: lib/emails/class.ywau-order-file-deleted.php:35
+msgid "Your order has been updated"
+msgstr "De order is geüpdatet"
+
+#: lib/emails/class.ywau-order-admin-message.php:38
+msgid "Send a message to the customer regarding the order"
+msgstr "Stuur een bericht naar de klant met betrekking tot de order"
+
+#: lib/class.ywau-plugin-fw-loader.php:188
+msgid "In YIT Plugins tab, you can find the YITH WooCommerce Uploads options.<br> From this menu, you can access all settings of the activated YITH plugins."
+msgstr "In de YIT Plugins tab kunt u de YITH WooCommerce Uploads opties vinden. <br> Vanuit dit menu heeft u toegang tot alle instellingen van de geactiveerde YITH plugins."
+
+#: lib/class.ywau-plugin-fw-loader.php:181
+msgid "Premium version"
+msgstr "Premium versie"
+
+#: lib/class.ywau-plugin-fw-loader.php:180
+msgid "YITH WooCommerce Uploads is available in an outstanding PREMIUM version with many new options, discover it now."
+msgstr "YITH WooCommerce Uploads is beschikbaar in een uitstekende PREMIUM versie met vele nieuwe mogelijkheden, ontdek het nu."
+
+#: lib/class.ywau-plugin-fw-loader.php:130
+msgid "Premium Version"
+msgstr "Premium Versie"
+
+#: lib/class.ywau-plugin-fw-loader.php:127
+msgid "General"
+msgstr "Algemeen"
+
+#: lib/class.yith-woocommerce-additional-uploads.php:593
+msgid "Choose one of the following formats: %s"
+msgstr "Kies een van de volgende formaten: %s"
+
+#: lib/class.yith-woocommerce-additional-uploads.php:591
+msgid "You can customize your order sending a file."
+msgstr "U kunt uw order aanpassen door een bestand te versturen."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:561
+msgid "An error occurred, the file has not been accepted."
+msgstr "Er ging iets mis, het bestand werd niet geaccepteerd."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:488
+msgid "An error occurred, the message has not been sent."
+msgstr "Er ging iets mis, het bericht is niet verstuurd."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:487
+msgid "The message has been sent to the email address of the customer."
+msgstr "Het bericht is verstuurd naar het e-mailadres van de klant."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:456
+msgid "The file could not be deleted"
+msgstr "Het bestand kon niet worden verwijrderd"
+
+#: lib/class.yith-woocommerce-additional-uploads.php:433
+msgid "There are no files attached to the order."
+msgstr "Er zijn geen bestanden toegevoegd aan de order."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:430
+msgid "Download"
+msgstr "Download"
+
+#: lib/class.yith-woocommerce-additional-uploads.php:429
+msgid "The customer has sent a file."
+msgstr "De klant heeft een bestand verstuurd."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:347
+#: lib/class.yith-woocommerce-additional-uploads.php:581
+msgid "The %s file has been included in the current order. Your order is now being processed."
+msgstr "Het %s bestand is toegevoegd aan de huidige order. Uw order wordt nu verwerkt."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:316
+msgid "The format of the %s file is not valid. The allowed extensions are: %s."
+msgstr "Het bestandsformaat van het %s bestand is niet geldig. De toegestane formaten zijn: %s."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:292
+msgid "The name of the file %s has not been accepted."
+msgstr "De naam van het bestand %s werd niet geaccepteerd."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:286
+msgid "You have already sent a file for the current order, it is not possible to add the new %s file."
+msgstr "U heeft al een bestand verstuurd voor de huidige order, het is niet mogelijk het nieuwe %s bestand toe te voegen."
+
+#: lib/class.yith-woocommerce-additional-uploads.php:249
+msgid "Upload file"
+msgstr "Bestand uploaden"
+
+#: lib/class.yith-woocommerce-additional-uploads-privacy.php:182
+msgctxt "Privacy Policy Content"
+msgid "Additional Product Upload: "
+msgstr "Additional Product Upload: "
+
+#: lib/class.yith-woocommerce-additional-uploads-privacy.php:159
+msgctxt "Privacy Policy Content"
+msgid "Additional Order Upload: "
+msgstr "Additional Order Upload: "
+
+#: lib/class.yith-woocommerce-additional-uploads-privacy.php:120
+msgid "Additional uploads"
+msgstr "Additional uploads"
+
+#: lib/class.yith-woocommerce-additional-uploads-privacy.php:28
+msgctxt "Privacy Policy Content"
+msgid "YITH Additional Uploads for WooCommerce premium"
+msgstr "YITH Additional Uploads voor WooCommerce premium"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2558
+msgid "Note"
+msgstr "Notitie"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2546
+msgid "Uploads"
+msgstr "Uploads"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2438
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2473
+msgid "Upload rules to display"
+msgstr "Upload regels om weer te geven"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2434
+msgid "Upload rules to hide"
+msgstr "Upload regels om te verbergen"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2412
+msgid "All requested files have been received and accepted."
+msgstr "Alle aangevraagde bestanden zijn ontvangen en geaccepteerd."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2410
+msgid "This order contains file waiting for approval."
+msgstr "Deze order bevat een bestand dat wacht op goedkeuring."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:2155
+msgid "Upload"
+msgstr "Upload"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1958
+msgid "The <b>%s</b> file has been included in the current order. Your order is now being processed."
+msgstr "Het <b>%s</b> bestand is toegevoegd aan de huidige order. Uw order wordt nu verwerkt."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1944
+#: lib/class.yith-woocommerce-additional-uploads.php:326
+msgid "The %s file has not been accepted, the maximum dimension is %s MB."
+msgstr "Het %s bestand is niet geaccepteerd, de maximum afmeting is %s MB."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1932
+msgid "The format of the %s file is not accepted."
+msgstr "Het formaat van het %s bestand is niet geaccepteerd."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1916
+#: lib/class.yith-woocommerce-additional-uploads.php:299
+msgid "The following error occurred during the upload of %s: %s"
+msgstr "De volgende foutmelding heeft zich voorgedaan tijdens het uploaden van %s: %s"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1841
+msgid "Modify %s file"
+msgid_plural "Modify %s files"
+msgstr[0] "Wijzig %s bestand"
+msgstr[1] "Wijzig %s bestanden"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1837
+msgid "Upload %s/%s file"
+msgid_plural "Upload %s/%s files"
+msgstr[0] "Upload %s/%s bestand"
+msgstr[1] "Upload %s/%s bestanden"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1654
+msgid "File succesfully removed!"
+msgstr "Bestand succesvol verwijderd!"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1636
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1648
+msgid "Submit"
+msgstr "Indienen"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1623
+msgid "Notes:"
+msgstr "Notities:"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1615
+#: lib/class.yith-woocommerce-additional-uploads.php:602
+msgid "Select file"
+msgstr "Selecteer bestand"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1592
+msgid "The file you sent has been rejected."
+msgstr "Het bestand dat u verstuurd heeft is afgewezen."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1582
+msgid "The file you sent has been verified and accepted"
+msgstr "Het bestand dat u verstuurd heeft is geverifieerd en geaccepteerd"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1570
+msgid "Max allowed size: %s MB."
+msgstr "Maximum toegestane formaat: %s. MB."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1567
+msgid "Allowed extension: %s."
+msgstr "Toegestane uitbereiding: %s."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:1166
+msgid "Disable the upload"
+msgstr "De upload uitschakelen"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:993
+msgid "Remove file"
+msgstr "Verwijder bestand"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:947
+#: templates/emails/ywau-order-file-actions.php:84
+#: templates/emails/ywau-order-file-actions.php:87
+msgid "There are no associated files."
+msgstr "Er zijn geen samenhangende bestanden."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:940
+msgid " You have sent the following notification: %s."
+msgstr " U heeft de volgende meldingen verstuurd: %s."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:938
+msgid "The file has been rejected on %s."
+msgstr "Het bestand was afgewezen op %s."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:935
+msgid "The file has been accepted on %s."
+msgstr "Het bestand was geaccepteerd op %s."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:927
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:924
+msgid "File will be <b>rejected</b>: please remember to save the order."
+msgstr "Het bestand zal worden <b>afgewezen</b>: verbeet de order niet op te slaan."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:922
+msgid "File will be <b>accepted</b>: please remember to save the order."
+msgstr "Het bestand zal worden <b>geaccepteerd</b>: vergeet de order niet op te slaan."
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:920
+msgid "Reject"
+msgstr "Afwijzen"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:916
+msgid "Accept"
+msgstr "Accepteren"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:896
+msgid "There are no user notes"
+msgstr "Er zijn geen gebruikersnotities"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:894
+msgid "User notes: "
+msgstr "Gebruikers notities: "
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:869
+msgid "Rule label:"
+msgstr "Regel label:"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:822
+msgid "Send"
+msgstr "Verzenden"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:820
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:931
+msgid "Insert here the message you want to send to the customer"
+msgstr "Voer hier het bericht in dat u wilt versturen aan de klant"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:816
+msgid "Send a message to customer"
+msgstr "Stuur een bericht naar klant"
+
+#: lib/class.yith-woocommerce-additional-uploads-premium.php:470
+msgid "Uploaded elements"
+msgstr "Geüploade elementen"
+
+#: init.php:45
+msgid "YITH WooCommerce Uploads is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Uploads is ingeschakeld, maar niet effectief. Het vereist WooCommerce om volledig te werken."

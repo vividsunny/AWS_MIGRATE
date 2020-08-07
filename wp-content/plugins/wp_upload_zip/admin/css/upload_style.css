@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+body {
+  /*padding-top: 60px;*/
+}
+
+    .v_progress.hide {
+        opacity: 0;
+        transition: opacity 1.3s;
+    } 
+    .v_progress {
+        background: #4CAF50 !important;
+        display: block;
+        height: 20px;
+        text-align: center;
+        transition: width .3s;
+        margin-top: 10px;
+        width: 0;
+        color: #ffffff;
+        font-size: 16px;
+
+    }
+    .import_progress{
+        border: 1px solid #cfcfcf;
+        padding: 10px;
+        margin-top: 10px;
+        max-height: 400px;
+        overflow: auto;
+        background:lavender;
+    }
+    .d-none{
+    	display: none;
+    }

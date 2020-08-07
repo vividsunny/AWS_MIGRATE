@@ -1,0 +1,342 @@
+# Copyright (C) 2019 YITH Amazon S3 Storage for WooCommerce Premium
+# This file is distributed under the same license as the YITH Amazon S3 Storage for WooCommerce Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Amazon S3 Storage for WooCommerce Premium 1.1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-04-24 13:48:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-03-05 15:44+0000\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: el\n"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:266
+#: templates/general_settings_tab.php:204
+msgid "Copy files also to S3"
+msgstr "Αντιγραφή αρχείων στο S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:288
+#: templates/woocommerce_settings_tab.php:95
+msgid "Private "
+msgstr "Προσωπικό "
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:299
+#: templates/woocommerce_settings_tab.php:104
+msgid "Public "
+msgstr "Δημόσιο "
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:324
+#: templates/general_settings_tab.php:250
+msgid "Remove from the server"
+msgstr "Αφαίρεση απο τον διακομιστή"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:333
+msgid ""
+"(after removing from the server the file is NOT going to be shown in the "
+"media library)"
+msgstr ""
+"(αφού αφαιρεθεί από τον διακομιστή το αρχείο ΔΕΝ θα φαίνεται στη βιβλιοθήκη "
+"πολυμέσων)"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:686
+msgid "Amazon S3 Storage"
+msgstr "Amazon S3 Storage"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:690
+msgid "Connect to your S3 Amazon account"
+msgstr "Συνδέστε το με τον λογαριασμό σας S3 Amazon"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:695
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:697
+msgid "WooCommerce settings for digital goods"
+msgstr "Ρυθμίσεις WooCommerce για ψηφιακά προϊόντα"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:357
+msgid "Copied to S3"
+msgstr "Έγινε αντιγραφή στο S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:369
+msgid "Removed from S3"
+msgstr "Μεταφέρθηκε από S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:380
+msgid "Copied to server from S3"
+msgstr "Έγινε αντιγραφή στον διακομιστή από S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:392
+msgid "Removed from server"
+msgstr "Μεταφέρθηκε από διακομιστή"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:904
+msgid "Connection to Amazon S3 Storage successful"
+msgstr "Επιτυχής σύνδεση με Αποθήκη Amazon S3"
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:921
+#: templates/connects3_tab.php:153 templates/connects3_tab.php:192
+msgid ""
+"An error occurred while accessing, the credentials (access key or secret "
+"key) are NOT correct"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατα την πρόσβαση, τα πιστοποιητικά (κλειδί πρόσβασης ή "
+"μυστικό κλειδί) ΔΕΝ είναι σωστά"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:148
+msgid "Choose a bucket"
+msgstr "Επιλέξτε ένα bucket"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:186
+msgid ""
+"An error occurred while accessing, the credentials (access key and secret "
+"key) are NOT correct"
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατα την πρόσβαση, τα πιστοποιητικά (κλειδί πρόσβασης ή "
+"μυστικό κλειδί) ΔΕΝ είναι σωστά"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:228
+msgid "Private"
+msgstr "Προσωπικό"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:232
+msgid "Public"
+msgstr "Δημόσιο"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:258
+msgctxt "S3 File Manager"
+msgid "Bucket"
+msgstr "Bucket"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:268
+msgctxt "S3 File Manager"
+msgid "Current folder"
+msgstr "Τρέχον αρχείο"
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:547
+msgid "The bucket couldn't be created"
+msgstr "Αδυναμία δημιουργίας bucket"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:170
+msgctxt "yith-amazon-s3-storage"
+msgid "Copying to S3"
+msgstr "Γίνεται αντιγραφή σε S3"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:176
+msgctxt "Button action mode grid"
+msgid "Removing from S3"
+msgstr "Αφαίρεση από S3"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:182
+msgctxt "Button action mode grid"
+msgid "Copying to server from S3"
+msgstr "Γίνεται αντιγραφή σε διακομιστή από S3"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:188
+msgctxt "Button action mode grid"
+msgid "Removing from server"
+msgstr "Αφαίρεση από διακομιστή"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:290
+msgid ""
+"You have to configure your Access Key and Secret Access Key correctly in the "
+"\"Connect to your s3 amazon account\" tab"
+msgstr ""
+"Χρειάζεται σωστή ρύθμιση του Κλειδιού Πρόσβασης και Μυστικού Κλειδιού "
+"Πρόσβασης στην καρτέλα “Συνδέστε με τον λογαριασμό σας s3 amazon”"
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:320
+msgid ""
+"You have to choose a bucket in the \"Setting\" tab in the Amazon S3 admin "
+"panel"
+msgstr ""
+"Πρέπει να επιλέξετε ένα bucket στην καρτέλα “Ρυθμίσεις” στο πάνελ "
+"διαχειριστή Amazon S3"
+
+#: templates/connects3_tab.php:40 templates/general_settings_tab.php:75
+#: templates/woocommerce_settings_tab.php:42
+msgid "Settings saved."
+msgstr "Ρυθμίσεις αποθηκεύτηκαν."
+
+#: templates/connects3_tab.php:75
+msgid "Access key"
+msgstr "Κλειδί πρόσβασης"
+
+#: templates/connects3_tab.php:79
+msgid "Set the access key"
+msgstr "Ορίστε κλειδί πρόσβασης"
+
+#: templates/connects3_tab.php:89
+msgid "Secret access key"
+msgstr "Μυστικό κλειδί πρόσβασης"
+
+#: templates/connects3_tab.php:93
+msgid "Set the secret access key"
+msgstr "Ορίστε το μυστικό κλειδί πρόσβασης"
+
+#: templates/connects3_tab.php:97
+msgid "If you don't know where to search for your S3 credentials, "
+msgstr "Αν δεν ξέρετε που να ψάξετε τα πιστοποιητικά S3, "
+
+#: templates/connects3_tab.php:99
+msgid "you can find them here"
+msgstr "μπορείτε να τα βρείτε εδώ"
+
+#: templates/connects3_tab.php:108 templates/general_settings_tab.php:262
+#: templates/woocommerce_settings_tab.php:165
+msgid "Save Changes"
+msgstr "Αποθήκευση Αλλαγών"
+
+#: templates/connects3_tab.php:136 templates/connects3_tab.php:175
+msgid "Connection to Amazon S3 Storage was successful"
+msgstr "Επιτυχής σύνδεση με Αποθήκη Amazon S3"
+
+#: templates/general_settings_tab.php:113
+msgid "Set a bucket name"
+msgstr "Ορίστε όνομα bucket"
+
+#: templates/general_settings_tab.php:125
+msgid "No Buckets Found!!"
+msgstr "Δεν Βρέθηκαν Buckets!!"
+
+#: templates/general_settings_tab.php:182
+msgid ""
+"Select the S3 bucket name where to upload all the files. If you don't know "
+"how to create a bucket, "
+msgstr ""
+"Επιλέξτε το όνομα bucket S3 όπου θα ανεβάσετε όλα τα αρχεία. Αν δεν "
+"γνωρίζετε πως να δημιουργήσετε ένα bucket, "
+
+#: templates/general_settings_tab.php:185
+msgid "you can click here"
+msgstr "κάντε κλικ εδώ"
+
+#: templates/general_settings_tab.php:198
+msgid "Copy file to S3"
+msgstr "Αντιγραφή αρχείου σε S3"
+
+#: templates/general_settings_tab.php:209
+msgid ""
+"The files uploaded to the media library will be added automatically to S3. "
+"The files that are already in the media library\n"
+"                will NOT be uploaded to S3"
+msgstr ""
+"Τα αρχεία που ανέβηκαν στην βιβλιοθήκη πολυμέσων θα προστεθούν αυτόματα στο "
+"S3. Τα αρχεία που είναι ήδη στη βιβλιοθήκη πολυμέσων\n"
+"                δεν θα ανέβουν στο S3"
+
+#: templates/general_settings_tab.php:221
+msgid "Replace URL"
+msgstr "Αντικατάσταση URL"
+
+#: templates/general_settings_tab.php:227
+msgid "Files will be served by S3"
+msgstr "Τα αρχεία θα παραχωρηθούν από S3"
+
+#: templates/general_settings_tab.php:232
+msgid ""
+"The URLs of the files will be automatically replaced to be downloaded from "
+"S3 and not from your WordPress installation"
+msgstr ""
+"Τα URL των αρχείων θα αντικατασταθούν αυτόματα για να κατέβουν από το S3 και "
+"όχι από την εγκατάσταση WordPress σας"
+
+#: templates/general_settings_tab.php:244
+msgid "Remove from server"
+msgstr "Αφαίρεση απο διακομιστή"
+
+#: templates/general_settings_tab.php:255
+msgid "The files uploaded to S3 amazon will be deleted from your server"
+msgstr ""
+"Τα αρχεία που ανέβηκαν στο S3 amazon θα διαγραφούν από τον διακομιστή σας"
+
+#: templates/woocommerce_settings_tab.php:54
+msgctxt "S3 File Manager"
+msgid ""
+"The above link is temporary, so in case it is not working you can click here "
+"to go to your order under your account and download the file"
+msgstr ""
+"Το παραπάνω λινκ είναι προσωρινό, επομένως, στην περίπτωση που δεν "
+"λειτουργεί μπορείτε να κάνετε κλικ εδώ για να μεταβείτε στην παραγγελία σας "
+"κάτω από τον λογαριασμό σας και να κατεβάσετε το αρχείο"
+
+#: templates/woocommerce_settings_tab.php:88
+msgid "Permissions"
+msgstr "Άδειες"
+
+#: templates/woocommerce_settings_tab.php:108
+msgid ""
+"By setting the files as public, anyone who knows the S3 URL will\n"
+"\t\thave complete access to it"
+msgstr ""
+"Ορίζοντας τα αρχεία ως δημόσια, οποιοσδήποτε γνωρίζει το S3 URL θα\n"
+"\t\tέχει πλήρη πρόσβαση σε αυτό"
+
+#: templates/woocommerce_settings_tab.php:117
+msgid "URL validity period"
+msgstr "Περίοδος εγκυρότητας URL"
+
+#: templates/woocommerce_settings_tab.php:121
+msgid "Set the time (minutes) during which the URL is valid for download"
+msgstr ""
+"Ορίστε τον χρόνο (λεπτά) κατα τα οποία το URL θα είναι έγκυρο για κατέβασμα"
+
+#: templates/woocommerce_settings_tab.php:132
+msgid "Send order link"
+msgstr "Αποστολή λινκ παραγγελίας"
+
+#: templates/woocommerce_settings_tab.php:138
+msgid "link of the order under the user's account"
+msgstr "λινκ παραγγελίας κάτω από τον λογαριασμό του χρήστη"
+
+#: templates/woocommerce_settings_tab.php:143
+msgid ""
+"This link shows up in the email sent after purchasing and leads to the order "
+"under the account of the user. If the client does not have an account the "
+"link will not be sent"
+msgstr ""
+"Αυτό το λινκ εμφανίζεται στο email που στέλνεται μετά την αγορά και οδηγεί "
+"στην παραγγελία κάτω από τον λογαριασμό του χρήστη. Αν ο πελάτης δεν έχει "
+"λογαριασμό το λινκ δεν θα σταλεί"
+
+#: templates/woocommerce_settings_tab.php:154
+msgid "Link of the email sent"
+msgstr "Λινκ του σταλμένου email"
+
+#: templates/woocommerce_settings_tab.php:158
+msgid "Edit the text of the link."
+msgstr "Επεξεργασία κειμένου λινκ."
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Amazon S3 Storage for WooCommerce Premium"
+msgstr "YITH Amazon S3 Storage for WooCommerce Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-amazon-s3-storage/"
+msgstr "https://yithemes.com/themes/plugins/yith-amazon-s3-storage/"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Amazon S3 Storage</strong></code> allows you to store all "
+"your media library and your downloadable products for WooCommerce in Amazon "
+"S3. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for "
+"your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>Το YITH Amazon S3 Storage</strong></code> σας επιτρέπει να "
+"αποθηκεύετε όλη την βιβλιοθήκη πολυμέσων σας και τα προϊόντα προς κατέβασμα "
+"του WooCommerce, στο Amazon S3. <a href=“https://yithemes.com/“ "
+"target=“_blank”>Βρείτε περισσότερα πρόσθετα για το ηλεκτρονικό σας κατάστημα "
+"στο <strong>YITH</strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"

@@ -1,0 +1,254 @@
+.tablenav-pages-navspan{
+    height: auto !important;
+}
+    .btn{
+        padding: 0.75em 1.5em;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    color: #333;
+    text-decoration: none;
+    display: inline;
+    border-radius: 4px;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+    }
+    .progress.hide {
+        opacity: 0;
+        transition: opacity 1.3s;
+    } 
+    .progress {
+        /*background: #4CAF50 !important;*/
+        display: block;
+        height: 20px;
+        text-align: center;
+        transition: width .3s;
+        margin-top: 10px;
+        width: 0;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 10px;
+
+    }
+    .import_response{
+        border: 1px solid #cfcfcf;
+        padding: 10px;
+        margin-top: 10px;
+        max-height: 400px;
+        overflow: auto;
+        background:lavender;
+    }
+
+    #csvloading{
+        display: none;
+    }
+
+    /* New */
+    .btn-rounded {
+        border-radius: 10em !important;
+    }
+    .btn-mdb-color {
+        background-color: #59698d!important;
+        color: #fff !important;
+    }
+    span {
+        cursor: pointer !important;
+    }
+    .file-field {
+        position: relative;
+    }
+    .file-field input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+        opacity: 0;
+    }
+
+/* HTML CSS */
+.err_msg{
+    border-color: #ff0000ab !important;
+    border-width: 1px !important;
+}
+.error_message{
+    display: block;
+    color: #ff0000ab;
+    font-weight: 600;
+}
+    
+.containAll {
+      display: flex;
+      height: 90vh;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    .containAll .containLoader {
+      position: relative;
+      height: 60px;
+      width: 60px;
+      margin: auto;
+    }
+    .containAll .containLoader .circleGroup {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+    .containAll .containLoader .circle-1 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 30ms;
+      animation-delay: 30ms;
+    }
+    .containAll .containLoader .circle-2 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 60ms;
+      animation-delay: 60ms;
+    }
+    .containAll .containLoader .circle-3 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 90ms;
+      animation-delay: 90ms;
+    }
+    .containAll .containLoader .circle-4 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 120ms;
+      animation-delay: 120ms;
+    }
+    .containAll .containLoader .circle-5 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 150ms;
+      animation-delay: 150ms;
+    }
+    .containAll .containLoader .circle-6 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 180ms;
+      animation-delay: 180ms;
+    }
+    .containAll .containLoader .circle-7 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 210ms;
+      animation-delay: 210ms;
+    }
+    .containAll .containLoader .circle-8 {
+      border: 7px solid #0073aa;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 7px solid transparent;
+      -webkit-animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      animation: rotate 1.2s cubic-bezier(0, 0.58, 1, 0.3) infinite;
+      -webkit-animation-delay: 240ms;
+      animation-delay: 240ms;
+    }
+    .containAll .containLoader .innerText {
+      position: absolute;
+      font-family: "Quicksand", sans-serif;
+      bottom: -40px;
+      -webkit-animation: flash 1.2s ease-in-out infinite;
+              animation: flash 1.2s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    @-webkit-keyframes rotate {
+      50% {
+        border: 1px solid #0073aa;
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-left: 1px solid transparent;
+      }
+      100% {
+        -webkit-transform: rotatez(360deg);
+                transform: rotatez(360deg);
+      }
+    }
+
+    @keyframes rotate {
+      50% {
+        border: 1px solid #0073aa;
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        border-left: 1px solid transparent;
+      }
+      100% {
+        -webkit-transform: rotatez(360deg);
+                transform: rotatez(360deg);
+      }
+    }
+    @-webkit-keyframes flash {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    @keyframes flash {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+    

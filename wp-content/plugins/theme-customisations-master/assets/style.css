@@ -1,0 +1,13 @@
+/**
+ * Add any custom CSS here.
+ *
+ * This file will be loaded after all other theme stylesheets.
+ */
+
+ a.button.product_type_simple.active {
+    background-color: darkgray;
+}
+
+.weeleky_cards article {
+    margin: 0 0.5% 20px !important;
+}

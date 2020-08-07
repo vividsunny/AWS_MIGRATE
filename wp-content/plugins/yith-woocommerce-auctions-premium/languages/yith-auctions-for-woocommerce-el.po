@@ -1,0 +1,1649 @@
+# Copyright (C) 2019 YITH Auctions for WooCommerce Premium
+# This file is distributed under the same license as the YITH Auctions for WooCommerce Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Auctions for WooCommerce Premium 1.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-04-14 12:40:38+00:00\n"
+"PO-Revision-Date: 2020-04-25 16:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:105
+msgctxt "[gutenberg]: block name"
+msgid "Auction products"
+msgstr "Προϊόντα δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:106
+msgctxt "[gutenberg]: block description"
+msgid "Print auction products"
+msgstr "Εκτύπωση προϊόντα δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:113
+msgctxt "[gutenberg]: block name"
+msgid "Auction out of date"
+msgstr "Η δημοπρασία δεν είναι ενημερωμένη"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:114
+msgctxt "[gutenberg]: block description"
+msgid "Print out of date auction products "
+msgstr "Εκτύπωση μη ενημερωμένα προϊόντα δημοπρασίας "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:121
+msgctxt "[gutenberg]: block name"
+msgid "Auction current"
+msgstr "Τρέχουσα δημοπρασία"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:122
+msgctxt "[gutenberg]: block description"
+msgid "Print current auction products "
+msgstr "Εκτύπωση τρέχοντα προϊόντα δημοπρασίας "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:129
+msgctxt "[gutenberg]: block name"
+msgid "Auction Show list bid"
+msgstr "Εμφάνιση λίστας προσφορών δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:130
+msgctxt "[gutenberg]: block description"
+msgid "Show the list bid of an auction product"
+msgstr "Εμφάνιση της λίστας προσφορών ενός προϊόντος δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:137
+msgctxt "[gutenberg]: Option title"
+msgid "Product id to show list bid"
+msgstr "ID προϊόντος για εμφάνιση λίστας προσφορών"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:157
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:183
+msgctxt "Panel: page title"
+msgid "General settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:190
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Show auctions on shop page"
+msgstr "Εμφάνιση δημοπρασιών στη σελίδα καταστήματος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:192
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to show auctions on shop page"
+msgstr "Επιλέξτε για να εμφανίζετε τις δημοπρασίες στη σελίδα καταστήματος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:197
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide out-of-stock auctions"
+msgstr "Απόκρυψη δημοπρασιών εκτός αποθέματος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:199
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide out-of-stock auctions on shop page"
+msgstr ""
+"Επιλέξτε για να αποκρύψετε δημοπρασίες εκτός αποθέματος στη σελίδα "
+"καταστήματος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:205
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide closed auctions"
+msgstr "Απόκρυψη κλειστών δημοπρασιών"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:207
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide closed auctions on shop page"
+msgstr ""
+"Επιλέξτε για να αποκρύψετε κλειστές δημοπρασίες στη σελίδα καταστήματος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:212
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide not started auctions"
+msgstr "Απόκρυψη δημοπρασιών που δεν έχουν ξεκινήσει"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:214
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide not started auctions on shop page"
+msgstr ""
+"Επιλέξτε για να αποκρύψετε δημοπρασίες που δεν έχουν ξεκινήσει στη σελίδα "
+"καταστήματος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:220
+msgctxt "Admin option: Posibility to add to cart auction product"
+msgid "Possibility to add auction product to cart "
+msgstr "Δυνατότητα προσθήκης προϊόντος δημοπρασίας στο καλάθι "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:222
+msgctxt ""
+"Admin option description: Check this option to show pay now button in "
+"product when the auction ends"
+msgid ""
+"Check this option to allow adding auction product and other products to cart "
+"in the same order"
+msgstr ""
+"Επιλέξτε για να επιτρέψετε την προσθήκη προϊόντος δημοπρασίας καθώς και "
+"άλλων προϊόντων στο καλάθι στην ίδια παραγγελία"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:244
+msgctxt "Panel: page title"
+msgid "Cron settings"
+msgstr "Ρυθμίσεις cron"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:251
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Send emails"
+msgstr "Αποστολή email"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:253
+msgctxt ""
+"Admin option description: Check this option to show full Username in bid tab"
+msgid "Check this option to send emails before auctions end"
+msgstr ""
+"Επιλέξτε για να μπορείτε να στέλνετε email πριν τη λήξη των δημοπρασιών"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:258
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Number of days/hours"
+msgstr "Αριθμός ημερών/ωρών"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:260
+msgctxt "Admin option description: number of days"
+msgid "Number of days/hours before auction end date for notification"
+msgstr "Αριθμός ημερών/ωρών πριν την ειδοποίηση λήξης δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:269
+msgctxt "Admin option: Select days/hours/minutes"
+msgid "Select unit"
+msgstr "Επιλέξτε μονάδα"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:274
+#: includes/class.yith-wcact-auction-admin-premium.php:329
+#: includes/class.yith-wcact-auction-admin-premium.php:618
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:92
+msgctxt "Admin option: days"
+msgid "days"
+msgstr "ημέρες"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:275
+#: includes/class.yith-wcact-auction-admin-premium.php:330
+#: includes/class.yith-wcact-auction-admin-premium.php:619
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:94
+msgctxt "Admin option: hours"
+msgid "hours"
+msgstr "ώρες"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:276
+#: includes/class.yith-wcact-auction-admin-premium.php:331
+#: includes/class.yith-wcact-auction-admin-premium.php:620
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:97
+msgctxt "Admin option: hours"
+msgid "minutes"
+msgstr "λεπτά"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:281
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Allow subscribe auction"
+msgstr "Επιτρέψτε εγγραφή σε δημοπρασία"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:283
+msgctxt ""
+"Admin option description: Check this option to allow users to subscribe to "
+"an auction and be notified when it is about to end"
+msgid ""
+"Check this option to allow users to subscribe to an auction and be notified "
+"when it is about to end"
+msgstr ""
+"Επιλέξτε για να επιτρέπετε στους χρήστες να κάνουν εγγραφή σε δημοπρασία και "
+"να ενημερώνονται όταν πρόκειται να τελειώσει"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:288
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Send email to customers who lost auction"
+msgstr "Αποστολή email σε πελάτες που έχασαν τη δημοπρασία"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:290
+msgctxt ""
+"Admin option description: Check this option to send an email to users who "
+"did not win the auction after it is finished"
+msgid ""
+"Check this option to send an email to users who did not win the auction "
+"after it is finished"
+msgstr ""
+"Επιλέξτε για να στέλνετε email σε χρήστες που δεν κέρδισαν την δημοπρασία "
+"αφού έχει τελειώσει"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:306
+msgctxt "Panel: page title"
+msgid "Automatic auction rescheduling"
+msgstr "Αυτόματος επαναπρογραμματισμός δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:313
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Number of days/hours/minutes"
+msgstr "Αριθμός ημερών/ωρών/λεπτών"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:315
+msgctxt "Admin option description: number of days"
+msgid ""
+"Number of days/hours/minutes to reschedule auction without bids "
+"automatically "
+msgstr ""
+"Αριθμός ημερών/ωρών/λεπτών για αυτόματο επαναπρογραμματισμό δημοπρασίας "
+"χωρίς προσφορές "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:324
+#: includes/class.yith-wcact-auction-admin-premium.php:616
+msgctxt "Admin option: Select days/hours/minutes"
+msgid "Select unit for automatic rescheduling"
+msgstr "Επιλέξτε μονάδα για αυτόματο επαναπρογραμματισμό"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:348
+msgctxt "Panel: page title"
+msgid "Overtime settings"
+msgstr "Ρυθμίσεις παράτασης"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:354
+msgctxt "Admin option: Time to add overtime"
+msgid "Time to add overtime"
+msgstr "Ώρα κατα την οποία θα προστεθεί παράταση"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:356
+msgctxt ""
+"Admin option description: Number of minutes before auction ends to check if "
+"added overtime"
+msgid "Number of minutes before auction ends to check if added overtime"
+msgstr ""
+"Αριθμός λεπτών πριν την λήξη δημοπρασίας για τον έλεγχο πρόσθεσης παράτασης"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:365
+msgctxt "Admin option: Overtime"
+msgid "Overtime"
+msgstr "Παράταση"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:367
+msgctxt ""
+"Admin option description: Number of minutes for which the auction will be "
+"extended"
+msgid "Number of minutes for which the auction will be extended"
+msgstr "Αριθμός λεπτών για τον οποίο θα επεκταθεί η δημοπρασία"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:387
+msgctxt "Panel: page title"
+msgid "Regenerate auction prices"
+msgstr "Επαναδημιουργία τιμών δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:393
+#: includes/class.yith-wcact-auction-admin-premium.php:397
+msgid "Regenerate auction prices"
+msgstr "Επαναδημιουργία τιμών δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:395
+msgid "Click this button to regenerate all auction prices"
+msgstr "Κάντε κλικ στο κουμπί για επαναδημιουργία όλων των τιμών δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:411
+msgctxt "Panel: page title"
+msgid "Live Auctions"
+msgstr "Ζωντανές Δημοπρασίες"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:417
+msgctxt "Admin option: Overtime"
+msgid "Live auctions on My auctions"
+msgstr "Ζωντανές δημοπρασίες στο Οι δημοπρασίες μου"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:419
+msgctxt ""
+"Admin option description: Seconds to pass before checking new auction "
+"changes on My account > My auctions. Set to \"0\" to disable live auction on "
+"My auctions"
+msgid ""
+"Seconds to pass before checking new auction changes on My account > My "
+"auctions. Set to \"0\" to disable live auction on My auctions"
+msgstr ""
+"Δευτερόλεπτα που μπορούν να περάσουν πριν το έλεγχο νέων αλλαγών δημοπρασιών "
+"στο Ο λογαριασμός μου > Οι δημοπρασίες μου. Ορίστε σε “0” για να "
+"απενεργοποιήσετε τις ζωντανές δημοπρασίες στο Οι δημοπρασίες μου"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:428
+msgctxt "Admin option: Live auctions on auction product page"
+msgid "Live auctions on auction product page"
+msgstr "Ζωντανές δημοπρασίες στη σελίδα προϊόντος δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:430
+msgctxt ""
+"Admin option description: Seconds to pass before checking new auction "
+"changes on auction product page. Set to \"0\" to disable live auction on "
+"product page"
+msgid ""
+"Seconds to pass before checking new auction changes on auction product page. "
+"Set to \"0\" to disable live auction on product page"
+msgstr ""
+"Δευτερόλεπτα που μπορούν να περάσουν πριν το έλεγχο νέων αλλαγών δημοπρασιών "
+"στη σελίδα προϊόντος δημοπρασίας. Ορίστε σε “0” για να απενεργοποιήσετε τις "
+"ζωντανές δημοπρασίες στη σελίδα προϊόντος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:450
+msgctxt "Panel: page title"
+msgid "Resend winner email"
+msgstr "Επανάληψη αποστολής email νικητή"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:456
+#: includes/class.yith-wcact-auction-admin-premium.php:460
+msgid "Resend winner email"
+msgstr "Επανάληψη αποστολής email νικητή"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:458
+msgid "Click to resend the email to the winner in case the sending failed"
+msgstr ""
+"Κάντε κλικ για να στείλετε ξανά το email στο νικητή αν η αποστολή δεν ήταν "
+"επιτυχής"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:491
+msgid "Starting Price"
+msgstr "Αρχική Τιμή"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:505
+msgid "Bid up"
+msgstr "Αύξηση προσφοράς"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:518
+msgid "Minimum increment amount"
+msgstr "Ελάχιστο ποσό αύξησης"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:521
+msgid "Minimum amount to increase manual bids"
+msgstr "Ελάχιστο ποσό αύξησης χειροκίνητων προσφορών"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:533
+msgid "Reserve price"
+msgstr "Κάντε κράτηση τιμής"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:546
+msgid "Buy it now price"
+msgstr "Τιμή άμεσης αγοράς"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:575
+msgid "Time to add overtime"
+msgstr "Ώρα κατα την οποία θα προστεθεί παράταση"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:578
+msgid ""
+"Number of minutes before auction ends to check if overtime added. (Override "
+"the settings option)"
+msgstr ""
+"Αριθμός λεπτών πριν την λήξη δημοπρασίας για τον έλεγχο πρόσθεσης παράτασης. "
+"(Παράκαμψη επιλογής ρυθμίσεων)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:589
+msgid "Overtime"
+msgstr "Παράταση"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:592
+msgid ""
+"Number of minutes by which the auction will be extended. (Overrride the "
+"settings option)"
+msgstr ""
+"Αριθμός λεπτών κατα τον οποίο θα επεκταθεί η δημοπρασία. (Παράκαμψη επιλογής "
+"ρυθμίσεων)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:603
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Time value for automatic rescheduling"
+msgstr "Αξία χρόνου για αυτόματο επαναπρογραμματισμό"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:605
+msgctxt ""
+"Admin option description: number of days. (Override the settings option)"
+msgid ""
+"Number of days/hours/minutes to reschedule auction without bids "
+"automatically (Override the settings option)"
+msgstr ""
+"Αριθμός ημερών/ωρών/λεπτών για τον αυτόματο επαναπρογραμματισμό δημοπρασίας "
+"χωρίς προσφορές (Παράκαμψη επιλογής ρυθμίσεων)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:630
+msgid "Check this option to show Bid up on product page"
+msgstr "Επιλέξτε για να εμφανίζετε την αύξηση προσφοράς στη σελίδα προϊόντος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:637
+msgid "Show overtime"
+msgstr "Εμφάνιση παράτασης"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:639
+msgid "Check this option to show overtime on product page"
+msgstr "Επιλέξτε για να εμφανίζεται η παράταση στη σελίδα προϊόντος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:646
+msgid "Re-schedule"
+msgstr "Επαναπρογραμματισμός"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:647
+msgid ""
+" Change the dates and click on the update button to re-schedule the auction"
+msgstr ""
+" Αλλάξτε τις ημερομηνίες και κάντε κλικ στο κουμπί αναβάθμισης για "
+"επαναπρογραμματισμό δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:713
+msgid "Started and not exceeded the reserve price"
+msgstr "Ξεκίνησαν και δεν ξεπέρασαν την τιμή κράτησης"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:716
+msgid "Finished and not exceeded the reserve price"
+msgstr "Έληξαν και δεν ξεπέρασαν την τιμή κράτησης"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:719
+msgid "Purchased through buy-now"
+msgstr "Αγοράστηκε μέσω άμεσης αγοράς"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:815
+msgid "Show all auction statuses"
+msgstr "Εμφάνιση όλων των καταστάσεων δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:816
+#: includes/class.yith-wcact-auction-admin.php:387
+msgid "Not Started"
+msgstr "Δεν Ξεκίνησε"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:817
+#: includes/class.yith-wcact-auction-admin.php:390
+#: includes/class.yith-wcact-auction-ajax-premium.php:514
+#: templates/frontend/my-account-my-auction.php:94
+msgid "Started"
+msgstr "Ξεκίνησε"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:818
+#: includes/class.yith-wcact-auction-admin.php:393
+msgid "Finished"
+msgstr "Έληξε"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:901
+msgid "Auction bid list"
+msgstr "Λίστα προσφορών δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:902
+#: includes/class.yith-wcact-auction-admin.php:345
+msgid "Auction status"
+msgstr "Κατάσταση δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1063
+msgid "Auction details"
+msgstr "Λεπτομέρειες δημοπρασίας"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1066
+msgid "Banned"
+msgstr "Αποκλεισμένος"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1069
+msgid "Check this option if you want to ban user from bidding"
+msgstr ""
+"Επιλέξτε αν θέλετε να αποκλείσετε κάποιον χρήστη από το να υποβάλλει προσφορά"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1073
+msgid "Ban Message"
+msgstr "Μήνυμα Αποκλεισμού"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1076
+msgid "Optionally you can show a message, explaining why her/his was banned"
+msgstr ""
+"Προαιρετικά μπορείτε να εμφανίζετε ένα μήνυμα όπου να εξηγείτε στον χρήστη "
+"γιατί αποκλείστηκε"
+
+#: includes/class.yith-wcact-auction-admin.php:150
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/class.yith-wcact-auction-admin.php:160
+msgid ""
+"Your customers can purchase products at the best price ever taking full "
+"advantage of the online auction system as the most popular portals, such as "
+"eBay, can do."
+msgstr ""
+"Oι πελάτες σας μπορούν να αγοράζουν προϊόντα στην καλύτερη τιμή, "
+"επωφελούμενοι από το online σύστημα δημοπρασίας, όπως χρησιμοποιούν οι πιο "
+"γνωστές πύλες, σαν το eBay."
+
+#: includes/class.yith-wcact-auction-admin.php:194
+msgid "Plugin documentation"
+msgstr "Εγχειρίδιο χρήσης πρόσθετου"
+
+#: includes/class.yith-wcact-auction-admin.php:198
+msgid "Help Center"
+msgstr "Κέντρο Βοήθειας"
+
+#: includes/class.yith-wcact-auction-admin.php:202
+msgid "Support platform"
+msgstr "Πλατφόρμα υποστήριξης"
+
+#: includes/class.yith-wcact-auction-admin.php:206
+msgid "Changelog"
+msgstr "Σύνοψη αλλαγών"
+
+#: includes/class.yith-wcact-auction-admin.php:206
+msgid "current version"
+msgstr "τρέχουσα έκδοση"
+
+#: includes/class.yith-wcact-auction-admin.php:243
+msgid "Are you sure you want to delete the customer's bid?"
+msgstr "Είστε σίγουρος ότι θέλετε να διαγράψετε την προσφορά του πελάτη;"
+
+#: includes/class.yith-wcact-auction-admin.php:278
+msgctxt "Admin: product type"
+msgid "Auction"
+msgstr "Δημοπρασία"
+
+#: includes/class.yith-wcact-auction-admin.php:297
+msgid "Auction"
+msgstr "Δημοπρασία"
+
+#: includes/class.yith-wcact-auction-admin.php:343
+msgid "Start Date"
+msgstr "Ημερομηνία Έναρξης"
+
+#: includes/class.yith-wcact-auction-admin.php:344
+msgid "End Date"
+msgstr "Ημερομηνία Λήξης"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:117
+#: includes/class.yith-wcact-auction-ajax-premium.php:154
+#: includes/class.yith-wcact-auction-ajax-premium.php:205
+#: includes/class.yith-wcact-auction-ajax-premium.php:235
+msgid "You were outbid. Someone has placed a maximum bid. Please try again"
+msgstr ""
+"Ένας χρήστης έχει πλειοδοτήσει και υποβάλλει μεγαλύτερη προσφορά από εσάς. "
+"Παρακαλώ προσπαθήστε ξανά"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:133
+#: includes/class.yith-wcact-auction-ajax-premium.php:169
+#: includes/class.yith-wcact-auction-ajax-premium.php:217
+#: includes/class.yith-wcact-auction-ajax-premium.php:248
+#: includes/class.yith-wcact-auction-ajax-premium.php:288
+msgid "You have successfully bid"
+msgstr "Επιτυχής υποβολή προσφοράς"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:184
+#: includes/class.yith-wcact-auction-ajax-premium.php:259
+#: includes/class.yith-wcact-auction-ajax-premium.php:272
+msgid "Enter %s or more to be able to bid"
+msgstr ""
+"Πληκτρολογήστε %s ή περισσότερο για να μπορέσετε να κάνετε υποβολή προσφοράς"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:487
+#: templates/frontend/my-account-my-auction.php:61
+msgid "You won this auction"
+msgstr "Κερδίσατε την δημοπρασία"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:488
+#: includes/class.yith-wcact-auction-frontend-premium.php:617
+#: includes/class.yith-wcact-auction-frontend.php:392
+#: templates/emails/auction-winner.php:37
+#: templates/frontend/my-account-my-auction.php:77
+msgid "Pay now"
+msgstr "Άμεση πληρωμή"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:501
+#: templates/frontend/my-account-my-auction.php:86
+msgid "Closed"
+msgstr "Κλειστή"
+
+#: includes/class.yith-wcact-auction-finish-auction.php:127
+msgid "You cannot buy this product"
+msgstr "Δεν είναι δυνατή η αγορά του προϊόντος"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:160
+#: includes/class.yith-wcact-auction-shortcodes.php:71
+msgid "Sort auctions by end date (asc)"
+msgstr "Ταξινόμηση δημοπρασιών κατα ημερομηνία λήξης (αύξουσα)"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:161
+#: includes/class.yith-wcact-auction-shortcodes.php:72
+msgid "Sort auctions by end date (desc)"
+msgstr "Ταξινόμηση δημοπρασιών κατα ημερομηνία λήξης (φθίνουσα)"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:216
+#: includes/class.yith-wcact-auction-frontend.php:234
+msgctxt "Auction ends: 10 Jan 2016 10:00"
+msgid "Auction start:"
+msgstr "Η δημοπρασία ξεκινά:"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:222
+#: includes/class.yith-wcact-auction-frontend.php:240
+msgctxt "Auction ends: 10 Jan 2016 10:00"
+msgid "Auction ends:"
+msgstr "Η δημοπρασία τελειώνει:"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:244
+#: includes/class.yith-wcact-auction-frontend.php:261
+msgid "Bid now"
+msgstr "Υποβολή προσφοράς τώρα"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:325
+msgid "You cannot purchase this product because it is an Auction!"
+msgstr ""
+"Δεν είναι δυνατή η αγορά αυτού του προϊόντος γιατί είναι σε Δημοπρασία!"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:569
+msgctxt "Purchase it now for $ 50.00"
+msgid "Buy now for %s"
+msgstr "Άμεση αγορά για %s"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:595
+#: includes/class.yith-wcact-auction-frontend.php:382
+msgid "Congratulations, you won this auction"
+msgstr "Συγχαρητήρια, κερδίσατε την δημοπρασία"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:610
+#: templates/frontend/my-account-my-auction.php:68
+msgid "Add to cart"
+msgstr "Προσθήκη στο καλάθι"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:628
+#: includes/class.yith-wcact-auction-frontend-premium.php:635
+msgid "This auction is closed"
+msgstr "Η δημοπρασία έχει λήξει"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:667
+msgid "Notify me by email when the auction is about to end"
+msgstr "Ειδοποιήστε με μέσω email όταν πρόκειται να λήξει η δημοπρασία"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:669
+msgid "Your email"
+msgstr "Το email σας"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:671
+msgid "Subscribe"
+msgstr "Εγγραφή"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:691
+msgid "The required email field is empty."
+msgstr "Το απαιτούμενο πεδίο email είναι άδειο."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:696
+msgid ""
+"The format of the email address entered for the watchlist is not correct."
+msgstr ""
+"Η μορφή διεύθυνσης email που έχετε εισάγει για τη λίστα παρακολούθησης, δεν "
+"είναι σωστή."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:704
+msgid "Your email \"%s\" was successfully added to the watchlist."
+msgstr "Το email σας “%s” προστέθηκε επιτυχώς στη λίστα παρακολούθησης."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:708
+msgid "Your email \"%s\" is already in the watchlist."
+msgstr "Το email σας “%s” βρίσκεται ήδη στη λίστα παρακολούθησης."
+
+#: includes/class.yith-wcact-auction-frontend.php:179
+msgid "Bids"
+msgstr "Προσφορές"
+
+#: includes/class.yith-wcact-auction-frontend.php:281
+msgid "Current bid: %s"
+msgstr "Τρέχουσα προσφορά: %s"
+
+#: includes/class.yith-wcact-auction-my-auctions.php:91
+#: includes/class.yith-wcact-auction-my-auctions.php:124
+msgid "My auctions"
+msgstr "Οι δημοπρασίες μου"
+
+#: includes/class.yith-wcact-auction-shortcodes.php:68
+msgid "Default sorting"
+msgstr "Προεπιλεγμένη ταξινόμηση"
+
+#: includes/class.yith-wcact-auction-widget.php:30
+msgid "YITH Auctions"
+msgstr "YITH Auctions"
+
+#: includes/class.yith-wcact-auction-widget.php:35
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/class.yith-wcact-auction-widget.php:40
+msgid "Show"
+msgstr "Εμφάνιση"
+
+#: includes/class.yith-wcact-auction-widget.php:42
+msgid "Last Auctions"
+msgstr "Τελευταίες δημοπρασίες"
+
+#: includes/class.yith-wcact-auction-widget.php:43
+msgid "Featured Auctions"
+msgstr "Επιλεγμένες Δημοπρασίες"
+
+#: includes/class.yith-wcact-auction-widget.php:49
+msgid "Show not-started auctions"
+msgstr "Εμφάνιση δημοπρασιών που δεν ξεκίνησαν"
+
+#: includes/class.yith-wcact-auction-widget.php:57
+msgid "Number of auctions to show"
+msgstr "Αριθμός δημοπρασιών προς προβολή"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:45
+msgid "​Auctions - reserve price not exceeded (to vendor)"
+msgstr "Δημοπρασίες - δεν έχει υπερβεί την τιμή κράτησης (για πωλητή)"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:49
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:49
+msgid ""
+"​Can be emailed when the auction has finished, and the highest bid doesn't "
+"exceed the minimum reserve price  "
+msgstr ""
+"Μπορεί να σταλεί μέσω email όταν λήξει η δημοπρασία και όταν η μεγαλύτερη "
+"προσφορά δεν υπερβαίνει την ελάχιστη τιμή κράτησης  "
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:52
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:54
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:54
+msgid "Max bid doesn't exceed minimum reserve price"
+msgstr "Η μεγαλύτερη προσφορά δεν υπερβαίνει την ελάχιστη τιμή κράτησης"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:133
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:135
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:133
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:132
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:145
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:134
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:132
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:132
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:144
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:135
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:136
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:133
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:140
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:139
+msgid "Enable/Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:135
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:137
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:135
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:134
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:147
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:136
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:134
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:134
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:146
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:137
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:138
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:135
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:142
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:141
+msgid "Enable this email notification"
+msgstr "Ενεργοποιείστε την ειδοποίηση email"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:140
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:142
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:140
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:139
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:152
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:141
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:148
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:139
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:150
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:151
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:152
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:140
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:156
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:155
+msgid "Subject"
+msgstr "Θέμα"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:142
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:144
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:142
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:141
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:154
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:143
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:150
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:141
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:152
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:153
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:154
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:142
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:158
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:157
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Ελέγχει την γραμμή θέματος του email. Διατηρήστε κενό για να χρησιμοποιήσετε "
+"το προεπιλεγμένο θέμα: <code>%s</code>."
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:148
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:150
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:148
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:147
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:160
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:149
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:156
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:147
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:158
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:159
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:160
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:148
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:164
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:163
+msgid "Email Heading"
+msgstr "Επικεφαλίδα Email"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:150
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:152
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:150
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:149
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:162
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:151
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:158
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:149
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:160
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:161
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:162
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:150
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:166
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:165
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Ελέγχει την κύρια επικεφαλίδα που περιλαμβάνει η ειδοποίηση email. "
+"Διατηρήστε κενό για να χρησιμοποιήσετε την προεπιλεγμένη επικεφαλίδα: <code>"
+"%s</code>."
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:156
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:158
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:156
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:155
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:168
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:157
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:164
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:155
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:166
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:167
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:168
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:156
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:172
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:171
+msgid "Email type"
+msgstr "Τύπος email"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:158
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:160
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:158
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:157
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:170
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:159
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:166
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:157
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:168
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:169
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:170
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:158
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:174
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:173
+msgid "Choose the email format to send."
+msgstr "Επιλέξτε ποια μορφή email να στέλνεται."
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:45
+msgid "​Auctions - Winner (to vendor)"
+msgstr "Δημοπρασίες - Νικητής (για πωλητή)"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:48
+msgid "​Can be emailed when the auction has finished and has a winner"
+msgstr "Μπορεί να σταλεί όταν λήξει η δημοπρασία και υπάρχει ένας νικητής"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:51
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-winner.php:53
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:51
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:53
+msgid "Auction has a winner"
+msgstr "Η δημοπρασία έχει έναν νικητή"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:45
+msgid "​Auctions - Without bid (to vendor)"
+msgstr "Δημοπρασίες - Χωρίς προσφορά (για πωλητή)"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:48
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:48
+msgid ""
+"​Can be emailed when the auction has finished, and the product doesn't have "
+"any bid "
+msgstr ""
+"Μπορεί να σταλεί μέσω email όταν λήξει η δημοπρασία και το προϊόν δεν έχει "
+"καμία προσφορά "
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:51
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:53
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:51
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:53
+msgid "The product doesn't have any bid"
+msgstr "Το προϊόν δεν έχει καμία προσφορά"
+
+#: includes/compatibility/elementor/class.yith-wcact-auction-form-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-auction-form-elementor-widget.php:33
+msgid "Auction Form"
+msgstr "Φόρμα Δημοπρασίας"
+
+#: includes/compatibility/elementor/class.yith-wcact-auction-form-elementor-widget.php:40
+#: includes/compatibility/elementor/class.yith-wcact-list-bids-elementor-widget.php:40
+msgid "Product id"
+msgstr "ID Προϊόντος"
+
+#: includes/compatibility/elementor/class.yith-wcact-current-auctions-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-current-auctions-elementor-widget.php:33
+msgid "Current Auctions"
+msgstr "Τρέχουσες Δημοπρασίες"
+
+#: includes/compatibility/elementor/class.yith-wcact-current-auctions-elementor-widget.php:34
+msgid "Widget to show current auctions"
+msgstr "Μικροεφαρμογή για εμφάνιση τρεχουσών δημοπρασιών"
+
+#: includes/compatibility/elementor/class.yith-wcact-end-auctions-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-end-auctions-elementor-widget.php:33
+msgid "End Auctions"
+msgstr "Λήξη Δημοπρασιών"
+
+#: includes/compatibility/elementor/class.yith-wcact-list-bids-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-list-bids-elementor-widget.php:33
+msgid "List Bids"
+msgstr "Λίστα Προσφορών"
+
+#: includes/compatibility/elementor/class.yith-wcact-not-started-auctions-elementor-widget.php:15
+#: includes/compatibility/elementor/class.yith-wcact-not-started-auctions-elementor-widget.php:33
+msgid "Not Started Auctions"
+msgstr "Δημοπρασίες που δεν έχουν ξεκινήσει"
+
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:45
+msgid "​Auctions - No Winner"
+msgstr "Δημοπρασίες - Χωρίς Νικητή"
+
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:50
+msgid ""
+"​Can be emailed to users who did not win  the auction after it is finished"
+msgstr ""
+"Μπορεί να σταλεί μέσω email σε χρήστες που δεν κέρδισαν  την δημοπρασία μετά "
+"την λήξη της"
+
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:53
+#: includes/emails/class.yith-wcact-auction-email-auction-no-winner.php:55
+msgid "Auction No Winner"
+msgstr "Δημοπρασία Χωρίς Νικητή"
+
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:45
+msgid "​Auctions - Winner"
+msgstr "Δημοπρασίες - Νικητή"
+
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:50
+msgid "​Can be emailed to user who won the auction when it is finished"
+msgstr ""
+"Μπορεί να σταλεί μέσω email στον χρήστη που κέρδισε την δημοπρασία μετά την "
+"λήξη της"
+
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:53
+#: includes/emails/class.yith-wcact-auction-email-auction-winner.php:55
+msgid "Auction Winner"
+msgstr "Νικητής Δημοπρασίας"
+
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:46
+msgid "​Auctions - Highest bid overbidded"
+msgstr "Δημοπρασίες - Μεγαλύτερη προσφορά που πλειοδοτήθηκε"
+
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:51
+msgid ""
+"​Can be emailed to invite to offer a new bid when a better one has been made"
+msgstr ""
+"Μπορεί να σταλεί μέσω email για να προσκαλέσει τους χρήστες να υποβάλλουν "
+"νέες προσφορές όταν έχει υποβληθεί μια καλύτερη"
+
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:54
+#: includes/emails/class.yith-wcact-auction-email-better-bid.php:55
+msgid "Your highest bid has been overbidded"
+msgstr "Έχουν πλειοδοτήσει έναντι της μεγαλύτερης προσφοράς σας"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:45
+msgid "​Auctions - Delete Bid Admin"
+msgstr "Δημοπρασίες - Διαγραφή Προσφοράς Διαχειριστή"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:48
+msgid "​Can be sent when a bid was removed"
+msgstr "Μπορεί να σταλεί όταν διαγράφεται μια προσφορά"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:51
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:53
+msgid "Auction bid removed"
+msgstr "Διαγράφηκε προσφορά δημοπρασίας"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:139
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:143
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:147
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:146
+msgid "Recipient(s)"
+msgstr "Παραλήπτης (-ες)"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid-admin.php:141
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:145
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:149
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:148
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Πληκτρολογήστε παραλήπτες (διαχωρίστε με κόμμα) για αυτό το email. "
+"Προεπιλεγμένα σε %s."
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:45
+msgid "​Auctions - Delete Bid"
+msgstr "Δημοπρασίες - Διαγραφή Προσφοράς"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:50
+msgid "​Can be emailed to user when bid is deleted"
+msgstr "Μπορεί να σταλεί μέσω email στον χρήστη όταν διαγράφεται η προσφορά"
+
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:53
+#: includes/emails/class.yith-wcact-auction-email-delete-bid.php:55
+msgid "Auction Delete Bid"
+msgstr "Διαγραφή Προσφοράς Δημοπρασίας"
+
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:44
+msgid "​Auctions - The Auction is about to end"
+msgstr "Δημοπρασίες - H Δημοπρασία πρόκειται να λήξει"
+
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:45
+msgid "​Auctions - End"
+msgstr "Δημοπρασίες - Λήξη"
+
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:50
+msgid "​Can be emailed when the auction is about to end"
+msgstr ""
+"Μπορεί να σταλεί μέσω email στον χρήστη όταν η δημοπρασία πρόκειται να λήξει"
+
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:53
+#: includes/emails/class.yith-wcact-auction-email-end-auction.php:54
+#: templates/emails/end-auction.php:17
+msgid "The Auction is about to end"
+msgstr "Η Δημοπρασία πρόκειται να λήξει"
+
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:45
+msgid "​Auctions - reserve price not exceeded"
+msgstr "Δημοπρασίες - δεν έχει υπερβεί η τιμή κράτησης"
+
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:52
+msgid "Max bid doesn't exceed the minimum reserve price"
+msgstr "Η μεγαλύτερη προσφορά δεν υπερβαίνει την ελάχιστη τιμή κράτησης"
+
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:142
+msgid "Recipient"
+msgstr "Παραλήπτης"
+
+#: includes/emails/class.yith-wcact-auction-email-not-reached-reserve-price.php:144
+msgid ""
+"This controls the email recipient line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Ελέγχει την γραμμή θέματος του email. Διατηρήστε κενό για να χρησιμοποιήσετε "
+"το προεπιλεγμένο θέμα: <code>%s</code>."
+
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:46
+msgid "​Auctions - Successfully bid email for admins"
+msgstr "Δημοπρασίες - Email επιτυχημένων προσφορών για διαχειριστές"
+
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:51
+msgid "​Admin can be emailed when the customer bid successfully"
+msgstr ""
+"Ο διαχειριστής μπορεί να ενημερωθεί μέσω email όταν ο πελάτης έχει υποβάλει "
+"μια προσφορά επιτυχημένα"
+
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:54
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid-admin.php:55
+msgid "A customer added a bid successfully"
+msgstr "Ο πελάτης υπέβαλε μια προσφορά επιτυχημένα"
+
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:45
+msgid "​Auctions - Successfully bid"
+msgstr "Δημοπρασίες - Επιτυχής υποβολή προσφοράς"
+
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:50
+msgid "​Can be emailed when the customer bid successfully"
+msgstr ""
+"Μπορεί να σταλεί μέσω email όταν ο πελάτης υποβάλει μια προσφορά επιτυχημένα"
+
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:53
+#: includes/emails/class.yith-wcact-auction-email-successfully-bid.php:54
+msgid "Your bid was added successfully"
+msgstr "Έγινε πετυχημένη προσθήκη προσφοράς"
+
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:45
+msgid "​Auctions - has a winner"
+msgstr "Δημοπρασίες - υπάρχει ένας νικητής"
+
+#: includes/emails/class.yith-wcact-auction-email-winner-admin.php:48
+msgid "​Can be sent when the auction ends and has a winner"
+msgstr "Μπορεί να σταλεί όταν λήξει η δημοπρασία και υπάρχει ένας νικητής"
+
+#: includes/emails/class.yith-wcact-auction-email-without-bid.php:45
+msgid "​Auctions - Without bid"
+msgstr "Δημοπρασίες - Χωρίς προσφορά"
+
+#: init.php:36
+msgctxt "Alert Message: WooCommerce requires"
+msgid ""
+"YITH WooCommerce Auctions is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"To YITH WooCommerce Auctions είναι ενεργοποιημένο αλλά αναποτελεσματικό. Για "
+"σωστή λειτουργία, απαιτείται WooCommerce."
+
+#: plugin-options/appearance-options.php:21
+msgctxt "Panel: General appearance"
+msgid "General appearance"
+msgstr "Γενική εμφάνιση"
+
+#: plugin-options/appearance-options.php:28
+msgctxt "Admin option: Upload or Select a badge image"
+msgid "Badge image"
+msgstr "Εικόνα εμβλήματος"
+
+#: plugin-options/appearance-options.php:30
+msgctxt "Admin option: Select an image to show in auctions products"
+msgid "Select an image to show in auctions products"
+msgstr "Επιλέξτε μια εικόνα που να εμφανίζεται στα προϊόντα δημοπρασίας"
+
+#: plugin-options/settings-options.php:25
+msgctxt "Panel: page title"
+msgid "Product settings"
+msgstr "Ρυθμίσεις προϊόντος"
+
+#: plugin-options/settings-options.php:31
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Show full Username in bid tab"
+msgstr "Εμφάνιση πλήρους Ονόματος χρήστη στην καρτέλα προσφορών"
+
+#: plugin-options/settings-options.php:33
+msgctxt ""
+"Admin option description: Check this option to show full Username in bid tab"
+msgid "Check this option to show full Username in bid tab"
+msgstr ""
+"Επιλέξτε για να γίνεται εμφάνιση πλήρους Ονόματος χρήστη στην καρτέλα "
+"προσφορών"
+
+#: plugin-options/settings-options.php:38
+msgctxt ""
+"Admin option: Show buttons in product page to increase or decrease the bid"
+msgid "Show buttons in product page"
+msgstr "Εμφάνιση κουμπιών στη σελίδα προϊόντος"
+
+#: plugin-options/settings-options.php:40
+msgctxt ""
+"Admin option description: Check this option to show buttons in product page "
+"to increase or decrease the bid"
+msgid ""
+"Check this option to show buttons in product page to increase or decrease "
+"the bid"
+msgstr ""
+"Επιλέξτε για να εμφανίζετε κουμπιά στη σελίδα προϊόντος για να αυξάνετε ή "
+"μειώνετε την προσφορά"
+
+#: plugin-options/settings-options.php:46
+msgctxt "Admin option: Show button pay now in product page"
+msgid "Show pay now button in product page"
+msgstr "Εμφάνιση κουμπιού άμεσης πληρωμής στη σελίδα προϊόντος"
+
+#: plugin-options/settings-options.php:48
+msgctxt ""
+"Admin option description: Check this option to show pay now button in "
+"product when the auction ends"
+msgid ""
+"Check this option to show pay now button in product when the auction ends "
+msgstr ""
+"Επιλέξτε για να εμφανίζετε το κουμπί άμεσης πληρωμής στη σελίδα προϊόντος "
+"όταν λήγει η δημοπρασία "
+
+#: plugin-options/settings-options.php:54
+msgid "Date Format"
+msgstr "Μορφή Ημερομηνίας"
+
+#: templates/admin/admin-auction-status.php:16
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+#: templates/admin/admin-auction-status.php:19
+msgid "End time:"
+msgstr "Ώρα λήξης:"
+
+#: templates/admin/admin-auction-status.php:26
+#: templates/admin/admin-auction-status.php:30
+msgid "Max bidder:"
+msgstr "Πλειοδότης:"
+
+#: templates/admin/admin-auction-status.php:30
+#: templates/admin/admin-list-bids.php:17
+#: templates/admin/admin-list-bids.php:65 templates/frontend/list-bids.php:26
+#: templates/frontend/list-bids.php:87
+msgid "There is no bid for this product"
+msgstr "Δεν υπάρχει προσφορά για αυτό το προϊόν"
+
+#: templates/admin/admin-auction-status.php:43
+#: templates/admin/admin-auction-status.php:49
+msgid "Email is send to:"
+msgstr "Αποστολή email σε:"
+
+#: templates/admin/admin-auction-status.php:44
+#: templates/admin/admin-auction-status.php:51
+#: templates/admin/admin-auction-status.php:60
+msgid "Send Winner Email"
+msgstr "Αποστολή Εmail Νικητή"
+
+#: templates/admin/admin-auction-status.php:50
+#: templates/admin/admin-auction-status.php:59
+msgid "Error send the email"
+msgstr "Σφάλμα αποστολής email"
+
+#: templates/admin/admin-list-bids.php:23 templates/frontend/list-bids.php:33
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: templates/admin/admin-list-bids.php:24 templates/frontend/list-bids.php:34
+msgid "Bid Amount"
+msgstr "Ποσό Προσφοράς"
+
+#: templates/admin/admin-list-bids.php:25 templates/frontend/list-bids.php:35
+msgid "Datetime"
+msgstr "Ημερομηνία και Ώρα"
+
+#: templates/admin/admin-list-bids.php:26
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: templates/admin/admin-list-bids.php:45
+msgid "Delete bid"
+msgstr "Διαγραφή προσφοράς"
+
+#: templates/admin/admin-list-bids.php:53 templates/frontend/list-bids.php:74
+msgid "Start auction"
+msgstr "Έναρξη δημοπρασίας"
+
+#: templates/admin/product-tabs/auction-tab.php:50
+msgid "Auction Dates"
+msgstr "Ημερομηνίες Δημοπρασίας"
+
+#: templates/admin/product-tabs/auction-tab.php:51
+msgid "From"
+msgstr "Από"
+
+#: templates/admin/product-tabs/auction-tab.php:53
+msgid "To"
+msgstr "Προς"
+
+#: templates/emails/auction-delete-bid-admin.php:17
+msgid ""
+"The bid %s made by %s was successfully removed for the following product:"
+msgstr ""
+"Η προσφορά %s που δημιουργήθηκε από %s αφαιρέθηκε επιτυχώς για το ακόλουθο "
+"προϊόν:"
+
+#: templates/emails/auction-delete-bid.php:17
+msgid "Hi %s, your bid %s was removed for the following product:"
+msgstr ""
+"Γεια σας %s, η προσφορά σας %s αφαιρέθηκε επιτυχώς για το ακόλουθο προϊόν:"
+
+#: templates/emails/auction-no-winner.php:17
+msgid "You are not the winner!!"
+msgstr "Δεν κερδίσατε!!"
+
+#: templates/emails/auction-no-winner.php:18
+msgid "Sorry  %s, you are not the winner of the auction product:"
+msgstr "Λυπούμαστε  %s, δεν είστε ο νικητής του προϊόντος δημοπρασίας:"
+
+#: templates/emails/auction-no-winner.php:33
+msgid "Thank you for your participation"
+msgstr "Ευχαριστούμε για την συμμετοχή σας"
+
+#: templates/emails/auction-winner-admin.php:18
+#: templates/emails/vendor-winner.php:18
+#: templates/emails/vendor-without-any-bids.php:18
+#: templates/emails/without-any-bids.php:18
+msgid "Hi!, we would like to inform you that the auction for the  product:"
+msgstr ""
+"Γεια σας!, θα θέλαμε να σας ενημερώσουμε ότι η δημοπρασία για το  προϊόν:"
+
+#: templates/emails/auction-winner-admin.php:30
+#: templates/emails/vendor-winner.php:29
+msgid "The auction has ended and has been won by: "
+msgstr "Η δημοπρασία έχει λήξει με νικητή τον: "
+
+#: templates/emails/auction-winner.php:17
+msgid "You are the winner!"
+msgstr "Κερδίσατε!"
+
+#: templates/emails/auction-winner.php:18
+msgid "Congratulations  %s, you are the winner of the auction product:"
+msgstr "Συγχαρητήρια  %s, είστε ο νικητής του προϊόντος δημοπρασίας:"
+
+#: templates/emails/auction-winner.php:35
+msgid "Please, proceed to checkout"
+msgstr "Παρακαλώ, μεταβείτε στο ταμείο"
+
+#: templates/emails/better-bid.php:17
+msgid "Another user just overbidded your maximum bid"
+msgstr ""
+"Ένας άλλος χρήστης μόλις πλειοδότησε έναντι της μεγαλύτερης προσφοράς σας"
+
+#: templates/emails/better-bid.php:18
+msgid ""
+"Hi!  %s, Another user has just overbidded your maximum bid for the product:"
+msgstr ""
+"Γεια σας  %s, Ένας άλλος χρήστης μόλις πλειοδότησε έναντι της μεγαλύτερης "
+"προσφοράς σας για το προϊόν:"
+
+#: templates/emails/better-bid.php:33 templates/emails/end-auction.php:25
+#: templates/emails/successfully-bid.php:33
+msgid "If you want to bid a new amount, click this"
+msgstr "Αν θέλετε να υποβάλετε νέο ποσό προσφοράς, κάντε κλικ εδώ"
+
+#: templates/emails/better-bid.php:33 templates/emails/end-auction.php:25
+#: templates/emails/not-reached-reserve-price.php:28
+#: templates/emails/successfully-bid.php:33
+#: templates/emails/vendor-not-reached-reserve-price.php:29
+#: templates/emails/vendor-without-any-bids.php:30
+#: templates/emails/without-any-bids.php:30
+msgid "link"
+msgstr "σύνδεσμος"
+
+#: templates/emails/end-auction.php:18
+msgid "Hi!  %s, The auction for the product: %s is about to end in: %d %s"
+msgstr ""
+"Γεια σας  %s, Η δημοπρασία για το προϊόν: %s πρόκειται να λήξει σε: %d %s"
+
+#: templates/emails/not-reached-reserve-price.php:17
+msgid ""
+"Hi!, we would like to inform you that the highest bid for the following "
+"product doesn't exceed the minimum reserve price :"
+msgstr ""
+"Γεια σας!, θα θέλαμε να σας ενημερώσουμε ότι η μεγαλύτερη προσφορά για το "
+"ακόλουθο προϊόν δεν υπερβαίνει την ελάχιστη τιμή κράτησης :"
+
+#: templates/emails/not-reached-reserve-price.php:28
+#: templates/emails/vendor-not-reached-reserve-price.php:29
+#: templates/emails/vendor-without-any-bids.php:30
+#: templates/emails/without-any-bids.php:30
+msgid "If you want to make another action with the product, click this"
+msgstr "Αν θέλετε να κάνετε άλλη ενέργεια με το προϊόν, κάντε κλικ εδώ"
+
+#: templates/emails/product-emails/product-email.php:16
+msgid "Product Image"
+msgstr "Εικόνα Προϊόντος"
+
+#: templates/emails/successfully-bid-admin.php:18
+#: templates/emails/successfully-bid.php:17
+msgid "Successfully bid"
+msgstr "Επιτυχής υποβολή προσφοράς"
+
+#: templates/emails/successfully-bid-admin.php:19
+msgid "Hi!, %s added a bid of %s successfully  for the product:"
+msgstr "Γεια σας!, %s πρόσθεσε επιτυχώς προσφορά %s  για το προϊόν:"
+
+#: templates/emails/successfully-bid.php:18
+msgid "Hi!  %s, your bid was added successfully for the product:"
+msgstr "Γεια σας!  %s, έγινε επιτυχής υποβολή της προσφοράς σας για το προϊόν:"
+
+#: templates/emails/vendor-not-reached-reserve-price.php:17
+msgid "Hi!, we would like to inform you that the highest bid for the product:"
+msgstr ""
+"Γεια σας!, θα θέλαμε να σας ενημερώσουμε ότι η μεγαλύτερη προσφορά για το "
+"προϊόν:"
+
+#: templates/emails/vendor-not-reached-reserve-price.php:27
+msgid "Doesn't exceed the minimum reserve price."
+msgstr "Δεν υπερβαίνει την ελάχιστη τιμή κράτησης."
+
+#: templates/emails/vendor-without-any-bids.php:28
+#: templates/emails/without-any-bids.php:28
+msgid "Doesn't have any bid"
+msgstr "Δεν έχει καμία προσφορά"
+
+#: templates/frontend/auction-timeleft.php:9
+#: templates/woocommerce/single-product/add-to-cart/auction.php:169
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:36
+msgid "days"
+msgstr "ημέρες"
+
+#: templates/frontend/auction-timeleft.php:11
+#: templates/woocommerce/single-product/add-to-cart/auction.php:171
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:37
+msgid "hours"
+msgstr "ώρες"
+
+#: templates/frontend/auction-timeleft.php:13
+#: templates/woocommerce/single-product/add-to-cart/auction.php:173
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:38
+msgid "minutes"
+msgstr "λεπτά"
+
+#: templates/frontend/auction-timeleft.php:15
+#: templates/woocommerce/single-product/add-to-cart/auction.php:175
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:39
+msgid "seconds"
+msgstr "δευτερόλεπτα"
+
+#: templates/frontend/auction-timeleft.php:19
+msgid "Auction ends: "
+msgstr "Η δημοπρασία τελειώνει: "
+
+#: templates/frontend/max-bidder.php:11
+msgid "Bid up: "
+msgstr "Αύξηση προσφοράς: "
+
+#: templates/frontend/max-bidder.php:11
+msgid "Bid up: No bid up"
+msgstr "Αύξηση προσφοράς: Μη αύξηση προσφοράς"
+
+#: templates/frontend/max-bidder.php:18
+msgctxt "Overtime: 3 min"
+msgid "Overtime: %s min"
+msgstr "Παράταση: %s λεπτά"
+
+#: templates/frontend/max-bidder.php:18
+msgid "Overtime: No overtime"
+msgstr "Παράταση: Χωρίς παράταση"
+
+#: templates/frontend/max-bidder.php:23
+msgid "Total used from pool of money for automatic bid up."
+msgstr ""
+"Σύνολο που χρησιμοποιήθηκε από κοινό ταμείο χρημάτων για αυτόματη αύξηση "
+"προσφοράς."
+
+#: templates/frontend/max-bidder.php:24
+msgid ""
+"Number of minutes added to the auction if a bid is made within the overtime "
+"range."
+msgstr ""
+"Αριθμός λεπτών που προστίθενται στη δημοπρασία αν μια προσφορά έχει "
+"υποβληθεί εντός του εύρους παράτασης."
+
+#: templates/frontend/max-bidder.php:36
+msgid " You are currently the highest bidder for this auction"
+msgstr ""
+" Αυτή τη στιγμή έχετε υποβάλει την υψηλότερη προσφορά για αυτή τη δημοπρασία"
+
+#: templates/frontend/max-bidder.php:36
+msgid "Refresh the page regularly to see if you are still the highest bidder"
+msgstr ""
+"Ανανεώνετε την σελίδα τακτικά για να δείτε αν συνεχίζετε να έχετε την "
+"υψηλότερη προσφορά"
+
+#: templates/frontend/max-bidder.php:38
+msgid ""
+"If your bid is higher or equivalent to the reserve price, your bid will "
+"match the reserve price with the remaining saved and used automatically to "
+"outbid a competitors bid."
+msgstr ""
+"Αν η προσφορά σας είναι υψηλότερη ή αντίστοιχη της τιμής κράτησης, τότε αυτή "
+"θα αντιστοιχήσει την τιμή κράτησης με το αποθηκευμένο εναπομένον και θα "
+"χρησιμοποιηθεί για να πλειοδοτήσει έναντι της προσφοράς ενός ανταγωνιστή."
+
+#: templates/frontend/max-bidder.php:40
+msgctxt "My maximum bid: $ 50.00"
+msgid "Your maximum bid: %s"
+msgstr "Η υψηλότερη προσφορά σας: %s"
+
+#: templates/frontend/my-account-my-auction.php:21
+msgid "Image"
+msgstr "Εικόνα"
+
+#: templates/frontend/my-account-my-auction.php:22
+msgid "Product"
+msgstr "Προϊόν"
+
+#: templates/frontend/my-account-my-auction.php:23
+msgid "Your bid"
+msgstr "Η προσφορά σας"
+
+#: templates/frontend/my-account-my-auction.php:24
+msgid "Current bid"
+msgstr "Τρέχουσα προσφορά"
+
+#: templates/frontend/my-account-my-auction.php:25
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: templates/frontend/reserve_price_and_overtime.php:13
+msgid "Enter \"%s\" or more."
+msgstr "Πληκτρολογήστε “%s” ή περισσότερο."
+
+#: templates/frontend/reserve_price_and_overtime.php:25
+msgid "The product has exceeded the reserve price. "
+msgstr "Το προϊόν έχει υπερβεί την τιμή κράτησης. "
+
+#: templates/frontend/reserve_price_and_overtime.php:27
+msgid "The product has a reserve price. "
+msgstr "Το προϊόν έχει τιμή κράτησης. "
+
+#: templates/frontend/reserve_price_and_overtime.php:30
+msgid "This product does not have a reserve price. "
+msgstr "Το προϊόν δεν έχει τιμή κράτησης. "
+
+#: templates/frontend/reserve_price_and_overtime.php:37
+msgid "Currently in overtime"
+msgstr "Αυτή τη στιγμή βρίσκεται σε παράταση"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:69
+msgid "Time left:"
+msgstr "Εναπομείναν χρόνος:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:83
+msgid "Your bid:"
+msgstr "Η προσφορά σας:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:127
+msgid "Bid"
+msgstr "Προσφορά"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:163
+msgid "The auction is not available"
+msgstr "Η δημοπρασία δεν είναι διαθέσιμη"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:166
+msgid "Time left to start auction:"
+msgstr "Εναπομείναν χρόνος για την έναρξη της δημοπρασίας:"
+
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:28
+msgid "Current bid:"
+msgstr "Τρέχουσα προσφορά:"
+
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:34
+msgid "Time left to end auction:"
+msgstr "Εναπομείναν χρόνος για την λήξη της δημοπρασίας:"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Auctions for WooCommerce Premium"
+msgstr "YITH Auctions for WooCommerce Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-auctions/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-auctions/"
+
+#. Description of the plugin/theme
+msgid ""
+"With<code><strong>YITH Auctions for WooCommerce Premium</strong></code>, "
+"your customers can purchase products at the best price ever taking full "
+"advantage of the online auction system as the most popular portals, such as "
+"eBay, can do. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more "
+"plugins for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+"Με το<code><strong>YITH Auctions for WooCommerce Premium</strong></code>, οι "
+"πελάτες σας μπορούν να αγοράζουν προϊόντα στην καλύτερη τιμή, επωφελούμενοι "
+"από το online σύστημα δημοπρασίας, όπως χρησιμοποιούν οι πιο γνωστές πύλες, "
+"σαν το eBay. <a href=“https://yithemes.com/“ target=“_blank”>Βρείτε "
+"περισσότερα πρόσθετα για το ηλεκτρονικό σας κατάστημα στο <strong>YITH</"
+"strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Show bid up"
+#~ msgstr "Εμφάνιση αύξησης προσφοράς"
+
+#~ msgid "Standard"
+#~ msgstr "Κανονική"
+
+#~ msgid "Premium Version"
+#~ msgstr "Προηγμένη Έκδοση"
+
+#~ msgid "[%s auction]"
+#~ msgid_plural "[%s auctions]"
+#~ msgstr[0] "[%s δημοπρασία]"
+#~ msgstr[1] "[%s δημοπρασίες]"
+
+#~ msgid " [Auction element]"
+#~ msgstr " [Στοιχείο δημοπρασίας]"
+
+#~ msgid "Send failed winner emails"
+#~ msgstr "Αποστολή email μη επιτυχημένων νικητών"
+
+#~ msgid "Click this button to send failed winner emails"
+#~ msgstr "Κάντε κλικ στο κουμπί για αποστολή email μη επιτυχημένων νικητών"
+
+#~ msgid "Send failed winner email"
+#~ msgstr "Αποστολή email μη επιτυχημένων νικητών"
+
+#~ msgid "Tax status"
+#~ msgstr "Κατάσταση φόρου"
+
+#~ msgid "Taxable"
+#~ msgstr "Φορολογήσιμο"
+
+#~ msgid "Shipping only"
+#~ msgstr "Μόνο αποστολή"
+
+#~ msgctxt "Tax status"
+#~ msgid "None"
+#~ msgstr "Κανένα"
+
+#~ msgid ""
+#~ "Define whether or not the entire product is taxable, or just the cost of "
+#~ "shipping it."
+#~ msgstr ""
+#~ "Ορίστε αν ολόκληρο το προϊόν είναι φορολογήσιμο, ή μόνο το κόστος "
+#~ "αποστολής."
+
+#~ msgid "Tax class"
+#~ msgstr "Κλάση φόρου"
+
+#~ msgid ""
+#~ "Choose a tax class for this product. Tax classes are used to apply "
+#~ "different tax rates specific to certain types of product."
+#~ msgstr ""
+#~ "Επιλέξτε μια κλάση φόρου για το προϊόν. Οι κλάσεις φόρου χρησιμοποιούνται "
+#~ "για να εφαρμόζουν διάφορα ποσοστά φόρου σε συγκεκριμένους τύπους "
+#~ "προϊόντων."

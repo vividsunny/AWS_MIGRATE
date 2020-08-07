@@ -1,0 +1,120 @@
+/**
+ * Add any custom CSS here.
+ *
+ * This file will be loaded after all other theme stylesheets.
+ */
+ /* Section */
+.widget_section {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  display: inline-flex;
+  width: 100%;
+  flex-wrap: wrap;
+    /* flex-basis: 25%;*/
+}
+/* Column */
+.widget_col {
+  background: #eee;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.widget_col:first-child, .first { margin-left: 0 !important; }
+
+/* Row */
+.row:before,
+.row:after { content:""; display:table; }
+.row:after { clear:both;}
+.row { zoom:1; /* For IE 6/7 */ }
+
+/* Grid 1 of 8*/
+.grid_1_of_8{ width: 10.75% }
+.grid_2_of_8{ width: 23.5% }
+.grid_3_of_8{ width: 36.25% }
+.grid_4_of_8{ width: 49% }
+.grid_5_of_8{ width: 61.75% }
+.grid_6_of_8{ width: 74.5% }
+.grid_7_of_8{ width: 87.25% }
+.grid_8_of_8{ width: 100% }
+
+/* Grid 1 of 7*/
+.grid_1_of_7{ width: 12.571% }
+.grid_2_of_7{ width: 27.143% }
+.grid_3_of_7{ width: 41.714% }
+.grid_4_of_7{ width: 56.286% }
+.grid_5_of_7{ width: 70.857% }
+.grid_6_of_7{ width: 85.429% }
+.grid_7_of_7{ width: 100% }
+
+/* 6 Grid */
+.grid_1_of_6{ width: 15.333% }
+.grid_2_of_6{ width: 32.267% }
+.grid_3_of_6{ width: 49.2% }
+.grid_4_of_6{ width: 66.133% }
+.grid_5_of_6{ width: 83.067% }
+.grid_6_of_6{ width: 100% }
+
+/* 5 Grid */
+.grid_1_of_5{ width: 18.72% }
+.grid_2_of_5{ width: 39.04% }
+.grid_3_of_5{ width: 59.36% }
+.grid_4_of_5{ width: 79.68% }
+.grid_5_of_5{ width: 100% }
+
+/* 4 Grid */
+.grid_1_of_4{ width: 23.8% }
+.grid_2_of_4{ width: 49.2% }
+.grid_3_of_4{ width: 74.6% }
+.grid_4_of_4{ width: 100% }
+
+/* 3 Grid */
+.grid_1_of_3{ width: 32.267% }
+.grid_2_of_3{ width: 66.133% }
+.grid_3_of_3{ width: 100% }
+
+/* 2 Grid */
+.grid_1_of_2{ width: 49.2% }
+.grid_2_of_2{ width: 100% }
+
+.widget_prod_links{
+  padding: 10px;
+  color: #1C2833;
+  font-size: 15px;
+  font-weight: bold;
+  /*letter-spacing: -0.33px;
+  line-height: 30px;*/
+}
+
+.widget_prod_links a{
+  color: #f47630;
+}
+
+.widget_prod_links a:hover{
+  color: rgba(244, 118, 48, 0.7);
+}
+
+.widget_product_column{
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 6px 16px 0 rgba(0,0,0,0.08);
+  margin: auto;
+  height: 100%;
+}
+
+#widget_loadmore {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    background: #c4c4c4;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+  .widget_col {  margin: 1% 0 1% 0%; }
+  [class*='grid_'] { width: 100%; }
+}

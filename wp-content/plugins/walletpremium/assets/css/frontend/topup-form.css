@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/* Wallet topup form */
+
+.hrw_topup_form_wrapper{
+    width:100%;
+    margin-bottom:15px;
+
+}
+.hrw_topup_form_wrapper h2, 
+.hrw_wallet_balance h2,
+.hrw_unsubscribe_field h2,
+.hrw_transaction_log h2{
+    text-transform:none;
+    font-size:20px !important;
+    font-weight:600;
+    color:#222;
+    padding:0;
+    margin:15px 0px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.hrw_topup_form_wrapper fieldset{
+    width:100%;
+    border:1px solid #222;
+    border-radius:5px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow:0 0 3px #000;
+    margin:0;
+    padding:0;
+}
+.hrw_topup_form_wrapper fieldset legend{
+    font-size:14px;
+    background:#e3e3e3;
+    padding:10px 15px;
+    margin-left:20px;
+    border-radius: 5px;
+    border:1px solid #222;
+    color:#f55b11;
+    line-height:normal;
+    font-weight:normal;
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.hrw_topup_form_content{
+    width:100%;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.hrw_topup_form_content .hrw_topup_form_inner_content{
+    width:94%;
+    margin-left:3%;
+    padding:0;
+    float:left;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+.hrw_topup_form_inner_content label{
+    display:block;
+    font-size:16px;
+    color:#000;
+    font-weight:600;
+    margin:0;
+    padding:0;
+    letter-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:5px;
+    cursor:default;
+}
+.hrw_topup_form_inner_content input[type='number']{
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset !important;
+    width: 100% !important;
+    border: 1px solid #bbb !important;
+    border-radius: 5px !important;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400 !important;
+    color: #666 !important;
+    background: #fff;
+    padding: 0px 0px 0px 10px !important;
+    outline: none !important;
+    margin:10px 0px;
+}
+.hrw_topup_form_inner_content input[type='number']:-moz-read-only{
+    background:#ccc;
+    cursor: not-allowed;
+}
+.hrw_topup_form_inner_content input[type='number']:-webkit-read-only{
+    background:#ccc;
+    cursor: not-allowed;
+}
+.hrw_topup_form_inner_content input[type='number']:read-only{
+    background:#ccc;
+    cursor: not-allowed;
+}
+
+.hrw_topup_form_inner_content input[type='submit']{
+    color: #fff;
+    padding: 10px 20px !important;
+    border: none !important;
+    box-shadow: none !important;
+    position: relative;
+    width: auto !important;
+    height: auto !important;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+    margin:5px 0px 0px 0px;
+    letter-spacing: 0px;
+    line-height: normal;
+    background:#138f30;
+    float:left;
+}
+.hrw_topup_form_inner_content input[type='submit']:hover{
+    box-shadow: 0 0 3px #000 !important;
+    background:#138f30;
+    color:#fff;
+    cursor: pointer;
+}
+.hrw_topup_amount_buttons{
+    width:100%;
+    margin:15px 0px;
+    float:left;
+    padding:0;    
+}
+.hrw_topup_amount_buttons .hrw_topup_prefilled_amount{
+    color: #222;
+    padding: 10px 20px !important;
+    border: none !important;
+    box-shadow: 0 0 3px #f55b11 inset !important;
+    position: relative;
+    width: auto !important;
+    height: auto !important;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: none;
+    margin:5px 10px 5px 0px;
+    letter-spacing: 0px;
+    line-height: normal;
+    background:#fff;
+    float:left;
+    cursor: pointer;
+    display: inline-block;
+}
+.hrw_topup_amount_buttons .hrw_topup_prefilled_amount:hover,
+.hrw_topup_amount_buttons .hrw_topup_prefilled_amount:focus,
+.hrw_topup_amount_buttons .hrw_topup_prefilled_amount:active,
+.hrw_topup_amount_buttons .hrw_active_topup_amount{
+    background:#f55b11;
+    color:#fff;
+    box-shadow: 0 0 3px #000070 !important;
+}
+
+/* wallet balance table */
+
+.hrw_wallet_balance table{
+    width:100%;
+    border-collapse: collapse;
+    margin:0;
+    padding:0;
+    border:1px solid #6e6c6a;
+    margin-bottom:20px;
+}
+.hrw_wallet_balance table tr td{
+    padding:10px;
+    color:#000;
+    border-bottom:1px solid #6e6c6a;
+    border-top:none;
+}
+.hrw_wallet_balance table tr td:first-child{
+    background:#6e6c6a;
+    color:#fff;
+    font-size:14px;
+}
+.hrw_wallet_balance table tr:nth-child(even){
+    background:#f9f9f9;
+}
+.hrw_myaccount_wallet_wrapper p.hrw_dashboard_view_link{
+    width:100%;
+    display:block;
+    float:left;
+    padding:0;
+    font-size:14px;
+    color:#000 !important;
+}
+.hrw_myaccount_wallet_wrapper p.hrw_dashboard_view_link a{
+    color:#00f !important;
+    text-decoration: none;
+    font-weight:bold;
+}
+.hrw_myaccount_wallet_wrapper p.hrw_dashboard_view_link a:hover{
+    text-decoration: underline;
+}
+/* wallet Transation log table */
+
+.hrw_transaction_log table{
+    width:100%;
+    border-collapse: collapse;
+    margin:0;
+    padding:0;
+    border:1px solid #6e6c6a; 
+}
+.hrw_transaction_log table thead{
+    background:#6e6c6a;
+    padding: 5px;
+}
+
+.hrw_transaction_log table thead th{
+    color: #fff !important;
+    font-weight: bold;
+    padding: 12px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.hrw_transaction_log table tbody td{
+    color: #333 !important;
+    font-weight: bold;
+    padding: 12px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-right: 1px solid #6e6c6a;
+    border-bottom:none;
+    border-top:none;
+}
+.hrw_transaction_log table tr:nth-child(even){
+    background:#f9f9f9;
+}
+.hrw_hide{
+    display: none;
+}

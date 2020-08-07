@@ -1,0 +1,251 @@
+/*Request Form CSS - Start */
+
+.hrr-refund-reply-request-tickets {
+    max-height: 400px;
+    padding: 20px;
+    border-color: #dddddd;
+    border-style: solid;
+    overflow: scroll; 
+
+}
+
+.hrr-refund-reply-ticket,
+.hrr-refund-request-created {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: auto;
+    margin-bottom: 30px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    word-wrap: break-word;
+}
+
+.hrr-refund-admin {
+    background-color: #b6b6d3;
+}
+
+.hrr-refund-customer {
+    background-color: #9fc69f;
+}
+
+.hrr-refund-request-created {
+    background-color: #c5dae2;
+}
+
+#hrr_refund_reply_button {
+    float: right;
+    margin-top: 10px !important;
+}
+/*Request Form CSS - End */
+
+/*Status button design*/
+
+.hrr-status-label {
+    display: inline-flex;
+    margin: 1em 0;
+    max-width: 100%;
+    padding: 0.3em 1em;
+    color: #fff;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    font-weight: 700;    
+    font-family: 'Roboto', sans-serif;
+    cursor: default !important;
+    white-space: nowrap;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.hrr-new-status {
+    color: #fff;
+    background: #102f80;
+}
+
+.hrr-accept-status{
+    color: #2e4453 !important;
+    background: #d4edda;    
+}
+
+.hrr-reject-status{
+    color: #fff;
+    background: #d63369;
+}
+
+.hrr-processing-status{
+    color: #fff;
+    background: #0498ff;
+}
+
+.hrr-on-hold-status{
+    color: #fff;
+    background: #161515;
+}
+
+/* Inline css */
+
+.hrr-refund-reply-request-form textarea {
+    width: 100%;
+}
+
+.hrr-request-table td input[type="number"] {
+    width: 60px;
+}
+
+.hrr-request-table tfoot th{
+    text-align :right;
+}
+
+.hrr-request-form-table td input[type="submit"] {
+    float: left;
+}
+.hrr-update-content {
+    float: left;
+    width: 40px;
+    height: 35px;
+    margin: 0px;
+}
+
+.hrr-update-content img {
+    display: none;
+    width: 40px;
+    height: 35px;    
+}
+
+#hrr_refund_message {
+    display: none;
+    clear: both;
+    text-align: left;
+}
+
+.hrr-view-order-btn {
+    text-align:center;
+}
+
+/* Reply Content Display CSS - Start */
+
+.hrr-refund-reply-request-tickets {
+    max-height: 400px;
+    padding: 20px;
+    border-color: #dddddd;
+    border-style: solid;
+    overflow: scroll; 
+} 
+
+.hrr-refund-reply-ticket,.hrr-refund-request-created {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: auto;
+    margin-bottom: 30px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    word-wrap: break-word;
+}
+
+.hrr-refund-admin {
+    background-color: #b6b6d3;
+}
+
+.hrr-refund-customer {
+    background-color: #9fc69f;
+}
+
+.hrr-refund-request-created {
+    background-color: #c5dae2;
+}
+
+.hrr-conversation-attachments {
+    width: 100%;
+}
+
+.hrr-conversation-attachments h2 {
+    margin-bottom: 15px;
+    color: #000;
+    border: none;
+    font-size: 22px;
+}
+
+.hrr-conversation-attachments .hrr-conversation-attachments-info {
+    display: inline-grid;
+    width: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.hrr-conversation-attachments img {
+    display: block;
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.hrr-conversation-attachments a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.hrr-conversation-attachments label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    word-break: break-all;
+}
+
+/* Reply Content Display CSS - End */
+
+@media only screen and (max-width: 768px) {
+    .hrr-request-table thead {
+        display: none;
+    }
+
+    .hrr-request-table tr {
+        display: block;
+    }
+
+    .hrr-request-table tfoot th{
+        display: none;
+    }
+
+    .hrr-request-table tr td {
+        display: block;
+        text-align: right !important;
+    }
+
+    .hrr-request-table tr td::before {
+        float: left;
+        content: attr(data-title) ": ";
+        font-weight: 700;
+    }
+
+    .hrr-request-table tr td.actions::before {
+        content:'';
+    }
+
+    .hrr-request-form-table tbody th, 
+    .hrr-request-form-table tbody td  {
+        display: block;
+        position: relative;
+        border: 0 !important ;
+    }
+
+    .hrr-request-form-table tbody td {
+        width: 100%; 
+        border: 0 !important ;
+    }
+
+    .hrr-request-form-table tbody td input {
+        width: 100%; 
+    }
+
+    .hrr-request-form-table tbody td input[type='submit'] {
+        width: auto; 
+    }
+
+    .hrr-request-form-table tbody td select {
+        width: 100%; 
+    }
+
+}
+

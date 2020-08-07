@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/*Submenu design*/
+
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab{
+    width:100% !important;
+    float:left !important;
+    display:block !important;
+    margin:0px !important;
+    padding:5px 0px !important;
+    /*    box-shadow: 0px 2px 2px #111 !important;*/
+    border-bottom:2px solid #000;
+    background:#fff !important;
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li{
+    list-style: none;
+    margin-left:5px;
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li a{
+    padding:7px 12px 7px 12px;
+    font-size:13px !important;
+    box-shadow: none !important;
+    border:none !important;
+    color:#444;    
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li a:hover{
+    color:#000;
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li a i{
+    margin-right:10px;
+    font-size:16px;
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li a.current i:before{
+    content:'\f0f3' !important;
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li a.current{
+    color:#000 !important;
+}
+.hrw_notifications_tab_content_wrapper ul.hrw_subtab li a:active{
+    box-shadow: none !important;
+    border:none !important;
+}
+

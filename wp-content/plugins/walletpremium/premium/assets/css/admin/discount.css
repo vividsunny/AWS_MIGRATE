@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/* Cashback module settings design */
+
+.hrw_discount_section_start{
+    width: 95%;
+    margin-left:2.5%;
+    border:1px solid #e1e1e1;
+    box-shadow: 0 0 1px #ccc;
+    float:left;
+    margin-top:10px;
+    margin-bottom:5px;
+    background:#fff;
+}
+.hrw_discount_section_header{
+    float:left;
+    position: relative;
+    width:100%;
+    /*border-bottom: 1px dashed #000;*/
+}
+.hrw_tab_inner_content .hrw_discount_section_start h2{
+    border: 0px;
+    color: #000;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 12px 0 12px 15px;
+    cursor: pointer;
+    background:#e1e1e1;
+    float:left;
+    width:98.6%;
+}
+.hrw_discount_section_start label{
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0;
+    padding-left: 0px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+    float:left;
+    font-size:14px;
+    margin-left:15px;
+}
+.hrw_discount_section_start select{
+    margin-top:15px;
+    margin-left:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    min-width: 350px !important;
+    width: 350px !important;
+    background: #fff url('../../../assets/images/arrow-217-10.png') no-repeat right 10px center;
+    -moz-appearance: none;
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+    float:left;
+}
+.hrw_add_discount_popup{
+    margin-top:15px;
+    text-transform: capitalize !important;
+    margin-right: 15px !important;
+    background: #138f30 !important;
+    padding: 7px 15px !important;
+    color: #fefefe !important;
+    width: auto !important;
+    height: auto !important;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 0 3px #000 inset;
+    border-radius: 5px;
+    float:right;
+    position: relative;
+}
+.hrw_add_discount_popup:hover{
+    box-shadow: 0 0 3px #000;
+}
+.hrw_discount_rule_popup_wrapper{
+    right: 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+    z-index: 999;
+    opacity: 1;
+    width: 300px;
+    min-height: 50px;
+    margin-top:100px;
+    padding:15px;
+    position: absolute;
+}
+.hrw_discount_rule_popup_wrapper span{
+    width:100%;
+    display:block;
+    float:left;
+    padding-bottom:10px;
+    border-bottom:1px solid #000;
+}
+.hrw_discount_rule_popup_wrapper span i{
+    font-size:22px;
+    color:#f00;
+    float:right;
+}
+.hrw_discount_rule_popup_wrapper input[type='text']{
+    margin-top:15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    width: 100% !important;
+}
+.hrw_discount_rule_popup_wrapper:after, .hrw_discount_rule_popup_wrapper:before {
+    bottom: 100%;
+    left: 85%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.hrw_discount_rule_popup_wrapper:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #fff;
+    border-width: 12px;
+    margin-left: -12px;
+}
+.hrw_discount_rule_popup_wrapper:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-bottom-color: #ccc;
+    border-width: 13px;
+    margin-left: -13px;
+}
+.hrw_add_discount_rule{
+    margin-top:15px;
+    text-transform: capitalize !important;   
+    background: #138f30 !important;
+    padding: 7px 15px !important;
+    color: #fefefe !important;
+    width: auto !important;
+    height: auto !important;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 0 3px #000 inset;
+    border-radius: 5px;
+    float:left;
+}
+.hrw_discount_rule_wrapper{
+    float:left;
+    width:100%
+}
+
+.hrw_discount_rule_wrapper .hrw_discount_rule{
+    width: 95%;
+    margin-left:2.5%;
+    border:1px solid #6e6c6a;
+    box-shadow: 0 0 1px #ccc;
+    float:left;
+    margin-top:10px;
+    margin-bottom:5px;
+    background:#fff;
+    border-radius: 5px;
+}
+.hrw_tab_inner_content .hrw_discount_section_start .hrw_discount_rule_wrapper .hrw_discount_rule_title{
+    border: 0px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding:15px 0px;
+    background:#6e6c6a;
+    float:left;
+    width:100%;
+}
+.hrw_discount_rule_wrapper .hrw_discount_rule_title h2{
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    float:left;
+    background:#6e6c6a;
+    width:auto;
+    padding:0;
+}
+.hrw_discount_rule_wrapper .hrw_discount_rule_title h2 i{
+    color:#fff;
+    font-size:20px;
+    margin-right:5px;
+    margin-left:15px;
+    cursor:pointer;
+}
+.hrw_discount_rule_title span{
+    float:right;
+    margin-right:15px;
+}
+.hrw_discount_rule_title span i{
+    color:#fff;
+    font-size:20px;
+    cursor:pointer;
+}
+.hrw_discount_rule p{
+    width:100%;
+    margin:15px 0px;
+    padding:0;
+    float:left;
+}
+.hrw_discount_rule p label{
+    vertical-align: top;
+    text-align: left;
+    padding: 10px 10px 10px 0;
+    padding-left: 0px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+    float:left;
+    font-size:14px;
+    margin-left:20px;
+}
+.hrw_discount_rule p input[type='text'],
+.hrw_discount_rule p select,
+.hrw_discount_rule p input[type='number']{
+    margin-top:0px;
+    margin-left:0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    min-width: 300px !important;
+    width: 300px !important;
+    float:left;
+}
+.hrw_discount_rule p select{
+    background: #fff url('../../../../assets/images/arrow-217-10.png') no-repeat right 10px center;
+    -moz-appearance: none;
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.hrw_discount_rule p.hrw_date_picker_row label.hrw_to_date{
+    width:50px;
+}
+.hrw_discount_rule table{
+    width:96%;
+    border-collapse: collapse;
+    margin-left:2%;
+    padding:0;
+    border:1px solid #6e6c6a;
+    margin-bottom: 15px;
+}
+.hrw_discount_rule table thead{
+    background:#6e6c6a;
+    padding: 5px;
+}
+.hrw_discount_rule table thead th{
+    color: #fff !important;
+    font-weight: bold;
+    padding: 12px 10px;
+    font-family: 'Roboto', sans-serif;
+    background:#6e6c6a;
+}
+.hrw_discount_rule table tbody td{
+    color: #333 !important;
+    font-weight: bold;
+    padding: 12px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-right: 1px solid #6e6c6a;
+    border-bottom:none;
+    border-top:none;
+}
+.hrw_discount_rule table tbody td button{
+    background:none;
+    border:none;
+    cursor: pointer
+}
+.hrw_discount_rule table tbody td button i{
+    color:#f05050 !important;
+    font-size:20px;
+    cursor:pointer;
+}
+
+.hrw_discount_rule table tr:nth-child(even){
+    background:#f9f9f9;
+}
+.hrw_discount_rule table tbody td input[type='text'],
+.hrw_discount_rule table tbody td input[type='number'],
+.hrw_discount_rule table tbody td select{
+    margin-top:0px;
+    margin-left:0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 -5px 10px 2px rgba(0, 0, 0, 0.03) inset;
+    min-height: 30px !important;
+    min-width: 150px !important;
+    width: 100% !important;
+    float:left;
+}
+.hrw_discount_rule table tbody td select{
+    background: #fff url('../../../../assets/images/arrow-217-10.png') no-repeat right 10px center;
+}
+.hrw_discount_rule table tfoot{
+    border-top:1px solid #6e6c6a;
+    padding:5px 0;
+}
+.hrw_discount_rule table tfoot button{
+    margin-top:15px;
+    text-transform: capitalize !important;
+    margin-left: 10px !important;
+    background: #138f30 !important;
+    padding: 7px 15px !important;
+    color: #fefefe !important;
+    width: auto !important;
+    height: auto !important;
+    border: none !important;
+    text-shadow: none !important;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0 0 3px #000 inset;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hrw_discount_rule table tfoot button:hover{
+    box-shadow: 0 0 3px #000;
+}
+

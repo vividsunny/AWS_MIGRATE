@@ -1,0 +1,1614 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Auctions for WooCommerce\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-02-10 12:56+0000\n"
+"PO-Revision-Date: 2020-02-10 12:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:100
+msgctxt "[gutenberg]: block name"
+msgid "Auction products"
+msgstr "Productos de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:101
+msgctxt "[gutenberg]: block description"
+msgid "Print auction products"
+msgstr "Imprimir productos de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:108
+msgctxt "[gutenberg]: block name"
+msgid "Auction out of date"
+msgstr "Subasta fuera de fecha"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:109
+msgctxt "[gutenberg]: block description"
+msgid "Print out of date auction products "
+msgstr "Mostrar productos de tipo subasta fuera de fecha "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:116
+msgctxt "[gutenberg]: block name"
+msgid "Auction current"
+msgstr "Subasta actual"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:117
+msgctxt "[gutenberg]: block description"
+msgid "Print current auction products "
+msgstr "Imprimir productos de tipo subasta actuales "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:124
+msgctxt "[gutenberg]: block name"
+msgid "Auction Show list bid"
+msgstr "Mostrar lista de pujas de la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:125
+msgctxt "[gutenberg]: block description"
+msgid "Show the list bid of an auction product"
+msgstr "Mostrar lista de pujas de un producto de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:132
+msgctxt "[gutenberg]: Option title"
+msgid "Product id to show list bid"
+msgstr "ID de producto para mostrar en la lista de pujas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:152
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:178
+msgctxt "Panel: page title"
+msgid "General settings"
+msgstr "Ajustes generales"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:185
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Show auctions on shop page"
+msgstr "Mostrar subastas en la página de la tienda"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:187
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to show auctions on shop page"
+msgstr "Marca esta opción para mostrar las subastas en la página de la tienda"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:192
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide out-of-stock auctions"
+msgstr "Ocultar subastas de productos agotados"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:194
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide out-of-stock auctions on shop page"
+msgstr ""
+"Marca esta opción para ocultar las subastas fuera de inventario en la página "
+"de la tienda"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:200
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide closed auctions"
+msgstr "Ocultar subastas cerradas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:202
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide closed auctions on shop page"
+msgstr ""
+"Marca esta opción para ocultar subastas cerradas en la página de la tienda"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:207
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Hide not started auctions"
+msgstr "Ocultar subastas sin empezar"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:209
+msgctxt ""
+"Admin option description: Check this option to show auctions on shop page"
+msgid "Check this option to hide not started auctions on shop page"
+msgstr ""
+"Marca esta opción para ocultar las subastas sin empezar en la página de la "
+"tienda"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:215
+msgctxt "Admin option: Posibility to add to cart auction product"
+msgid "Possibility to add auction product to cart "
+msgstr "Posibilidad de añadir un producto de subasta al carrito "
+
+#: includes/class.yith-wcact-auction-admin-premium.php:217
+msgctxt ""
+"Admin option description: Check this option to show pay now button in "
+"product when the auction ends"
+msgid ""
+"Check this option to allow adding auction product and other products to cart "
+"in the same order"
+msgstr ""
+"Marca esta opción para permitir añadir un producto de subasta y otros "
+"productos al carrito en el mismo pedido"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:239
+msgctxt "Panel: page title"
+msgid "Cron settings"
+msgstr "Ajustes Cron"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:246
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Send emails"
+msgstr "Enviar correos electrónicos"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:248
+msgctxt ""
+"Admin option description: Check this option to show full Username in bid tab"
+msgid "Check this option to send emails before auctions end"
+msgstr "Marca esta opción para enviar emails antes de que acabe la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:253
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Number of days/hours"
+msgstr "Número de días/horas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:255
+msgctxt "Admin option description: number of days"
+msgid "Number of days/hours before auction end date for notification"
+msgstr ""
+"Número de días/horas antes de la fecha de fin de subasta para la notificación"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:264
+msgctxt "Admin option: Select days/hours/minutes"
+msgid "Select unit"
+msgstr "Seleccionar unidad"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:269
+#: includes/class.yith-wcact-auction-admin-premium.php:324
+#: includes/class.yith-wcact-auction-admin-premium.php:606
+#: includes/class.yith-wcact-auction-email-end-auction.php:92
+msgctxt "Admin option: days"
+msgid "days"
+msgstr "días"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:270
+#: includes/class.yith-wcact-auction-admin-premium.php:325
+#: includes/class.yith-wcact-auction-admin-premium.php:607
+#: includes/class.yith-wcact-auction-email-end-auction.php:94
+msgctxt "Admin option: hours"
+msgid "hours"
+msgstr "horas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:271
+#: includes/class.yith-wcact-auction-admin-premium.php:326
+#: includes/class.yith-wcact-auction-admin-premium.php:608
+#: includes/class.yith-wcact-auction-email-end-auction.php:97
+msgctxt "Admin option: hours"
+msgid "minutes"
+msgstr "minutos"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:276
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Allow subscribe auction"
+msgstr "Permitir suscribirse a la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:278
+msgctxt ""
+"Admin option description: Check this option to allow users to subscribe to "
+"an auction and be notified when it is about to end"
+msgid ""
+"Check this option to allow users to subscribe to an auction and be notified "
+"when it is about to end"
+msgstr ""
+"Marca esta opción para permitir a los usuarios suscribirse a una subasta y "
+"ser notificados cuando esta a punto de acabar"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:283
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Send email to customers who lost auction"
+msgstr "Enviar un correo electrónico a quién haya perdido la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:285
+msgctxt ""
+"Admin option description: Check this option to send an email to users who "
+"did not win the auction after it is finished"
+msgid ""
+"Check this option to send an email to users who did not win the auction "
+"after it is finished"
+msgstr ""
+"Marca esta opción para enviar un correo electrónico a los usuarios que no "
+"han ganado la subasta tras su finalización"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:301
+msgctxt "Panel: page title"
+msgid "Automatic auction rescheduling"
+msgstr "Reprogramación automática de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:308
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Number of days/hours/minutes"
+msgstr "Número de días/horas/minutos"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:310
+msgctxt "Admin option description: number of days"
+msgid ""
+"Number of days/hours/minutes to reschedule auction without bids "
+"automatically "
+msgstr ""
+"Número de días/horas/minutos para reprogramar la subasta sin pujas "
+"automáticas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:319
+#: includes/class.yith-wcact-auction-admin-premium.php:604
+msgctxt "Admin option: Select days/hours/minutes"
+msgid "Select unit for automatic rescheduling"
+msgstr "Seleccionar unidad para reprogramación automática"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:343
+msgctxt "Panel: page title"
+msgid "Overtime settings"
+msgstr "Ajustes de prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:349
+msgctxt "Admin option: Time to add overtime"
+msgid "Time to add overtime"
+msgstr "Tiempo para añadir como prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:351
+msgctxt ""
+"Admin option description: Number of minutes before auction ends to check if "
+"added overtime"
+msgid "Number of minutes before auction ends to check if added overtime"
+msgstr ""
+"Número de minutos antes de que la subasta acabe para comprobar si se ha "
+"añadido prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:360
+msgctxt "Admin option: Overtime"
+msgid "Overtime"
+msgstr "Prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:362
+msgctxt ""
+"Admin option description: Number of minutes for which the auction will be "
+"extended"
+msgid "Number of minutes for which the auction will be extended"
+msgstr "Número de minutos por los que la subasta será extendida"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:382
+msgctxt "Panel: page title"
+msgid "Regenerate auction prices"
+msgstr "Regenerar precios de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:388
+#: includes/class.yith-wcact-auction-admin-premium.php:392
+msgid "Regenerate auction prices"
+msgstr "Regenerar precios de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:390
+msgid "Click this button to regenerate all auction prices"
+msgstr "Haz clic en este botón para regenerar todos los precios de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:406
+msgctxt "Panel: page title"
+msgid "Live Auctions"
+msgstr "Subastas en vivo"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:412
+msgctxt "Admin option: Overtime"
+msgid "Live auctions on My auctions"
+msgstr "Subastas en vivo en Mis subastas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:414
+msgctxt ""
+"Admin option description: Seconds to pass before checking new auction "
+"changes on My account > My auctions. Set to \"0\" to disable live auction on "
+"My auctions"
+msgid ""
+"Seconds to pass before checking new auction changes on My account > My "
+"auctions. Set to \"0\" to disable live auction on My auctions"
+msgstr ""
+"Segundos que tiene que pasar antes de comprobar nuevos cambios de subasta en "
+"Mi cuenta > Mis subastas. Establece ''0'' para desactivar la subasta en vivo "
+"en Mis subastas"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:423
+msgctxt "Admin option: Live auctions on auction product page"
+msgid "Live auctions on auction product page"
+msgstr "Subastas en vivo en la página de producto de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:425
+msgctxt ""
+"Admin option description: Seconds to pass before checking new auction "
+"changes on auction product page. Set to \"0\" to disable live auction on "
+"product page"
+msgid ""
+"Seconds to pass before checking new auction changes on auction product page. "
+"Set to \"0\" to disable live auction on product page"
+msgstr ""
+"Segundos que tienen que pasar antes de comprobar nuevos cambios en la página "
+"de producto de subasta. Establece ''0'' para desactivar la subasta en vivo "
+"en la página del producto"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:445
+msgctxt "Panel: page title"
+msgid "Resend winner email"
+msgstr "Reenviar correo electrónico de ganador"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:451
+#: includes/class.yith-wcact-auction-admin-premium.php:455
+msgid "Resend winner email"
+msgstr "Reenviar correo electrónico de ganador"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:453
+msgid "Click to resend the email to the winner in case the sending failed"
+msgstr ""
+"Haz clic para reenviar el correo electrónico de ganador en caso de que el "
+"envío falle"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:483
+msgid "Starting Price"
+msgstr "Precio de inicio"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:496
+msgid "Bid up"
+msgstr "Puja automática"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:509
+msgid "Minimum increment amount"
+msgstr "Cantidad mínima de incremento"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:512
+msgid "Minimum amount to increase manual bids"
+msgstr "Cantidad mínima para incrementar las pujas manualmente"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:524
+msgid "Reserve price"
+msgstr "Precio de reserva"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:537
+msgid "Buy it now price"
+msgstr "Precio de cómpralo ahora"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:563
+msgid "Time to add overtime"
+msgstr "Tiempo para añadir prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:566
+msgid ""
+"Number of minutes before auction ends to check if overtime added. (Override "
+"the settings option)"
+msgstr ""
+"Número de minutos antes de que la subasta acabe para comprobar si hay "
+"prórroga añadida. (Sobrescribir la opción de ajustes)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:577
+msgid "Overtime"
+msgstr "Prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:580
+msgid ""
+"Number of minutes by which the auction will be extended. (Overrride the "
+"settings option)"
+msgstr ""
+"Número de minutos por los que la subasta será extendida. (Sobrescribir "
+"opción de ajustes)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:591
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Time value for automatic rescheduling"
+msgstr "Valor de tiempo para reprogramación automática"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:593
+msgctxt ""
+"Admin option description: number of days. (Override the settings option)"
+msgid ""
+"Number of days/hours/minutes to reschedule auction without bids "
+"automatically (Override the settings option)"
+msgstr ""
+"Número de días/horas/minutos para reprogramar la subasta sin pujas "
+"automáticas (sobrescribir opción de ajustes)"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:617
+msgid "Show bid up"
+msgstr "Mostrar puja automática"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:619
+msgid "Check this option to show Bid up on product page"
+msgstr ""
+"Marca esta opción para mostrar la puja automática en la página del producto"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:627
+msgid "Show overtime"
+msgstr "Mostrar prórroga"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:629
+msgid "Check this option to show overtime on product page"
+msgstr "Marca esta opción para mostrar la prórroga en la página del producto"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:636
+msgid "Re-schedule"
+msgstr "Reprogramar"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:637
+msgid ""
+" Change the dates and click on the update button to re-schedule the auction"
+msgstr ""
+" Cambiar las fechas y hacer clic en el botón de actualizar para reprogramar "
+"la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:745
+msgid "Started and not exceeded the reserve price"
+msgstr "Empezada y sin exceder el precio de reserva"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:748
+msgid "Finished and not exceeded the reserve price"
+msgstr "Terminada y sin exceder el precio de reserva"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:751
+msgid "Purchased through buy-now"
+msgstr "Comprado a través de ‘Comprar ahora’"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:847
+msgid "Show all auction statuses"
+msgstr "Mostrar todos los estados de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:848
+#: includes/class.yith-wcact-auction-admin.php:454
+msgid "Not Started"
+msgstr "No empezada"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:849
+#: includes/class.yith-wcact-auction-admin.php:457
+#: includes/class.yith-wcact-auction-ajax-premium.php:437
+#: templates/frontend/my-account-my-auction.php:94
+msgid "Started"
+msgstr "Empezada"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:850
+#: includes/class.yith-wcact-auction-admin.php:460
+msgid "Finished"
+msgstr "Finalizada"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:929
+msgid "Auction bid list"
+msgstr "Lista de puja de subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:930
+#: includes/class.yith-wcact-auction-admin.php:413
+msgid "Auction status"
+msgstr "Estado de la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:991
+msgid "Standard"
+msgstr "Estándar"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1105
+msgid "Auction details"
+msgstr "Detalles de la subasta"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1108
+msgid "Banned"
+msgstr "Bloqueado"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1111
+msgid "Check this option if you want to ban user from bidding"
+msgstr "Marca esta opción si quieres bloquear al usuario de pujar"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1115
+msgid "Ban Message"
+msgstr "Mensaje de bloqueo"
+
+#: includes/class.yith-wcact-auction-admin-premium.php:1118
+msgid "Optionally you can show a message, explaining why her/his was banned"
+msgstr ""
+"Opcionalmente puedes mostrar un mensaje, explicando por qué su cuenta ha "
+"sido bloqueada"
+
+#: includes/class.yith-wcact-auction-admin.php:154
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/class.yith-wcact-auction-admin.php:159
+msgid "Premium Version"
+msgstr "Versión premium"
+
+#: includes/class.yith-wcact-auction-admin.php:168
+msgid ""
+"Your customers can purchase products at the best price ever taking full "
+"advantage of the online auction system as the most popular portals, such as "
+"eBay, can do."
+msgstr ""
+"Tus clientes pueden comprar los productos al mejor precio tomando ventaja "
+"del sistema de subastas en línea como los portales más populares, tal y como "
+"Ebay lo hace."
+
+#: includes/class.yith-wcact-auction-admin.php:226
+msgid "Plugin documentation"
+msgstr "Documentación del plugin"
+
+#: includes/class.yith-wcact-auction-admin.php:230
+msgid "Help Center"
+msgstr "Centro de ayuda"
+
+#: includes/class.yith-wcact-auction-admin.php:234
+msgid "Support platform"
+msgstr "Plataforma de soporte"
+
+#: includes/class.yith-wcact-auction-admin.php:238
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: includes/class.yith-wcact-auction-admin.php:238
+msgid "current version"
+msgstr "versión actual"
+
+#: includes/class.yith-wcact-auction-admin.php:275
+msgid "Are you sure you want to delete the customer's bid?"
+msgstr "¿Estás seguro de que quieres eliminar la puja del cliente?"
+
+#: includes/class.yith-wcact-auction-admin.php:310
+msgctxt "Admin: product type"
+msgid "Auction"
+msgstr "Subasta"
+
+#: includes/class.yith-wcact-auction-admin.php:329
+msgid "Auction"
+msgstr "Subasta"
+
+#: includes/class.yith-wcact-auction-admin.php:411
+msgid "Start Date"
+msgstr "Fecha de comienzo"
+
+#: includes/class.yith-wcact-auction-admin.php:412
+msgid "End Date"
+msgstr "Ficha de fin"
+
+#: includes/class.yith-wcact-auction-admin.php:510
+msgid "[%s auction]"
+msgid_plural "[%s auctions]"
+msgstr[0] "[%s subasta]"
+msgstr[1] "[%s subastas]"
+
+#: includes/class.yith-wcact-auction-admin.php:530
+msgid " [Auction element]"
+msgstr " [Elemento de subasta]"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:101
+#: includes/class.yith-wcact-auction-ajax-premium.php:126
+#: includes/class.yith-wcact-auction-ajax-premium.php:158
+#: includes/class.yith-wcact-auction-ajax-premium.php:182
+msgid "You were outbid. Someone has placed a maximum bid. Please try again"
+msgstr ""
+"Fuiste superado. Alguien ha hecho una puja máxima. Por favor, inténtalo de "
+"nuevo"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:112
+#: includes/class.yith-wcact-auction-ajax-premium.php:136
+#: includes/class.yith-wcact-auction-ajax-premium.php:169
+#: includes/class.yith-wcact-auction-ajax-premium.php:193
+#: includes/class.yith-wcact-auction-ajax-premium.php:227
+msgid "You have successfully bid"
+msgstr "Has pujado con éxito"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:145
+#: includes/class.yith-wcact-auction-ajax-premium.php:201
+#: includes/class.yith-wcact-auction-ajax-premium.php:213
+msgid "Enter %s or more to be able to bid"
+msgstr "Introduce %s o más para poder pujar"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:410
+#: templates/frontend/my-account-my-auction.php:61
+msgid "You won this auction"
+msgstr "Has ganado esta subasta"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:411
+#: includes/class.yith-wcact-auction-frontend-premium.php:598
+#: includes/class.yith-wcact-auction-frontend.php:394
+#: templates/emails/auction-winner.php:38
+#: templates/frontend/my-account-my-auction.php:77
+msgid "Pay now"
+msgstr "Pagar ahora"
+
+#: includes/class.yith-wcact-auction-ajax-premium.php:424
+#: templates/frontend/my-account-my-auction.php:86
+msgid "Closed"
+msgstr "Cerrada"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:45
+msgid "​Auctions - No Winner"
+msgstr "Subastas - Sin ganador"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:50
+msgid ""
+"​Can be emailed to users who did not win  the auction after it is finished"
+msgstr ""
+"Los usuarios que no han ganado la subasta pueden ser contactados por correo "
+"electrónico al finalizar la subasta"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:53
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:55
+msgid "Auction No Winner"
+msgstr "Subasta sin ganador"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:132
+#: includes/class.yith-wcact-auction-email-auction-winner.php:142
+#: includes/class.yith-wcact-auction-email-better-bid.php:133
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:132
+#: includes/class.yith-wcact-auction-email-delete-bid.php:132
+#: includes/class.yith-wcact-auction-email-end-auction.php:144
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:135
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:136
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:133
+#: includes/class.yith-wcact-auction-email-winner-admin.php:137
+#: includes/class.yith-wcact-auction-email-without-bid.php:139
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:133
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:133
+msgid "Enable/Disable"
+msgstr "Activar/desactivar"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:134
+#: includes/class.yith-wcact-auction-email-auction-winner.php:144
+#: includes/class.yith-wcact-auction-email-better-bid.php:135
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:134
+#: includes/class.yith-wcact-auction-email-delete-bid.php:134
+#: includes/class.yith-wcact-auction-email-end-auction.php:146
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:137
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:138
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:135
+#: includes/class.yith-wcact-auction-email-winner-admin.php:139
+#: includes/class.yith-wcact-auction-email-without-bid.php:141
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:135
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:135
+msgid "Enable this email notification"
+msgstr "Activar esta notificación de correo electrónico"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:139
+#: includes/class.yith-wcact-auction-email-auction-winner.php:149
+#: includes/class.yith-wcact-auction-email-better-bid.php:140
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:148
+#: includes/class.yith-wcact-auction-email-delete-bid.php:139
+#: includes/class.yith-wcact-auction-email-end-auction.php:150
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:151
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:152
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:140
+#: includes/class.yith-wcact-auction-email-winner-admin.php:153
+#: includes/class.yith-wcact-auction-email-without-bid.php:155
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:140
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:140
+msgid "Subject"
+msgstr "Asunto"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:141
+#: includes/class.yith-wcact-auction-email-auction-winner.php:151
+#: includes/class.yith-wcact-auction-email-better-bid.php:142
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:150
+#: includes/class.yith-wcact-auction-email-delete-bid.php:141
+#: includes/class.yith-wcact-auction-email-end-auction.php:152
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:153
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:154
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:142
+#: includes/class.yith-wcact-auction-email-winner-admin.php:155
+#: includes/class.yith-wcact-auction-email-without-bid.php:157
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:142
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:142
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Esto controla la línea de asunto del correo electrónico. Dejar en blanco "
+"para usar el asunto por defecto: <code>%s</code>."
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:147
+#: includes/class.yith-wcact-auction-email-auction-winner.php:157
+#: includes/class.yith-wcact-auction-email-better-bid.php:148
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:156
+#: includes/class.yith-wcact-auction-email-delete-bid.php:147
+#: includes/class.yith-wcact-auction-email-end-auction.php:158
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:159
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:160
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:148
+#: includes/class.yith-wcact-auction-email-winner-admin.php:161
+#: includes/class.yith-wcact-auction-email-without-bid.php:163
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:148
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:148
+msgid "Email Heading"
+msgstr "Encabezado del correo electrónico"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:149
+#: includes/class.yith-wcact-auction-email-auction-winner.php:159
+#: includes/class.yith-wcact-auction-email-better-bid.php:150
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:158
+#: includes/class.yith-wcact-auction-email-delete-bid.php:149
+#: includes/class.yith-wcact-auction-email-end-auction.php:160
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:161
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:162
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:150
+#: includes/class.yith-wcact-auction-email-winner-admin.php:163
+#: includes/class.yith-wcact-auction-email-without-bid.php:165
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:150
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:150
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Esto controla el encabezado principal contenido en la notificación del "
+"email. Dejar en blanco para usar el encabezado por defecto: <code>%s</code>."
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:155
+#: includes/class.yith-wcact-auction-email-auction-winner.php:165
+#: includes/class.yith-wcact-auction-email-better-bid.php:156
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:164
+#: includes/class.yith-wcact-auction-email-delete-bid.php:155
+#: includes/class.yith-wcact-auction-email-end-auction.php:166
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:167
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:168
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:156
+#: includes/class.yith-wcact-auction-email-winner-admin.php:169
+#: includes/class.yith-wcact-auction-email-without-bid.php:171
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:156
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:156
+msgid "Email type"
+msgstr "Tipo de correo electrónico"
+
+#: includes/class.yith-wcact-auction-email-auction-no-winner.php:157
+#: includes/class.yith-wcact-auction-email-auction-winner.php:167
+#: includes/class.yith-wcact-auction-email-better-bid.php:158
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:166
+#: includes/class.yith-wcact-auction-email-delete-bid.php:157
+#: includes/class.yith-wcact-auction-email-end-auction.php:168
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:169
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:170
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:158
+#: includes/class.yith-wcact-auction-email-winner-admin.php:171
+#: includes/class.yith-wcact-auction-email-without-bid.php:173
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:158
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:158
+msgid "Choose the email format to send."
+msgstr "Elige el formato de correo electrónico a enviar."
+
+#: includes/class.yith-wcact-auction-email-auction-winner.php:45
+msgid "​Auctions - Winner"
+msgstr "Subastas - Ganador"
+
+#: includes/class.yith-wcact-auction-email-auction-winner.php:50
+msgid "​Can be emailed to user who won the auction when it is finished"
+msgstr ""
+"Se puede enviar un correo electrónico al usuario que ha ganado la subasta "
+"cuando esta ha acabado"
+
+#: includes/class.yith-wcact-auction-email-auction-winner.php:53
+#: includes/class.yith-wcact-auction-email-auction-winner.php:55
+msgid "Auction Winner"
+msgstr "Ganador de la subasta"
+
+#: includes/class.yith-wcact-auction-email-better-bid.php:46
+msgid "​Auctions - Highest bid overbidded"
+msgstr "Subastas - La puja más alta ha sido superada"
+
+#: includes/class.yith-wcact-auction-email-better-bid.php:51
+msgid ""
+"​Can be emailed to invite to offer a new bid when a better one has been made"
+msgstr ""
+"Se puede enviar correo electrónico para ofrecer una nueva puja cuando se ha "
+"hecho una mejor"
+
+#: includes/class.yith-wcact-auction-email-better-bid.php:54
+#: includes/class.yith-wcact-auction-email-better-bid.php:55
+msgid "Your highest bid has been overbidded"
+msgstr "Tu puja más alta ha sido superada"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:45
+msgid "​Auctions - Delete Bid Admin"
+msgstr "Subastas - Eliminar puja de administrador"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:48
+msgid "​Can be sent when a bid was removed"
+msgstr "Puede enviarse cuando una puja ha sido eliminada"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:51
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:53
+msgid "Auction bid removed"
+msgstr "Puja de subasta eliminada"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:139
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:143
+#: includes/class.yith-wcact-auction-email-winner-admin.php:144
+#: includes/class.yith-wcact-auction-email-without-bid.php:146
+msgid "Recipient(s)"
+msgstr "Destinatario(s)"
+
+#: includes/class.yith-wcact-auction-email-delete-bid-admin.php:141
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:145
+#: includes/class.yith-wcact-auction-email-winner-admin.php:146
+#: includes/class.yith-wcact-auction-email-without-bid.php:148
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Introducir destinatarios (separados por coma) para este correo electrónico. "
+"Por defecto a %s."
+
+#: includes/class.yith-wcact-auction-email-delete-bid.php:45
+msgid "​Auctions - Delete Bid"
+msgstr "Subastas - Eliminar puja"
+
+#: includes/class.yith-wcact-auction-email-delete-bid.php:50
+msgid "​Can be emailed to user when bid is deleted"
+msgstr ""
+"Se puede enviar un correo electrónico al usuario cuando la puja es eliminada"
+
+#: includes/class.yith-wcact-auction-email-delete-bid.php:53
+#: includes/class.yith-wcact-auction-email-delete-bid.php:55
+msgid "Auction Delete Bid"
+msgstr "Eliminar puja de subasta"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:44
+msgid "​Auctions - The Auction is about to end"
+msgstr "Subastas- La subasta está a punto de acabar"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:45
+msgid "​Auctions - End"
+msgstr "Subastas - Fin"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:50
+msgid "​Can be emailed when the auction is about to end"
+msgstr ""
+"Se puede enviar correo electrónico cuando la subasta está a punto de terminar"
+
+#: includes/class.yith-wcact-auction-email-end-auction.php:53
+#: includes/class.yith-wcact-auction-email-end-auction.php:54
+#: templates/emails/end-auction.php:17
+msgid "The Auction is about to end"
+msgstr "La subasta está a punto de acabar"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:45
+msgid "​Auctions - reserve price not exceeded"
+msgstr "Subastas - el precio de reserva no ha sido excedido"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:49
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:49
+msgid ""
+"​Can be emailed when the auction has finished, and the highest bid doesn't "
+"exceed the minimum reserve price  "
+msgstr ""
+"Se puede enviar correo electrónico cuando la subasta ha acabado y el pujador "
+"más alto no excede el precio mínimo de reserva "
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:52
+msgid "Max bid doesn't exceed the minimum reserve price"
+msgstr "La puja máxima no excede el precio mínimo de reserva"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:54
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:52
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:54
+msgid "Max bid doesn't exceed minimum reserve price"
+msgstr "La puja máxima no excede el precio mínimo de reserva"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:142
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: includes/class.yith-wcact-auction-email-not-reached-reserve-price.php:144
+msgid ""
+"This controls the email recipient line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Esto controla la línea de destinatarios de correo electrónico. Déjalo en "
+"blanco para usar el asunto por defecto: <code>%s</code>."
+
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:46
+msgid "​Auctions - Successfully bid email for admins"
+msgstr ""
+"Subastas - Enviado con éxito correo electrónico de puja para administradores"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:51
+msgid "​Admin can be emailed when the customer bid successfully"
+msgstr ""
+"Se le puede enviar un correo electrónico al administrador cuando el cliente "
+"haga una puja con éxito"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:54
+#: includes/class.yith-wcact-auction-email-successfully-bid-admin.php:55
+msgid "A customer added a bid successfully"
+msgstr "Un cliente ha añadido una puja con éxito"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:45
+msgid "​Auctions - Successfully bid"
+msgstr "Subastas - Pujado con éxito"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:50
+msgid "​Can be emailed when the customer bid successfully"
+msgstr ""
+"Se puede enviar correo electrónico cuando la subasta está a punto de terminar"
+
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:53
+#: includes/class.yith-wcact-auction-email-successfully-bid.php:54
+msgid "Your bid was added successfully"
+msgstr "Tu puja se ha añadido con éxito"
+
+#: includes/class.yith-wcact-auction-email-winner-admin.php:45
+msgid "​Auctions - has a winner"
+msgstr "Subastas - Tiene un ganador"
+
+#: includes/class.yith-wcact-auction-email-winner-admin.php:48
+msgid "​Can be sent when the auction ends and has a winner"
+msgstr ""
+"Se puede enviar correo electrónico cuando la subasta termina y tiene un "
+"ganador"
+
+#: includes/class.yith-wcact-auction-email-winner-admin.php:51
+#: includes/class.yith-wcact-auction-email-winner-admin.php:53
+msgid "Auction has a winner"
+msgstr "La subasta tiene un ganador"
+
+#: includes/class.yith-wcact-auction-email-without-bid.php:45
+msgid "​Auctions - Without bid"
+msgstr "Subastas - Sin pujas"
+
+#: includes/class.yith-wcact-auction-email-without-bid.php:48
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:48
+msgid ""
+"​Can be emailed when the auction has finished, and the product doesn't have "
+"any bid "
+msgstr ""
+"Se puede enviar un correo electrónico cuando la subasta ha acabado y el "
+"producto no tiene ninguna puja "
+
+#: includes/class.yith-wcact-auction-email-without-bid.php:51
+#: includes/class.yith-wcact-auction-email-without-bid.php:53
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:51
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:53
+msgid "The product doesn't have any bid"
+msgstr "El producto no tiene ninguna puja"
+
+#: includes/class.yith-wcact-auction-finish-auction.php:127
+msgid "You cannot buy this product"
+msgstr "No puedes comprar este producto"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:160
+#: includes/class.yith-wcact-auction-shortcodes.php:71
+msgid "Sort auctions by end date (asc)"
+msgstr "Ordenar subastas por fecha de fin (asc.)"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:161
+#: includes/class.yith-wcact-auction-shortcodes.php:72
+msgid "Sort auctions by end date (desc)"
+msgstr "Ordenar subastas por fecha de fin (desc.)"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:216
+#: includes/class.yith-wcact-auction-frontend.php:236
+msgctxt "Auction ends: 10 Jan 2016 10:00"
+msgid "Auction start:"
+msgstr "La subasta empieza:"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:222
+#: includes/class.yith-wcact-auction-frontend.php:242
+msgctxt "Auction ends: 10 Jan 2016 10:00"
+msgid "Auction ends:"
+msgstr "La subasta acaba:"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:245
+#: includes/class.yith-wcact-auction-frontend.php:263
+msgid "Bid now"
+msgstr "Pujar ahora"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:326
+msgid "You cannot purchase this product because it is an Auction!"
+msgstr "¡No puedes comprar este producto porque es una subasta!"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:559
+msgctxt "Purchase it now for $ 50.00"
+msgid "Buy now for %s"
+msgstr "Cómpralo ahora por %s"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:576
+#: includes/class.yith-wcact-auction-frontend.php:384
+msgid "Congratulations, you won this auction"
+msgstr "Felicidades, has ganado la subasta"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:591
+#: templates/frontend/my-account-my-auction.php:68
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:609
+#: includes/class.yith-wcact-auction-frontend-premium.php:616
+msgid "This auction is closed"
+msgstr "La subasta está cerrada"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:648
+msgid "Notify me by email when the auction is about to end"
+msgstr "Notificarme por correo electrónico cuando la subasta vaya a terminar"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:650
+msgid "Your email"
+msgstr "Tu correo electrónico"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:652
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:672
+msgid "The required email field is empty."
+msgstr "El campo de correo electrónico necesario está vacío."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:677
+msgid ""
+"The format of the email address entered for the watchlist is not correct."
+msgstr ""
+"El formato del correo electrónico introducido en la lista de seguimiento no "
+"es correcto."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:685
+msgid "Your email \"%s\" was successfully added to the watchlist."
+msgstr ""
+"Tu correo electrónico ''%s'' ha sido añadido a la lista de seguimiento con "
+"éxito."
+
+#: includes/class.yith-wcact-auction-frontend-premium.php:689
+msgid "Your email \"%s\" is already in the watchlist."
+msgstr "Tu correo electrónico ''%s'' ya existe en la lista de seguimiento."
+
+#: includes/class.yith-wcact-auction-frontend.php:181
+msgid "Bids"
+msgstr "Pujas"
+
+#: includes/class.yith-wcact-auction-frontend.php:283
+msgid "Current bid: %s"
+msgstr "Puja actual: %s"
+
+#: includes/class.yith-wcact-auction-my-auctions.php:91
+#: includes/class.yith-wcact-auction-my-auctions.php:124
+msgid "My auctions"
+msgstr "Mis subastas"
+
+#: includes/class.yith-wcact-auction-shortcodes.php:68
+msgid "Default sorting"
+msgstr "Clasificación for defecto"
+
+#: includes/class.yith-wcact-auction-widget.php:30
+msgid "YITH Auctions"
+msgstr "YITH Auctions"
+
+#: includes/class.yith-wcact-auction-widget.php:35
+msgid "Title"
+msgstr "Título"
+
+#: includes/class.yith-wcact-auction-widget.php:40
+msgid "Show"
+msgstr "Mostrar"
+
+#: includes/class.yith-wcact-auction-widget.php:42
+msgid "Last Auctions"
+msgstr "Últimas subastas"
+
+#: includes/class.yith-wcact-auction-widget.php:43
+msgid "Featured Auctions"
+msgstr "Subastas destacadas"
+
+#: includes/class.yith-wcact-auction-widget.php:49
+msgid "Show not-started auctions"
+msgstr "Mostrar subastas no empezadas"
+
+#: includes/class.yith-wcact-auction-widget.php:57
+msgid "Number of auctions to show"
+msgstr "Número de subastas que mostrar"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-not-reached-reserve-price.php:45
+msgid "​Auctions - reserve price not exceeded (to vendor)"
+msgstr "Subastass - el precio de reserva no ha sido excedido (al vendedor)"
+
+#: includes/compatibility/class.yith-wcact-auction-vendor-email-without-bid.php:45
+msgid "​Auctions - Without bid (to vendor)"
+msgstr "Subastas - Sin pujas (al vendedor)"
+
+#: init.php:36
+msgctxt "Alert Message: WooCommerce requires"
+msgid ""
+"YITH WooCommerce Auctions is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Auctions está activado pero no es efectivo. Requiere "
+"WooCommerce para funcionar."
+
+#: plugin-options/appearance-options.php:21
+msgctxt "Panel: General appearance"
+msgid "General appearance"
+msgstr "Apariencia general"
+
+#: plugin-options/appearance-options.php:28
+msgctxt "Admin option: Upload or Select a badge image"
+msgid "Badge image"
+msgstr "Imagen de distintivo"
+
+#: plugin-options/appearance-options.php:30
+msgctxt "Admin option: Select an image to show in auctions products"
+msgid "Select an image to show in auctions products"
+msgstr "Seleccionar una imagen para mostrar en los productos de subasta"
+
+#: plugin-options/settings-options.php:25
+msgctxt "Panel: page title"
+msgid "Product settings"
+msgstr "Ajustes del producto"
+
+#: plugin-options/settings-options.php:31
+msgctxt "Admin option: Show auctions on shop page"
+msgid "Show full Username in bid tab"
+msgstr "Mostrar nombre de usuario completo en pestaña de pujas"
+
+#: plugin-options/settings-options.php:33
+msgctxt ""
+"Admin option description: Check this option to show full Username in bid tab"
+msgid "Check this option to show full Username in bid tab"
+msgstr ""
+"Marca esta opción para mostrar el nombre de usuario completo en la pestaña "
+"de puja"
+
+#: plugin-options/settings-options.php:38
+msgctxt ""
+"Admin option: Show buttons in product page to increase or decrease the bid"
+msgid "Show buttons in product page"
+msgstr "Mostrar botones en la página de producto"
+
+#: plugin-options/settings-options.php:40
+msgctxt ""
+"Admin option description: Check this option to show buttons in product page "
+"to increase or decrease the bid"
+msgid ""
+"Check this option to show buttons in product page to increase or decrease "
+"the bid"
+msgstr ""
+"Marca esta opción para mostrar botones en la página de producto para "
+"incrementar o disminuir la puja"
+
+#: plugin-options/settings-options.php:46
+msgctxt "Admin option: Show button pay now in product page"
+msgid "Show pay now button in product page"
+msgstr "Mostrar el botón de pagar ahora en la página de producto"
+
+#: plugin-options/settings-options.php:48
+msgctxt ""
+"Admin option description: Check this option to show pay now button in "
+"product when the auction ends"
+msgid ""
+"Check this option to show pay now button in product when the auction ends "
+msgstr ""
+"Marca esta opción para mostrar el botón de pagar ahora en un producto cuando "
+"la subasta acabe. "
+
+#: plugin-options/settings-options.php:54
+msgid "Date Format"
+msgstr "Formato de fecha"
+
+#: templates/admin/admin-auction-status.php:16
+msgid "Status:"
+msgstr "Estado:"
+
+#: templates/admin/admin-auction-status.php:19
+msgid "End time:"
+msgstr "Fecha de finalización:"
+
+#: templates/admin/admin-auction-status.php:26
+#: templates/admin/admin-auction-status.php:30
+msgid "Max bidder:"
+msgstr "Pujador máximo:"
+
+#: templates/admin/admin-auction-status.php:30
+#: templates/admin/admin-list-bids.php:13
+#: templates/admin/admin-list-bids.php:57 templates/frontend/list-bids.php:26
+#: templates/frontend/list-bids.php:84
+msgid "There is no bid for this product"
+msgstr "No hay pujas para este producto"
+
+#: templates/admin/admin-auction-status.php:43
+#: templates/admin/admin-auction-status.php:49
+msgid "Email is send to:"
+msgstr "El correo electrónico es enviado a:"
+
+#: templates/admin/admin-auction-status.php:44
+#: templates/admin/admin-auction-status.php:51
+msgid "Send Winner Email"
+msgstr "Enviar correo electrónico del ganador"
+
+#: templates/admin/admin-auction-status.php:50
+msgid "Error send the email"
+msgstr "Error enviando el correo electrónico"
+
+#: templates/admin/admin-list-bids.php:20 templates/frontend/list-bids.php:33
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: templates/admin/admin-list-bids.php:21 templates/frontend/list-bids.php:34
+msgid "Bid Amount"
+msgstr "Importe de puja"
+
+#: templates/admin/admin-list-bids.php:22 templates/frontend/list-bids.php:35
+msgid "Datetime"
+msgstr "Fecha y hora"
+
+#: templates/admin/admin-list-bids.php:23
+msgid "Actions"
+msgstr "Acciones"
+
+#: templates/admin/admin-list-bids.php:37
+msgid "Delete bid"
+msgstr "Eliminar puja"
+
+#: templates/admin/admin-list-bids.php:44 templates/frontend/list-bids.php:71
+msgid "Start auction"
+msgstr "Puja inicial"
+
+#: templates/admin/product-tabs/auction-tab.php:48
+msgid "Auction Dates"
+msgstr "Fechas de Subasta"
+
+#: templates/admin/product-tabs/auction-tab.php:49
+msgid "From"
+msgstr "Desde"
+
+#: templates/admin/product-tabs/auction-tab.php:51
+msgid "To"
+msgstr "Hasta"
+
+#: templates/emails/auction-delete-bid-admin.php:17
+msgid ""
+"The bid %s made by %s was successfully removed for the following product:"
+msgstr ""
+"La puja %s hecha por %S ha sido eliminada con éxito para el siguiente "
+"producto:"
+
+#: templates/emails/auction-delete-bid.php:17
+msgid "Hi %s, your bid %s was removed for the following product:"
+msgstr "Hola %s, tu puja %s ha sido eliminada para el siguiente producto:"
+
+#: templates/emails/auction-no-winner.php:17
+msgid "You are not the winner!!"
+msgstr "¡No eres el ganador!"
+
+#: templates/emails/auction-no-winner.php:18
+msgid "Sorry  %s, you are not the winner of the auction product:"
+msgstr "Lo siento %s, no eres el ganador del producto en subasta:"
+
+#: templates/emails/auction-no-winner.php:33
+msgid "Thank you for your participation"
+msgstr "Gracias por tu participación"
+
+#: templates/emails/auction-winner-admin.php:18
+#: templates/emails/vendor-without-any-bids.php:18
+#: templates/emails/without-any-bids.php:18
+msgid "Hi!, we would like to inform you that the auction for the  product:"
+msgstr "¡Hola! Nos gustaría informarte de que la subasta del  producto:"
+
+#: templates/emails/auction-winner-admin.php:30
+msgid "The auction has ended and has been won by: "
+msgstr "La subasta ha acabado y ha sido ganada por: "
+
+#: templates/emails/auction-winner.php:17
+msgid "You are the winner!"
+msgstr "¡Eres el ganador!"
+
+#: templates/emails/auction-winner.php:18
+msgid "Congratulations  %s, you are the winner of the auction product:"
+msgstr "Felicidades %s, eres el ganador del producto subastado:"
+
+#: templates/emails/auction-winner.php:35
+msgid "Please, proceed to checkout"
+msgstr "Por favor, procede a finalizar compra"
+
+#: templates/emails/better-bid.php:17
+msgid "Another user just overbidded your maximum bid"
+msgstr "Otro usuario acaba de superar tu puja máxima"
+
+#: templates/emails/better-bid.php:18
+msgid ""
+"Hi!  %s, Another user has just overbidded your maximum bid for the product:"
+msgstr ""
+"¡Hola, %s! Otro usuario acaba de superar tu puja máxima para el producto:"
+
+#: templates/emails/better-bid.php:33 templates/emails/end-auction.php:25
+#: templates/emails/successfully-bid.php:33
+msgid "If you want to bid a new amount, click this"
+msgstr "Si quieres pujar una nueva cantidad, haz clic aquí"
+
+#: templates/emails/better-bid.php:33 templates/emails/end-auction.php:25
+#: templates/emails/not-reached-reserve-price.php:28
+#: templates/emails/successfully-bid.php:33
+#: templates/emails/vendor-not-reached-reserve-price.php:29
+#: templates/emails/vendor-without-any-bids.php:30
+#: templates/emails/without-any-bids.php:30
+msgid "link"
+msgstr "enlace"
+
+#: templates/emails/end-auction.php:18
+msgid "Hi!  %s, The auction for the product: %s is about to end in: %d %s"
+msgstr ""
+"¡Hola, %s! La subasta para el producto: %s está a punto de acabar, en: %d %s"
+
+#: templates/emails/not-reached-reserve-price.php:17
+msgid ""
+"Hi!, we would like to inform you that the highest bid for the following "
+"product doesn't exceed the minimum reserve price :"
+msgstr ""
+"¡Hola! Nos gustaría informarte de que tienes la puja más alta para el "
+"siguiente producto sin exceder el precio mínimo de reserva:"
+
+#: templates/emails/not-reached-reserve-price.php:28
+#: templates/emails/vendor-not-reached-reserve-price.php:29
+#: templates/emails/vendor-without-any-bids.php:30
+#: templates/emails/without-any-bids.php:30
+msgid "If you want to make another action with the product, click this"
+msgstr "Si quieres llevar a cabo otra acción con el producto, haz clic en este"
+
+#: templates/emails/product-emails/product-email.php:16
+msgid "Product Image"
+msgstr "Imagen del producto"
+
+#: templates/emails/successfully-bid-admin.php:18
+#: templates/emails/successfully-bid.php:17
+msgid "Successfully bid"
+msgstr "Puja realizada con éxito"
+
+#: templates/emails/successfully-bid-admin.php:19
+msgid "Hi!, %s added a bid of %s successfully  for the product:"
+msgstr "¡Hola!, %s ha añadido una puja de %s con éxito para el producto:"
+
+#: templates/emails/successfully-bid.php:18
+msgid "Hi!  %s, your bid was added successfully for the product:"
+msgstr "¡Hola!, %s, tu apuesta ha sido añadida correctamente al producto:"
+
+#: templates/emails/vendor-not-reached-reserve-price.php:17
+msgid "Hi!, we would like to inform you that the highest bid for the product:"
+msgstr ""
+"¡Hola! Nos gustaría informarte de que tienes la puja más alta para este "
+"producto:"
+
+#: templates/emails/vendor-not-reached-reserve-price.php:27
+msgid "Doesn't exceed the minimum reserve price."
+msgstr "No excede el precio mínimo de reserva."
+
+#: templates/emails/vendor-without-any-bids.php:28
+#: templates/emails/without-any-bids.php:28
+msgid "Doesn't have any bid"
+msgstr "No tiene ninguna puja"
+
+#: templates/frontend/auction-timeleft.php:8
+#: templates/woocommerce/single-product/add-to-cart/auction.php:143
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:36
+msgid "days"
+msgstr "días"
+
+#: templates/frontend/auction-timeleft.php:10
+#: templates/woocommerce/single-product/add-to-cart/auction.php:145
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:37
+msgid "hours"
+msgstr "horas"
+
+#: templates/frontend/auction-timeleft.php:12
+#: templates/woocommerce/single-product/add-to-cart/auction.php:147
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:38
+msgid "minutes"
+msgstr "minutos"
+
+#: templates/frontend/auction-timeleft.php:14
+#: templates/woocommerce/single-product/add-to-cart/auction.php:149
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:39
+msgid "seconds"
+msgstr "segundos"
+
+#: templates/frontend/auction-timeleft.php:18
+msgid "Auction ends: "
+msgstr "La subasta acaba: "
+
+#: templates/frontend/max-bidder.php:8
+msgid "Bid up: "
+msgstr "Puja: "
+
+#: templates/frontend/max-bidder.php:8
+msgid "Bid up: No bid up"
+msgstr "Puja automática: Sin puja automática"
+
+#: templates/frontend/max-bidder.php:14
+msgctxt "Overtime: 3 min"
+msgid "Overtime: %s min"
+msgstr "Prórroga: %s min"
+
+#: templates/frontend/max-bidder.php:14
+msgid "No overtime"
+msgstr "Sin prórroga"
+
+#: templates/frontend/max-bidder.php:19
+msgid "Total used from pool of money for automatic bid up."
+msgstr ""
+"Total usado de la reserva de dinero para subir la puja automáticamente."
+
+#: templates/frontend/max-bidder.php:20
+msgid ""
+"Number of minutes added to the auction if a bid is made within the overtime "
+"range."
+msgstr ""
+"Número de minutos añadidos a la subasta si una puja es hecha dentro del "
+"rango de prórroga."
+
+#: templates/frontend/max-bidder.php:32
+msgid " You are currently the highest bidder for this auction"
+msgstr "Actualmente eres el pujador más alto para esta subasta"
+
+#: templates/frontend/max-bidder.php:32
+msgid "Refresh the page regularly to see if you are still the highest bidder"
+msgstr ""
+"Refresca la página regularmente para ver si sigues siendo el pujador más alto"
+
+#: templates/frontend/max-bidder.php:34
+msgid ""
+"If your bid is higher or equivalent to the reserve price, your bid will "
+"match the reserve price with the remaining saved and used automatically to "
+"outbid a competitors bid."
+msgstr ""
+"Si tu puja es mayor o equivalente al precio de reserva, tu puja igualará el "
+"precio de reserva con el resto guardado y se usará automáticamente para "
+"superar la puja de la competencia."
+
+#: templates/frontend/max-bidder.php:36
+msgctxt "My maximum bid: $ 50.00"
+msgid "Your maximum bid: %s"
+msgstr "Tu puja máxima: %s"
+
+#: templates/frontend/my-account-my-auction.php:21
+msgid "Image"
+msgstr "Imagen"
+
+#: templates/frontend/my-account-my-auction.php:22
+msgid "Product"
+msgstr "Producto"
+
+#: templates/frontend/my-account-my-auction.php:23
+msgid "Your bid"
+msgstr "Tu puja"
+
+#: templates/frontend/my-account-my-auction.php:24
+msgid "Current bid"
+msgstr "Puja actual"
+
+#: templates/frontend/my-account-my-auction.php:25
+msgid "Status"
+msgstr "Estado"
+
+#: templates/frontend/reserve_price_and_overtime.php:12
+msgid "Enter \"%s\" or more."
+msgstr "Introduce ''%s'' o más."
+
+#: templates/frontend/reserve_price_and_overtime.php:24
+msgid "The product has exceeded the reserve price. "
+msgstr "El producto ha excedido el precio de reserva. "
+
+#: templates/frontend/reserve_price_and_overtime.php:26
+msgid "The product has a reserve price. "
+msgstr "El producto tiene un precio de reserva. "
+
+#: templates/frontend/reserve_price_and_overtime.php:29
+msgid "This product does not have a reserve price. "
+msgstr "El producto no tiene un precio de reserva. "
+
+#: templates/frontend/reserve_price_and_overtime.php:36
+msgid "Currently in overtime"
+msgstr "Actualmente en prórroga"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:69
+msgid "Time left:"
+msgstr "Tiempo restante:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:80
+msgid "Your bid:"
+msgstr "Tu puja:"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:107
+msgid "Bid"
+msgstr "Puja"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:137
+msgid "The auction is not available"
+msgstr "La subasta no está disponible"
+
+#: templates/woocommerce/single-product/add-to-cart/auction.php:140
+msgid "Time left to start auction:"
+msgstr "Tiempo restante para comenzar la subasta:"
+
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:28
+msgid "Current bid:"
+msgstr "Puja actual:"
+
+#: templates/woocommerce/widgets/yith-wcact-content-widget-auction.php:34
+msgid "Time left to end auction:"
+msgstr "Tiempo restante para finalizar la subasta:"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Auctions for WooCommerce Premium"
+msgstr "YITH Auctions for WooCommerce Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-auctions/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-auctions/"
+
+#. Description of the plugin/theme
+msgid ""
+"With<code><strong>YITH Auctions for WooCommerce Premium</strong></code>, "
+"your customers can purchase products at the best price ever taking full "
+"advantage of the online auction system as the most popular portals, such as "
+"eBay, can do. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more "
+"plugins for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+"Con<code><strong>YITH Auctions for WooCommerce Premium</strong></code>, tus "
+"clientes pueden comprar productos al mejor precio aprovechando el sistema de "
+"subasta en linea como los portales más populares como eBay. <a href="
+"\"https://yithemes.com/\" target=\"_blank\">Obtén más plugins para tu e-"
+"commerce en <strong>YITH</strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Send failed winner emails"
+#~ msgstr "Enviar correos electrónicos de ganador fallidos"
+
+#~ msgid "Click this button to send failed winner emails"
+#~ msgstr ""
+#~ "Haz clic en este botón para enviar los correos electrónicos de ganador "
+#~ "fallidos"
+
+#~ msgid "Send failed winner email"
+#~ msgstr "Enviar correo fallido de ganador"
+
+#~ msgid "Tax status"
+#~ msgstr "Estado del impuesto"
+
+#~ msgid "Taxable"
+#~ msgstr "Imponible"
+
+#~ msgid "Shipping only"
+#~ msgstr "Envío solo"
+
+#~ msgctxt "Tax status"
+#~ msgid "None"
+#~ msgstr "Ninguno"
+
+#~ msgid ""
+#~ "Define whether or not the entire product is taxable, or just the cost of "
+#~ "shipping it."
+#~ msgstr ""
+#~ "Define si el producto entero es imponible o sólo el gasto de enviarlo."
+
+#~ msgid "Tax class"
+#~ msgstr "Clase de impuesto"
+
+#~ msgid ""
+#~ "Choose a tax class for this product. Tax classes are used to apply "
+#~ "different tax rates specific to certain types of product."
+#~ msgstr ""
+#~ "Elige la clase de impuesto para este producto. Las clases de impuesto son "
+#~ "usadas para aplicar diferentes tasas de impuesto específicas para ciertos "
+#~ "tipos de producto."
+
+#~ msgid "https://yithemes.com/themes/plugins/yith-auctions-for-woocommerce/"
+#~ msgstr "https://yithemes.com/themes/plugins/yith-auctions-for-woocommerce/"
+
+#~ msgctxt "plugin name in admin page title"
+#~ msgid "Auctions"
+#~ msgstr "Auctions"
+
+#~ msgctxt "plugin name in admin WP menu"
+#~ msgid "Auctions"
+#~ msgstr "Auctions"
+
+#~ msgid "Choose the email format of to send."
+#~ msgstr "Elige el formato de email que enviar."

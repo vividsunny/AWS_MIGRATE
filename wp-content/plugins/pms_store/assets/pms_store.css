@@ -1,0 +1,20 @@
+/**
+ * Add any PMS CSS here.
+ *
+ * This file will be loaded after all other theme stylesheets.
+ */
+
+.pms_disable{
+	pointer-events: none;
+    cursor: not-allowed;
+    border: 2px solid red;
+}
+.pms_toolbar{
+	margin: 0!important;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #eee;
+    padding: 9px 12px!important;
+}
+.pms_toolbar .spinner{
+	float: none;
+}

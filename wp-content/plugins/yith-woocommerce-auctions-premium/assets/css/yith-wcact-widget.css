@@ -1,0 +1,27 @@
+#timer_widget {
+    font-size: 9px;
+    color: #999;
+}
+#timer_widget span {
+    font-size: 25px;
+    color: #333;
+    margin: 0 3px 0 15px;
+}
+#timer_widget span:first-child {
+    margin-left: 0;
+}
+
+.yith-auction-list-widget {
+    list-style-type: none;
+}
+
+.yith-wcact-widget-image img {
+    float:right;
+}
+.yith-wcact-widget-image span {
+    font-size: large;
+}
+
+ul.yith-auction-list-widget li {
+    margin-bottom: 35px;
+}

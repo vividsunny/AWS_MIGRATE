@@ -1,0 +1,950 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Automatic Role Changer for WooCommerce\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-05-21 09:27+0100\n"
+"PO-Revision-Date: 2020-05-21 09:27+0100\n"
+"Last-Translator: Antonio Mercurio <antonio.mercurio@gmail.com>\n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: includes/class.yith-role-changer-admin-premium.php:116
+msgctxt ""
+"As used in the following sentence: \"The user will adquire the role WHEN\": "
+msgid "When:"
+msgstr "Quando:"
+
+#: includes/class.yith-role-changer-admin-premium.php:131
+msgid "User purchases a specific product"
+msgstr "L'utente acquista un prodotto specifico"
+
+#: includes/class.yith-role-changer-admin-premium.php:144
+msgid "Order total is within the following price range"
+msgstr "Il totale dell’ordine rientra nel seguente intervallo di prezzo"
+
+#: includes/class.yith-role-changer-admin-premium.php:157
+msgid "Customer's total spend falls within the following price range"
+msgstr ""
+"La spesa totale effettuata dal cliente rientra nel seguente intervallo di "
+"prezzo"
+
+#: includes/class.yith-role-changer-admin-premium.php:170
+msgid "User purchases products from specific categories or tags"
+msgstr "L'utente acquista prodotti da specifiche categorie o tag"
+
+#: includes/class.yith-role-changer-admin-premium.php:183
+msgid "Select a price range: "
+msgstr "Seleziona una fascia di prezzo: "
+
+#: includes/class.yith-role-changer-admin-premium.php:184
+msgid "Fill at least one"
+msgstr "Compila almeno uno"
+
+#: includes/class.yith-role-changer-admin-premium.php:188
+#: includes/class.yith-role-changer-admin-premium.php:313
+msgctxt "start date"
+msgid "From: "
+msgstr "Da: "
+
+#: includes/class.yith-role-changer-admin-premium.php:191
+#: includes/class.yith-role-changer-admin-premium.php:201
+msgid "Amount&hellip;"
+msgstr "Importo&hellip;"
+
+#: includes/class.yith-role-changer-admin-premium.php:198
+#: includes/class.yith-role-changer-admin-premium.php:323
+msgctxt "end date"
+msgid "To: "
+msgstr "A: "
+
+#: includes/class.yith-role-changer-admin-premium.php:207
+msgid "\"To\" field must be greather than \"From\" field"
+msgstr "Il valore del campo \"A\" deve essere maggiore del valore in \"Da\""
+
+#: includes/class.yith-role-changer-admin-premium.php:213
+msgid "Select a taxonomy: "
+msgstr "Seleziona una tassonomia: "
+
+#: includes/class.yith-role-changer-admin-premium.php:227
+msgid "Category"
+msgstr "Categoria"
+
+#: includes/class.yith-role-changer-admin-premium.php:239
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/class.yith-role-changer-admin-premium.php:259
+msgid "Search for a category&hellip;"
+msgstr "Cerca una categoria&hellip;"
+
+#: includes/class.yith-role-changer-admin-premium.php:287
+msgid "Search for a tag&hellip;"
+msgstr "Cerca un tag&hellip;"
+
+#: includes/class.yith-role-changer-admin-premium.php:302
+msgid "Set a date range: "
+msgstr "Imposta un intervallo di date: "
+
+#: includes/class.yith-role-changer-admin-premium.php:304
+#: includes/class.yith-role-changer-admin-premium.php:341
+#: includes/class.yith-role-changer-admin-premium.php:360
+msgid "(Optional)"
+msgstr "(Opzionale)"
+
+#: includes/class.yith-role-changer-admin-premium.php:306
+msgid ""
+"Note: If you do not either enter any end date or a duration in days, this "
+"role will be valid forever"
+msgstr ""
+"Nota: se non inserisci una data di fine o una durata in giorni, questo ruolo "
+"sarà valido per sempre"
+
+#: includes/class.yith-role-changer-admin-premium.php:316
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "Da&hellip;"
+
+#: includes/class.yith-role-changer-admin-premium.php:326
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "A&hellip;"
+
+#: includes/class.yith-role-changer-admin-premium.php:338
+msgid "Set a duration for the roles (days): "
+msgstr "Imposta una durata per i ruoli (giorni): "
+
+#: includes/class.yith-role-changer-admin-premium.php:343
+msgid ""
+"Note: This role will last as long as specified in these settings, even "
+"though an end date for this rule has been already specified. If the rule has "
+"no end date, and you leave this field empty, the role will never be removed."
+msgstr ""
+"Nota: questo ruolo durerà per quanto specificato in queste impostazioni, "
+"anche se una data di fine per questo ruolo è già stata specificata. Se il "
+"ruolo non ha una data di scadenza e questo campo rimane vuoto, il ruolo non "
+"verrà mai rimosso."
+
+#: includes/class.yith-role-changer-admin-premium.php:357
+msgid "Do not apply this rule to users with the following role(s):"
+msgstr "Non applicare questa regola agli utenti con i ruoli seguenti:"
+
+#: includes/class.yith-role-changer-admin-premium.php:481
+#: includes/class.yith-role-changer-admin.php:424
+msgid "Please, name this rule."
+msgstr "Per favore, imposta un nome questa regola."
+
+#: includes/class.yith-role-changer-admin-premium.php:482
+#: includes/class.yith-role-changer-admin.php:425
+msgid ""
+"This name already exists and is used to identify another rule. Please, try "
+"name."
+msgstr ""
+"Questo nome esiste già e viene utilizzato per identificare un'altra regola. "
+"Per favore, provane un altro."
+
+#: includes/class.yith-role-changer-admin-premium.php:483
+#: includes/class.yith-role-changer-admin.php:426
+msgid "Are you sure you want to delete this rule?"
+msgstr "Sei sicuro di voler cancellare questa regola?"
+
+#: includes/class.yith-role-changer-admin-premium.php:484
+#: includes/class.yith-role-changer-admin.php:427
+msgid "Are you sure you want to delete all the rules? This cannot be undone."
+msgstr ""
+"Sei sicuro di voler cancellare tutte le regole? Questa operazione non può "
+"essere annullata."
+
+#: includes/class.yith-role-changer-admin-premium.php:486
+msgid "Are you sure you want to apply this action? This cannot be undone."
+msgstr ""
+"Sei sicuro di voler eseguire questa azione? L'operazione non può essere "
+"annullata."
+
+#: includes/class.yith-role-changer-admin-premium.php:487
+msgid ""
+"All the orders with valid rules will be processed and assign/switch user "
+"roles automatically."
+msgstr ""
+"Tutti gli ordini con regole valide verranno elaborati e saranno assegnati i "
+"ruoli utente in automatico."
+
+#: includes/class.yith-role-changer-admin-premium.php:488
+msgid ""
+"All orders with valid rules between {date_from} and {date_to} will be "
+"processed and will assign/switch user roles automatically."
+msgstr ""
+"Tutti gli ordini con regole valide tra il {date_from} e il {date_to} "
+"verranno elaborate ed assegneranno/cambieranno i ruoli utente "
+"automaticamente."
+
+#: includes/class.yith-role-changer-admin-premium.php:489
+msgid ""
+"All the orders with valid rules since {date_from} will be processed and will "
+"assign/switch user roles automatically."
+msgstr ""
+"Tutti gli ordini con regole valide dal {date_from} verranno elaborate ed "
+"assegneranno/cambieranno i ruoli utente automaticamente."
+
+#: includes/class.yith-role-changer-admin-premium.php:490
+msgid ""
+"All the orders with valid rules until {date_to} will be processed and will "
+"assign/switch user roles automatically."
+msgstr ""
+"Tutti gli ordini con regole valide fino al {date_to} verranno elaborate ed "
+"assegneranno/cambieranno i ruoli utente automaticamente."
+
+#: includes/class.yith-role-changer-admin-premium.php:491
+msgid "Warning: \"From\" field must not be greater than \"To\" field"
+msgstr "Attenzione: il campo \"Da\" non può essere maggiore del campo \"A\""
+
+#: includes/class.yith-role-changer-admin.php:128
+msgid "Rules"
+msgstr "Regole"
+
+#: includes/class.yith-role-changer-admin.php:133
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: includes/class.yith-role-changer-admin.php:200
+msgid "Plugin documentation"
+msgstr "Documentazione Plugin"
+
+#: includes/class.yith-role-changer-admin.php:204
+msgid "Help Center"
+msgstr "Centro assistenza"
+
+#: includes/class.yith-role-changer-admin.php:211
+msgid "Discover the premium version"
+msgstr "Scopri la versione premium"
+
+#: includes/class.yith-role-changer-admin.php:216
+msgid "Free vs Premium"
+msgstr "Free vs Premium"
+
+#: includes/class.yith-role-changer-admin.php:221
+msgid "Premium live demo"
+msgstr "Live Demo premium"
+
+#: includes/class.yith-role-changer-admin.php:226
+msgid "WordPress support forum"
+msgstr "Forum di supporto su WordPress"
+
+#: includes/class.yith-role-changer-admin.php:231
+#: includes/class.yith-role-changer-admin.php:243
+msgid "Changelog"
+msgstr "Changelog"
+
+#: includes/class.yith-role-changer-admin.php:231
+#: includes/class.yith-role-changer-admin.php:243
+msgid "current version"
+msgstr "versione corrente"
+
+#: includes/class.yith-role-changer-admin.php:238
+msgid "Support platform"
+msgstr "Piattaforma di supporto"
+
+#: includes/class.yith-role-changer-admin.php:324
+msgid "Automatic role changer"
+msgstr "Automatic role changer"
+
+#: includes/class.yith-role-changer-admin.php:346
+msgid "Customer gains the following role: "
+msgid_plural "Customer gains the following roles: "
+msgstr[0] "Il cliente ottiene il ruolo seguente: "
+msgstr[1] "Il cliente ottiene i ruoli seguenti: "
+
+#: includes/class.yith-role-changer-admin.php:388
+msgid "A new role gained with this order"
+msgid_plural "%d new roles gained with this order"
+msgstr[0] "Un nuovo ruolo ottenuto con questo ordine"
+msgstr[1] "%d nuovi ruoli ottenuti con questo ordine"
+
+#: includes/class.yith-role-changer-roles-manager.php:60
+msgid "Roles"
+msgstr "Ruoli"
+
+#: includes/class.yith-role-changer-roles-manager.php:65
+msgid "User Roles"
+msgstr "Ruoli utente"
+
+#: includes/class.yith-role-changer-set-roles-premium.php:438
+#: includes/class.yith-role-changer-set-roles-premium.php:442
+msgid "Activation date: "
+msgstr "Data di attivazione: "
+
+#: includes/class.yith-role-changer-set-roles-premium.php:445
+msgid "Activated at the time of purchase"
+msgstr "Attivato al momento dell'acquisto"
+
+#: includes/class.yith-role-changer-set-roles-premium.php:451
+#: includes/class.yith-role-changer-set-roles-premium.php:455
+msgid "Valid until: "
+msgstr "Valido sino al: "
+
+#: includes/class.yith-role-changer-set-roles-premium.php:458
+msgid "Permanent role"
+msgstr "Ruolo permanente"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:33
+msgid "Automatic Role Changer email for Admin"
+msgstr "Automatic Role Changer: email per l'amministratore"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:34
+msgid ""
+"The administrator will receive an email when a order with roles to be \n"
+"\t\t\tgranted passes to \"Completed\" or \"Processing\" status."
+msgstr ""
+"L'amministratore riceverà un'email quando un ordine con ruoli che \n"
+"\t\t\trichiedono l'approvazione passa allo stato \"Completato\" o \"In "
+"elaborazione\"."
+
+#: includes/emails/class.yith-role-changer-admin-email.php:37
+#: includes/emails/class.yith-role-changer-admin-email.php:38
+msgid "New roles will be added to user"
+msgstr "Nuovi ruoli verranno assegnati all'utente"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:100
+#: includes/emails/class.yith-role-changer-user-email.php:121
+msgid "Enable/Disable"
+msgstr "Abilita/disabilita"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:102
+#: includes/emails/class.yith-role-changer-user-email.php:123
+msgid "Enable this email notification"
+msgstr "Abilita questa notifica email"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:106
+msgid "Recipient(s)"
+msgstr "Destinatario/i"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:108
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Inserisci i destinatari (separati dalla virgola) per questa email. "
+"Predefinito: %s."
+
+#: includes/emails/class.yith-role-changer-admin-email.php:114
+#: includes/emails/class.yith-role-changer-user-email.php:127
+msgid "Subject"
+msgstr "Oggetto"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:116
+#: includes/emails/class.yith-role-changer-user-email.php:129
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Questo campo consente di modificare la riga dell'oggetto dell'email. Lascia "
+"il campo vuoto per utilizzare le impostazioni predefinite: <code>%s</code>."
+
+#: includes/emails/class.yith-role-changer-admin-email.php:122
+#: includes/emails/class.yith-role-changer-user-email.php:135
+msgid "Email Heading"
+msgstr "Intestazione dell'email"
+
+#: includes/emails/class.yith-role-changer-admin-email.php:124
+#: includes/emails/class.yith-role-changer-user-email.php:137
+msgid ""
+"This controls the main heading included in the email notification. Leave "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Questo controlla l'intestazione della notifica email. Lascia il campo vuoto "
+"per utilizzare l'intestazione predefinita: <code>%s</code>."
+
+#: includes/emails/class.yith-role-changer-user-email.php:35
+msgid "Automatic Role Changer email for User"
+msgstr "Automatic Role Changer: Email per l'utente"
+
+#: includes/emails/class.yith-role-changer-user-email.php:36
+msgid ""
+"The user will receive an email when a order with roles to be \n"
+"\t\t\tgranted passes to \"Completed\" or \"Processing\" status."
+msgstr ""
+"L'utente riceverà un'email quando un ordine con ruoli che \n"
+"\t\t\trichiedono l'approvazione passa allo stato \"Completato\" o \"In "
+"elaborazione\"."
+
+#: includes/emails/class.yith-role-changer-user-email.php:39
+#: includes/emails/class.yith-role-changer-user-email.php:40
+msgid "You've earned roles"
+msgstr "Hai ottenuto i ruoli"
+
+#: includes/emails/class.yith-role-changer-user-email.php:143
+msgid "Email type"
+msgstr "Tipo di email"
+
+#: includes/emails/class.yith-role-changer-user-email.php:145
+msgid "Choose which format of email to send."
+msgstr "Scegli quale formato email inviare."
+
+#: init.php:73
+msgid ""
+"YITH Automatic Role Changer for WooCommerce is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH Automatic Role Changer for WooCommerce è abilitato ma non è operativo. "
+"Richiede WooCommerce per funzionare."
+
+#: templates/admin/add-rule.php:27
+msgid "The user will:"
+msgstr "L'utente"
+
+#: templates/admin/add-rule.php:40
+msgctxt "Complete sentence: The user will gain the role"
+msgid "gain the role"
+msgstr "guadagnerà questo ruolo"
+
+#: templates/admin/add-rule.php:52
+msgctxt "Complete sentence: The user will switch from this role to this one"
+msgid "switch"
+msgstr "passerà"
+
+#: templates/admin/add-rule.php:61
+msgctxt "Complete sentence: The user will switch from this role to this one"
+msgid "from this role:"
+msgstr "da questo ruolo:"
+
+#: templates/admin/add-rule.php:64
+msgctxt "Complete sentence: The user will switch from this role to this one"
+msgid "to this one:"
+msgstr "a questo:"
+
+#: templates/admin/add-rule.php:75
+msgid "Choose a product: "
+msgstr "Scegli un prodotto: "
+
+#: templates/admin/add-rule.php:99
+msgid "Search for a product&hellip;"
+msgstr "Cerca un prodotto&hellip;"
+
+#: templates/admin/add-rule.php:115
+msgid "Save rule"
+msgstr "Salva regola"
+
+#: templates/admin/add-rule.php:118
+msgid "Delete"
+msgstr "Elimina"
+
+#: templates/admin/load-rules.php:23
+msgid "MY RULES"
+msgstr "LE MIE REGOLE"
+
+#: templates/admin/load-rules.php:26
+msgctxt "toggle button label."
+msgid "Show"
+msgstr "Mostra"
+
+#: templates/admin/load-rules.php:28
+msgctxt "toggle button label."
+msgid "Hide"
+msgstr "Nascondi"
+
+#: templates/admin/load-rules.php:30
+msgctxt "toggle button label."
+msgid "Delete"
+msgstr "Elimina"
+
+#: templates/admin/load-rules.php:34
+msgctxt "\"Show\" / \"Hide\" / \"Delete\" all rules"
+msgid "( %s / %s / %s all rules )"
+msgstr "(%s / %s / %s tutte le regole)"
+
+#: templates/admin/rules-tab-premium.php:14 templates/admin/rules-tab.php:14
+msgid ""
+"Here you can create and configure your own rules for automatic role switch."
+msgstr ""
+"Qui è possibile creare e configurare le regole per il cambio di ruolo "
+"automatico."
+
+#: templates/admin/rules-tab-premium.php:29 templates/admin/rules-tab.php:30
+msgid "Name the rule..."
+msgstr "Nome della regola..."
+
+#: templates/admin/rules-tab-premium.php:31 templates/admin/rules-tab.php:33
+msgid "Add new rule"
+msgstr "Aggiungi nuova regola"
+
+#: templates/admin/rules-tab-premium.php:35
+msgid ""
+"This will check all your current orders and search for those matching your "
+"current rules. This will set as many user roles as many that it will find. "
+"This procedure cannot be undone. Use with caution."
+msgstr ""
+"Questo controllerà tutti gli ordini attuali e cercherà quelli corrispondenti "
+"alle tue regole correnti. Imposterà tutti i ruoli utente che troverà. Questa "
+"procedura non può essere annullata. Utilizzala con cautela."
+
+#: templates/admin/rules-tab-premium.php:38
+msgid "Force apply rules"
+msgstr "Forza l'applicazione delle regole"
+
+#: templates/admin/rules-tab-premium.php:41
+msgid "Set a date range to filter the search"
+msgstr "Imposta un intervallo di date per filtrare la ricerca"
+
+#: templates/admin/rules-tab-premium.php:42
+msgid "Set dates"
+msgstr "Imposta le date"
+
+#: templates/admin/rules-tab-premium.php:51
+msgid "Search for orders by:"
+msgstr "Cerca gli ordini per:"
+
+#: templates/admin/rules-tab-premium.php:54
+msgid "Created date"
+msgstr "Data di creazione"
+
+#: templates/admin/rules-tab-premium.php:58
+msgid "Completed date"
+msgstr "Data di completamento"
+
+#: templates/admin/rules-tab-premium.php:62
+msgid "Paid date"
+msgstr "Data di pagamento"
+
+#: templates/admin/rules-tab-premium.php:67
+msgctxt ""
+"Date format. (Do not change the format to local format, the format must be "
+"YYYY-MM-DD always)"
+msgid "YYYY-MM-DD"
+msgstr "AAAA/MM/GG"
+
+#: templates/admin/rules-tab-premium.php:72
+msgid "From:"
+msgstr "Da:"
+
+#: templates/admin/rules-tab-premium.php:77
+msgid "To:"
+msgstr "A:"
+
+#: templates/emails/role-changer-admin.php:39
+msgid "The user %s gained the following role with the order %s: "
+msgid_plural "The user %s gained the following roles with the order %s: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/emails/role-changer-user.php:38
+msgid "Hi, thanks for your purchase."
+msgstr "Ciao, grazie per il tuo acquisto."
+
+#: templates/emails/role-changer-user.php:41
+msgid "You've earned the following role with your order %s: "
+msgid_plural "You've earned the following roles with your order %s: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/myaccount/ywarc_gained_roles.php:28
+msgid "Roles gained"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Automatic Role Changer for WooCommerce Premium"
+msgstr "YITH Automatic Role Changer for WooCommerce Premium"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://yithemes.com/themes/plugins/yith-woocommerce-automatic-role-changer"
+msgstr ""
+"https://yithemes.com/themes/plugins/yith-woocommerce-automatic-role-changer"
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Automatic Role Changer for WooCommerce Premium</strong></"
+"code> assigns a new or a different role to your shop customers automatically "
+"based on what they have bought. <a href=\"https://yithemes.com/\" target="
+"\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH Automatic Role Changer for WooCommerce Premium</strong></"
+"code>assegna automaticamente un ruolo nuovo o diverso ai clienti del tuo "
+"negozio in base a ciò che hanno acquistato. <a href=\"https://yithemes.com/"
+"\" target=\"_blank\">Scopri più plugin per il tuo e-commerce su "
+"<strong>YITH</strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgctxt "%s = field name"
+#~ msgid "Please, insert a valid %s"
+#~ msgstr "Per favore, inserisci un %s valido"
+
+#~ msgid "Please, insert a valid %s and a valid %s"
+#~ msgstr "Per favore, inserire un %s ed un %s validi"
+
+#~ msgid "Unable to contact the remote server, please try again later. Thanks!"
+#~ msgstr "Impossibile contattare il server remoto, prova più tardi. Grazie!"
+
+#~ msgid "email address"
+#~ msgstr "indirizzo email"
+
+#~ msgid "license key"
+#~ msgstr "chiave di licenza"
+
+#~ msgid "Are you sure you want to deactivate the license for current site?"
+#~ msgstr "Sei sicuro di voler disattivare la licenza per questo sito?"
+
+#~ msgid "Invalid Request"
+#~ msgstr "Richiesta non valida"
+
+#~ msgid "Invalid license key"
+#~ msgstr "Chiave di licenza non valida"
+
+#~ msgid "Software has been deactivated"
+#~ msgstr "Il software è stato disattivato"
+
+#~ msgid "Maximum number of activations exceeded"
+#~ msgstr "Hai raggiunto il numero massimo di attivazioni"
+
+#~ msgid "Invalid instance ID"
+#~ msgstr "Istanza ID non valida"
+
+#~ msgid "Invalid security key"
+#~ msgstr "Chiave di sicurezza non valida"
+
+#~ msgid "License key has expired"
+#~ msgstr "La chiave di licenza è scaduta"
+
+#~ msgid "License key has been banned"
+#~ msgstr "La chiave di licenza è stata bloccata"
+
+#~ msgid "Current product is not included in your YITH Club Subscription key"
+#~ msgstr ""
+#~ "Questo prodotto non è incluso nella tua licenze YITH Club Subscription"
+
+#~ msgid "Great"
+#~ msgstr "Grande"
+
+#~ msgid "License successfully activated"
+#~ msgstr "Licenza attivata con successo"
+
+#~ msgid "License key deactivated for website"
+#~ msgstr "Chiave di licenza disattivata per il sito web"
+
+#~ msgctxt ""
+#~ "[Part of]: Warning! You didn't set license key for the following products:"
+#~ "[Plugins List] which means you're missing out on updates and support. "
+#~ "Enter your license key, please."
+#~ msgid "Warning!"
+#~ msgstr "Attenzione!"
+
+#~ msgctxt ""
+#~ "[Part of]: Warning! You didn't set license key for the following products:"
+#~ "[Plugins List] which means you're missing out on updates and support. "
+#~ "Enter your license key, please."
+#~ msgid "You didn't set license key for the following YITH products"
+#~ msgstr ""
+#~ "Non hai impostato alcuna chiave di licenza per i seguenti prodotti YITH"
+
+#~ msgctxt ""
+#~ "[Part of]: Warning! You didn't set license key for the following products:"
+#~ "[Plugins List] which means you're missing out on updates and support. "
+#~ "Enter your license key, please."
+#~ msgid "which means you're missing out on updates and support"
+#~ msgstr "il che significa che ti stai perdendo aggiornamenti e supporto"
+
+#~ msgctxt ""
+#~ "[Part of]: Warning! You didn't set license key for the following products:"
+#~ "[Plugins List] which means you're missing out on updates and support. "
+#~ "Enter your license key, please."
+#~ msgid "Enter your license key"
+#~ msgstr "Inserisci la tua chiave di licenza"
+
+#~ msgctxt ""
+#~ "[Part of]: Warning! You didn't set license key for the following products:"
+#~ "[Plugins List] which means you're missing out on updates and support. "
+#~ "Enter your license key, please."
+#~ msgid "please"
+#~ msgstr "per favore"
+
+#~ msgid "License Activation"
+#~ msgstr "Attivazione licenza"
+
+#~ msgid "An unexpected error occurred, please try again later. Thanks!"
+#~ msgstr "Si è verificato un errore inaspettato, riprova più tardi. Grazie!"
+
+#~ msgid "There is a new version of %plugin_name% available."
+#~ msgstr "È disponibile una nuova versione di %plugin_name%."
+
+#~ msgid "View version %latest% details."
+#~ msgstr "Visualizza i dettagli della versione %latest%."
+
+#~ msgid "Automatic update is unavailable for this plugin,"
+#~ msgstr "L'aggiornamento automatico non è disponibile per questo plugin,"
+
+#~ msgid ""
+#~ "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name"
+#~ "%."
+#~ msgstr ""
+#~ "per favore, <a href=\"%activate_link%\">attiva</a> la tua copia di "
+#~ "%plugin_name%."
+
+#~ msgid "Update now."
+#~ msgstr "Aggiorna adesso."
+
+#~ msgid ""
+#~ "<br/><b>Please note:</b> You are using a higher version than the latest "
+#~ "available one. </em>Please, make sure you've downloaded the latest "
+#~ "version of <em>%plugin_name%</em> from the only <a href=\"https://"
+#~ "yithemes.com\" target=\"_blank\">YITH official website</a>, specifically, "
+#~ "from your <a href=\"https://yithemes.com/my-account/recent-downloads/\" "
+#~ "target=\"_blank\">Downloads page</a>. This is the only way to be sure the "
+#~ "version you are using is 100% malware-free."
+#~ msgstr ""
+#~ "<br/><b>Attenzione:</b> Stai utilizzando una versione superiore "
+#~ "all'ultima disponibile. </em>Assicurati di aver scaricato la versione più "
+#~ "recente di <em>%plugin_name%</em> dall'unico <a href=\"https://yithemes."
+#~ "com\" target=\"_blank\">sito ufficiale YITH</a>, nello specifico dalla "
+#~ "tua <a href=\"https://yithemes.com/my-account/recent-downloads/\" target="
+#~ "\"_blank\">pagina Downloads</a>. Questo è l'unico modo per essere sicuri "
+#~ "che la versione in uso sia al 100% priva di malware."
+
+#~ msgctxt "plugin-fw"
+#~ msgid "Updating %s..."
+#~ msgstr "Aggiornamento %s..."
+
+#~ msgctxt "plugin-fw"
+#~ msgid "%s updated!"
+#~ msgstr "%s aggiornato!"
+
+#~ msgctxt "plugin-fw"
+#~ msgid "%s update failed"
+#~ msgstr "Aggiornamento %s non riuscito"
+
+#~ msgctxt "[Update Plugin Message: License not enabled]"
+#~ msgid "You have to activate the plugin to benefit from automatic updates."
+#~ msgstr ""
+#~ "Devi attivare il plugin per usufruire degli aggiornamenti automatici."
+
+#~ msgid "YITH Repository"
+#~ msgstr "YITH Repository"
+
+#~ msgid "Invalid URL Provided."
+#~ msgstr "URL inserito non valido."
+
+#~ msgid "Could not create Temporary file."
+#~ msgstr "Non è stato possibile creare il file temporaneo."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">View version %4$s details</a>."
+#~ msgstr ""
+#~ "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">Visualizza i dettagli della versione %4$s</a>."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">View version %4$s details</a>. <em>You have to activate the plugin on "
+#~ "a single site of the network to benefit from automatic updates.</em>"
+#~ msgstr ""
+#~ "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">Visualizza i dettagli della versione %4$s</a>. <em>Per poter usufruire "
+#~ "degli aggiornamenti automatici è necessario attivare il plugin su un solo "
+#~ "sito.</em>"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">View version %4$s details</a>. <em>Automatic update is unavailable for "
+#~ "this plugin, please <a href=\"%5$s\" title=\"License activation"
+#~ "\">activate</a> your copy of %6s.</em>"
+#~ msgstr ""
+#~ "È disponibile una nuova versione di %1$s. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">Visualizza i dettagli "
+#~ "della versione %4$s</a>. <em>Gli aggiornamenti automatici non sono "
+#~ "disponibili per questo plugin, per piacere <a href=\"%5$s\" title="
+#~ "\"License activation\">attiva</a> la tua copia di %6s.</em>"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">View version %4$s details</a> or <a href=\"%5$s\" class=\"%6$s\" data-"
+#~ "plugin=\"%7$s\" data-slug=\"%8$s\" data-name=\"%1$s\">update now</a>."
+#~ msgstr ""
+#~ "È disponibile una nuova versioni di %1$s. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s"
+#~ "\">Visualizza i dettagli della versione %4$s</a> oppure <a href=\"%5$s\" "
+#~ "class=\"%6$s\" data-plugin=\"%7$s\" data-slug=\"%8$s\" data-name=\"%1$s"
+#~ "\">aggiorna adesso</a>."
+
+#~ msgid ""
+#~ "<br/><b>Please note:</b> You are using a higher version than the latest "
+#~ "available one. </em>Please, make sure you've downloaded the latest "
+#~ "version of <em>%1$s</em> from the only <a href=\"https://yithemes.com\" "
+#~ "target=\"_blank\">YITH official website</a>, specifically, from your <a "
+#~ "href=\"https://yithemes.com/my-account/recent-downloads/\" target=\"_blank"
+#~ "\">Downloads page</a>. This is the only way to be sure the version you "
+#~ "are using is 100%% malware-free."
+#~ msgstr ""
+#~ "<br/><b>Attenzione:</b> Stai utilizzando una versione superiore "
+#~ "all'ultima disponibile. </em>Per favore assicurati di aver scaricato la "
+#~ "versione più recente di <em>%1$s</em> dall'unico <a href=\"https://"
+#~ "yithemes.com\" target=\"_blank\">sito ufficiale YITH</a>, nello specifico "
+#~ "dalla tua <a href=\"https://yithemes.com/my-account/recent-downloads/\" "
+#~ "target=\"_blank\">pagina Downloads</a>. Questo è l'unico modo per essere "
+#~ "sicuri che la versione in uso sia al 100%% priva di malware."
+
+#~ msgid "You can't update the plugins for this site."
+#~ msgstr "Non è possibile aggiornare i plugin per questo sito."
+
+#~ msgid ""
+#~ "You do not have sufficient permissions to update the plugins for this "
+#~ "site."
+#~ msgstr ""
+#~ "Non sei in possesso delle autorizzazioni necessarie per aggiornare i "
+#~ "plugin in questo sito."
+
+#~ msgid "Update Plugin"
+#~ msgstr "Aggiorna plugin"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid ""
+#~ "I cannot find the license key for activating the theme I have bought some "
+#~ "time ago. Where can I find it?"
+#~ msgstr ""
+#~ "Non riesco a trovare la chiave di licenza per l'attivazione del tema che "
+#~ "ho acquistato diverso tempo fa. Dove posso trovarla?"
+
+#~ msgid ""
+#~ "If you have purchased one of our products before 27 January 2015, you can "
+#~ "benefit from support and updates (the services offered with the license)\n"
+#~ "                    until 27 January 2016 and you do not have to purchase "
+#~ "it again to get a new license key, because, before this date, your "
+#~ "license used to be activated automatically by our system.\n"
+#~ "                    After 27 January 2016, instead, if you want to "
+#~ "benefit from support and updates you have to buy a new license and "
+#~ "activate it through the license key you will be\n"
+#~ "                    provided with and that you can find in your YITH "
+#~ "account, in section \"My licenses\"."
+#~ msgstr ""
+#~ "Se hai acquistato uno dei nostri prodotti prima del 27 gennaio 2015, "
+#~ "potrai usufruire di supporto e aggiornamenti (servizi inclusi nella "
+#~ "licenza)\n"
+#~ "fino al 27 gennaio 2016 e non dovrai riacquistare il prodotto per "
+#~ "ottenere una chiave di licenza, poiché prima di questa data il tuo "
+#~ "prodotto veniva automaticamente attivato dal nostro sistema.\n"
+#~ "Dopo il 27 gennaio 2016, invece, se vorrai usufruire di supporto e "
+#~ "aggiornamenti dovrai acquistare una nuova licenza e attivarla con il "
+#~ "codice che ti verrà\n"
+#~ "fornito e che puoi trovare nella tua area riservata su YITH, nella "
+#~ "sezione \"My licenses\"."
+
+#~ msgid "YITH License Activation"
+#~ msgstr "YITH License Activation"
+
+#~ msgid "License expiry date"
+#~ msgstr "Data di scadenza della licenza"
+
+#~ msgid ""
+#~ "If you have renewed your product license key and the expiry date does not "
+#~ "appear up-to-date, please, click on the button <em>Check Expiry Date</em> "
+#~ "below and it will update."
+#~ msgstr ""
+#~ "Se hai rinnovato la chiave di licenza del tuo prodotto e la data di "
+#~ "scadenza non risulta aggiornata, ti invitiamo a fare clic sul pulsante "
+#~ "<em>Check Expiry Date</em> in modo da aggiornarla."
+
+#~ msgid "Check expiry date"
+#~ msgstr "Controlla la data di scadenza"
+
+#~ msgid "Product to activate"
+#~ msgid_plural "Products to activate"
+#~ msgstr[0] "Prodotto da attivare"
+#~ msgstr[1] "Prodotti da attivare"
+
+#~ msgid "Are you having issues with the license activation?"
+#~ msgstr "Stai riscontrando problemi con l'attivazione della licenza?"
+
+#~ msgid "Read this article"
+#~ msgstr "Leggi questo articolo"
+
+#~ msgid "Activate"
+#~ msgstr "Attiva"
+
+#~ msgid "Activated"
+#~ msgstr "Attivato"
+
+#~ msgid "Product Name"
+#~ msgstr "Nome prodotto"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "License Key"
+#~ msgstr "Chiave di licenza"
+
+#~ msgid "Expires"
+#~ msgstr "Scadenza"
+
+#~ msgid "Remaining"
+#~ msgstr "Rimanenti"
+
+#~ msgid "Club Subscription"
+#~ msgstr "Club Subscription"
+
+#~ msgid "%1s out of %2s"
+#~ msgstr "%1s su %2s"
+
+#~ msgid "Deactivate"
+#~ msgstr "Disattiva"
+
+#~ msgid "Renew"
+#~ msgstr "Rinnova"
+
+#~ msgid "Banned"
+#~ msgstr "Bloccato"
+
+#~ msgid "Expired"
+#~ msgstr "Scaduta"
+
+#~ msgid "Order again"
+#~ msgstr "Acquista di nuovo"
+
+#~ msgid "Renew license"
+#~ msgstr "Rinnova la licenza"
+
+#~ msgid ""
+#~ "To start, click on \"Add new rule\", name your rule and set it up as you "
+#~ "wish. Don't forget to save the settings when you're finished."
+#~ msgstr ""
+#~ "Per iniziare, fai clic su \"Aggiungi nuova regola\", denomina la regola e "
+#~ "configurala come preferisci. Non dimenticare di salvare le impostazioni "
+#~ "quando hai finito."
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Documentazione del plugin"
+
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
+
+#~ msgid "Live demo"
+#~ msgstr "Live Demo"
+
+#~ msgid "Automatic Role Changer"
+#~ msgstr "Automatic Role Changer"
+
+#~ msgid "Total spend falls within the following price range"
+#~ msgstr "La spesa totale rientra nella seguente gamma di prezzo"
+
+#~ msgid "The user will gain the role:"
+#~ msgstr "L'utente otterrà il ruolo:"

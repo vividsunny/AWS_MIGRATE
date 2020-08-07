@@ -1,0 +1,203 @@
+  .v-center {
+    height: 100vh;
+    width: 100%;
+    display: table;
+    position: relative;
+    text-align: center;
+  }
+
+  .v-center > div {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: -10%;
+  }
+
+  .btn {
+    font-size: 3vmin;
+    padding: 0.75em 1.5em;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    color: #333;
+    text-decoration: none;
+    display: inline;
+    border-radius: 4px;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+  }
+
+  .btn:hover {
+    background-color: #ddd;
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+  }
+
+  .btn-small {
+    padding: .75em 1em;
+    font-size: 0.8em;
+  }
+
+  #tamberra_popup {
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+  .modal-box {
+    display: none;
+    /*position: absolute;*/
+    position: fixed;
+    z-index: 9999;
+    width: 98%;
+    background: white;
+    border-bottom: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-clip: padding-box;
+  }
+  @media (min-width: 32em) {
+
+    .modal-box { width: 70%; }
+  }
+
+  .modal-box header,
+  .modal-box .modal-header {
+    padding: 1.25em 1.5em;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .modal-box header h3,
+  .modal-box header h4,
+  .modal-box .modal-header h3,
+  .modal-box .modal-header h4 { margin: 0; }
+
+  .modal-box .modal-body { 
+    padding: 2em 1.5em; 
+    height: 100%;
+    max-height: 350px;
+    overflow-y: scroll; 
+  }
+
+  .modal-box footer,
+  .modal-box .modal-footer {
+    padding: 1em;
+    border-top: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.02);
+    text-align: right;
+  }
+
+  .modal-overlay {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9991;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  a.close {
+    line-height: 1;
+    font-size: 1.5em;
+    position: absolute;
+    top: auto;
+    right: 2%;
+    text-decoration: none;
+    color: #bbb;
+  }
+
+  a.close:hover {
+    color: #222;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    transition: color 1s ease;
+  }
+
+
+/* #tamberra_popup table CSS */
+#tamberra_popup table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#tamberra_popup table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+#tamberra_popup table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+
+#tamberra_popup table th,
+#tamberra_popup table td {
+  padding: .625em;
+  text-align: left;
+}
+
+#tamberra_popup table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  #tamberra_popup table {
+    border: 0;
+  }
+
+  #tamberra_popup table caption {
+    font-size: 1.3em;
+  }
+  
+  #tamberra_popup table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  #tamberra_popup table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  #tamberra_popup table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  
+  #tamberra_popup table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #tamberra_popup table td:last-child {
+    border-bottom: 0;
+  }
+}

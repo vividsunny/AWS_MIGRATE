@@ -1,0 +1,181 @@
+.YITH_WC_amazon_s3_storage_admin_parent_wrap {
+    margin-bottom: 20px;
+}
+
+.YITH_WC_amazon_s3_storage_admin_parent_wrap .YITH_WC_amazon_s3_storage_title {
+    width: 10rem;
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.YITH_WC_amazon_s3_storage_admin_parent_wrap .YITH_WC_amazon_s3_storage_input_text {
+    margin-left: 1rem;
+}
+
+.YITH_WC_amazon_s3_storage_admin_parent_wrap .YITH_WC_amazon_s3_storage_description {
+    display: block;
+    margin-left: 11.2rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.YITH_WC_amazon_s3_storage_admin_parent_wrap .YITH_WC_amazon_s3_storage_input_number {
+    margin-left: 1rem;
+    width: 4rem;
+}
+
+.YITH_WC_amazon_s3_storage_admin_parent_wrap .YITH_WC_amazon_s3_storage_textarea {
+    margin-left: 1rem;
+    width: 30rem;
+    height: 4rem;
+}
+
+.YITH_WC_amazon_s3_storage_admin_parent_wrap .YITH_WC_amazon_s3_storage_description_checkbox {
+    display: block;
+    margin-left: 11.2rem;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.select2 {
+    margin-left: 1rem;
+}
+
+.YITH_WC_amazon_s3_storage_error_accessing_class {
+    margin-top: 30px;
+}
+
+.YITH_WC_amazon_s3_storage_error_accessing_class img {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.YITH_WC_amazon_s3_storage_error_accessing_class span {
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.YITH_WC_amazon_s3_storage_AJAX_checking_credentials {
+    margin-top: 30px;
+    text-align: center;
+    width: 20rem;
+}
+
+.YITH_WC_amazon_s3_storage_button_AJAX {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 3000;
+    top: 0;
+    text-align: center;
+}
+
+.YITH_WC_amazon_s3_storage_bad_settings{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    top: 0;
+    text-align: center;
+}
+
+.YITH_WC_amazon_s3_storage_bad_settings_containter{
+    margin-top: 100px;
+}
+
+.YITH_WC_amazon_s3_storage_sub_button_AJAX {
+    padding: 30px 50px;
+    border-radius: 10px;
+    background: rgb(220, 220, 220);
+    display: inline-block;
+}
+
+.YITH_WC_amazon_s3_storage_button_AJAX_attachment_detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 500;
+    top: 0;
+    text-align: center;
+}
+
+.YITH_WC_amazon_s3_storage_Container_S3_file_manager {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 500;
+    top: 0;
+    text-align: left;
+}
+
+.YITH_WC_amazon_s3_storage_Container_S3_file_manager a {
+    text-decoration: none;
+}
+
+.YITH_WC_amazon_s3_storage_File_Manager_Main_Div_Padding {
+    padding: 20px;
+}
+
+.YITH_WC_amazon_s3_storage_ul_File_Manager_Bucket_Name * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.YITH_WC_amazon_s3_storage_ul_File_Manager_Bucket_Name div span {
+    margin: 0 3px;
+}
+
+.YITH_WC_amazon_s3_storage_ul_File_Manager {
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.YITH_WC_amazon_s3_storage_ul_File_Manager li {
+    /*border-top: 1px solid rgba(194, 194, 194, 0.87);*/
+    padding: 5px 0;
+}
+
+.YTIH_WC_amazon_s3_storage_ajax_loading_S3_files {
+    margin: 20px 0 0 20px;
+    text-align: center;
+}
+
+.YTIH_WC_amazon_s3_storage_ajax_loading_individual_action {
+    text-align: center;
+}
+
+body .media-modal-content .actions .yith_wc_as3s_deleting_button{
+    text-decoration: none;
+    color: darkred;
+}
+body .media-modal-content .actions .yith_wc_as3s_deleting_button:hover{
+    color: red;
+}
+
+.YITH_WC_amazon_s3_storage_Container_doactions_individual a{
+    text-decoration: none;
+}
+
+#yith_wc_as3s_process_bar_to_go_settings_bar{
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+}
+
+#yith_wc_as3s_process_bar_to_go_settings_bar img{
+    margin-top: 20px;
+}
+
+#yith_wc_as3s_main_div{
+    margin-top: 40px;
+}

@@ -1,0 +1,311 @@
+# Copyright (C) 2020 YITH Amazon S3 Storage for WooCommerce Premium
+# This file is distributed under the same license as the YITH Amazon S3 Storage for WooCommerce Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Amazon S3 Storage for WooCommerce Premium 1.1.11\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2020-04-30 14:02:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:270
+#: templates/general_settings_tab.php:196
+msgid "Copy files also to S3"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:292
+#: templates/woocommerce_settings_tab.php:87
+msgid "Private "
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:303
+#: templates/woocommerce_settings_tab.php:96
+msgid "Public "
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:328
+#: templates/general_settings_tab.php:242
+msgid "Remove from the server"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:337
+msgid ""
+"(after removing from the server the file is NOT going to be shown in the "
+"media library)"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:736
+msgid "Amazon S3 Storage"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:740
+msgid "Connect to your S3 Amazon account"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:745
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:747
+msgid "WooCommerce settings for digital goods"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-admin.php:924
+msgid "Permalink:"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:362
+msgid "Copied to S3"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:374
+msgid "Removed from S3"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:385
+msgid "Copied to server from S3"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:397
+msgid "Removed from server"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:918
+msgid "Connection to Amazon S3 Storage successful"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-ajax-admin.php:935
+#: templates/connects3_tab.php:145 templates/connects3_tab.php:184
+msgid ""
+"An error occurred while accessing, the credentials (access key or secret "
+"key) are NOT correct"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:147
+msgid "Choose a bucket"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:185
+msgid ""
+"An error occurred while accessing, the credentials (access key and secret "
+"key) are NOT correct"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:227
+msgid "Private"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:231
+msgid "Public"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:257
+msgctxt "S3 File Manager"
+msgid "Bucket"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:267
+msgctxt "S3 File Manager"
+msgid "Current folder"
+msgstr ""
+
+#: includes/class.yith-wc-amazon-s3-storage-aws-s3-client.php:559
+msgid "The bucket couldn't be created"
+msgstr ""
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:174
+msgctxt "yith-amazon-s3-storage"
+msgid "Copying to S3"
+msgstr ""
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:180
+msgctxt "Button action mode grid"
+msgid "Removing from S3"
+msgstr ""
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:186
+msgctxt "Button action mode grid"
+msgid "Copying to server from S3"
+msgstr ""
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:192
+msgctxt "Button action mode grid"
+msgid "Removing from server"
+msgstr ""
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:294
+msgid ""
+"You have to configure your Access Key and Secret Access Key correctly in the "
+"\"Connect to your s3 amazon account\" tab"
+msgstr ""
+
+#: includes/functions.yith-wc-amazon-s3-storage.php:324
+msgid ""
+"You have to choose a bucket in the \"Setting\" tab in the Amazon S3 admin "
+"panel"
+msgstr ""
+
+#: templates/connects3_tab.php:40 templates/general_settings_tab.php:75
+#: templates/woocommerce_settings_tab.php:42
+msgid "Settings saved."
+msgstr ""
+
+#: templates/connects3_tab.php:67
+msgid "Access key"
+msgstr ""
+
+#: templates/connects3_tab.php:71
+msgid "Set the access key"
+msgstr ""
+
+#: templates/connects3_tab.php:81
+msgid "Secret access key"
+msgstr ""
+
+#: templates/connects3_tab.php:85
+msgid "Set the secret access key"
+msgstr ""
+
+#: templates/connects3_tab.php:89
+msgid "If you don't know where to search for your S3 credentials, "
+msgstr ""
+
+#: templates/connects3_tab.php:91
+msgid "you can find them here"
+msgstr ""
+
+#: templates/connects3_tab.php:100 templates/general_settings_tab.php:254
+#: templates/woocommerce_settings_tab.php:157
+msgid "Save Changes"
+msgstr ""
+
+#: templates/connects3_tab.php:128 templates/connects3_tab.php:167
+msgid "Connection to Amazon S3 Storage was successful"
+msgstr ""
+
+#: templates/general_settings_tab.php:105
+msgid "Set a bucket name"
+msgstr ""
+
+#: templates/general_settings_tab.php:117
+msgid "No Buckets Found!!"
+msgstr ""
+
+#: templates/general_settings_tab.php:174
+msgid ""
+"Select the S3 bucket name where to upload all the files. If you don't know "
+"how to create a bucket, "
+msgstr ""
+
+#: templates/general_settings_tab.php:177
+msgid "you can click here"
+msgstr ""
+
+#: templates/general_settings_tab.php:190
+msgid "Copy file to S3"
+msgstr ""
+
+#: templates/general_settings_tab.php:201
+msgid ""
+"The files uploaded to the media library will be added automatically to S3. "
+"The files that are already in the media library\r\n"
+"                will NOT be uploaded to S3"
+msgstr ""
+
+#: templates/general_settings_tab.php:213
+msgid "Replace URL"
+msgstr ""
+
+#: templates/general_settings_tab.php:219
+msgid "Files will be served by S3"
+msgstr ""
+
+#: templates/general_settings_tab.php:224
+msgid ""
+"The URLs of the files will be automatically replaced to be downloaded from "
+"S3 and not from your WordPress installation"
+msgstr ""
+
+#: templates/general_settings_tab.php:236
+msgid "Remove from server"
+msgstr ""
+
+#: templates/general_settings_tab.php:247
+msgid "The files uploaded to S3 amazon will be deleted from your server"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:54
+msgctxt "S3 File Manager"
+msgid ""
+"The above link is temporary, so in case it is not working you can click here "
+"to go to your order under your account and download the file"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:80
+msgid "Permissions"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:100
+msgid ""
+"By setting the files as public, anyone who knows the S3 URL will\r\n"
+"\t\thave complete access to it"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:109
+msgid "URL validity period"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:113
+msgid "Set the time (minutes) during which the URL is valid for download"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:124
+msgid "Send order link"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:130
+msgid "link of the order under the user's account"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:135
+msgid ""
+"This link shows up in the email sent after purchasing and leads to the order "
+"under the account of the user. If the client does not have an account the "
+"link will not be sent"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:146
+msgid "Link of the email sent"
+msgstr ""
+
+#: templates/woocommerce_settings_tab.php:150
+msgid "Edit the text of the link."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YITH Amazon S3 Storage for WooCommerce Premium"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-amazon-s3-storage/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH Amazon S3 Storage</strong></code> allows you to store all "
+"your media library and your downloadable products for WooCommerce in Amazon "
+"S3. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for "
+"your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""

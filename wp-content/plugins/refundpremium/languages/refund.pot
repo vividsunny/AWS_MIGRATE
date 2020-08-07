@@ -1,0 +1,1162 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: refund\n"
+"POT-Creation-Date: 2019-12-07 16:23+0530\n"
+"PO-Revision-Date: 2018-04-27 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+"X-Poedit-KeywordsList: __;__(;_e;_x;esc_html_e;esc_attr_e;esc_html__;esc_attr__;esc_html_x\n"
+"X-Poedit-SearchPath-0: premium\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: inc\n"
+"X-Poedit-SearchPath-3: refund.php\n"
+
+#: inc/abstracts/class-hrr-settings-page.php:167
+msgid "Your settings have been saved"
+msgstr ""
+
+#: inc/abstracts/class-hrr-settings-page.php:188
+msgid "Your settings have been reset"
+msgstr ""
+
+#: inc/admin/class-hrr-admin-ajax.php:45
+msgid "No Product(s) found"
+msgstr ""
+
+#: inc/admin/class-hrr-admin-ajax.php:75
+msgid "No Customer(s) found"
+msgstr ""
+
+#: inc/admin/class-hrr-admin-assets.php:157
+msgid "Please Enter the License Key"
+msgstr ""
+
+#: inc/admin/class-hrr-admin-assets.php:172
+msgid "Please select atleast one product"
+msgstr ""
+
+#: inc/admin/class-hrr-admin-assets.php:173
+msgid "Are you sure you wish to process this refund? This action cannot be undone."
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:46
+#: inc/frontend/class-hrr-myaccount-handler.php:183
+msgid "Refund Request"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:47
+msgid "Refund Request Conversation"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:49
+msgid "Refund Data"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:50
+msgid "Refund Status"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:67
+#, php-format
+msgid "Go to order #%d"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:61
+msgid "Image"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:64
+msgid "Product Name"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:67
+msgid "Item Value"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:70
+msgid "Qty"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: inc/admin/menu/views/refund-request-table.php:110
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:73
+#: templates/myaccount/refund-request-form.php:109
+#: templates/myaccount/refund-request-form.php:110
+msgid "Total"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:76
+msgid "Refund Qty"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:68
+#: templates/myaccount/refund-request-form.php:13
+#: templates/myaccount/refund-request-form.php:95
+msgid "Refund total"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:76
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:77
+#: inc/frontend/class-hrr-myaccount-handler.php:276
+#: inc/frontend/class-hrr-myaccount-handler.php:310
+msgid "Whole Order"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:83
+msgid "The payment gateway used to place this order does not support automatic refunds."
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:84
+msgid "You will need to manually issue a refund through your payment gateway after using this."
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:88
+#: inc/admin/class-hrr-request-view.php:202
+msgid "Order Data is not available"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:105
+msgid "Current Status"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:114
+msgid "Actions"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:115
+#: inc/class-hrr-register-post-status.php:56
+msgid "New"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:116
+msgid "Accept"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:117
+msgid "Reject"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:118
+#: inc/class-hrr-register-post-status.php:104
+msgid "Processing"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:119
+msgid "On-Hold"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:121
+msgid "Update"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:151
+#: templates/myaccount/refund-request-view.php:65
+#, php-format
+msgid "Created by: %1$s ( %2$s )"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:157
+#, php-format
+msgid "Created on: %1$s ( %2$s ago )"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:223
+#: templates/myaccount/refund-request-view.php:100
+#, php-format
+msgid "Replied on: %1$s ( %2$s ago )"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:252
+#: inc/admin/class-hrr-request-view.php:337
+#: inc/background-updater/hrr-background-process.php:133
+#: inc/frontend/class-hrr-myaccount-handler.php:348
+#: premium/inc/class-hrrp-request-conversation.php:158
+msgid "Invalid Request"
+msgstr ""
+
+#: inc/admin/class-hrr-request-view.php:271
+msgid "Invalid refund amount"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-menu-management.php:69
+#: inc/admin/menu/views/html-settings.php:13 inc/class-refund.php:262
+msgid "Refund Premium"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-menu-management.php:72
+#: inc/admin/menu/tabs/refund.php:36 inc/class-hrr-install.php:45
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:82
+#: inc/admin/menu/tabs/refund.php:762
+msgid "ID"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:83
+msgid "User Name/Email"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:84
+msgid "Order ID"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:85
+msgid "Refund Request as"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:86
+msgid "Refund Request Status"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:87
+#: inc/admin/menu/tabs/refund.php:780
+msgid "Refund Type"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:88
+msgid "Refund Reason"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:114
+msgid "View Request"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:163
+msgid "From Date"
+msgstr ""
+
+#: inc/admin/menu/class-hrr-request-post-type.php:164
+msgid "To Date"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatability.php:23
+msgid "Compatability"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatability.php:47
+msgid "Wallet"
+msgstr ""
+
+#: inc/admin/menu/tabs/compatability.php:50
+msgid "Buy Now"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:23
+msgid "Help"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:40
+msgid "Here"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:43
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:44
+msgid "Please check the documentation as we have lots of information there. The documentation file can be found inside the documentation folder which you will find when you unzip the downloaded zip file."
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:45
+msgid "Contact Support"
+msgstr ""
+
+#: inc/admin/menu/tabs/help.php:49
+#, php-format
+msgid "You can report bugs %s"
+msgstr ""
+
+#: inc/admin/menu/tabs/license.php:23
+msgid "License"
+msgstr ""
+
+#: inc/admin/menu/tabs/license.php:43
+msgid "License Information"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:24
+#: inc/background-updater/hrr-background-process.php:202
+#: inc/class-refund.php:262 inc/privacy/class-hrr-privacy.php:41
+msgid "Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:40
+msgid "Notifications"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:44
+msgid "Localization"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:65
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:69
+msgid "Enable Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:72
+msgid "If enabled, customers can request refund from their \"My Account\" page under \"Orders\" menu."
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:76
+msgid "Enable Partial Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:79
+msgid "If enabled, customers can request partial refund for their orders."
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:84
+msgid "Enable Refund for Sale Products"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:87
+msgid "If enabled, customers can request a refund for products with sale price."
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:92
+msgid "Refund Tax Cost"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:95
+msgid "If enabled, applicable tax cost will be refunded along with the product price."
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:99
+msgid "Display Refund Button when Order Status becomes"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:105
+msgid "Refund button will be displayed on the each order[My Account Page] when the order status reaches the status which are selected here"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:124
+msgid "Refund Restriction Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:128
+msgid "Minimum Order Amount Required to Request a Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:136
+msgid "Refund Requesting Time"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:138
+msgid "No Limit"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:138
+msgid "Limited Duration"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:144
+msgid "Allow Requesting Refund for"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:149
+msgid "day(s) from the date of purchase"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:153 inc/admin/menu/tabs/refund.php:186
+msgid "Enable Refund for"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:156
+msgid "All Product (s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:157 inc/admin/menu/tabs/refund.php:166
+msgid "Include Product(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:158
+msgid "All Categories"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:159 inc/admin/menu/tabs/refund.php:179
+msgid "Include Categories"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:174
+msgid "You can also choose multiple products"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:175
+msgid "Select a Product"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:189
+msgid "All user(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:190
+msgid "Selected user(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:191
+msgid "All User Role(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:192
+msgid "Selected User Role(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:199
+msgid "Include User(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:206
+msgid "Select a User"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:210
+msgid "Include User Roles"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:232
+msgid "Refund Request Form Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:236
+msgid "Display Refund Mode"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:243
+msgid "Preloaded Reason for Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:246
+msgid "Reasons separated by comma(',')"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:251
+msgid "Dispaly Reason in Detail Field"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:254
+msgid "If enabled, field to enter the refund reason in detail will be displayed"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:259
+msgid "Reason in Detail Mandatory"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:262
+msgid "If enabled, the user must have to fill the reason in detail for requesting refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:267
+msgid "Enable Conversation"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:272
+msgid "If enabled, follow up conversation will be allowed for the customer after requesting refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:275
+msgid "Enable File Upload"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:282
+msgid "File Upload Mandatory"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:286 inc/admin/menu/tabs/refund.php:294
+msgid "If enabled, the user must have to upload a file for requesting refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:290
+msgid "Maximum File Size(in KB)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:299
+msgid "Supported File Type(s)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:304
+msgid "Multiple file types separated by comma(,)"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:308
+msgid "File Upload Mandatory Error Message"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:315
+msgid "Maximum File size error Message"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:322
+msgid "Unsupported File type error Message"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:354
+msgid "Email Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:358
+msgid "Email Type"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:361
+msgid "Woocommerce Template"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:362
+msgid "HTML Template"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:366
+msgid "If \"HTML Template\" is selected, plain text emails will be sent. If \"WooCommerce Template\" is selected, email will be sent with customization made in WooCommerce Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:369
+msgid "From Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:373
+msgid "Sender name for refund emails"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:376
+msgid "From Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:380
+msgid "Sender Email Id for refund emails"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:383
+msgid "Show Unsubscription Option"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:388
+msgid "If enabled, a checkbox will be displayed on \"My Account Page\" for the user to unsubscribe"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:391
+msgid "Customize Unsubscription Heading"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:394
+msgid "Unsubscription Settings"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:398
+msgid "Customize Unsubscription Text"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:401
+msgid "Unsubscribe here to stop receiving Refund Emails"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:420
+msgid "New Refund Request - Notification Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:424 inc/admin/menu/tabs/refund.php:483
+#: inc/admin/menu/tabs/refund.php:544 inc/admin/menu/tabs/refund.php:603
+#: inc/admin/menu/tabs/refund.php:662
+msgid "Notify Customer"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:430 inc/admin/menu/tabs/refund.php:450
+#: inc/admin/menu/tabs/refund.php:490 inc/admin/menu/tabs/refund.php:511
+#: inc/admin/menu/tabs/refund.php:550 inc/admin/menu/tabs/refund.php:570
+#: inc/admin/menu/tabs/refund.php:609 inc/admin/menu/tabs/refund.php:629
+#: inc/admin/menu/tabs/refund.php:668 inc/admin/menu/tabs/refund.php:688
+msgid "Email Subject"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:437 inc/admin/menu/tabs/refund.php:457
+#: inc/admin/menu/tabs/refund.php:497 inc/admin/menu/tabs/refund.php:518
+#: inc/admin/menu/tabs/refund.php:557 inc/admin/menu/tabs/refund.php:577
+#: inc/admin/menu/tabs/refund.php:616 inc/admin/menu/tabs/refund.php:636
+#: inc/admin/menu/tabs/refund.php:675 inc/admin/menu/tabs/refund.php:695
+msgid "Email Message"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:444 inc/admin/menu/tabs/refund.php:504
+#: inc/admin/menu/tabs/refund.php:564 inc/admin/menu/tabs/refund.php:623
+#: inc/admin/menu/tabs/refund.php:682
+msgid "Notify Admin"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:479
+msgid "Refund Conversation - Notification Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:540
+msgid "Refund Request Accepted - Notification Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:599
+msgid "Refund Request Rejected - Notification Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:658
+msgid "Refund Request Status Update - Notification Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:727
+msgid "Refund Button Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:731
+msgid "Request Refund Button"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:752
+msgid "Refund Request Table Labels"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:756
+msgid "Refund Requests Label"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:768
+#: templates/myaccount/refund-request-table.php:59
+msgid "Order Number"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:774
+msgid "Request Status"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:786 inc/admin/menu/tabs/refund.php:829
+msgid "Refund Mode"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:792
+msgid "Refund Amount"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:798 templates/button/view-refund.php:9
+#: templates/myaccount/refund-request-table.php:74
+msgid "View"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:819
+msgid "Refund Form Labels"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:823
+msgid "Reason for Refund"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:835
+msgid "Reason in Detail"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:841
+msgid "Attachment"
+msgstr ""
+
+#: inc/admin/menu/tabs/refund.php:847
+msgid "Submit Button"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:24
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:43 inc/admin/menu/tabs/shortcodes.php:47
+#: inc/admin/menu/tabs/shortcodes.php:51 inc/admin/menu/tabs/shortcodes.php:55
+#: inc/admin/menu/tabs/shortcodes.php:59 inc/admin/menu/tabs/shortcodes.php:63
+#: inc/admin/menu/tabs/shortcodes.php:67 inc/admin/menu/tabs/shortcodes.php:71
+msgid "Email"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:44
+msgid "Displaying Date"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:48
+msgid "Displaying Time"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:52
+msgid "Displaying Refund Requested Order Id"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:56 inc/admin/menu/tabs/shortcodes.php:60
+#: inc/admin/menu/tabs/shortcodes.php:64 inc/admin/menu/tabs/shortcodes.php:68
+#: inc/admin/menu/tabs/shortcodes.php:72
+msgid "Displaying Site Name"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:75
+msgid "Pages"
+msgstr ""
+
+#: inc/admin/menu/tabs/shortcodes.php:76
+msgid "Displaying Refund Request Table"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings-buttons.php:11
+msgid "Save changes"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings-buttons.php:21
+msgid "Reset"
+msgstr ""
+
+#: inc/admin/menu/views/html-settings.php:39
+msgid "Refund Premium - "
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:12
+msgid "Refund Premium Version  Plugin Features"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:15
+msgid "Upgrade to Premium Version"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:21
+msgid "Partial Refund"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:22
+msgid "Refund Restrictions"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:23
+msgid "Refund Conversations"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:28
+msgid "Refund directly to Hoicker Wallet"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:29
+msgid "Compatibility with other Modules And Plugins"
+msgstr ""
+
+#: inc/admin/menu/views/premium-banner.php:34
+msgid "And More"
+msgstr ""
+
+#: inc/admin/menu/views/refund-data.php:12
+#: templates/myaccount/refund-request-table.php:65
+#: templates/myaccount/refund-request-view.php:31
+msgid "Type"
+msgstr ""
+
+#: inc/admin/menu/views/refund-data.php:20
+#: templates/myaccount/refund-request-view.php:39
+msgid "Request as"
+msgstr ""
+
+#: inc/admin/menu/views/refund-data.php:28
+msgid "Customer Name"
+msgstr ""
+
+#: inc/admin/menu/views/refund-data.php:31
+#: inc/admin/menu/views/refund-data.php:39
+msgid "User details not available"
+msgstr ""
+
+#: inc/admin/menu/views/refund-data.php:36
+msgid "Customer Email"
+msgstr ""
+
+#: inc/admin/menu/views/refund-request-table.php:18
+#, php-format
+msgid "Refund Request #%d"
+msgstr ""
+
+#: inc/admin/menu/views/refund-request-table.php:21
+#: templates/myaccount/refund-request-view.php:47
+msgid "View Order"
+msgstr ""
+
+#: inc/admin/menu/views/refund-request-table.php:112
+#: templates/myaccount/refund-request-form.php:111
+#: templates/myaccount/refund-request-form.php:112
+msgid "Refund Total"
+msgstr ""
+
+#: inc/admin/menu/views/refund-request-table.php:125
+msgid "Restock selected items?"
+msgstr ""
+
+#: inc/admin/menu/views/refund-request-table.php:142
+#, php-format
+msgid "Refund %s manually"
+msgstr ""
+
+#: inc/admin/menu/views/refund-request-table.php:153
+#, php-format
+msgid "Refund %1$s via %2$s"
+msgstr ""
+
+#: inc/admin/menu/views/shortcodes-table.php:13
+msgid "Shortcode"
+msgstr ""
+
+#: inc/admin/menu/views/shortcodes-table.php:14
+msgid "Context where shortcode is valid"
+msgstr ""
+
+#: inc/admin/menu/views/shortcodes-table.php:15
+msgid "Purpose"
+msgstr ""
+
+#: inc/background-updater/hrr-background-process.php:145
+#, php-format
+msgid "Upgrade to v%s completed successfully"
+msgstr ""
+
+#: inc/background-updater/hrr-background-process.php:182
+msgid "Upgrade"
+msgstr ""
+
+#: inc/background-updater/hrr-background-process.php:207
+#, php-format
+msgid "Upgrade to v%s is under progress..."
+msgstr ""
+
+#: inc/background-updater/hrr-background-process.php:218
+msgid "% Completed"
+msgstr ""
+
+#: inc/background-updater/wp-background-process.php:424
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/class-hrr-premium-info-handler.php:49
+#, php-format
+msgid "This feature is available in %s"
+msgstr ""
+
+#: inc/class-hrr-premium-info-handler.php:49
+#: inc/class-hrr-premium-info-handler.php:60
+msgid "Refund Premium Version"
+msgstr ""
+
+#: inc/class-hrr-premium-info-handler.php:60
+#, php-format
+msgid "Compatiblity is available in %s"
+msgstr ""
+
+#: inc/class-hrr-register-post-status.php:72
+msgid "Accepted"
+msgstr ""
+
+#: inc/class-hrr-register-post-status.php:88
+msgid "Rejected"
+msgstr ""
+
+#: inc/class-hrr-register-post-status.php:120
+msgid "On Hold"
+msgstr ""
+
+#: inc/class-hrr-register-post-status.php:136
+msgid "Replied"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:73
+#: inc/class-hrr-register-post-type.php:74
+#: inc/class-hrr-register-post-type.php:75
+msgid "Refund Requests"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:76
+#: inc/class-hrr-register-post-type.php:77
+msgid "Add New Refund Request"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:78
+msgid "Edit Refund Request"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:79
+#: inc/class-hrr-register-post-type.php:81
+#: inc/class-hrr-register-post-type.php:82
+msgid "View Refund Request"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:80
+msgid "New Refund Request"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:83
+msgid "Search Refund Request"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:84
+msgid "No Refund Request found"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:85
+msgid "No Refund Request found in trash"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:87
+msgid "Here you can able to see list of Refund Requests"
+msgstr ""
+
+#: inc/class-hrr-register-post-type.php:119
+msgid "Converstion"
+msgstr ""
+
+#: inc/class-refund.php:262
+#, php-format
+msgid "You cannot Activate Both %1$s And %2$s at the same time"
+msgstr ""
+
+#: inc/frontend/class-hrr-frontend-assets.php:82
+msgid "Are you sure you want to request for a refund?"
+msgstr ""
+
+#: inc/frontend/class-hrr-frontend-assets.php:83
+msgid "Please give reason in detail"
+msgstr ""
+
+#: inc/frontend/class-hrr-myaccount-handler.php:160
+msgid "My Refund Requests"
+msgstr ""
+
+#: inc/frontend/class-hrr-myaccount-handler.php:163
+msgid "Refund Request Form"
+msgstr ""
+
+#: inc/frontend/class-hrr-myaccount-handler.php:168
+#, php-format
+msgid "Refund Request #%s"
+msgstr ""
+
+#: inc/frontend/class-hrr-myaccount-handler.php:354
+msgid "Unsubscribed Successfullly"
+msgstr ""
+
+#: inc/frontend/class-hrr-myaccount-handler.php:357
+msgid "Subscribed Successfullly"
+msgstr ""
+
+#: inc/notifications/class-admin-refund-request-accepted.php:24
+msgid "Admin - Refund Request Accepted"
+msgstr ""
+
+#: inc/notifications/class-admin-refund-request-conversation.php:24
+msgid "Admin - Refund Request Conversation"
+msgstr ""
+
+#: inc/notifications/class-admin-refund-request-rejected.php:24
+msgid "Admin - Refund Request Rejected"
+msgstr ""
+
+#: inc/notifications/class-admin-refund-request-status-changed.php:24
+msgid "Admin - Refund Request Status Changed"
+msgstr ""
+
+#: inc/notifications/class-admin-refund-request-submitted.php:24
+msgid "Admin - Refund Request Submitted"
+msgstr ""
+
+#: inc/notifications/class-customer-refund-request-accepted.php:24
+msgid "Customer - Refund Request Accepted"
+msgstr ""
+
+#: inc/notifications/class-customer-refund-request-conversation.php:24
+msgid "Customer - Refund Request Conversation"
+msgstr ""
+
+#: inc/notifications/class-customer-refund-request-rejected.php:24
+msgid "Customer - Refund Request Rejected"
+msgstr ""
+
+#: inc/notifications/class-customer-refund-request-status-changed.php:24
+msgid "Customer - Refund Request Status Changed"
+msgstr ""
+
+#: inc/notifications/class-customer-refund-request-submitted.php:24
+msgid "Customer - Refund Request Submitted"
+msgstr ""
+
+#: inc/privacy/class-hrr-privacy.php:59
+msgid "This includes the basics of what personal data your store may be collecting, storing and sharing. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary."
+msgstr ""
+
+#: inc/privacy/class-hrr-privacy.php:60
+msgid "WHAT DOES THE PLUGIN DO?"
+msgstr ""
+
+#: inc/privacy/class-hrr-privacy.php:61
+msgid "Allow users to request refund from their my account page."
+msgstr ""
+
+#: inc/privacy/class-hrr-privacy.php:62
+msgid "WHAT WE COLLECT AND STORE?"
+msgstr ""
+
+#: inc/privacy/class-hrr-privacy.php:63
+msgid "- USER ID"
+msgstr ""
+
+#: inc/privacy/class-hrr-privacy.php:66
+msgid "The User id is used for identifying the user whom the refund request have been processed"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:66
+msgid "Purchase Code"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:74
+msgid "Where can I find my License Key?"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:76
+msgid "Login"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:76
+msgid " to Hoicker"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:77
+msgid "Go to My Account page"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:78
+msgid "In Orders section you will find your License Key"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:140
+msgid "Activated Successfully"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:161
+msgid "Please Provide Activated License Key"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:171
+msgid "Deactivated Successfully"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:209
+#: inc/upgrade/class-hrr-plugin-update-checker.php:175
+msgid "Invalid License Key"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:210
+#: inc/upgrade/class-hrr-plugin-update-checker.php:176
+msgid "Already Verified License Key"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:211
+#: inc/upgrade/class-hrr-plugin-update-checker.php:177
+msgid "Support Expired"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:212
+#: inc/upgrade/class-hrr-plugin-update-checker.php:178
+msgid "License Key not Verified"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:213
+#: inc/upgrade/class-hrr-plugin-update-checker.php:179
+msgid "Invalid Credentials"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:214
+#: inc/upgrade/class-hrr-plugin-update-checker.php:180
+msgid "license Count exist"
+msgstr ""
+
+#: inc/upgrade/class-hrr-license-handler.php:215
+msgid "Incorrect Product"
+msgstr ""
+
+#: inc/upgrade/class-hrr-plugin-update-checker.php:127
+#, php-format
+msgid "There is a new version of %1$s available.<em>Automatic update is unavailable for this plugin.</em>"
+msgstr ""
+
+#: premium/inc/admin/class-hrrp-admin-assets.php:81
+#: premium/inc/frontend/class-hrrp-frontend-assests.php:73
+msgid "Are you sure you want to reply to the user?"
+msgstr ""
+
+#: premium/inc/class-hrrp-filters.php:50
+msgid "Partial Order"
+msgstr ""
+
+#: premium/inc/class-hrrp-request-conversation.php:50
+#: premium/inc/class-hrrp-request-conversation.php:77
+#, php-format
+msgid "Write a reply to: %1$s"
+msgstr ""
+
+#: premium/inc/class-hrrp-request-conversation.php:59
+msgid "Reply"
+msgstr ""
+
+#: premium/inc/class-hrrp-request-conversation.php:87
+msgid "Submit"
+msgstr ""
+
+#: premium/inc/class-hrrp-request-conversation.php:134
+msgid "Attachments"
+msgstr ""
+
+#: templates/myaccount/refund-request-form.php:174
+msgid "Refund Request Send Successfully"
+msgstr ""
+
+#: templates/myaccount/refund-request-table.php:35
+msgid "Search"
+msgstr ""
+
+#: templates/myaccount/refund-request-table.php:56
+msgid "Id"
+msgstr ""
+
+#: templates/myaccount/refund-request-table.php:62
+#: templates/myaccount/refund-request-view.php:15
+msgid "Status"
+msgstr ""
+
+#: templates/myaccount/refund-request-table.php:68
+msgid "Mode"
+msgstr ""
+
+#: templates/myaccount/refund-request-table.php:71
+#: templates/myaccount/refund-request-view.php:23
+msgid "Amount"
+msgstr ""
+
+#: templates/myaccount/refund-request-table.php:85
+msgid "No Refund Requests Send"
+msgstr ""
+
+#: templates/myaccount/refund-request-view.php:56
+msgid "Message History"
+msgstr ""
